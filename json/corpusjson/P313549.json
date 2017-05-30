@@ -1,0 +1,903 @@
+{
+"type": "cdl",
+  "source": "http://oracc.org/saao/saa16",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-05-19T11:55:49",
+"project": "saao/saa16",
+"textid": "P313549",
+"cdl": [
+{
+"node": "c",
+"type": "text",
+"id": "P313549.U0",
+"cdl": [
+{
+"node": "d",
+"type": "object",
+"ref": ""}
+,
+{
+"node": "d",
+"subtype": "obverse",
+"type": "surface",
+"ref": "P313549.o.1",
+"type": "obverse",
+"label": "o"}
+,
+{
+"node": "c",
+"type": "discourse",
+"subtype": "body",
+"id": "P313549.U1",
+"cdl": [
+{
+"node": "c",
+"type": "sentence",
+"id": "P313549.U2",
+"label": "o 1 - r 4",
+"cdl": [
+{
+"node": "d",
+"type": "line-start",
+"ref": "P313549.2",
+"n": "1",
+"label": "o 1"}
+,
+{
+"node": "l",
+"frag": "[x",
+"id": "P313549.l01514",
+"ref": "P313549.2.1",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x",
+"id": "P313549.l01515",
+"ref": "P313549.2.2",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x]",
+"id": "P313549.l01516",
+"ref": "P313549.2.3",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "c",
+"type": "phrase",
+"tag": "phr",
+"id": "P313549.U4",
+"ref": "P313549.ls00000",
+"cdl": [
+{
+"node": "l",
+"frag": "ina",
+"id": "P313549.l01517",
+"ref": "P313549.2.4",
+"inst": "ina[in+=between]PRP",
+"sig": "@saao/saa16%akk-x-neoass:ina=ina[in//in]PRP'PRP$ina",
+"f": {"lang": "akk-x-neoass",
+"form": "ina",
+"cf": "ina",
+"gw": "in",
+"sense": "in",
+"norm": "ina",
+"pos": "PRP",
+"epos": "PRP"}
+}
+,
+{
+"node": "l",
+"frag": "bir-ti",
+"id": "P313549.l01518",
+"ref": "P313549.2.5",
+"inst": "birti[between]PRP$",
+"sig": "@saao/saa16%akk-x-neoass:bir-ti=birti[between//between]PRP'PRP$birti",
+"f": {"lang": "akk-x-neoass",
+"form": "bir-ti",
+"cf": "birti",
+"gw": "between",
+"sense": "between",
+"norm": "birti",
+"pos": "PRP",
+"epos": "PRP"}
+}
+]}
+,
+{
+"node": "l",
+"frag": "KUR-MEŠ-ni",
+"id": "P313549.l01519",
+"ref": "P313549.2.6",
+"inst": "šadâni[mountain]N",
+"sig": "@saao/saa16%akk-x-neoass:KUR-MEŠ-ni=šadû[mountain//mountain]N'N$šadâni",
+"f": {"lang": "akk-x-neoass",
+"form": "KUR-MEŠ-ni",
+"cf": "šadû",
+"gw": "mountain",
+"sense": "mountain",
+"norm": "šadâni",
+"pos": "N",
+"epos": "N"}
+}
+,
+{
+"node": "d",
+"type": "line-start",
+"ref": "P313549.3",
+"n": "2",
+"label": "o 2"}
+,
+{
+"node": "l",
+"frag": "[x",
+"id": "P313549.l0151a",
+"ref": "P313549.3.1",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x]",
+"id": "P313549.l0151b",
+"ref": "P313549.3.2",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "c",
+"type": "phrase",
+"tag": "phr",
+"id": "P313549.U5",
+"ref": "P313549.ls00001",
+"cdl": [
+{
+"node": "l",
+"frag": "{⸢lu₂v⸣}UŠ.BAR-ṣip-rat",
+"id": "P313549.l0151c",
+"ref": "P313549.3.3",
+"cof-tails": "P313549.l0151d",
+"inst": "išparu[weaver]N$ušpār&ṣipirtu[(an item of clothing)]N$ṣiprāt",
+"sig": "@saao/saa16%akk-x-neoass:{LU₂}UŠ.BAR-ṣip-rat=išparu[weaver//weaver]N'N$ušpār&&@saao%akk-x-neoass:=ṣipirtu[(an item of clothing)//(an item of clothing)]N'N$ṣiprāt",
+"f": {"lang": "akk-x-neoass",
+"form": "{LU₂}UŠ.BAR-ṣip-rat",
+"cf": "išparu",
+"gw": "weaver",
+"sense": "weaver",
+"norm": "ušpār",
+"pos": "N",
+"epos": "N"}
+}
+,
+{
+"node": "l",
+"frag": "{⸢lu₂v⸣}UŠ.BAR-ṣip-rat",
+"id": "P313549.l0151d",
+"ref": "P313549.3.3",
+"cof-head": "P313549.l0151c",
+"inst": "išparu[weaver]N$ušpār&ṣipirtu[(an item of clothing)]N$ṣiprāt",
+"tail-sig": "@saao%akk-x-neoass:=ṣipirtu[(an item of clothing)//(an item of clothing)]N'N$ṣiprāt",
+"f": {"lang": "akk-x-neoass",
+"form": "{LU₂}UŠ.BAR-ṣip-rat",
+"cf": "ṣipirtu",
+"gw": "(an item of clothing)",
+"sense": "(an item of clothing)",
+"norm": "ṣiprāt",
+"pos": "N",
+"epos": "N"}
+}
+]}
+,
+{
+"node": "l",
+"frag": "{1}ha-a.a",
+"id": "P313549.l0151e",
+"ref": "P313549.3.4",
+"inst": "Haya[1]PN$",
+"sig": "@saao/saa16%akk-x-neoass:{1}ha-a.a=Haya[1//1]PN'PN$Haya",
+"f": {"lang": "akk-x-neoass",
+"form": "{1}ha-a.a",
+"cf": "Haya",
+"gw": "1",
+"sense": "1",
+"norm": "Haya",
+"pos": "PN",
+"epos": "PN"}
+}
+,
+{
+"node": "d",
+"type": "line-start",
+"ref": "P313549.4",
+"n": "3",
+"label": "o 3"}
+,
+{
+"node": "l",
+"frag": "[x",
+"id": "P313549.l0151f",
+"ref": "P313549.4.1",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x",
+"id": "P313549.l01520",
+"ref": "P313549.4.2",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x]",
+"id": "P313549.l01521",
+"ref": "P313549.4.3",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "ku",
+"id": "P313549.l01522",
+"ref": "P313549.4.4",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "ku",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "⸢TA⸣",
+"id": "P313549.l01523",
+"ref": "P313549.4.5",
+"inst": "issi[with]PRP",
+"sig": "@saao/saa16%akk-x-neoass:TA=išti[with//with]PRP'PRP$issi",
+"f": {"lang": "akk-x-neoass",
+"form": "TA",
+"cf": "išti",
+"gw": "with",
+"sense": "with",
+"norm": "issi",
+"pos": "PRP",
+"epos": "PRP"}
+}
+,
+{
+"node": "l",
+"frag": "{še}tab-ki-šu₂-nu",
+"id": "P313549.l01524",
+"ref": "P313549.4.6",
+"inst": "tabkīšunu[(grain) store]N",
+"sig": "@saao/saa16%akk-x-neoass:{ŠE}tab-ki-šu₂-nu=tabku[(grain) store//(grain) store]N'N$tabkīšunu",
+"f": {"lang": "akk-x-neoass",
+"form": "{ŠE}tab-ki-šu₂-nu",
+"cf": "tabku",
+"gw": "(grain) store",
+"sense": "(grain) store",
+"norm": "tabkīšunu",
+"pos": "N",
+"epos": "N"}
+}
+,
+{
+"node": "d",
+"type": "line-start",
+"ref": "P313549.5",
+"n": "4",
+"label": "o 4"}
+,
+{
+"node": "l",
+"frag": "[it-tal-ku-u-ni]",
+"id": "P313549.l01525",
+"ref": "P313549.5.1",
+"inst": "ittalkūni[come]V",
+"sig": "@saao/saa16%akk-x-neoass:it-tal-ku-u-ni=alāku[go//come]V'V$ittalkūni",
+"f": {"lang": "akk-x-neoass",
+"form": "it-tal-ku-u-ni",
+"cf": "alāku",
+"gw": "go",
+"sense": "come",
+"norm": "ittalkūni",
+"pos": "V",
+"epos": "V"}
+}
+,
+{
+"node": "l",
+"frag": "⸢ma⸣-a",
+"id": "P313549.l01526",
+"ref": "P313549.5.2",
+"inst": "mā[saying]PRP",
+"sig": "@saao/saa16%akk-x-neoass:ma-a=mā[saying//saying]PRP'PRP$mā",
+"f": {"lang": "akk-x-neoass",
+"form": "ma-a",
+"cf": "mā",
+"gw": "saying",
+"sense": "saying",
+"norm": "mā",
+"pos": "PRP",
+"epos": "PRP"}
+}
+,
+{
+"node": "l",
+"frag": "{1}se-eʾ-ra-hi-i",
+"id": "P313549.l01527",
+"ref": "P313549.5.3",
+"inst": "Seʾ-rahi[1]PN$",
+"sig": "@saao/saa16%akk-x-neoass:{1}se-eʾ-ra-hi-i=Seʾ-rahi[1//1]PN'PN$Seʾ-rahi",
+"f": {"lang": "akk-x-neoass",
+"form": "{1}se-eʾ-ra-hi-i",
+"cf": "Seʾ-rahi",
+"gw": "1",
+"sense": "1",
+"norm": "Seʾ-rahi",
+"pos": "PN",
+"epos": "PN"}
+}
+,
+{
+"node": "d",
+"type": "line-start",
+"ref": "P313549.6",
+"n": "5",
+"label": "o 5"}
+,
+{
+"node": "l",
+"frag": "[x",
+"id": "P313549.l01528",
+"ref": "P313549.6.1",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x",
+"id": "P313549.l01529",
+"ref": "P313549.6.2",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x",
+"id": "P313549.l0152a",
+"ref": "P313549.6.3",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x",
+"id": "P313549.l0152b",
+"ref": "P313549.6.4",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x]",
+"id": "P313549.l0152c",
+"ref": "P313549.6.5",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "{lu₂v}mu-ṣur-a.a",
+"id": "P313549.l0152d",
+"ref": "P313549.6.6",
+"inst": "Muṣuraya[Egyptian]EN",
+"sig": "@saao/saa16%akk-x-neoass:{LU₂}mu-ṣur-a.a=Muṣuraya[Egyptian//Egyptian]EN'EN$Muṣuraya",
+"f": {"lang": "akk-x-neoass",
+"form": "{LU₂}mu-ṣur-a.a",
+"cf": "Muṣuraya",
+"gw": "Egyptian",
+"sense": "Egyptian",
+"norm": "Muṣuraya",
+"pos": "EN",
+"epos": "EN"}
+}
+,
+{
+"node": "d",
+"type": "line-start",
+"ref": "P313549.7",
+"n": "6",
+"label": "o 6"}
+,
+{
+"node": "l",
+"frag": "[x",
+"id": "P313549.l0152e",
+"ref": "P313549.7.1",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x",
+"id": "P313549.l0152f",
+"ref": "P313549.7.2",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x",
+"id": "P313549.l01530",
+"ref": "P313549.7.3",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x]-⸢ri⸣-šu₂-nu",
+"id": "P313549.l01531",
+"ref": "P313549.7.4",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x-ri-šu₂-nu",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "a-na",
+"id": "P313549.l01532",
+"ref": "P313549.7.5",
+"inst": "ana[to]PRP",
+"sig": "@saao/saa16%akk-x-neoass:a-na=ana[to//to]PRP'PRP$ana",
+"f": {"lang": "akk-x-neoass",
+"form": "a-na",
+"cf": "ana",
+"gw": "to",
+"sense": "to",
+"norm": "ana",
+"pos": "PRP",
+"epos": "PRP"}
+}
+,
+{
+"node": "l",
+"frag": "{lu₂v}mu-ṣur-a.a",
+"id": "P313549.l01533",
+"ref": "P313549.7.6",
+"inst": "Muṣuraya[Egyptian]EN",
+"sig": "@saao/saa16%akk-x-neoass:{LU₂}mu-ṣur-a.a=Muṣuraya[Egyptian//Egyptian]EN'EN$Muṣuraya",
+"f": {"lang": "akk-x-neoass",
+"form": "{LU₂}mu-ṣur-a.a",
+"cf": "Muṣuraya",
+"gw": "Egyptian",
+"sense": "Egyptian",
+"norm": "Muṣuraya",
+"pos": "EN",
+"epos": "EN"}
+}
+,
+{
+"node": "d",
+"subtype": "bottom",
+"type": "surface",
+"ref": "P313549.b.e..8",
+"type": "bottom",
+"label": "b.e."}
+,
+{
+"node": "d",
+"type": "line-start",
+"ref": "P313549.9",
+"n": "7",
+"label": "b.e. 7"}
+,
+{
+"node": "l",
+"frag": "[it]-⸢ti⸣-din",
+"id": "P313549.l01534",
+"ref": "P313549.9.1",
+"inst": "tadānu[give//sell]V$ittidin",
+"sig": "@saao/saa16%akk-x-neoass:it-ti-din=tadānu[give//sell]V'V$ittidin",
+"f": {"lang": "akk-x-neoass",
+"form": "it-ti-din",
+"cf": "tadānu",
+"gw": "give",
+"sense": "sell",
+"norm": "ittidin",
+"pos": "V",
+"epos": "V"}
+}
+,
+{
+"node": "d",
+"subtype": "reverse",
+"type": "surface",
+"ref": "P313549.r.10",
+"type": "reverse",
+"label": "r"}
+,
+{
+"node": "d",
+"type": "line-start",
+"ref": "P313549.11",
+"n": "1",
+"label": "r 1"}
+,
+{
+"node": "l",
+"frag": "[u₂-ma-a]",
+"id": "P313549.l01535",
+"ref": "P313549.11.1",
+"inst": "ūmâ[now]AV",
+"sig": "@saao/saa16%akk-x-neoass:u₂-ma-a=ūma[today//now]AV'AV$ūmâ",
+"f": {"lang": "akk-x-neoass",
+"form": "u₂-ma-a",
+"cf": "ūma",
+"gw": "today",
+"sense": "now",
+"norm": "ūmâ",
+"pos": "AV",
+"epos": "AV"}
+}
+,
+{
+"node": "l",
+"frag": "an-nu-rig",
+"id": "P313549.l01536",
+"ref": "P313549.11.2",
+"inst": "annurig[now]AV",
+"sig": "@saao/saa16%akk-x-neoass:an-nu-rig=annûri[now//now]AV'AV$annurig",
+"f": {"lang": "akk-x-neoass",
+"form": "an-nu-rig",
+"cf": "annûri",
+"gw": "now",
+"sense": "now",
+"norm": "annurig",
+"pos": "AV",
+"epos": "AV"}
+}
+,
+{
+"node": "d",
+"type": "line-start",
+"ref": "P313549.12",
+"n": "2",
+"label": "r 2"}
+,
+{
+"node": "l",
+"frag": "[x",
+"id": "P313549.l01537",
+"ref": "P313549.12.1",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "x]",
+"id": "P313549.l01538",
+"ref": "P313549.12.2",
+"inst": "u",
+"f": {"lang": "akk-x-neoass",
+"form": "x",
+"pos": "u"}
+}
+,
+{
+"node": "l",
+"frag": "SIG₅",
+"id": "P313549.l01539",
+"ref": "P313549.12.3",
+"inst": "damqu[good]AJ$danqu",
+"sig": "@saao/saa16%akk-x-neoass:SIG₅=damqu[good//good]AJ'AJ$danqu",
+"f": {"lang": "akk-x-neoass",
+"form": "SIG₅",
+"cf": "damqu",
+"gw": "good",
+"sense": "good",
+"norm": "danqu",
+"pos": "AJ",
+"epos": "AJ"}
+}
+,
+{
+"node": "l",
+"frag": "na-ṣu-u-ni",
+"id": "P313549.l0153a",
+"ref": "P313549.12.4",
+"inst": "naṣūni[brought]AJ",
+"sig": "@saao/saa16%akk-x-neoass:na-ṣu-u-ni=našû[lifted//brought]AJ'AJ$naṣūni",
+"f": {"lang": "akk-x-neoass",
+"form": "na-ṣu-u-ni",
+"cf": "našû",
+"gw": "lifted",
+"sense": "brought",
+"norm": "naṣūni",
+"pos": "AJ",
+"epos": "AJ"}
+}
+,
+{
+"node": "d",
+"type": "line-start",
+"ref": "P313549.13",
+"n": "3",
+"label": "r 3"}
+,
+{
+"node": "c",
+"type": "phrase",
+"tag": "phr",
+"id": "P313549.U6",
+"ref": "P313549.ls00002",
+"cdl": [
+{
+"node": "l",
+"frag": "[ina",
+"id": "P313549.l0153b",
+"ref": "P313549.13.1",
+"inst": "ina[in+=in the presence of]PRP$",
+"sig": "@saao/saa16%akk-x-neoass:ina=ina[in//in]PRP'PRP$ina",
+"f": {"lang": "akk-x-neoass",
+"form": "ina",
+"cf": "ina",
+"gw": "in",
+"sense": "in",
+"norm": "ina",
+"pos": "PRP",
+"epos": "PRP"}
+}
+,
+{
+"node": "l",
+"frag": "IGI]",
+"id": "P313549.l0153c",
+"ref": "P313549.13.2",
+"inst": "pānu[front]N$pān",
+"sig": "@saao/saa16%akk-x-neoass:IGI=pānu[front//front]N'N$pān",
+"f": {"lang": "akk-x-neoass",
+"form": "IGI",
+"cf": "pānu",
+"gw": "front",
+"sense": "front",
+"norm": "pān",
+"pos": "N",
+"epos": "N"}
+}
+]}
+,
+{
+"node": "l",
+"frag": "⸢EN⸣-ia",
+"id": "P313549.l0153d",
+"ref": "P313549.13.3",
+"inst": "bēlīya[lord]N",
+"sig": "@saao/saa16%akk-x-neoass:EN-ia=bēlu[lord//lord]N'N$bēlīya",
+"f": {"lang": "akk-x-neoass",
+"form": "EN-ia",
+"cf": "bēlu",
+"gw": "lord",
+"sense": "lord",
+"norm": "bēlīya",
+"pos": "N",
+"epos": "N"}
+}
+,
+{
+"node": "l",
+"frag": "i-za-zu",
+"id": "P313549.l0153e",
+"ref": "P313549.13.4",
+"inst": "izzazzu[stand]V",
+"sig": "@saao/saa16%akk-x-neoass:i-za-zu=izuzzu[stand//stand]V'V$izzazzu",
+"f": {"lang": "akk-x-neoass",
+"form": "i-za-zu",
+"cf": "izuzzu",
+"gw": "stand",
+"sense": "stand",
+"norm": "izzazzu",
+"pos": "V",
+"epos": "V"}
+}
+,
+{
+"node": "d",
+"type": "line-start",
+"ref": "P313549.14",
+"n": "4",
+"label": "r 4"}
+,
+{
+"node": "l",
+"frag": "[be-li₂]",
+"id": "P313549.l0153f",
+"ref": "P313549.14.1",
+"inst": "bēlī[lord]N",
+"sig": "@saao/saa16%akk-x-neoass:be-li₂=bēlu[lord//lord]N'N$bēlī",
+"f": {"lang": "akk-x-neoass",
+"form": "be-li₂",
+"cf": "bēlu",
+"gw": "lord",
+"sense": "lord",
+"norm": "bēlī",
+"pos": "N",
+"epos": "N"}
+}
+,
+{
+"node": "l",
+"frag": "de-en-šu₂-nu",
+"id": "P313549.l01540",
+"ref": "P313549.14.2",
+"inst": "!+dīnu[legal decision//lawsuit]N$dēnšunu",
+"sig": "@saao/saa16%akk-x-neoass:de-en-šu₂-nu=dīnu[legal decision//lawsuit]N'N$dēnšunu",
+"f": {"lang": "akk-x-neoass",
+"form": "de-en-šu₂-nu",
+"cf": "dīnu",
+"gw": "legal decision",
+"sense": "lawsuit",
+"norm": "dēnšunu",
+"pos": "N",
+"epos": "N"}
+}
+,
+{
+"node": "l",
+"frag": "le-pu-uš",
+"id": "P313549.l01541",
+"ref": "P313549.14.3",
+"inst": "lēpuš[do]V",
+"sig": "@saao/saa16%akk-x-neoass:le-pu-uš=epēšu[do//do]V'V$lēpuš",
+"f": {"lang": "akk-x-neoass",
+"form": "le-pu-uš",
+"cf": "epēšu",
+"gw": "do",
+"sense": "do",
+"norm": "lēpuš",
+"pos": "V",
+"epos": "V"}
+}
+,
+{
+"node": "d",
+"type": "nonx",
+"ref": "P313549.15",
+"strict": "0",
+"extent": "rest",
+"state": "other"}
+]}
+]}
+]}
+,
+{
+"linkbase": [{
+"type": "linkset",
+"xlink_title": "ina birti[between//between]PRP'PRP",
+"id": "P313549.ls00000",
+"xlink_type": "extended",
+"xlink_role": "psu",
+"sig": "{ina[in]PRP birti[between]PRP += ina birti[between//between]PRP'PRP}::@saao%akk-x-neoass:ina=ina[in//into]PRP'PRP$ina++@saao%akk-x-neoass:bir-ti=birti[between//between]PRP'PRP$birti",
+"links": [
+{
+"type": "link",
+"xlink_title": "ina",
+"xlink_type": "locator",
+"xlink_href": "#P313549.l01517",
+"xlink_role": "elt"}
+,
+{
+"type": "link",
+"xlink_title": "birti",
+"xlink_type": "locator",
+"xlink_href": "#P313549.l01518",
+"xlink_role": "elt"}
+]}
+,
+{
+"type": "linkset",
+"xlink_title": "išpar ṣiprāti[scarf weaver//scarf weaver]N'N",
+"id": "P313549.ls00001",
+"xlink_type": "extended",
+"xlink_role": "psu",
+"sig": "{išparu[weaver]N ṣipirtu[(an item of clothing)]N += išpar ṣiprāti[scarf weaver//scarf weaver]N'N}::@saao%akk-x-neoass:{LU₂}UŠ.BAR-ṣip-rat=išparu[weaver//weaver]N'N$ušpār++@saao%akk-x-neoass:{LU₂}UŠ.BAR-ṣip-rat=ṣipirtu[(an item of clothing)//(an item of clothing)]N'N$ṣiprāt",
+"links": [
+{
+"type": "link",
+"xlink_title": "išparu",
+"xlink_type": "locator",
+"xlink_href": "#P313549.l0151c",
+"xlink_role": "elt"}
+,
+{
+"type": "link",
+"xlink_title": "ṣipirtu",
+"xlink_type": "locator",
+"xlink_href": "#P313549.l0151d",
+"xlink_role": "elt"}
+]}
+,
+{
+"type": "linkset",
+"xlink_title": "ina pān[in the presence of//at the disposal of]PRP'PRP",
+"id": "P313549.ls00002",
+"xlink_type": "extended",
+"xlink_role": "psu",
+"sig": "{ina[in]PRP pānu[front]N += ina pān[in the presence of//at the disposal of]PRP'PRP}::@saao%akk-x-neoass:ina=ina[in//into]PRP'PRP$ina++@saao%akk-x-neoass:IGI=pānu[front//front]N'N$pān",
+"links": [
+{
+"type": "link",
+"xlink_title": "ina",
+"xlink_type": "locator",
+"xlink_href": "#P313549.l0153b",
+"xlink_role": "elt"}
+,
+{
+"type": "link",
+"xlink_title": "pānu",
+"xlink_type": "locator",
+"xlink_href": "#P313549.l0153c",
+"xlink_role": "elt"}
+]}
+]}
+]}
