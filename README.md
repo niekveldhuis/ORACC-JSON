@@ -1,5 +1,3 @@
- # JSON-test
+ # ORACC-JSON
  
-suggestions to self:
-* create object with ijson.item (for instance of members.item.cdl.item.cdl.item.cdl.item.cdl.item) and parse only the nodes in the object (rather than the whole tree).
-* create logical get_f flag that is set to True only when ref yields a P/Q/X no. that is in selection list, otherwise False
+This repository contains a [Jupyter Notebook](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) that allows you to download JSON-format files from ORACC and parse those for use in computational projects such as Social Network Analysis or various types of Computational Text Analysis.
