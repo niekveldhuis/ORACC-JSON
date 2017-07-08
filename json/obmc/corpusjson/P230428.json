@@ -1,0 +1,386 @@
+{
+  "type": "cdl",
+  "project": "obmc",
+  "source": "http://oracc.org/obmc",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:46:08",
+  "textid": "P230428",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P230428.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P230428.x14.1",
+          "label": "x14"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P230428.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P230428.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P230428.4",
+          "strict": "0",
+          "state": "other"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P230428.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P230428.U2",
+              "label": "o i 1 - o i 4",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P230428.5",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "7(aš)",
+                  "id": "P230428.l0023e",
+                  "ref": "P230428.5.1",
+                  "inst": "n",
+                  "f": {
+                    "lang": "sux",
+                    "form": "7(aš)",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "n": "n",
+                        "form": "7(aš)",
+                        "id": "P230428.5.1.0",
+                        "seq": [
+                          {
+                            "r": "7"
+                          },
+                          {
+                            "v": "aš"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "n"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "še",
+                  "id": "P230428.l0023f",
+                  "ref": "P230428.5.2",
+                  "inst": "še[barley]N",
+                  "sig": "@obmc%sux:še=še[barley//barley]N'N$še/še#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "še",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "še",
+                        "id": "P230428.5.2.0"
+                      }
+                    ],
+                    "cf": "še",
+                    "gw": "barley",
+                    "sense": "barley",
+                    "norm0": "še",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "še",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gur",
+                  "id": "P230428.l00240",
+                  "ref": "P230428.5.3",
+                  "inst": "gur[unit of capacity]N",
+                  "sig": "@obmc%sux:gur=gur[unit//unit of capacity]N'N$gur/gur#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gur",
+                    "gdl": [
+                      {
+                        "v": "gur",
+                        "id": "P230428.5.3.0"
+                      }
+                    ],
+                    "cf": "gur",
+                    "gw": "unit",
+                    "sense": "unit of capacity",
+                    "norm0": "gur",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "gur",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P230428.6",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "ur₅-ra",
+                  "id": "P230428.l00241",
+                  "ref": "P230428.6.1",
+                  "inst": "urra[interest-bearing loan]N/ur₅-ra#~",
+                  "sig": "@obmc%sux:ur₅-ra=urra[loan//interest-bearing loan]N'N$urra/ur₅-ra#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ur₅-ra",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ur₅",
+                        "id": "P230428.6.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P230428.6.1.1"
+                      }
+                    ],
+                    "cf": "urra",
+                    "gw": "loan",
+                    "sense": "interest-bearing loan",
+                    "norm0": "urra",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ur₅-ra",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢nu⸣-me-a",
+                  "id": "P230428.l00242",
+                  "ref": "P230428.6.2",
+                  "inst": "me[to be]V/i",
+                  "sig": "@obmc%sux:nu-me-a=me[be//to be]V/i'V/i$nu:me;a/me#nu:~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nu-me-a",
+                    "gdl": [
+                      {
+                        "v": "nu",
+                        "id": "P230428.6.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "me",
+                        "id": "P230428.6.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P230428.6.2.2"
+                      }
+                    ],
+                    "cf": "me",
+                    "gw": "be",
+                    "sense": "to be",
+                    "norm0": "nu:me;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "me",
+                    "morph": "nu:~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P230428.7",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "eš-de₂-a-še₃",
+                  "id": "P230428.l00243",
+                  "ref": "P230428.7.1",
+                  "inst": "ešdea[loan]N",
+                  "sig": "@obmc%sux:eš-de₂-a-še₃=ešdea[loan//loan]N'N$ešdea,eše/eš-de₂-a#~,eše",
+                  "f": {
+                    "lang": "sux",
+                    "form": "eš-de₂-a-še₃",
+                    "gdl": [
+                      {
+                        "v": "eš",
+                        "id": "P230428.7.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "de₂",
+                        "id": "P230428.7.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P230428.7.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "še₃",
+                        "id": "P230428.7.1.3"
+                      }
+                    ],
+                    "cf": "ešdea",
+                    "gw": "loan",
+                    "sense": "loan",
+                    "norm0": "ešdea,eše",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "eš-de₂-a",
+                    "morph": "~,eše"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P230428.8",
+                  "n": "4",
+                  "label": "o i 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "ki",
+                  "id": "P230428.l00244",
+                  "ref": "P230428.8.1",
+                  "inst": "ki[place]N",
+                  "sig": "@obmc%sux:ki=ki[place//place]N'N$ki/ki#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P230428.8.1.0"
+                      }
+                    ],
+                    "cf": "ki",
+                    "gw": "place",
+                    "sense": "place",
+                    "norm0": "ki",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ki",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "a-ba-{d}en-lil₂-⸢la₂-ta⸣",
+                  "id": "P230428.l00245",
+                  "ref": "P230428.8.2",
+                  "inst": "Aba-Enlila[]PN/a-ba-{d}en-lil₂-la₂#~,ta",
+                  "sig": "@obmc%sux:a-ba-{d}en-lil₂-la₂-ta=Aba-Enlila[1//1]PN'PN$Aba-Enlila,ta/a-ba-{d}en-lil₂-la₂#~,ta",
+                  "f": {
+                    "lang": "sux",
+                    "form": "a-ba-{d}en-lil₂-la₂-ta",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "P230428.8.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ba",
+                        "id": "P230428.8.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P230428.8.2.2"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "en",
+                        "id": "P230428.8.2.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "lil₂",
+                        "id": "P230428.8.2.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la₂",
+                        "id": "P230428.8.2.5",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ta",
+                        "id": "P230428.8.2.6",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "Aba-Enlila",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm0": "Aba-Enlila,ta",
+                    "pos": "PN",
+                    "epos": "PN",
+                    "base": "a-ba-{d}en-lil₂-la₂",
+                    "morph": "~,ta"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P230428.9",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
