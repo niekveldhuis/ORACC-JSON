@@ -1,0 +1,155 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:05:05",
+  "textid": "P225119",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P225119.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P225119.x2197.1",
+          "label": "x2197"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P225119.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P225119.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P225119.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P225119.U2",
+              "label": "o i 1 - o i 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225119.4",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P225119.l5376c",
+                  "ref": "P225119.4.1",
+                  "inst": "%sux:x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P225119.4.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P225119.4.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "x-bi",
+                  "id": "P225119.l5376d",
+                  "ref": "P225119.4.2",
+                  "inst": "%sux:x-bi=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x-bi",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P225119.4.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bi",
+                        "id": "P225119.4.2.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225119.5",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]-bi-še₃",
+                  "id": "P225119.l5376e",
+                  "ref": "P225119.5.1",
+                  "inst": "%sux:x-bi-še₃=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x-bi-še₃",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P225119.5.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P225119.5.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bi",
+                        "id": "P225119.5.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "še₃",
+                        "id": "P225119.5.1.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P225119.6",
+                  "strict": "1",
+                  "extent": "1",
+                  "scope": "line",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

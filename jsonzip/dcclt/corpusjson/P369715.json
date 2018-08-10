@@ -1,0 +1,181 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:12:21",
+  "textid": "P369715",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P369715.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P369715.o.1",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P369715.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P369715.U2",
+              "label": "o 1 - o 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P369715.2",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "tum₁₂{mušen}",
+                  "id": "P369715.l1aa2a",
+                  "ref": "P369715.2.1",
+                  "inst": "tum[dove]",
+                  "sig": "@dcclt%sux:tum₁₂{mušen}=tum[dove//wild dove]N'N$tum/tum₁₂{mušen}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "tum₁₂{mušen}",
+                    "gdl": [
+                      {
+                        "v": "tum₁₂",
+                        "id": "P369715.2.1.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P369715.2.1.1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "tum",
+                    "gw": "dove",
+                    "sense": "wild dove",
+                    "norm0": "tum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "tum₁₂{mušen}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P369715.3",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "tum₁₂-gur₄{mušen}",
+                  "id": "P369715.l1aa2b",
+                  "ref": "P369715.3.1",
+                  "inst": "tumgur[bird]",
+                  "sig": "@dcclt%sux:tum₁₂-gur₄{mušen}=tumgur[bird//a domesticated dove]N'N$tumgur/tum₁₂-gur₄{mušen}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "tum₁₂-gur₄{mušen}",
+                    "gdl": [
+                      {
+                        "v": "tum₁₂",
+                        "id": "P369715.3.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gur₄",
+                        "id": "P369715.3.1.1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P369715.3.1.2"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "tumgur",
+                    "gw": "bird",
+                    "sense": "a domesticated dove",
+                    "norm0": "tumgur",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "tum₁₂-gur₄{mušen}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P369715.4",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "nim{mušen}",
+                  "id": "P369715.l1aa2c",
+                  "ref": "P369715.4.1",
+                  "inst": "nim[fly]",
+                  "sig": "@dcclt%sux:nim{mušen}=nim[fly//fly, insect]N'N$nim/nim{mušen}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nim{mušen}",
+                    "gdl": [
+                      {
+                        "v": "nim",
+                        "id": "P369715.4.1.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P369715.4.1.1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "nim",
+                    "gw": "fly",
+                    "sense": "fly, insect",
+                    "norm0": "nim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "nim{mušen}",
+                    "morph": "~"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

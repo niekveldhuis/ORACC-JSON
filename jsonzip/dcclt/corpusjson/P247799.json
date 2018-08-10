@@ -1,0 +1,746 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:08:48",
+  "textid": "P247799",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P247799.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P247799.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P247799.2",
+          "strict": "0",
+          "state": "other"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P247799.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P247799.U2",
+              "label": "o 1' - o 15'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.3",
+                  "n": "1'",
+                  "label": "o 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[x-x]-BAL",
+                  "id": "P247799.l10c35",
+                  "ref": "P247799.3.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x-x-BAL",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P247799.3.1.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P247799.3.1.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P247799.3.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "BAL",
+                        "id": "P247799.3.1.2"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.4",
+                  "n": "2'",
+                  "label": "o 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[x]-IL₂-TAK₄",
+                  "id": "P247799.l10c36",
+                  "ref": "P247799.4.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x-IL₂-TAK₄",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P247799.4.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P247799.4.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "IL₂",
+                        "id": "P247799.4.1.1",
+                        "queried": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "TAK₄",
+                        "id": "P247799.4.1.2"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.5",
+                  "n": "3'",
+                  "label": "o 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[x]-IL₂-TAK₄",
+                  "id": "P247799.l10c37",
+                  "ref": "P247799.5.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x-IL₂-TAK₄",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P247799.5.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P247799.5.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "IL₂",
+                        "id": "P247799.5.1.1",
+                        "queried": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "TAK₄",
+                        "id": "P247799.5.1.2"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.6",
+                  "n": "4'",
+                  "label": "o 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P247799.l10c38",
+                  "ref": "P247799.6.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P247799.6.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ma₂-lal",
+                  "id": "P247799.l10c39",
+                  "ref": "P247799.6.2",
+                  "inst": "mala[freight boat]N",
+                  "sig": "@dcclt%sux:ma₂-lal=mala[boat//freight boat]N'N$mala/ma₂-la₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ma₂-lal",
+                    "gdl": [
+                      {
+                        "v": "ma₂",
+                        "id": "P247799.6.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "lal",
+                        "id": "P247799.6.2.1"
+                      }
+                    ],
+                    "cf": "mala",
+                    "gw": "boat",
+                    "sense": "freight boat",
+                    "norm0": "mala",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ma₂-la₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.7",
+                  "n": "5'",
+                  "label": "o 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P247799.l10c3a",
+                  "ref": "P247799.7.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P247799.7.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ma₂-u₅",
+                  "id": "P247799.l10c3b",
+                  "ref": "P247799.7.2",
+                  "inst": "maʾu[barge]N/ma₂-u₅#~",
+                  "sig": "@dcclt%sux:ma₂-u₅=maʾu[barge//barge]N'N$maʾu/ma₂-u₅#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ma₂-u₅",
+                    "gdl": [
+                      {
+                        "v": "ma₂",
+                        "id": "P247799.7.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u₅",
+                        "id": "P247799.7.2.1"
+                      }
+                    ],
+                    "cf": "maʾu",
+                    "gw": "barge",
+                    "sense": "barge",
+                    "norm0": "maʾu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ma₂-u₅",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.8",
+                  "n": "6'",
+                  "label": "o 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P247799.l10c3c",
+                  "ref": "P247799.8.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P247799.8.1.0",
+                        "gdl_remarked": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ma₂-dirig-ga",
+                  "id": "P247799.l10c3d",
+                  "ref": "P247799.8.2",
+                  "inst": "madiriga[ferryboat]N/ma₂-dirig-ga#~",
+                  "sig": "@dcclt%sux:ma₂-dirig-ga=madiriga[ferryboat//ferryboat]N'N$madiriga/ma₂-dirig-ga#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ma₂-dirig-ga",
+                    "gdl": [
+                      {
+                        "v": "ma₂",
+                        "id": "P247799.8.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "dirig",
+                        "id": "P247799.8.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P247799.8.2.2"
+                      }
+                    ],
+                    "cf": "madiriga",
+                    "gw": "ferryboat",
+                    "sense": "ferryboat",
+                    "norm0": "madiriga",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ma₂-dirig-ga",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.9",
+                  "n": "7'",
+                  "label": "o 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ara₃-ara₃",
+                  "id": "P247799.l10c3e",
+                  "ref": "P247799.9.1",
+                  "inst": "arar[miller]",
+                  "sig": "@dcclt%sux:ara₃-ara₃=arar[miller//miller]N'N$arar/ara₃-ara₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ara₃-ara₃",
+                    "gdl": [
+                      {
+                        "v": "ara₃",
+                        "id": "P247799.9.1.0",
+                        "gdl_remarked": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ara₃",
+                        "id": "P247799.9.1.1",
+                        "gdl_remarked": "1"
+                      }
+                    ],
+                    "cf": "arar",
+                    "gw": "miller",
+                    "sense": "miller",
+                    "norm0": "arar",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ara₃-ara₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.10",
+                  "n": "8'",
+                  "label": "o 8'"
+                },
+                {
+                  "node": "l",
+                  "frag": "EZEN-HAR",
+                  "id": "P247799.l10c3f",
+                  "ref": "P247799.10.1",
+                  "inst": "EZEN.HAR[miller]N",
+                  "sig": "@dcclt%sux:EZEN-HAR=EZEN.HAR[miller//miller]N'N$EZEN.HAR/EZEN-HAR#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "EZEN-HAR",
+                    "gdl": [
+                      {
+                        "s": "EZEN",
+                        "id": "P247799.10.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "HAR",
+                        "id": "P247799.10.1.1"
+                      }
+                    ],
+                    "cf": "EZEN.HAR",
+                    "gw": "miller",
+                    "sense": "miller",
+                    "norm0": "EZEN.HAR",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "EZEN-HAR",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.11",
+                  "n": "9'",
+                  "label": "o 9'"
+                },
+                {
+                  "node": "l",
+                  "frag": "he₂-dab₅",
+                  "id": "P247799.l10c40",
+                  "ref": "P247799.11.1",
+                  "inst": "hedab[worker]",
+                  "sig": "@dcclt%sux:he₂-dab₅=hedab[worker//a worker]N'N$hedab/he₂-dab₅#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "he₂-dab₅",
+                    "gdl": [
+                      {
+                        "v": "he₂",
+                        "id": "P247799.11.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "dab₅",
+                        "id": "P247799.11.1.1"
+                      }
+                    ],
+                    "cf": "hedab",
+                    "gw": "worker",
+                    "sense": "a worker",
+                    "norm0": "hedab",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "he₂-dab₅",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.12",
+                  "n": "10'",
+                  "label": "o 10'"
+                },
+                {
+                  "node": "l",
+                  "frag": "TAR-GABA",
+                  "id": "P247799.l10c41",
+                  "ref": "P247799.12.1",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "TAR-GABA",
+                    "gdl": [
+                      {
+                        "s": "TAR",
+                        "id": "P247799.12.1.0",
+                        "queried": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "GABA",
+                        "id": "P247799.12.1.1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.13",
+                  "n": "11'",
+                  "label": "o 11'"
+                },
+                {
+                  "node": "l",
+                  "frag": "alan-⸢zu₂⸣",
+                  "id": "P247799.l10c42",
+                  "ref": "P247799.13.1",
+                  "inst": "alanzu[clown]N/alan-zu₂#~",
+                  "sig": "@dcclt%sux:alan-zu₂=alanzu[clown//clown]N'N$alanzu/alan-zu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "alan-zu₂",
+                    "gdl": [
+                      {
+                        "v": "alan",
+                        "id": "P247799.13.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "zu₂",
+                        "id": "P247799.13.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "alanzu",
+                    "gw": "clown",
+                    "sense": "clown",
+                    "norm0": "alanzu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "alan-zu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.14",
+                  "n": "12'",
+                  "label": "o 12'"
+                },
+                {
+                  "node": "l",
+                  "frag": "u₄-da-tuš",
+                  "id": "P247799.l10c43",
+                  "ref": "P247799.14.1",
+                  "inst": "uddatuš[jester]N",
+                  "sig": "@dcclt%sux:u₄-da-tuš=uddatuš[jester//jester]N'N$uddatuš/ud-da-tuš#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "u₄-da-tuš",
+                    "gdl": [
+                      {
+                        "v": "u₄",
+                        "id": "P247799.14.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P247799.14.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tuš",
+                        "id": "P247799.14.1.2"
+                      }
+                    ],
+                    "cf": "uddatuš",
+                    "gw": "jester",
+                    "sense": "jester",
+                    "norm0": "uddatuš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud-da-tuš",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.15",
+                  "n": "13'",
+                  "label": "o 13'"
+                },
+                {
+                  "node": "l",
+                  "frag": "a-u₃-a",
+                  "id": "P247799.l10c44",
+                  "ref": "P247799.15.1",
+                  "inst": "aʾua[a cultic musician?]N",
+                  "sig": "@dcclt%sux:a-u₃-a=aʾua[musician?//a cultic musician?]N'N$aʾua/a-u₃-a#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "a-u₃-a",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "P247799.15.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u₃",
+                        "id": "P247799.15.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P247799.15.1.2"
+                      }
+                    ],
+                    "cf": "aʾua",
+                    "gw": "musician?",
+                    "sense": "a cultic musician?",
+                    "norm0": "aʾua",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "a-u₃-a",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.16",
+                  "n": "14'",
+                  "label": "o 14'"
+                },
+                {
+                  "node": "l",
+                  "frag": "aš-⸢ta⸣-lu₂",
+                  "id": "P247799.l10c45",
+                  "ref": "P247799.16.1",
+                  "inst": "eštalu[a singer]N",
+                  "sig": "@dcclt%sux:aš-ta-lu₂=eštalu[singer//a singer]N'N$eštalu/aš-ta-lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "aš-ta-lu₂",
+                    "gdl": [
+                      {
+                        "v": "aš",
+                        "id": "P247799.16.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ta",
+                        "id": "P247799.16.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "lu₂",
+                        "id": "P247799.16.1.2"
+                      }
+                    ],
+                    "cf": "eštalu",
+                    "gw": "singer",
+                    "sense": "a singer",
+                    "norm0": "eštalu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "aš-ta-lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247799.17",
+                  "n": "15'",
+                  "label": "o 15'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢šir₃⸣",
+                  "id": "P247799.l10c46",
+                  "ref": "P247799.17.1",
+                  "inst": "šir[song]N",
+                  "sig": "@dcclt%sux:šir₃=šir[sing//a song]V/t'N$šir/šir₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šir₃",
+                    "gdl": [
+                      {
+                        "v": "šir₃",
+                        "id": "P247799.17.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "šir",
+                    "gw": "sing",
+                    "sense": "a song",
+                    "norm0": "šir",
+                    "pos": "V/t",
+                    "epos": "N",
+                    "base": "šir₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P247799.r.18",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P247799.19",
+                  "strict": "0",
+                  "state": "other"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1370 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:04:41",
+  "textid": "P134618",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P134618.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P134618.o.1",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P134618.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P134618.U2",
+              "label": "o 1 - r 9",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.2",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b55",
+                  "ref": "P134618.2.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.2.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "|GA₂×GI|",
+                  "id": "P134618.l07b56",
+                  "ref": "P134618.2.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "|GA₂×GI|",
+                    "gdl": [
+                      {
+                        "c": "|GA₂×GI|",
+                        "id": "P134618.2.2.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1",
+                        "seq": [
+                          {
+                            "s": "GA₂"
+                          },
+                          {
+                            "o": "containing"
+                          },
+                          {
+                            "s": "GI"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.3",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b57",
+                  "ref": "P134618.3.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.3.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šurmenₓ(EREN){šu-me}",
+                  "id": "P134618.l07b58",
+                  "ref": "P134618.3.2",
+                  "inst": "šurmen[cypress]N",
+                  "sig": "@dcclt%sux:šurmenₓ(EREN){+šu-me}=šurmen[cypress//cypress]N'N$šurmen/šurmenₓ(EREN){+šu-me}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šurmenₓ(EREN){+šu-me}",
+                    "gdl": [
+                      {
+                        "q": "šurmenₓ(EREN)",
+                        "id": "P134618.3.2.0",
+                        "qualified": [
+                          {
+                            "v": "šurmenₓ"
+                          },
+                          {
+                            "s": "EREN"
+                          }
+                        ]
+                      },
+                      {
+                        "det": "phonetic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "šu",
+                            "id": "P134618.3.2.1",
+                            "queried": "1",
+                            "delim": "-"
+                          },
+                          {
+                            "v": "me",
+                            "id": "P134618.3.2.2"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "šurmen",
+                    "gw": "cypress",
+                    "sense": "cypress",
+                    "norm0": "šurmen",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šurmenₓ(EREN){+šu-me}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.4",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b59",
+                  "ref": "P134618.4.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.4.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "luh",
+                  "id": "P134618.l07b5a",
+                  "ref": "P134618.4.2",
+                  "inst": "luh[to clean, wash]V/t",
+                  "sig": "@dcclt%sux:luh=luh[clean//to clean, wash]V/t'V/t$luh/luh#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "luh",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "luh",
+                        "id": "P134618.4.2.0"
+                      }
+                    ],
+                    "cf": "luh",
+                    "gw": "clean",
+                    "sense": "to clean, wash",
+                    "norm0": "luh",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "luh",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ha-ad",
+                  "id": "P134618.l07b5b",
+                  "ref": "P134618.4.3",
+                  "inst": "had[(to be) bright]V/i",
+                  "sig": "@dcclt%sux:ha-ad=had[bright//(to be) bright]V/i'V/i$had/ha-ad#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ha-ad",
+                    "gdl": [
+                      {
+                        "v": "ha",
+                        "id": "P134618.4.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ad",
+                        "id": "P134618.4.3.1"
+                      }
+                    ],
+                    "cf": "had",
+                    "gw": "bright",
+                    "sense": "(to be) bright",
+                    "norm0": "had",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "ha-ad",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.5",
+                  "n": "4",
+                  "label": "o 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b5c",
+                  "ref": "P134618.5.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.5.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "NINDA₂",
+                  "id": "P134618.l07b5d",
+                  "ref": "P134618.5.2",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "NINDA₂",
+                    "gdl": [
+                      {
+                        "s": "NINDA₂",
+                        "id": "P134618.5.2.0"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.6",
+                  "n": "5",
+                  "label": "o 5"
+                },
+                {
+                  "node": "l",
+                  "frag": "šembi",
+                  "id": "P134618.l07b5e",
+                  "ref": "P134618.6.1",
+                  "inst": "šembizida[kohl, eye makeup]N",
+                  "sig": "@dcclt%sux:šembi=šembizida[kohl//kohl, eye makeup]N'N$šembizida/šembi#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šembi",
+                    "gdl": [
+                      {
+                        "v": "šembi",
+                        "id": "P134618.6.1.0"
+                      }
+                    ],
+                    "cf": "šembizida",
+                    "gw": "kohl",
+                    "sense": "kohl, eye makeup",
+                    "norm0": "šembizida",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šembi",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.7",
+                  "n": "6",
+                  "label": "o 6"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b5f",
+                  "ref": "P134618.7.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.7.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "i₃",
+                  "id": "P134618.l07b60",
+                  "ref": "P134618.7.2",
+                  "inst": "i[oil]N",
+                  "sig": "@dcclt%sux:i₃=i[oil//oil]N'N$i/i₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "i₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "i₃",
+                        "id": "P134618.7.2.0"
+                      }
+                    ],
+                    "cf": "i",
+                    "gw": "oil",
+                    "sense": "oil",
+                    "norm0": "i",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "i₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "tuku",
+                  "id": "P134618.l07b61",
+                  "ref": "P134618.7.3",
+                  "inst": "tuku[to acquire, get]V/t",
+                  "sig": "@dcclt%sux:tuku=tuku[acquire//to acquire, get]V/t'V/t$tuku/tuku#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "tuku",
+                    "gdl": [
+                      {
+                        "v": "tuku",
+                        "id": "P134618.7.3.0"
+                      }
+                    ],
+                    "cf": "tuku",
+                    "gw": "acquire",
+                    "sense": "to acquire, get",
+                    "norm0": "tuku",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "tuku",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.8",
+                  "n": "7",
+                  "label": "o 7"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b62",
+                  "ref": "P134618.8.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.8.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "GAM-GAM-ma",
+                  "id": "P134618.l07b63",
+                  "ref": "P134618.8.2",
+                  "inst": "GAM.GAM[a designation of aromatics]N",
+                  "sig": "@dcclt%sux:GAM-GAM-ma=GAM.GAM[~aromatics//a designation of aromatics]N'N$GAM.GAM,ak/GAM-GAM+-ma=m.a#~,ak",
+                  "f": {
+                    "lang": "sux",
+                    "form": "GAM-GAM-ma",
+                    "gdl": [
+                      {
+                        "s": "GAM",
+                        "id": "P134618.8.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "GAM",
+                        "id": "P134618.8.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P134618.8.2.2"
+                      }
+                    ],
+                    "cf": "GAM.GAM",
+                    "gw": "~aromatics",
+                    "sense": "a designation of aromatics",
+                    "norm0": "GAM.GAM,ak",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "GAM-GAM",
+                    "cont": "-ma=m.a",
+                    "morph": "~,ak"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.9",
+                  "n": "8",
+                  "label": "o 8"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b64",
+                  "ref": "P134618.9.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.9.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "GI-NE",
+                  "id": "P134618.l07b65",
+                  "ref": "P134618.9.2",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "GI-NE",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "GI",
+                        "id": "P134618.9.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "NE",
+                        "id": "P134618.9.2.1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "GIŠ-LAGAB",
+                  "id": "P134618.l07b66",
+                  "ref": "P134618.9.3",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "GIŠ-LAGAB",
+                    "gdl": [
+                      {
+                        "s": "GIŠ",
+                        "id": "P134618.9.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "LAGAB",
+                        "id": "P134618.9.3.1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.10",
+                  "n": "9",
+                  "label": "o 9"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b67",
+                  "ref": "P134618.10.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.10.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "HAR-um",
+                  "id": "P134618.l07b68",
+                  "ref": "P134618.10.2",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "HAR-um",
+                    "gdl": [
+                      {
+                        "s": "HAR",
+                        "id": "P134618.10.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "um",
+                        "id": "P134618.10.2.1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.11",
+                  "n": "10",
+                  "label": "o 10"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b69",
+                  "ref": "P134618.11.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.11.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "am-⸢HAR⸣-[...]",
+                  "id": "P134618.l07b6a",
+                  "ref": "P134618.11.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "am-HAR-x",
+                    "gdl": [
+                      {
+                        "v": "am",
+                        "id": "P134618.11.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "HAR",
+                        "id": "P134618.11.2.1",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P134618.11.2.2",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P134618.11.2.2"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P134618.r.12",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.13",
+                  "n": "1",
+                  "label": "r 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b6b",
+                  "ref": "P134618.13.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.13.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gu₄-⸢ku⸣-[ru]",
+                  "id": "P134618.l07b6c",
+                  "ref": "P134618.13.2",
+                  "inst": "kukuru[resin]",
+                  "sig": "@dcclt%sux:gu₄-ku-ru=kukuru[resin//resin]N'N$kukuru/gu₄-ku-ru#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gu₄-ku-ru",
+                    "gdl": [
+                      {
+                        "v": "gu₄",
+                        "id": "P134618.13.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ku",
+                        "id": "P134618.13.2.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ru",
+                        "id": "P134618.13.2.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P134618.13.2.2"
+                      }
+                    ],
+                    "cf": "kukuru",
+                    "gw": "resin",
+                    "sense": "resin",
+                    "norm0": "kukuru",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "gu₄-ku-ru",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.14",
+                  "n": "2",
+                  "label": "r 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "bulugₓ(|ŠIM×KUŠU₂|)",
+                  "id": "P134618.l07b6d",
+                  "ref": "P134618.14.1",
+                  "inst": "šembulug[resin]",
+                  "sig": "@dcclt%sux:bulugₓ(|ŠIM×KUŠU₂|)=šembulug[resin//resin]N'N$šembulug/bulugₓ(|ŠIM×KUŠU₂|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "bulugₓ(|ŠIM×KUŠU₂|)",
+                    "gdl": [
+                      {
+                        "q": "bulugₓ(|ŠIM×KUŠU₂|)",
+                        "id": "P134618.14.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "bulugₓ"
+                          },
+                          {
+                            "c": "|ŠIM×KUŠU₂|",
+                            "seq": [
+                              {
+                                "s": "ŠIM"
+                              },
+                              {
+                                "o": "containing"
+                              },
+                              {
+                                "s": "KUŠU₂"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "šembulug",
+                    "gw": "resin",
+                    "sense": "resin",
+                    "norm0": "šembulug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "bulugₓ(|ŠIM×KUŠU₂|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.15",
+                  "n": "3",
+                  "label": "r 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "bulugₓ(|ŠIM×KUŠU₂|)",
+                  "id": "P134618.l07b6e",
+                  "ref": "P134618.15.1",
+                  "inst": "šembulug[resin]",
+                  "sig": "@dcclt%sux:bulugₓ(|ŠIM×KUŠU₂|)=šembulug[resin//resin]N'N$šembulug/bulugₓ(|ŠIM×KUŠU₂|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "bulugₓ(|ŠIM×KUŠU₂|)",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "q": "bulugₓ(|ŠIM×KUŠU₂|)",
+                        "id": "P134618.15.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "bulugₓ"
+                          },
+                          {
+                            "c": "|ŠIM×KUŠU₂|",
+                            "seq": [
+                              {
+                                "s": "ŠIM"
+                              },
+                              {
+                                "o": "containing"
+                              },
+                              {
+                                "s": "KUŠU₂"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "šembulug",
+                    "gw": "resin",
+                    "sense": "resin",
+                    "norm0": "šembulug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "bulugₓ(|ŠIM×KUŠU₂|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P134618.l07b6f",
+                  "ref": "P134618.15.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P134618.15.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P134618.15.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.16",
+                  "n": "4",
+                  "label": "r 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b70",
+                  "ref": "P134618.16.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.16.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gana₂",
+                  "id": "P134618.l07b71",
+                  "ref": "P134618.16.2",
+                  "inst": "gana[field]N",
+                  "sig": "@dcclt%sux:gana₂=gana[field//field]N'N$gana/gana₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gana₂",
+                    "gdl": [
+                      {
+                        "v": "gana₂",
+                        "id": "P134618.16.2.0"
+                      }
+                    ],
+                    "cf": "gana",
+                    "gw": "field",
+                    "sense": "field",
+                    "norm0": "gana",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "gana₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.17",
+                  "n": "5",
+                  "label": "r 5"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b72",
+                  "ref": "P134618.17.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.17.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gana₂-gana₂",
+                  "id": "P134618.l07b73",
+                  "ref": "P134618.17.2",
+                  "inst": "gana[field]N",
+                  "sig": "@dcclt%sux:gana₂-gana₂=gana[field//field]N'N$gana/gana₂-gana₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gana₂-gana₂",
+                    "gdl": [
+                      {
+                        "v": "gana₂",
+                        "id": "P134618.17.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gana₂",
+                        "id": "P134618.17.2.1"
+                      }
+                    ],
+                    "cf": "gana",
+                    "gw": "field",
+                    "sense": "field",
+                    "norm0": "gana",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "gana₂-gana₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.18",
+                  "n": "6",
+                  "label": "r 6"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b74",
+                  "ref": "P134618.18.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.18.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "saŋ",
+                  "id": "P134618.l07b75",
+                  "ref": "P134618.18.2",
+                  "inst": "saŋ[head]",
+                  "sig": "@dcclt%sux:saŋ=saŋ[head//head]N'N$saŋ/saŋ#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "saŋ",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "saŋ",
+                        "id": "P134618.18.2.0"
+                      }
+                    ],
+                    "cf": "saŋ",
+                    "gw": "head",
+                    "sense": "head",
+                    "norm0": "saŋ",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "saŋ",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "hirinₓ(KWU318)",
+                  "id": "P134618.l07b76",
+                  "ref": "P134618.18.3",
+                  "inst": "hirim[grass]",
+                  "sig": "@dcclt%sux:hirinₓ(KWU318)=hirim[grass//a grass]N'N$hirim/hirinₓ(KWU318)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "hirinₓ(KWU318)",
+                    "gdl": [
+                      {
+                        "q": "hirinₓ(KWU318)",
+                        "id": "P134618.18.3.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "hirinₓ"
+                          },
+                          {
+                            "s": "KWU318"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "hirim",
+                    "gw": "grass",
+                    "sense": "a grass",
+                    "norm0": "hirim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "hirinₓ(KWU318)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.19",
+                  "n": "7",
+                  "label": "r 7"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b77",
+                  "ref": "P134618.19.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.19.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢eren⸣",
+                  "id": "P134618.l07b78",
+                  "ref": "P134618.19.2",
+                  "inst": "eren[cedar]N",
+                  "sig": "@dcclt%sux:eren=eren[cedar//cedar]N'N$eren/eren#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "eren",
+                    "gdl": [
+                      {
+                        "v": "eren",
+                        "id": "P134618.19.2.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "eren",
+                    "gw": "cedar",
+                    "sense": "cedar",
+                    "norm0": "eren",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "eren",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.20",
+                  "n": "8",
+                  "label": "r 8"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b79",
+                  "ref": "P134618.20.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.20.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ad₂",
+                  "id": "P134618.l07b7a",
+                  "ref": "P134618.20.2",
+                  "inst": "ad[a thorn bush]N",
+                  "sig": "@dcclt%sux:ad₂=ad[bush//a thorn bush]N'N$ad/ad₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ad₂",
+                    "gdl": [
+                      {
+                        "v": "ad₂",
+                        "id": "P134618.20.2.0"
+                      }
+                    ],
+                    "cf": "ad",
+                    "gw": "bush",
+                    "sense": "a thorn bush",
+                    "norm0": "ad",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ad₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P134618.21",
+                  "n": "9",
+                  "label": "r 9"
+                },
+                {
+                  "node": "l",
+                  "frag": "šim",
+                  "id": "P134618.l07b7b",
+                  "ref": "P134618.21.1",
+                  "inst": "šim[aromatic substance]N",
+                  "sig": "@dcclt%sux:šim=šim[aromatics//aromatic substance]N'N$šim/šim#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šim",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šim",
+                        "id": "P134618.21.1.0"
+                      }
+                    ],
+                    "cf": "šim",
+                    "gw": "aromatics",
+                    "sense": "aromatic substance",
+                    "norm0": "šim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šim",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gi",
+                  "id": "P134618.l07b7c",
+                  "ref": "P134618.21.2",
+                  "inst": "gi[cane]N",
+                  "sig": "@dcclt%sux:gi=gi[reed//cane]N'N$gi/gi#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gi",
+                    "gdl": [
+                      {
+                        "v": "gi",
+                        "id": "P134618.21.2.0"
+                      }
+                    ],
+                    "cf": "gi",
+                    "gw": "reed",
+                    "sense": "cane",
+                    "norm0": "gi",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "gi",
+                    "morph": "~"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

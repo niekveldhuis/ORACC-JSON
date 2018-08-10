@@ -1,0 +1,318 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:13:25",
+  "textid": "P423759",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P423759.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P423759.o.1",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P423759.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P423759.U2",
+              "label": "o 1 - o 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P423759.2",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}gag",
+                  "id": "P423759.l1ac1c",
+                  "ref": "P423759.2.1",
+                  "inst": "gag[peg]",
+                  "sig": "@dcclt%sux:{ŋeš}gag=gag[nail//peg, nail]N'N$gag/{ŋeš}gag#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}gag",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P423759.2.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "gag",
+                        "id": "P423759.2.1.1"
+                      }
+                    ],
+                    "cf": "gag",
+                    "gw": "nail",
+                    "sense": "peg, nail",
+                    "norm0": "gag",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}gag",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "sal-la",
+                  "id": "P423759.l1ac1d",
+                  "ref": "P423759.2.2",
+                  "inst": "sala[~plow]",
+                  "sig": "@dcclt%sux:sal-la=sala[~plow//~plow]N'N$sala/sal-la#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "sal-la",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "sal",
+                        "id": "P423759.2.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la",
+                        "id": "P423759.2.2.1"
+                      }
+                    ],
+                    "cf": "sala",
+                    "gw": "~plow",
+                    "sense": "~plow",
+                    "norm0": "sala",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "sal-la",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "apin",
+                  "id": "P423759.l1ac1e",
+                  "ref": "P423759.2.3",
+                  "inst": "apin[plow]",
+                  "sig": "@dcclt%sux:apin=apin[plow//(seed) plow]N'N$apin/apin#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "apin",
+                    "gdl": [
+                      {
+                        "v": "apin",
+                        "id": "P423759.2.3.0"
+                      }
+                    ],
+                    "cf": "apin",
+                    "gw": "plow",
+                    "sense": "(seed) plow",
+                    "norm0": "apin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "apin",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P423759.3",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}nig(SAL)",
+                  "id": "P423759.l1ac1f",
+                  "ref": "P423759.3.1",
+                  "inst": "nig[~plow]N",
+                  "sig": "@dcclt%sux:{ŋeš}nig=nig[~plow//~plow]N'N$nig/{ŋeš}nig#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}nig",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P423759.3.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "gg": "correction",
+                        "gdl_type": "correction",
+                        "group": [
+                          {
+                            "v": "nig",
+                            "id": "P423759.3.1.1",
+                            "gdl_remarked": "1"
+                          },
+                          {
+                            "s": "SAL"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "nig",
+                    "gw": "~plow",
+                    "sense": "~plow",
+                    "norm0": "nig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}nig",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "apin",
+                  "id": "P423759.l1ac20",
+                  "ref": "P423759.3.2",
+                  "inst": "apin[plow]",
+                  "sig": "@dcclt%sux:apin=apin[plow//(seed) plow]N'N$apin/apin#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "apin",
+                    "gdl": [
+                      {
+                        "v": "apin",
+                        "id": "P423759.3.2.0"
+                      }
+                    ],
+                    "cf": "apin",
+                    "gw": "plow",
+                    "sense": "(seed) plow",
+                    "norm0": "apin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "apin",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P423759.4",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}dub-la₂",
+                  "id": "P423759.l1ac21",
+                  "ref": "P423759.4.1",
+                  "inst": "dubla[tower]N",
+                  "sig": "@dcclt%sux:{ŋeš}dub-la₂=dubla[tower//tower]N'N$dubla/{ŋeš}dub-la₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}dub-la₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P423759.4.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "dub",
+                        "id": "P423759.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la₂",
+                        "id": "P423759.4.1.2"
+                      }
+                    ],
+                    "cf": "dubla",
+                    "gw": "tower",
+                    "sense": "tower",
+                    "norm0": "dubla",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}dub-la₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "apin",
+                  "id": "P423759.l1ac22",
+                  "ref": "P423759.4.2",
+                  "inst": "apin[plow]",
+                  "sig": "@dcclt%sux:apin=apin[plow//(seed) plow]N'N$apin/apin#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "apin",
+                    "gdl": [
+                      {
+                        "v": "apin",
+                        "id": "P423759.4.2.0"
+                      }
+                    ],
+                    "cf": "apin",
+                    "gw": "plow",
+                    "sense": "(seed) plow",
+                    "norm0": "apin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "apin",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P423759.r.5",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P423759.6",
+                  "strict": "0",
+                  "state": "illegible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2062 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:05:57",
+  "textid": "P228096",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P228096.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P228096.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P228096.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P228096.3",
+          "strict": "1",
+          "extent": "1",
+          "scope": "line",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P228096.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P228096.U2",
+              "label": "o i 2 - o i 16",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.4",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš}na-mu]-⸢ul⸣-lum",
+                  "id": "P228096.l3423e",
+                  "ref": "P228096.4.1",
+                  "inst": "namulum[wooden object]N/{ŋeš}na-mu-ul-lum#~",
+                  "sig": "@dcclt%sux:{ŋeš}na-mu-ul-lum=namulum[wooden object//wooden object]N'N$namulum/{ŋeš}na-mu-ul-lum#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}na-mu-ul-lum",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.4.1.0",
+                            "breakStart": "1",
+                            "o": "[",
+                            "break": "missing"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "na",
+                        "id": "P228096.4.1.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P228096.4.1.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.4.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ul",
+                        "id": "P228096.4.1.3",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "lum",
+                        "id": "P228096.4.1.4"
+                      }
+                    ],
+                    "cf": "namulum",
+                    "gw": "wooden object",
+                    "sense": "wooden object",
+                    "norm0": "namulum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}na-mu-ul-lum",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu-ud-du-[tum]",
+                  "id": "P228096.l3423f",
+                  "ref": "P228096.4.2",
+                  "inst": "luʾtu[(a wooden implement)]N$luduttum",
+                  "sig": "@dcclt%akk:lu-ud-du-tum=luʾtu[(a wooden implement)//(a wooden implement)]N'N$luduttum",
+                  "f": {
+                    "lang": "akk",
+                    "form": "lu-ud-du-tum",
+                    "gdl": [
+                      {
+                        "v": "lu",
+                        "id": "P228096.4.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ud",
+                        "id": "P228096.4.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "du",
+                        "id": "P228096.4.2.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tum",
+                        "id": "P228096.4.2.3",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P228096.4.2.3"
+                      }
+                    ],
+                    "cf": "luʾtu",
+                    "gw": "(a wooden implement)",
+                    "sense": "(a wooden implement)",
+                    "norm": "luduttum",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.5",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš}na-mu]-zum",
+                  "id": "P228096.l34240",
+                  "ref": "P228096.5.1",
+                  "inst": "namuzum[a tool]N/{ŋeš}na-mu-zum#~",
+                  "sig": "@dcclt%sux:{ŋeš}na-mu-zum=namuzum[a tool//a tool]N'N$namuzum/{ŋeš}na-mu-zum#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}na-mu-zum",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.5.1.0",
+                            "breakStart": "1",
+                            "o": "[",
+                            "break": "missing"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "na",
+                        "id": "P228096.5.1.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P228096.5.1.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.5.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "zum",
+                        "id": "P228096.5.1.3"
+                      }
+                    ],
+                    "cf": "namuzum",
+                    "gw": "a tool",
+                    "sense": "a tool",
+                    "norm0": "namuzum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}na-mu-zum",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P228096.5.2",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P228096.l34241",
+                  "ref": "P228096.5.3",
+                  "inst": "namūṣu[(a tool)]N$namūṣu",
+                  "sig": "@dcclt%akk-949:*=namūṣu[(a tool)//(a tool)]N'N$namūṣu",
+                  "f": {
+                    "lang": "akk-949",
+                    "form": "*",
+                    "cf": "namūṣu",
+                    "gw": "(a tool)",
+                    "sense": "(a tool)",
+                    "norm": "namūṣu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.6",
+                  "n": "4",
+                  "label": "o i 4"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš}šu]-me-gi",
+                  "id": "P228096.l34242",
+                  "ref": "P228096.6.1",
+                  "inst": "sumungi[tool]",
+                  "sig": "@dcclt%sux:{ŋeš}šu-me-gi=sumungi[tool//tool]N'N$sumungi/{ŋeš}šu-me-gi#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}šu-me-gi",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.6.1.0",
+                            "breakStart": "1",
+                            "o": "[",
+                            "break": "missing"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "šu",
+                        "id": "P228096.6.1.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.6.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "me",
+                        "id": "P228096.6.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gi",
+                        "id": "P228096.6.1.3"
+                      }
+                    ],
+                    "cf": "sumungi",
+                    "gw": "tool",
+                    "sense": "tool",
+                    "norm0": "sumungi",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}šu-me-gi",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "mi-ih-su-⸢u⸣",
+                  "id": "P228096.l34243",
+                  "ref": "P228096.6.2",
+                  "inst": "mehsû[(a metal cup with a lid)?//a wooden tool]N'N$mihsû",
+                  "sig": "@dcclt%akk:mi-ih-su-u=mehsû[(a metal cup with a lid)?//a wooden tool]N'N$mihsû",
+                  "f": {
+                    "lang": "akk",
+                    "form": "mi-ih-su-u",
+                    "gdl": [
+                      {
+                        "v": "mi",
+                        "id": "P228096.6.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ih",
+                        "id": "P228096.6.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "su",
+                        "id": "P228096.6.2.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "P228096.6.2.3",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "mehsû",
+                    "gw": "(a metal cup with a lid)?",
+                    "sense": "a wooden tool",
+                    "norm": "mihsû",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.7",
+                  "n": "5",
+                  "label": "o i 5"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš]}⸢ša₃⸣-mu-un-gin₇",
+                  "id": "P228096.l34244",
+                  "ref": "P228096.7.1",
+                  "inst": "sumungi[tool]N/{ŋeš}ša₃-mu-un-gin₇#~",
+                  "sig": "@dcclt%sux:{ŋeš}ša₃-mu-un-gin₇=sumungi[tool//tool]N'N$sumungi/{ŋeš}ša₃-mu-un-gin₇#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}ša₃-mu-un-gin₇",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.7.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P228096.7.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ša₃",
+                        "id": "P228096.7.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P228096.7.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "un",
+                        "id": "P228096.7.1.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₇",
+                        "id": "P228096.7.1.4"
+                      }
+                    ],
+                    "cf": "sumungi",
+                    "gw": "tool",
+                    "sense": "tool",
+                    "norm0": "sumungi",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}ša₃-mu-un-gin₇",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "um-mu-[um]",
+                  "id": "P228096.l34245",
+                  "ref": "P228096.7.2",
+                  "inst": "mummu[(a scraper)?]N$ummum",
+                  "sig": "@dcclt%akk:um-mu-um=mummu[(a scraper)?//(a scraper)?]N'N$ummum",
+                  "f": {
+                    "lang": "akk",
+                    "form": "um-mu-um",
+                    "gdl": [
+                      {
+                        "v": "um",
+                        "id": "P228096.7.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P228096.7.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "um",
+                        "id": "P228096.7.2.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P228096.7.2.2"
+                      }
+                    ],
+                    "cf": "mummu",
+                    "gw": "(a scraper)?",
+                    "sense": "(a scraper)?",
+                    "norm": "ummum",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.8",
+                  "n": "6",
+                  "label": "o i 6"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš]}igi-ŋal₂",
+                  "id": "P228096.l34246",
+                  "ref": "P228096.8.1",
+                  "inst": "igiŋal[sign, signal]N",
+                  "sig": "@dcclt%sux:{ŋeš}igi-ŋal₂=igiŋal[sign//sign, signal]N'N$igiŋal/{ŋeš}igi-ŋal₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}igi-ŋal₂",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.8.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P228096.8.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "igi",
+                        "id": "P228096.8.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋal₂",
+                        "id": "P228096.8.1.2"
+                      }
+                    ],
+                    "cf": "igiŋal",
+                    "gw": "sign",
+                    "sense": "sign, signal",
+                    "norm0": "igiŋal",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}igi-ŋal₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "am-ma-[tum]",
+                  "id": "P228096.l34247",
+                  "ref": "P228096.8.2",
+                  "inst": "ammatu[forearm]N$ammatum",
+                  "sig": "@dcclt%akk:am-ma-tum=ammatu[forearm//forearm]N'N$ammatum",
+                  "f": {
+                    "lang": "akk",
+                    "form": "am-ma-tum",
+                    "gdl": [
+                      {
+                        "v": "am",
+                        "id": "P228096.8.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P228096.8.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tum",
+                        "id": "P228096.8.2.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P228096.8.2.2"
+                      }
+                    ],
+                    "cf": "ammatu",
+                    "gw": "forearm",
+                    "sense": "forearm",
+                    "norm": "ammatum",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.9",
+                  "n": "7",
+                  "label": "o i 7"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš]}kirid",
+                  "id": "P228096.l34248",
+                  "ref": "P228096.9.1",
+                  "inst": "kirid[hair clasp]N",
+                  "sig": "@dcclt%sux:{ŋeš}kirid=kirid[clasp//hair clasp]N'N$kirid/{ŋeš}kirid#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}kirid",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.9.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P228096.9.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "kirid",
+                        "id": "P228096.9.1.1"
+                      }
+                    ],
+                    "cf": "kirid",
+                    "gw": "clasp",
+                    "sense": "hair clasp",
+                    "norm0": "kirid",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}kirid",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "ki-ri-is-[su]",
+                  "id": "P228096.l34249",
+                  "ref": "P228096.9.2",
+                  "inst": "kirissu[hairpin]N$",
+                  "sig": "@dcclt%akk:ki-ri-is-su=kirissu[hairpin//hairpin]N'N$kirissu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "ki-ri-is-su",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P228096.9.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ri",
+                        "id": "P228096.9.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "is",
+                        "id": "P228096.9.2.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "su",
+                        "id": "P228096.9.2.3",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P228096.9.2.3"
+                      }
+                    ],
+                    "cf": "kirissu",
+                    "gw": "hairpin",
+                    "sense": "hairpin",
+                    "norm": "kirissu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.10",
+                  "n": "8",
+                  "label": "o i 8"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš]}UMBIN",
+                  "id": "P228096.l3424a",
+                  "ref": "P228096.10.1",
+                  "inst": "nisiki[comb]N",
+                  "sig": "@dcclt%sux:{ŋeš}UMBIN=nisiki[comb//comb]N'N$nisiki/{ŋeš}UMBIN#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}UMBIN",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.10.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P228096.10.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "s": "UMBIN",
+                        "id": "P228096.10.1.1"
+                      }
+                    ],
+                    "cf": "nisiki",
+                    "gw": "comb",
+                    "sense": "comb",
+                    "norm0": "nisiki",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}UMBIN",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P228096.10.2",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P228096.l3424b",
+                  "ref": "P228096.10.3",
+                  "inst": "kirissu[hairpin]N$",
+                  "sig": "@dcclt%akk:ki-ri-is-su=kirissu[hairpin//hairpin]N'N$kirissu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "ki-ri-is-su",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P228096.10.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ri",
+                        "id": "P228096.10.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "is",
+                        "id": "P228096.10.3.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "su",
+                        "id": "P228096.10.3.3"
+                      }
+                    ],
+                    "cf": "kirissu",
+                    "gw": "hairpin",
+                    "sense": "hairpin",
+                    "norm": "kirissu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.11",
+                  "n": "9",
+                  "label": "o i 9"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš]}UMBIN",
+                  "id": "P228096.l3424c",
+                  "ref": "P228096.11.1",
+                  "inst": "nisiki[comb]N",
+                  "sig": "@dcclt%sux:{ŋeš}UMBIN=nisiki[comb//comb]N'N$nisiki/{ŋeš}UMBIN#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}UMBIN",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.11.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P228096.11.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "s": "UMBIN",
+                        "id": "P228096.11.1.1"
+                      }
+                    ],
+                    "cf": "nisiki",
+                    "gw": "comb",
+                    "sense": "comb",
+                    "norm0": "nisiki",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}UMBIN",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P228096.l3424d",
+                  "ref": "P228096.11.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228096.11.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.11.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.12",
+                  "n": "10",
+                  "label": "o i 10"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš]}a₂-⸢šita₄⸣",
+                  "id": "P228096.l3424e",
+                  "ref": "P228096.12.1",
+                  "inst": "ašita[equipment]N",
+                  "sig": "@dcclt%sux:{ŋeš}a₂-šita₄=ašita[equipment//equipment]N'N$ašita/{ŋeš}a₂-šita₄#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}a₂-šita₄",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.12.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P228096.12.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "a₂",
+                        "id": "P228096.12.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "šita₄",
+                        "id": "P228096.12.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "ašita",
+                    "gw": "equipment",
+                    "sense": "equipment",
+                    "norm0": "ašita",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}a₂-šita₄",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P228096.l3424f",
+                  "ref": "P228096.12.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228096.12.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.12.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.13",
+                  "n": "11",
+                  "label": "o i 11"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš]}⸢ga-rig₂⸣",
+                  "id": "P228096.l34250",
+                  "ref": "P228096.13.1",
+                  "inst": "garig[comb]N",
+                  "sig": "@dcclt%sux:{ŋeš}ga-rig₂=garig[comb//comb]N'N$garig/{ŋeš}ga-rig₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}ga-rig₂",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.13.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P228096.13.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P228096.13.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "rig₂",
+                        "id": "P228096.13.1.2",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "garig",
+                    "gw": "comb",
+                    "sense": "comb",
+                    "norm0": "garig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}ga-rig₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P228096.l34251",
+                  "ref": "P228096.13.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228096.13.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.13.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.14",
+                  "n": "12",
+                  "label": "o i 12"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš]}⸢ga⸣-rig₂",
+                  "id": "P228096.l34252",
+                  "ref": "P228096.14.1",
+                  "inst": "garig[comb]N",
+                  "sig": "@dcclt%sux:{ŋeš}ga-rig₂=garig[comb//comb]N'N$garig/{ŋeš}ga-rig₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}ga-rig₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.14.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P228096.14.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P228096.14.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "rig₂",
+                        "id": "P228096.14.1.2"
+                      }
+                    ],
+                    "cf": "garig",
+                    "gw": "comb",
+                    "sense": "comb",
+                    "norm0": "garig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}ga-rig₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[siki]",
+                  "id": "P228096.l34253",
+                  "ref": "P228096.14.2",
+                  "inst": "siki[hair]N",
+                  "sig": "@dcclt%sux:siki=siki[hair//hair]N'N$siki/siki#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "siki",
+                    "gdl": [
+                      {
+                        "v": "siki",
+                        "id": "P228096.14.2.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P228096.14.2.0"
+                      }
+                    ],
+                    "cf": "siki",
+                    "gw": "hair",
+                    "sense": "hair",
+                    "norm0": "siki",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "siki",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P228096.l34254",
+                  "ref": "P228096.14.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228096.14.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.14.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.15",
+                  "n": "13",
+                  "label": "o i 13"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš]}⸢ga⸣-rig₂",
+                  "id": "P228096.l34255",
+                  "ref": "P228096.15.1",
+                  "inst": "garig[comb]N",
+                  "sig": "@dcclt%sux:{ŋeš}ga-rig₂=garig[comb//comb]N'N$garig/{ŋeš}ga-rig₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}ga-rig₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.15.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P228096.15.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P228096.15.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "rig₂",
+                        "id": "P228096.15.1.2"
+                      }
+                    ],
+                    "cf": "garig",
+                    "gw": "comb",
+                    "sense": "comb",
+                    "norm0": "garig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}ga-rig₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "saŋ-[du]",
+                  "id": "P228096.l34256",
+                  "ref": "P228096.15.2",
+                  "inst": "saŋdu[head]N",
+                  "sig": "@dcclt%sux:saŋ-du=saŋdu[head//head]N'N$saŋdu/saŋ-du#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "saŋ-du",
+                    "gdl": [
+                      {
+                        "v": "saŋ",
+                        "id": "P228096.15.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "du",
+                        "id": "P228096.15.2.1",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P228096.15.2.1"
+                      }
+                    ],
+                    "cf": "saŋdu",
+                    "gw": "head",
+                    "sense": "head",
+                    "norm0": "saŋdu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "saŋ-du",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P228096.l34257",
+                  "ref": "P228096.15.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228096.15.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.15.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.16",
+                  "n": "14",
+                  "label": "o i 14"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš]}⸢ga⸣-rig₂",
+                  "id": "P228096.l34258",
+                  "ref": "P228096.16.1",
+                  "inst": "garig[comb]N",
+                  "sig": "@dcclt%sux:{ŋeš}ga-rig₂=garig[comb//comb]N'N$garig/{ŋeš}ga-rig₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}ga-rig₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.16.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P228096.16.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P228096.16.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "rig₂",
+                        "id": "P228096.16.1.2"
+                      }
+                    ],
+                    "cf": "garig",
+                    "gw": "comb",
+                    "sense": "comb",
+                    "norm0": "garig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}ga-rig₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "pa-[mušen]",
+                  "id": "P228096.l34259",
+                  "ref": "P228096.16.2",
+                  "inst": "pamušenak[feather]N",
+                  "sig": "@dcclt%sux:pa-mušen=pamušenak[wing//feather]N'N$pamušenak/pa-mušen#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "pa-mušen",
+                    "gdl": [
+                      {
+                        "v": "pa",
+                        "id": "P228096.16.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mušen",
+                        "id": "P228096.16.2.1",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P228096.16.2.1"
+                      }
+                    ],
+                    "cf": "pamušenak",
+                    "gw": "wing",
+                    "sense": "feather",
+                    "norm0": "pamušenak",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "pa-mušen",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P228096.l3425a",
+                  "ref": "P228096.16.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228096.16.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.16.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.17",
+                  "n": "15",
+                  "label": "o i 15"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš}ga]-rig₂",
+                  "id": "P228096.l3425b",
+                  "ref": "P228096.17.1",
+                  "inst": "garig[comb]N",
+                  "sig": "@dcclt%sux:{ŋeš}ga-rig₂=garig[comb//comb]N'N$garig/{ŋeš}ga-rig₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}ga-rig₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.17.1.0",
+                            "breakStart": "1",
+                            "o": "[",
+                            "break": "missing"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P228096.17.1.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.17.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "rig₂",
+                        "id": "P228096.17.1.2"
+                      }
+                    ],
+                    "cf": "garig",
+                    "gw": "comb",
+                    "sense": "comb",
+                    "norm0": "garig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}ga-rig₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šu-[i]",
+                  "id": "P228096.l3425c",
+                  "ref": "P228096.17.2",
+                  "inst": "šuʾi[barber]N",
+                  "sig": "@dcclt%sux:šu-i=šuʾi[barber//barber]N'N$šuʾi/šu-i#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu-i",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P228096.17.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i",
+                        "id": "P228096.17.2.1",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P228096.17.2.1"
+                      }
+                    ],
+                    "cf": "šuʾi",
+                    "gw": "barber",
+                    "sense": "barber",
+                    "norm0": "šuʾi",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šu-i",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P228096.l3425d",
+                  "ref": "P228096.17.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228096.17.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.17.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228096.18",
+                  "n": "16",
+                  "label": "o i 16"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[ŋeš}ga]-rig₂",
+                  "id": "P228096.l3425e",
+                  "ref": "P228096.18.1",
+                  "inst": "garig[comb]N",
+                  "sig": "@dcclt%sux:{ŋeš}ga-rig₂=garig[comb//comb]N'N$garig/{ŋeš}ga-rig₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}ga-rig₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P228096.18.1.0",
+                            "breakStart": "1",
+                            "o": "[",
+                            "break": "missing"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P228096.18.1.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.18.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "rig₂",
+                        "id": "P228096.18.1.2"
+                      }
+                    ],
+                    "cf": "garig",
+                    "gw": "comb",
+                    "sense": "comb",
+                    "norm0": "garig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}ga-rig₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢munus-e-ne⸣",
+                  "id": "P228096.l3425f",
+                  "ref": "P228096.18.2",
+                  "inst": "munus[female]N",
+                  "sig": "@dcclt%sux:munus-e-ne=munus[woman//female]N'N$munus,ene/munus#~,ene",
+                  "f": {
+                    "lang": "sux",
+                    "form": "munus-e-ne",
+                    "gdl": [
+                      {
+                        "v": "munus",
+                        "id": "P228096.18.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "e",
+                        "id": "P228096.18.2.1",
+                        "break": "damaged",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ne",
+                        "id": "P228096.18.2.2",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "munus",
+                    "gw": "woman",
+                    "sense": "female",
+                    "norm0": "munus,ene",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "munus",
+                    "morph": "~,ene"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P228096.l34260",
+                  "ref": "P228096.18.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228096.18.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228096.18.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:05:07",
+  "textid": "P225133",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P225133.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P225133.x2271.1",
+          "label": "x2271"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P225133.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P225133.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P225133.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P225133.U2",
+              "label": "o i 1 - o i 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225133.4",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "AN",
+                  "id": "P225133.l53937",
+                  "ref": "P225133.4.1",
+                  "inst": "%sux:AN=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "AN",
+                    "gdl": [
+                      {
+                        "s": "AN",
+                        "id": "P225133.4.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225133.5",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢an-na⸣",
+                  "id": "P225133.l53938",
+                  "ref": "P225133.5.1",
+                  "inst": "%sux:an-na=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "an-na",
+                    "gdl": [
+                      {
+                        "v": "an",
+                        "id": "P225133.5.1.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P225133.5.1.1",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225133.6",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "[diŋir]-⸢ra⸣",
+                  "id": "P225133.l53939",
+                  "ref": "P225133.6.1",
+                  "inst": "%sux:diŋir-ra=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "diŋir-ra",
+                    "gdl": [
+                      {
+                        "v": "diŋir",
+                        "id": "P225133.6.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "queried": "1",
+                        "break": "missing",
+                        "breakEnd": "P225133.6.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P225133.6.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

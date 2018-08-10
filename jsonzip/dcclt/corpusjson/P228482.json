@@ -1,0 +1,490 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:06:14",
+  "textid": "P228482",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P228482.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P228482.o.1",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P228482.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P228482.U2",
+              "label": "o 1' - o 8'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228482.2",
+                  "n": "1'",
+                  "label": "o 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]{sar}",
+                  "id": "P228482.l24093",
+                  "ref": "P228482.2.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x{sar}",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228482.2.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228482.2.1.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "sar",
+                            "id": "P228482.2.1.1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228482.3",
+                  "n": "2'",
+                  "label": "o 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]-x{sar}",
+                  "id": "P228482.l24094",
+                  "ref": "P228482.3.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x-x{sar}",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228482.3.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228482.3.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P228482.3.1.1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "sar",
+                            "id": "P228482.3.1.2"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228482.4",
+                  "n": "3'",
+                  "label": "o 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P228482.l24095",
+                  "ref": "P228482.4.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228482.4.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228482.4.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢dun₃⸣-la₂{sar}",
+                  "id": "P228482.l24096",
+                  "ref": "P228482.4.2",
+                  "inst": "dula[depth]",
+                  "sig": "@dcclt%sux:dun₃-la₂{sar}=dula[depth//depth]N'N$dula/dun₃-la₂{sar}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dun₃-la₂{sar}",
+                    "gdl": [
+                      {
+                        "v": "dun₃",
+                        "id": "P228482.4.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "la₂",
+                        "id": "P228482.4.2.1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "sar",
+                            "id": "P228482.4.2.2"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "dula",
+                    "gw": "depth",
+                    "sense": "depth",
+                    "norm0": "dula",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "dun₃-la₂{sar}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228482.5",
+                  "n": "4'",
+                  "label": "o 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]{sar}",
+                  "id": "P228482.l24097",
+                  "ref": "P228482.5.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x{sar}",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228482.5.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228482.5.1.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "sar",
+                            "id": "P228482.5.1.1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228482.6",
+                  "n": "5'",
+                  "label": "o 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]{sar}",
+                  "id": "P228482.l24098",
+                  "ref": "P228482.6.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x{sar}",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228482.6.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228482.6.1.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "sar",
+                            "id": "P228482.6.1.1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228482.7",
+                  "n": "6'",
+                  "label": "o 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]-x{sar}",
+                  "id": "P228482.l24099",
+                  "ref": "P228482.7.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x-x{sar}",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228482.7.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228482.7.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P228482.7.1.1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "sar",
+                            "id": "P228482.7.1.2"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228482.8",
+                  "n": "7'",
+                  "label": "o 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[nu]-⸢luh⸣-ha{sar}",
+                  "id": "P228482.l2409a",
+                  "ref": "P228482.8.1",
+                  "inst": "nuluha[asafoetida]",
+                  "sig": "@dcclt%sux:nu-luh-ha{sar}=nuluha[asafoetida//asafoetida]N'N$nuluha/nu-luh-ha{sar}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nu-luh-ha{sar}",
+                    "gdl": [
+                      {
+                        "v": "nu",
+                        "id": "P228482.8.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P228482.8.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "luh",
+                        "id": "P228482.8.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ha",
+                        "id": "P228482.8.1.2"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "sar",
+                            "id": "P228482.8.1.3"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "nuluha",
+                    "gw": "asafoetida",
+                    "sense": "asafoetida",
+                    "norm0": "nuluha",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "nu-luh-ha{sar}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228482.9",
+                  "n": "8'",
+                  "label": "o 8'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[ŋeš",
+                  "id": "P228482.l2409b",
+                  "ref": "P228482.9.1",
+                  "inst": "ŋeš[tree]",
+                  "sig": "@dcclt%sux:ŋeš=ŋeš[tree//tree]N'N$ŋeš/ŋeš#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš",
+                        "id": "P228482.9.1.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing"
+                      }
+                    ],
+                    "cf": "ŋeš",
+                    "gw": "tree",
+                    "sense": "tree",
+                    "norm0": "ŋeš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ŋeš",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "nu-luh]-⸢ha⸣{sar}",
+                  "id": "P228482.l2409c",
+                  "ref": "P228482.9.2",
+                  "inst": "nuluha[asafoetida]",
+                  "sig": "@dcclt%sux:nu-luh-ha{sar}=nuluha[asafoetida//asafoetida]N'N$nuluha/nu-luh-ha{sar}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nu-luh-ha{sar}",
+                    "gdl": [
+                      {
+                        "v": "nu",
+                        "id": "P228482.9.2.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "luh",
+                        "id": "P228482.9.2.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228482.9.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ha",
+                        "id": "P228482.9.2.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "sar",
+                            "id": "P228482.9.2.3"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "nuluha",
+                    "gw": "asafoetida",
+                    "sense": "asafoetida",
+                    "norm0": "nuluha",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "nu-luh-ha{sar}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P228482.r.10",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P228482.11",
+                  "strict": "0",
+                  "state": "other"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

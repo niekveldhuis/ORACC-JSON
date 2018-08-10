@@ -1,0 +1,232 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:05:10",
+  "textid": "P225913",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P225913.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P225913.x79.1",
+          "label": "x79"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P225913.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P225913.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P225913.4",
+          "strict": "1",
+          "extent": "1",
+          "scope": "line",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P225913.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P225913.U2",
+              "label": "o i 1' - o i 4'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225913.5",
+                  "n": "1'",
+                  "label": "o i 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P225913.l07126",
+                  "ref": "P225913.5.1",
+                  "inst": "%sux:x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P225913.5.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P225913.5.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225913.6",
+                  "n": "2'",
+                  "label": "o i 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢mud₃⸣",
+                  "id": "P225913.l07127",
+                  "ref": "P225913.6.1",
+                  "inst": "%sux:mud₃=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "mud₃",
+                    "gdl": [
+                      {
+                        "v": "mud₃",
+                        "id": "P225913.6.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225913.7",
+                  "n": "3'",
+                  "label": "o i 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ŠU₂-|NUNUZ.AB₂×BI|",
+                  "id": "P225913.l07128",
+                  "ref": "P225913.7.1",
+                  "inst": "%sux:ŠU₂-|NUNUZ.AB₂×BI|=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŠU₂-|NUNUZ.AB₂×BI|",
+                    "gdl": [
+                      {
+                        "s": "ŠU₂",
+                        "id": "P225913.7.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "c": "|NUNUZ.AB₂×BI|",
+                        "id": "P225913.7.1.1",
+                        "seq": [
+                          {
+                            "s": "NUNUZ"
+                          },
+                          {
+                            "o": "beside"
+                          },
+                          {
+                            "s": "AB₂"
+                          },
+                          {
+                            "o": "containing"
+                          },
+                          {
+                            "s": "BI"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225913.8",
+                  "n": "4'",
+                  "label": "o i 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "takaₓ(LAK492)⸢x⸣",
+                  "id": "P225913.l07129",
+                  "ref": "P225913.8.1",
+                  "inst": "%sux:takaₓ(LAK492)-x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "takaₓ(LAK492)-x",
+                    "gdl": [
+                      {
+                        "q": "takaₓ(LAK492)",
+                        "id": "P225913.8.1.0",
+                        "delim": "-",
+                        "qualified": [
+                          {
+                            "v": "takaₓ"
+                          },
+                          {
+                            "s": "LAK492"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "x",
+                        "id": "P225913.8.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P225913.9",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P225913.10",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "obverse",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P225913.r.11",
+                  "label": "r"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

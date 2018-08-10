@@ -1,0 +1,1117 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:11:30",
+  "textid": "P346420",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P346420.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P346420.x188.1",
+          "label": "x188"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P346420.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P346420.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P346420.4",
+          "strict": "1",
+          "extent": "1",
+          "scope": "line",
+          "state": "traces"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P346420.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P346420.U2",
+              "label": "o i 2' - o i 13'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.5",
+                  "n": "2'",
+                  "label": "o i 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢en⸣-te-[en]",
+                  "id": "P346420.l0aadd",
+                  "ref": "P346420.5.1",
+                  "inst": "enten[winter]",
+                  "sig": "@dcclt%sux:en-te-en=enten[winter//winter]N'N$enten/en-te-en#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "en-te-en",
+                    "gdl": [
+                      {
+                        "v": "en",
+                        "id": "P346420.5.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "te",
+                        "id": "P346420.5.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "en",
+                        "id": "P346420.5.1.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P346420.5.1.2"
+                      }
+                    ],
+                    "cf": "enten",
+                    "gw": "winter",
+                    "sense": "winter",
+                    "norm0": "enten",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "en-te-en",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.6",
+                  "n": "3'",
+                  "label": "o i 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ud  {{",
+                  "id": "P346420.l0aade",
+                  "ref": "P346420.6.1",
+                  "inst": "ud[storm]",
+                  "sig": "@dcclt%sux:ud=ud[storm//storm]N'N$ud/ud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P346420.6.1.0"
+                      }
+                    ],
+                    "cf": "ud",
+                    "gw": "storm",
+                    "sense": "storm",
+                    "norm0": "ud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "um-⸢me⸣-du-u₂ }}",
+                  "id": "P346420.l0aadf",
+                  "ref": "P346420.6.2",
+                  "inst": "L",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "um-me-du-u₂",
+                    "gdl": [
+                      {
+                        "v": "um",
+                        "id": "P346420.6.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "me",
+                        "id": "P346420.6.2.1",
+                        "break": "damaged",
+                        "gdl_remarked": "1",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "du",
+                        "id": "P346420.6.2.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u₂",
+                        "id": "P346420.6.2.3"
+                      }
+                    ],
+                    "pos": "L"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.7",
+                  "n": "4'",
+                  "label": "o i 4'"
+                },
+                {
+                  "node": "ll",
+                  "id": "P346420.l0aae0",
+                  "choices": [
+                    {
+                      "node": "l",
+                      "frag": "ud",
+                      "ref": "P346420.7.1",
+                      "inst": "%sux:ud=ud[storm]",
+                      "sig": "@dcclt%sux:ud=ud[storm//storm]N'N$ud/ud#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "ud",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "ud",
+                            "id": "P346420.7.1.0"
+                          }
+                        ],
+                        "cf": "ud",
+                        "gw": "storm",
+                        "sense": "storm",
+                        "norm0": "ud",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "ud",
+                        "morph": "~"
+                      }
+                    },
+                    {
+                      "node": "l",
+                      "frag": "ud",
+                      "ref": "P346420.7.1",
+                      "inst": "%sux:ud=ud[sun]",
+                      "sig": "@dcclt%sux:ud=ud[sun//sun]N'N$ud/ud#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "ud",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "ud",
+                            "id": "P346420.7.1.0"
+                          }
+                        ],
+                        "cf": "ud",
+                        "gw": "storm",
+                        "sense": "storm",
+                        "norm0": "ud",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "ud",
+                        "morph": "~"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "node": "l",
+                  "frag": "a-[ak]  {{",
+                  "id": "P346420.l0aae1",
+                  "ref": "P346420.7.2",
+                  "inst": "ak[do]",
+                  "sig": "@dcclt%sux:a-ak=ak[do//do]V/t'V/t$V:ak/ak#V:~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "a-ak",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "P346420.7.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ak",
+                        "id": "P346420.7.2.1",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P346420.7.2.1"
+                      }
+                    ],
+                    "cf": "ak",
+                    "gw": "do",
+                    "sense": "do",
+                    "norm0": "V:ak",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "ak",
+                    "morph": "V:~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "bi-ir-[x]",
+                  "id": "P346420.l0aae2",
+                  "ref": "P346420.7.3",
+                  "inst": "L",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "bi-ir-x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "bi",
+                        "id": "P346420.7.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ir",
+                        "id": "P346420.7.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P346420.7.3.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P346420.7.3.2"
+                      }
+                    ],
+                    "pos": "L"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢x-x-x⸣ }}",
+                  "id": "P346420.l0aae3",
+                  "ref": "P346420.7.4",
+                  "inst": "X",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "x-x-x",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P346420.7.4.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P346420.7.4.1",
+                        "break": "damaged",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P346420.7.4.2",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.8",
+                  "n": "5'",
+                  "label": "o i 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ud",
+                  "id": "P346420.l0aae4",
+                  "ref": "P346420.8.1",
+                  "inst": "ud[sun]",
+                  "sig": "@dcclt%sux:ud=ud[sun//sun]N'N$ud/ud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P346420.8.1.0"
+                      }
+                    ],
+                    "cf": "ud",
+                    "gw": "sun",
+                    "sense": "sun",
+                    "norm0": "ud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "a-[ak]  {{",
+                  "id": "P346420.l0aae5",
+                  "ref": "P346420.8.2",
+                  "inst": "ak[do]",
+                  "sig": "@dcclt%sux:a-ak=ak[do//do]V/t'V/t$V:ak/ak#V:~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "a-ak",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "P346420.8.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ak",
+                        "id": "P346420.8.2.1",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P346420.8.2.1"
+                      }
+                    ],
+                    "cf": "ak",
+                    "gw": "do",
+                    "sense": "do",
+                    "norm0": "V:ak",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "ak",
+                    "morph": "V:~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "u₄-mu-um",
+                  "id": "P346420.l0aae6",
+                  "ref": "P346420.8.3",
+                  "inst": "L",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "u₄-mu-um",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u₄",
+                        "id": "P346420.8.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P346420.8.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "um",
+                        "id": "P346420.8.3.2"
+                      }
+                    ],
+                    "pos": "L"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢x⸣-uš-[...] }}",
+                  "id": "P346420.l0aae7",
+                  "ref": "P346420.8.4",
+                  "inst": "X",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "x-uš-x",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P346420.8.4.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "uš",
+                        "id": "P346420.8.4.1",
+                        "delim": "-"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P346420.8.4.2",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P346420.8.4.2"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.9",
+                  "n": "6'",
+                  "label": "o i 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ud",
+                  "id": "P346420.l0aae8",
+                  "ref": "P346420.9.1",
+                  "inst": "ud[sun]",
+                  "sig": "@dcclt%sux:ud=ud[sun//sun]N'N$ud/ud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P346420.9.1.0"
+                      }
+                    ],
+                    "cf": "ud",
+                    "gw": "sun",
+                    "sense": "sun",
+                    "norm0": "ud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "am-ra-[ah]  {{",
+                  "id": "P346420.l0aae9",
+                  "ref": "P346420.9.2",
+                  "inst": "marah[unmng]",
+                  "sig": "@dcclt%sux:am-ra-ah=marah[unmng//unmng]N'N$marah/am-ra-ah#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "am-ra-ah",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "am",
+                        "id": "P346420.9.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P346420.9.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ah",
+                        "id": "P346420.9.2.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P346420.9.2.2"
+                      }
+                    ],
+                    "cf": "marah",
+                    "gw": "unmng",
+                    "sense": "unmng",
+                    "norm0": "marah",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "am-ra-ah",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "u₄-mu-um",
+                  "id": "P346420.l0aaea",
+                  "ref": "P346420.9.3",
+                  "inst": "L",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "u₄-mu-um",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u₄",
+                        "id": "P346420.9.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P346420.9.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "um",
+                        "id": "P346420.9.3.2"
+                      }
+                    ],
+                    "pos": "L"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "har-du-[um] }}",
+                  "id": "P346420.l0aaeb",
+                  "ref": "P346420.9.4",
+                  "inst": "L",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "har-du-um",
+                    "gdl": [
+                      {
+                        "v": "har",
+                        "id": "P346420.9.4.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "du",
+                        "id": "P346420.9.4.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "um",
+                        "id": "P346420.9.4.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P346420.9.4.2"
+                      }
+                    ],
+                    "pos": "L"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.10",
+                  "n": "7'",
+                  "label": "o i 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ud-ma",
+                  "id": "P346420.l0aaec",
+                  "ref": "P346420.10.1",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud-ma",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P346420.10.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P346420.10.1.1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.11",
+                  "n": "8'",
+                  "label": "o i 8'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ud-ma",
+                  "id": "P346420.l0aaed",
+                  "ref": "P346420.11.1",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud-ma",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P346420.11.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P346420.11.1.1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋar-ra  {{",
+                  "id": "P346420.l0aaee",
+                  "ref": "P346420.11.2",
+                  "inst": "ŋar[place\\t]",
+                  "sig": "@dcclt%sux:ŋar-ra=ŋar[place//place]V/t'V/t$ŋar;a/ŋar+-ra=r.a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋar-ra",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋar",
+                        "id": "P346420.11.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P346420.11.2.1"
+                      }
+                    ],
+                    "cf": "ŋar",
+                    "gw": "place",
+                    "sense": "place",
+                    "norm0": "ŋar;a",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "ŋar",
+                    "cont": "-ra=r.a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢x",
+                  "id": "P346420.l0aaef",
+                  "ref": "P346420.11.3",
+                  "inst": "X",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P346420.11.3.0",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "x⸣",
+                  "id": "P346420.l0aaf0",
+                  "ref": "P346420.11.4",
+                  "inst": "X",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P346420.11.4.0",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...] }}",
+                  "id": "P346420.l0aaf1",
+                  "ref": "P346420.11.5",
+                  "inst": "U",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P346420.11.5.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P346420.11.5.0"
+                      }
+                    ],
+                    "pos": "U"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.12",
+                  "n": "9'",
+                  "label": "o i 9'"
+                },
+                {
+                  "node": "l",
+                  "frag": "kur  {{",
+                  "id": "P346420.l0aaf2",
+                  "ref": "P346420.12.1",
+                  "inst": "kur[underworld]",
+                  "sig": "@dcclt%sux:kur=kur[mountain//underworld]N'N$kur/kur#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kur",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "kur",
+                        "id": "P346420.12.1.0"
+                      }
+                    ],
+                    "cf": "kur",
+                    "gw": "mountain",
+                    "sense": "underworld",
+                    "norm0": "kur",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kur",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "er-[ṣe-tum] }}",
+                  "id": "P346420.l0aaf3",
+                  "ref": "P346420.12.2",
+                  "inst": "L",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "er-ṣe-tum",
+                    "gdl": [
+                      {
+                        "v": "er",
+                        "id": "P346420.12.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ṣe",
+                        "id": "P346420.12.2.1",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tum",
+                        "id": "P346420.12.2.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P346420.12.2.1"
+                      }
+                    ],
+                    "pos": "L"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.13",
+                  "n": "10'",
+                  "label": "o i 10'"
+                },
+                {
+                  "node": "l",
+                  "frag": "kur  {{",
+                  "id": "P346420.l0aaf4",
+                  "ref": "P346420.13.1",
+                  "inst": "kur[mountain]",
+                  "sig": "@dcclt%sux:kur=kur[mountain//mountain]N'N$kur/kur#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kur",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "kur",
+                        "id": "P346420.13.1.0"
+                      }
+                    ],
+                    "cf": "kur",
+                    "gw": "mountain",
+                    "sense": "mountain",
+                    "norm0": "kur",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kur",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ku-[...] }}",
+                  "id": "P346420.l0aaf5",
+                  "ref": "P346420.13.2",
+                  "inst": "L",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "ku-x",
+                    "gdl": [
+                      {
+                        "v": "ku",
+                        "id": "P346420.13.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P346420.13.2.1",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P346420.13.2.1"
+                      }
+                    ],
+                    "pos": "L"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.14",
+                  "n": "11'",
+                  "label": "o i 11'"
+                },
+                {
+                  "node": "l",
+                  "frag": "kur  {{",
+                  "id": "P346420.l0aaf6",
+                  "ref": "P346420.14.1",
+                  "inst": "kur[land]",
+                  "sig": "@dcclt%sux:kur=kur[mountain//(foreign) land]N'N$kur/kur#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kur",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "kur",
+                        "id": "P346420.14.1.0"
+                      }
+                    ],
+                    "cf": "kur",
+                    "gw": "mountain",
+                    "sense": "(foreign) land",
+                    "norm0": "kur",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kur",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ma-a-[tum] }}",
+                  "id": "P346420.l0aaf7",
+                  "ref": "P346420.14.2",
+                  "inst": "L",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "ma-a-tum",
+                    "gdl": [
+                      {
+                        "v": "ma",
+                        "id": "P346420.14.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P346420.14.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tum",
+                        "id": "P346420.14.2.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P346420.14.2.2"
+                      }
+                    ],
+                    "pos": "L"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.15",
+                  "n": "12'",
+                  "label": "o i 12'"
+                },
+                {
+                  "node": "l",
+                  "frag": "kur  {{",
+                  "id": "P346420.l0aaf8",
+                  "ref": "P346420.15.1",
+                  "inst": "kur[mountain]",
+                  "sig": "@dcclt%sux:kur=kur[mountain//mountain]N'N$kur/kur#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kur",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "kur",
+                        "id": "P346420.15.1.0"
+                      }
+                    ],
+                    "cf": "kur",
+                    "gw": "mountain",
+                    "sense": "mountain",
+                    "norm0": "kur",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kur",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ša-⸢du⸣-[u₂] }}",
+                  "id": "P346420.l0aaf9",
+                  "ref": "P346420.15.2",
+                  "inst": "L",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "ša-du-u₂",
+                    "gdl": [
+                      {
+                        "v": "ša",
+                        "id": "P346420.15.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "du",
+                        "id": "P346420.15.2.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "u₂",
+                        "id": "P346420.15.2.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P346420.15.2.2"
+                      }
+                    ],
+                    "pos": "L"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P346420.16",
+                  "n": "13'",
+                  "label": "o i 13'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[kur]-kur  {{",
+                  "id": "P346420.l0aafa",
+                  "ref": "P346420.16.1",
+                  "inst": "kur[land]",
+                  "sig": "@dcclt%sux:kur-kur=kur[mountain//(foreign) land]N'N$kur/kur-kur#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kur-kur",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "kur",
+                        "id": "P346420.16.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P346420.16.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "kur",
+                        "id": "P346420.16.1.1"
+                      }
+                    ],
+                    "cf": "kur",
+                    "gw": "mountain",
+                    "sense": "(foreign) land",
+                    "norm0": "kur",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kur-kur",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ma-ta-tum }}",
+                  "id": "P346420.l0aafb",
+                  "ref": "P346420.16.2",
+                  "inst": "L",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "ma-ta-tum",
+                    "gdl": [
+                      {
+                        "v": "ma",
+                        "id": "P346420.16.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ta",
+                        "id": "P346420.16.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tum",
+                        "id": "P346420.16.2.2"
+                      }
+                    ],
+                    "pos": "L"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

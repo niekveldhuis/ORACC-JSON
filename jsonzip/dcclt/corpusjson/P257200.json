@@ -1,0 +1,542 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:09:22",
+  "textid": "P257200",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P257200.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P257200.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P257200.2",
+          "strict": "0",
+          "state": "other"
+        },
+        {
+          "node": "d",
+          "subtype": "reverse",
+          "type": "reverse",
+          "ref": "P257200.r.3",
+          "label": "r"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1r",
+          "type": "column",
+          "ref": "P257200.r.i.4",
+          "n": "1",
+          "label": "r i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P257200.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P257200.U2",
+              "label": "r i 1' - r i 9'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P257200.5",
+                  "n": "1'",
+                  "label": "r i 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢uz⸣-[...]",
+                  "id": "P257200.l250fa",
+                  "ref": "P257200.5.1",
+                  "inst": "%sux:uz-x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "uz-x",
+                    "gdl": [
+                      {
+                        "v": "uz",
+                        "id": "P257200.5.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P257200.5.1.1",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P257200.5.1.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P257200.6",
+                  "n": "2'",
+                  "label": "r i 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "uz",
+                  "id": "P257200.l250fb",
+                  "ref": "P257200.6.1",
+                  "inst": "%sux:uz=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "uz",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "uz",
+                        "id": "P257200.6.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "babbar{[mušen]}",
+                  "id": "P257200.l250fc",
+                  "ref": "P257200.6.2",
+                  "inst": "%sux:babbar{mušen}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "babbar{mušen}",
+                    "gdl": [
+                      {
+                        "v": "babbar",
+                        "id": "P257200.6.2.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P257200.6.2.1",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P257200.6.2.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P257200.7",
+                  "n": "3'",
+                  "label": "r i 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "uz",
+                  "id": "P257200.l250fd",
+                  "ref": "P257200.7.1",
+                  "inst": "%sux:uz=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "uz",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "uz",
+                        "id": "P257200.7.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢kukku₅⸣{[mušen]}",
+                  "id": "P257200.l250fe",
+                  "ref": "P257200.7.2",
+                  "inst": "%sux:kukku₅{mušen}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kukku₅{mušen}",
+                    "gdl": [
+                      {
+                        "v": "kukku₅",
+                        "id": "P257200.7.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P257200.7.2.1",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P257200.7.2.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P257200.8",
+                  "n": "4'",
+                  "label": "r i 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "kislah(|KI.UD|){[mušen]}",
+                  "id": "P257200.l250ff",
+                  "ref": "P257200.8.1",
+                  "inst": "%sux:kislah(|KI.UD|){mušen}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kislah(|KI.UD|){mušen}",
+                    "gdl": [
+                      {
+                        "q": "kislah(|KI.UD|)",
+                        "id": "P257200.8.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "kislah"
+                          },
+                          {
+                            "c": "|KI.UD|",
+                            "seq": [
+                              {
+                                "s": "KI",
+                                "break": "damaged"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "UD"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P257200.8.1.1",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P257200.8.1.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P257200.9",
+                  "n": "5'",
+                  "label": "r i 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ud-⸢ŋeš⸣{[mušen]}",
+                  "id": "P257200.l25100",
+                  "ref": "P257200.9.1",
+                  "inst": "%sux:ud-ŋeš{mušen}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud-ŋeš{mušen}",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P257200.9.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋeš",
+                        "id": "P257200.9.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P257200.9.1.2",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P257200.9.1.2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P257200.10",
+                  "n": "6'",
+                  "label": "r i 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ri-⸢ŋeš{mušen⸣}",
+                  "id": "P257200.l25101",
+                  "ref": "P257200.10.1",
+                  "inst": "%sux:ri-ŋeš{mušen}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ri-ŋeš{mušen}",
+                    "gdl": [
+                      {
+                        "v": "ri",
+                        "id": "P257200.10.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋeš",
+                        "id": "P257200.10.1.1",
+                        "break": "damaged",
+                        "ho": "1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P257200.10.1.2",
+                            "break": "damaged",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P257200.11",
+                  "n": "7'",
+                  "label": "r i 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ki-⸢ib{mušen⸣}",
+                  "id": "P257200.l25102",
+                  "ref": "P257200.11.1",
+                  "inst": "%sux:ki-ib{mušen}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki-ib{mušen}",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P257200.11.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ib",
+                        "id": "P257200.11.1.1",
+                        "break": "damaged",
+                        "ho": "1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P257200.11.1.2",
+                            "break": "damaged",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P257200.12",
+                  "n": "8'",
+                  "label": "r i 8'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ki-ib",
+                  "id": "P257200.l25103",
+                  "ref": "P257200.12.1",
+                  "inst": "%sux:ki-ib=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki-ib",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P257200.12.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ib",
+                        "id": "P257200.12.1.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šu{[mušen]}",
+                  "id": "P257200.l25104",
+                  "ref": "P257200.12.2",
+                  "inst": "%sux:šu{mušen}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu{mušen}",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P257200.12.2.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P257200.12.2.1",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P257200.12.2.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P257200.13",
+                  "n": "9'",
+                  "label": "r i 9'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢ki⸣-ib-{d}[...]",
+                  "id": "P257200.l25105",
+                  "ref": "P257200.13.1",
+                  "inst": "%sux:ki-ib-{d}x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki-ib-{d}x",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P257200.13.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ib",
+                        "id": "P257200.13.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P257200.13.1.2"
+                          }
+                        ]
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P257200.13.1.3",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P257200.13.1.3"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 2r",
+                  "type": "column",
+                  "ref": "P257200.r.ii.14",
+                  "n": "2",
+                  "label": "r ii"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P257200.15",
+                  "strict": "1",
+                  "extent": "1",
+                  "scope": "column",
+                  "state": "traces"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

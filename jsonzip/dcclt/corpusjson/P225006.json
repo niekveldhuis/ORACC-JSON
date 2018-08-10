@@ -1,0 +1,248 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:04:52",
+  "textid": "P225006",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P225006.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P225006.x581.1",
+          "label": "x581"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P225006.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P225006.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P225006.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P225006.U2",
+              "label": "o i 1 - o i 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225006.4",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{⸢ŋeš⸣}ig",
+                  "id": "P225006.l1add0",
+                  "ref": "P225006.4.1",
+                  "inst": "ig[door]N",
+                  "sig": "@dcclt%sux:{ŋeš}ig=ig[door//door]N'N$ig/{ŋeš}ig#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}ig",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P225006.4.1.0",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ig",
+                        "id": "P225006.4.1.1"
+                      }
+                    ],
+                    "cf": "ig",
+                    "gw": "door",
+                    "sense": "door",
+                    "norm0": "ig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}ig",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225006.5",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}suku₅",
+                  "id": "P225006.l1add1",
+                  "ref": "P225006.5.1",
+                  "inst": "suku[pole]N",
+                  "sig": "@dcclt%sux:{ŋeš}suku₅=suku[pole//pole]N'N$suku/{ŋeš}suku₅#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}suku₅",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P225006.5.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "suku₅",
+                        "id": "P225006.5.1.1"
+                      }
+                    ],
+                    "cf": "suku",
+                    "gw": "pole",
+                    "sense": "pole",
+                    "norm0": "suku",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}suku₅",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ig",
+                  "id": "P225006.l1add2",
+                  "ref": "P225006.5.2",
+                  "inst": "ig[door]N",
+                  "sig": "@dcclt%sux:ig=ig[door//door]N'N$ig/ig#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ig",
+                    "gdl": [
+                      {
+                        "v": "ig",
+                        "id": "P225006.5.2.0"
+                      }
+                    ],
+                    "cf": "ig",
+                    "gw": "door",
+                    "sense": "door",
+                    "norm0": "ig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ig",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225006.6",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}za-ra",
+                  "id": "P225006.l1add3",
+                  "ref": "P225006.6.1",
+                  "inst": "zara[(door) pivot]N",
+                  "sig": "@dcclt%sux:{ŋeš}za-ra=zara[pivot//(door) pivot]N'N$zara/{ŋeš}za-ra#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}za-ra",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P225006.6.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "za",
+                        "id": "P225006.6.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P225006.6.1.2"
+                      }
+                    ],
+                    "cf": "zara",
+                    "gw": "pivot",
+                    "sense": "(door) pivot",
+                    "norm0": "zara",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}za-ra",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ig",
+                  "id": "P225006.l1add4",
+                  "ref": "P225006.6.2",
+                  "inst": "ig[door]N",
+                  "sig": "@dcclt%sux:ig=ig[door//door]N'N$ig/ig#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ig",
+                    "gdl": [
+                      {
+                        "v": "ig",
+                        "id": "P225006.6.2.0"
+                      }
+                    ],
+                    "cf": "ig",
+                    "gw": "door",
+                    "sense": "door",
+                    "norm0": "ig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ig",
+                    "morph": "~"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

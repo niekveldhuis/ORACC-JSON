@@ -1,0 +1,248 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:04:58",
+  "textid": "P225062",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P225062.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P225062.x616.1",
+          "label": "x616"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P225062.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P225062.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P225062.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P225062.U2",
+              "label": "o i 1 - o i 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225062.4",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}al-⸢la⸣-[nu-um]",
+                  "id": "P225062.l1c1cf",
+                  "ref": "P225062.4.1",
+                  "inst": "allanum[hazelnut]N",
+                  "sig": "@dcclt%sux:{ŋeš}al-la-nu-um=allanum[oak//hazelnut]N'N$allanum/{ŋeš}al-la-nu-um#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}al-la-nu-um",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P225062.4.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "al",
+                        "id": "P225062.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la",
+                        "id": "P225062.4.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "nu",
+                        "id": "P225062.4.1.3",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "um",
+                        "id": "P225062.4.1.4",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P225062.4.1.3"
+                      }
+                    ],
+                    "cf": "allanum",
+                    "gw": "oak",
+                    "sense": "hazelnut",
+                    "norm0": "allanum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}al-la-nu-um",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225062.5",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}zum-di-[a-num₂]",
+                  "id": "P225062.l1c1d0",
+                  "ref": "P225062.5.1",
+                  "inst": "zumdianum[tree]N/{ŋeš}zum-di-a-num₂#~",
+                  "sig": "@dcclt%sux:{ŋeš}zum-di-a-num₂=zumdianum[tree//tree]N'N$zumdianum/{ŋeš}zum-di-a-num₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}zum-di-a-num₂",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P225062.5.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "zum",
+                        "id": "P225062.5.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "di",
+                        "id": "P225062.5.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P225062.5.1.3",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "num₂",
+                        "id": "P225062.5.1.4",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P225062.5.1.3"
+                      }
+                    ],
+                    "cf": "zumdianum",
+                    "gw": "tree",
+                    "sense": "tree",
+                    "norm0": "zumdianum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}zum-di-a-num₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225062.6",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}ti-⸢ia⸣-[lum]",
+                  "id": "P225062.l1c1d1",
+                  "ref": "P225062.6.1",
+                  "inst": "tiʾarum[a tree]N",
+                  "sig": "@dcclt%sux:{ŋeš}ti-ia-lum=tiʾarum[tree//a tree]N'N$tiʾarum/{ŋeš}ti-ia-lum#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}ti-ia-lum",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P225062.6.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ti",
+                        "id": "P225062.6.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ia",
+                        "id": "P225062.6.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "lum",
+                        "id": "P225062.6.1.3",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P225062.6.1.3"
+                      }
+                    ],
+                    "cf": "tiʾarum",
+                    "gw": "tree",
+                    "sense": "a tree",
+                    "norm0": "tiʾarum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}ti-ia-lum",
+                    "morph": "~"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

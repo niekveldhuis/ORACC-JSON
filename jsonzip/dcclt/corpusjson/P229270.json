@@ -1,0 +1,201 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:07:07",
+  "textid": "P229270",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P229270.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P229270.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P229270.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P229270.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P229270.U2",
+              "label": "o i 1 - o i 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229270.3",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋeš",
+                  "id": "P229270.l1e4f3",
+                  "ref": "P229270.3.1",
+                  "inst": "%sux:ŋeš=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš",
+                        "id": "P229270.3.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ma₂-gur₈-{d}nin-lil₂-[...]",
+                  "id": "P229270.l1e4f4",
+                  "ref": "P229270.3.2",
+                  "inst": "%sux:ma₂-gur₈-{d}nin-lil₂-x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ma₂-gur₈-{d}nin-lil₂-x",
+                    "gdl": [
+                      {
+                        "v": "ma₂",
+                        "id": "P229270.3.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gur₈",
+                        "id": "P229270.3.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P229270.3.2.2"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "nin",
+                        "id": "P229270.3.2.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "lil₂",
+                        "id": "P229270.3.2.4",
+                        "delim": "-"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P229270.3.2.5",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229270.3.2.5"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229270.4",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋeš",
+                  "id": "P229270.l1e4f5",
+                  "ref": "P229270.4.1",
+                  "inst": "%sux:ŋeš=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš",
+                        "id": "P229270.4.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ma₂-gur₈-{d}da-⸢mu⸣",
+                  "id": "P229270.l1e4f6",
+                  "ref": "P229270.4.2",
+                  "inst": "%sux:ma₂-gur₈-{d}da-mu=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ma₂-gur₈-{d}da-mu",
+                    "gdl": [
+                      {
+                        "v": "ma₂",
+                        "id": "P229270.4.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gur₈",
+                        "id": "P229270.4.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P229270.4.2.2"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "da",
+                        "id": "P229270.4.2.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P229270.4.2.4",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:07:48",
+  "textid": "P229936",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P229936.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P229936.x663.1",
+          "label": "x663"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P229936.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P229936.3",
+          "strict": "1",
+          "extent": "beginning",
+          "scope": "column",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P229936.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P229936.U2",
+              "label": "o 1' - o 9'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229936.4",
+                  "n": "1'",
+                  "label": "o 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋir₂",
+                  "id": "P229936.l1fb42",
+                  "ref": "P229936.4.1",
+                  "inst": "ŋiri[dagger]N",
+                  "sig": "@dcclt%sux:ŋir₂=ŋiri[dagger//dagger]N'N$ŋiri/ŋiri₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋir₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋir₂",
+                        "id": "P229936.4.1.0"
+                      }
+                    ],
+                    "cf": "ŋiri",
+                    "gw": "dagger",
+                    "sense": "dagger",
+                    "norm0": "ŋiri",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ŋiri₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ur₃-ra{⸢zabar⸣}",
+                  "id": "P229936.l1fb43",
+                  "ref": "P229936.4.2",
+                  "inst": "ur[root]",
+                  "sig": "@dcclt%sux:ur₃-ra{zabar}=ur[root//root]N'N$ur,ak/ur₃-ra{zabar}+-ra=r.a#~,ak",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ur₃-ra{zabar}",
+                    "gdl": [
+                      {
+                        "v": "ur₃",
+                        "id": "P229936.4.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P229936.4.2.1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229936.4.2.2",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "ur",
+                    "gw": "root",
+                    "sense": "root",
+                    "norm0": "ur,ak",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ur₃-ra{zabar}",
+                    "cont": "-ra=r.a",
+                    "morph": "~,ak"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229936.5",
+                  "n": "2'",
+                  "label": "o 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢har{zabar⸣}",
+                  "id": "P229936.l1fb44",
+                  "ref": "P229936.5.1",
+                  "inst": "har[ring]N",
+                  "sig": "@dcclt%sux:har{zabar}=har[ring//ring]N'N$har/har{zabar}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "har{zabar}",
+                    "gdl": [
+                      {
+                        "v": "har",
+                        "id": "P229936.5.1.0",
+                        "break": "damaged",
+                        "ho": "1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229936.5.1.1",
+                            "break": "damaged",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "har",
+                    "gw": "ring",
+                    "sense": "ring",
+                    "norm0": "har",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "har{zabar}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229936.6",
+                  "n": "3'",
+                  "label": "o 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢har⸣",
+                  "id": "P229936.l1fb45",
+                  "ref": "P229936.6.1",
+                  "inst": "har[ring]N",
+                  "sig": "@dcclt%sux:har=har[ring//ring]N'N$har/har#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "har",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "har",
+                        "id": "P229936.6.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "har",
+                    "gw": "ring",
+                    "sense": "ring",
+                    "norm0": "har",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "har",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šu{⸢zabar⸣}",
+                  "id": "P229936.l1fb46",
+                  "ref": "P229936.6.2",
+                  "inst": "šu[hand]N",
+                  "sig": "@dcclt%sux:šu{zabar}=šu[hand//hand]N'N$šu/šu{zabar}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu{zabar}",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P229936.6.2.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229936.6.2.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "šu",
+                    "gw": "hand",
+                    "sense": "hand",
+                    "norm0": "šu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šu{zabar}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229936.7",
+                  "n": "4'",
+                  "label": "o 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢har⸣",
+                  "id": "P229936.l1fb47",
+                  "ref": "P229936.7.1",
+                  "inst": "har[ring]N",
+                  "sig": "@dcclt%sux:har=har[ring//ring]N'N$har/har#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "har",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "har",
+                        "id": "P229936.7.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "har",
+                    "gw": "ring",
+                    "sense": "ring",
+                    "norm0": "har",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "har",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋiri₃{⸢zabar⸣}",
+                  "id": "P229936.l1fb48",
+                  "ref": "P229936.7.2",
+                  "inst": "ŋiri[foot]N",
+                  "sig": "@dcclt%sux:ŋiri₃{zabar}=ŋiri[foot//foot]N'N$ŋiri/ŋiri₃{zabar}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋiri₃{zabar}",
+                    "gdl": [
+                      {
+                        "v": "ŋiri₃",
+                        "id": "P229936.7.2.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229936.7.2.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "ŋiri",
+                    "gw": "foot",
+                    "sense": "foot",
+                    "norm0": "ŋiri",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ŋiri₃{zabar}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229936.8",
+                  "n": "5'",
+                  "label": "o 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢hub₂⸣-du-um{⸢zabar⸣}",
+                  "id": "P229936.l1fb49",
+                  "ref": "P229936.8.1",
+                  "inst": "hubdum[object]N",
+                  "sig": "@dcclt%sux:hub₂-du-um{zabar}=hubdum[object//a metal item]N'N$hubdum/hub₂-du-um{zabar}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "hub₂-du-um{zabar}",
+                    "gdl": [
+                      {
+                        "v": "hub₂",
+                        "id": "P229936.8.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "du",
+                        "id": "P229936.8.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "um",
+                        "id": "P229936.8.1.2"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229936.8.1.3",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "hubdum",
+                    "gw": "object",
+                    "sense": "a metal item",
+                    "norm0": "hubdum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "hub₂-du-um{zabar}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229936.9",
+                  "n": "6'",
+                  "label": "o 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[x]-⸢x{zabar⸣}",
+                  "id": "P229936.l1fb4a",
+                  "ref": "P229936.9.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x-x{zabar}",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P229936.9.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "queried": "1",
+                        "break": "missing",
+                        "breakEnd": "P229936.9.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P229936.9.1.1",
+                        "break": "damaged",
+                        "ho": "1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229936.9.1.2",
+                            "break": "damaged",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229936.10",
+                  "n": "7'",
+                  "label": "o 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[u]-⸢gun₃⸣{zabar}",
+                  "id": "P229936.l1fb4b",
+                  "ref": "P229936.10.1",
+                  "inst": "ugunu[decorative inlay]N",
+                  "sig": "@dcclt%sux:u-gun₃{zabar}=ugunu[decoration//decorative inlay]N'N$ugunu/u-gun₃{zabar}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "u-gun₃{zabar}",
+                    "gdl": [
+                      {
+                        "v": "u",
+                        "id": "P229936.10.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P229936.10.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gun₃",
+                        "id": "P229936.10.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229936.10.1.2"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "ugunu",
+                    "gw": "decoration",
+                    "sense": "decorative inlay",
+                    "norm0": "ugunu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "u-gun₃{zabar}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229936.11",
+                  "n": "8'",
+                  "label": "o 8'"
+                },
+                {
+                  "node": "l",
+                  "frag": "|IGI@g.ALAN|{zabar}",
+                  "id": "P229936.l1fb4c",
+                  "ref": "P229936.11.1",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "|IGI@g.ALAN|{zabar}",
+                    "gdl": [
+                      {
+                        "c": "|IGI@g.ALAN|",
+                        "id": "P229936.11.1.0",
+                        "seq": [
+                          {
+                            "form": "IGI@g",
+                            "break": "damaged",
+                            "mods": [
+                              {
+                                "b": "IGI"
+                              },
+                              {
+                                "m": "g"
+                              }
+                            ]
+                          },
+                          {
+                            "o": "beside"
+                          },
+                          {
+                            "s": "ALAN"
+                          }
+                        ]
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229936.11.1.1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229936.12",
+                  "n": "9'",
+                  "label": "o 9'"
+                },
+                {
+                  "node": "l",
+                  "frag": "kug-babbar",
+                  "id": "P229936.l1fb4d",
+                  "ref": "P229936.12.1",
+                  "inst": "kugbabbar[silver]N",
+                  "sig": "@dcclt%sux:kug-babbar=kugbabbar[silver//silver]N'N$kugbabbar/kug-babbar#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-babbar",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P229936.12.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "babbar",
+                        "id": "P229936.12.1.1"
+                      }
+                    ],
+                    "cf": "kugbabbar",
+                    "gw": "silver",
+                    "sense": "silver",
+                    "norm0": "kugbabbar",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug-babbar",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229936.13",
+                  "strict": "1",
+                  "extent": "2",
+                  "scope": "line",
+                  "state": "ruling"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229936.14",
+                  "strict": "0",
+                  "extent": "rest",
+                  "state": "other"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P229936.r.15",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 1r '",
+                  "type": "column",
+                  "ref": "P229936.r.i_.16",
+                  "n": "1",
+                  "label": "r i'"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229936.17",
+                  "strict": "0",
+                  "extent": "beginning",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229936.18",
+                  "strict": "0",
+                  "state": "other"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229936.19",
+                  "strict": "0",
+                  "extent": "rest",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 2r '",
+                  "type": "column",
+                  "ref": "P229936.r.ii_.20",
+                  "n": "2",
+                  "label": "r ii'"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229936.21",
+                  "strict": "1",
+                  "extent": "2",
+                  "scope": "line",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229936.22",
+                  "strict": "0",
+                  "state": "other"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229936.23",
+                  "strict": "0",
+                  "extent": "rest",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

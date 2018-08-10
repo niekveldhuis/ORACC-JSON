@@ -1,0 +1,131 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:13:20",
+  "textid": "P388559",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P388559.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P388559.o.1",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P388559.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P388559.U2",
+              "label": "o 1 - o 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P388559.2",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "GI",
+                  "id": "P388559.l53add",
+                  "ref": "P388559.2.1",
+                  "inst": "%sux:GI=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "GI",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "GI",
+                        "id": "P388559.2.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "UTU₂",
+                  "id": "P388559.l53ade",
+                  "ref": "P388559.2.2",
+                  "inst": "%sux:UTU₂=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "UTU₂",
+                    "gdl": [
+                      {
+                        "s": "UTU₂",
+                        "id": "P388559.2.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P388559.3",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "GI",
+                  "id": "P388559.l53adf",
+                  "ref": "P388559.3.1",
+                  "inst": "%sux:GI=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "GI",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "GI",
+                        "id": "P388559.3.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ENGAR",
+                  "id": "P388559.l53ae0",
+                  "ref": "P388559.3.2",
+                  "inst": "%sux:ENGAR=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ENGAR",
+                    "gdl": [
+                      {
+                        "s": "ENGAR",
+                        "id": "P388559.3.2.0"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

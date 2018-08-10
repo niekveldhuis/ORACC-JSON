@@ -1,0 +1,835 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:12:31",
+  "textid": "P370389",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P370389.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P370389.x1291.1",
+          "label": "x1291"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P370389.o.2",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P370389.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P370389.U2",
+              "label": "o 1 - o 11",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P370389.3",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "gal",
+                  "id": "P370389.l3085b",
+                  "ref": "P370389.3.1",
+                  "inst": "gal[goblet]]",
+                  "sig": "@dcclt%sux:gal=gal[big//goblet]V/i'N$gal/gal#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gal",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "gal",
+                        "id": "P370389.3.1.0"
+                      }
+                    ],
+                    "cf": "gal",
+                    "gw": "big",
+                    "sense": "goblet",
+                    "norm0": "gal",
+                    "pos": "V/i",
+                    "epos": "N",
+                    "base": "gal",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "kug-sig₁₇",
+                  "id": "P370389.l3085c",
+                  "ref": "P370389.3.2",
+                  "inst": "kugsig[gold]",
+                  "sig": "@dcclt%sux:kug-sig₁₇=kugsig[gold//gold]N'N$kugsig/kug-sig₁₇#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P370389.3.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P370389.3.2.1"
+                      }
+                    ],
+                    "cf": "kugsig",
+                    "gw": "gold",
+                    "sense": "gold",
+                    "norm0": "kugsig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug-sig₁₇",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P370389.4",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "za-a-hum",
+                  "id": "P370389.l3085d",
+                  "ref": "P370389.4.1",
+                  "inst": "zahum[basin]",
+                  "sig": "@dcclt%sux:za-a-hum=zahum[basin//a metal basin]N'N$zahum/za-a-hum#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-a-hum",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P370389.4.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P370389.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "hum",
+                        "id": "P370389.4.1.2"
+                      }
+                    ],
+                    "cf": "zahum",
+                    "gw": "basin",
+                    "sense": "a metal basin",
+                    "norm0": "zahum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-a-hum",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "<(kug-sig₁₇)>",
+                  "id": "P370389.l3085e",
+                  "ref": "P370389.4.2",
+                  "inst": "kugsig[gold]",
+                  "sig": "@dcclt%sux:kug-sig₁₇=kugsig[gold//gold]N'N$kugsig/kug-sig₁₇#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P370389.4.2.0",
+                        "statusStart": "1",
+                        "o": "<(",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P370389.4.2.1",
+                        "o": ")>",
+                        "statusStart": "P370389.4.2.0"
+                      }
+                    ],
+                    "cf": "kugsig",
+                    "gw": "gold",
+                    "sense": "gold",
+                    "norm0": "kugsig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug-sig₁₇",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P370389.5",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "tu-di-tu",
+                  "id": "P370389.l3085f",
+                  "ref": "P370389.5.1",
+                  "inst": "tuditum[toggle pin]",
+                  "sig": "@dcclt%sux:tu-di-tu=tuditum[toggle pin//toggle pin]N'N$tuditum/tu-di-tu#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "tu-di-tu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "tu",
+                        "id": "P370389.5.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "di",
+                        "id": "P370389.5.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tu",
+                        "id": "P370389.5.1.2"
+                      }
+                    ],
+                    "cf": "tuditum",
+                    "gw": "toggle pin",
+                    "sense": "toggle pin",
+                    "norm0": "tuditum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "tu-di-tu",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "<(kug-sig₁₇)>",
+                  "id": "P370389.l30860",
+                  "ref": "P370389.5.2",
+                  "inst": "kugsig[gold]",
+                  "sig": "@dcclt%sux:kug-sig₁₇=kugsig[gold//gold]N'N$kugsig/kug-sig₁₇#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P370389.5.2.0",
+                        "statusStart": "1",
+                        "o": "<(",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P370389.5.2.1",
+                        "o": ")>",
+                        "statusStart": "P370389.5.2.0"
+                      }
+                    ],
+                    "cf": "kugsig",
+                    "gw": "gold",
+                    "sense": "gold",
+                    "norm0": "kugsig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug-sig₁₇",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P370389.6",
+                  "n": "4",
+                  "label": "o 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "šu-nir",
+                  "id": "P370389.l30861",
+                  "ref": "P370389.6.1",
+                  "inst": "šunir[emblem]",
+                  "sig": "@dcclt%sux:šu-nir=šunir[emblem//emblem]N'N$šunir/šu-nir#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu-nir",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P370389.6.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nir",
+                        "id": "P370389.6.1.1"
+                      }
+                    ],
+                    "cf": "šunir",
+                    "gw": "emblem",
+                    "sense": "emblem",
+                    "norm0": "šunir",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šu-nir",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "<(kug-sig₁₇)>",
+                  "id": "P370389.l30862",
+                  "ref": "P370389.6.2",
+                  "inst": "kugsig[gold]",
+                  "sig": "@dcclt%sux:kug-sig₁₇=kugsig[gold//gold]N'N$kugsig/kug-sig₁₇#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P370389.6.2.0",
+                        "statusStart": "1",
+                        "o": "<(",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P370389.6.2.1",
+                        "o": ")>",
+                        "statusStart": "P370389.6.2.0"
+                      }
+                    ],
+                    "cf": "kugsig",
+                    "gw": "gold",
+                    "sense": "gold",
+                    "norm0": "kugsig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug-sig₁₇",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P370389.7",
+                  "n": "5",
+                  "label": "o 5"
+                },
+                {
+                  "node": "l",
+                  "frag": "šu-gur",
+                  "id": "P370389.l30863",
+                  "ref": "P370389.7.1",
+                  "inst": "šugur[ring]",
+                  "sig": "@dcclt%sux:šu-gur=šugur[ring//ring]N'N$šugur/šu-gur#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu-gur",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P370389.7.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gur",
+                        "id": "P370389.7.1.1"
+                      }
+                    ],
+                    "cf": "šugur",
+                    "gw": "ring",
+                    "sense": "ring",
+                    "norm0": "šugur",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šu-gur",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "<(kug-sig₁₇)>",
+                  "id": "P370389.l30864",
+                  "ref": "P370389.7.2",
+                  "inst": "kugsig[gold]",
+                  "sig": "@dcclt%sux:kug-sig₁₇=kugsig[gold//gold]N'N$kugsig/kug-sig₁₇#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P370389.7.2.0",
+                        "statusStart": "1",
+                        "o": "<(",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P370389.7.2.1",
+                        "o": ")>",
+                        "statusStart": "P370389.7.2.0"
+                      }
+                    ],
+                    "cf": "kugsig",
+                    "gw": "gold",
+                    "sense": "gold",
+                    "norm0": "kugsig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug-sig₁₇",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P370389.8",
+                  "n": "6",
+                  "label": "o 6"
+                },
+                {
+                  "node": "l",
+                  "frag": "eš-gur",
+                  "id": "P370389.l30865",
+                  "ref": "P370389.8.1",
+                  "inst": "ešgur[ring]",
+                  "sig": "@dcclt%sux:eš-gur=ešgur[ring//ring]N'N$ešgur/eš-gur#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "eš-gur",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "eš",
+                        "id": "P370389.8.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gur",
+                        "id": "P370389.8.1.1"
+                      }
+                    ],
+                    "cf": "ešgur",
+                    "gw": "ring",
+                    "sense": "ring",
+                    "norm0": "ešgur",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "eš-gur",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "<(kug-sig₁₇)>",
+                  "id": "P370389.l30866",
+                  "ref": "P370389.8.2",
+                  "inst": "kugsig[gold]",
+                  "sig": "@dcclt%sux:kug-sig₁₇=kugsig[gold//gold]N'N$kugsig/kug-sig₁₇#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P370389.8.2.0",
+                        "statusStart": "1",
+                        "o": "<(",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P370389.8.2.1",
+                        "o": ")>",
+                        "statusStart": "P370389.8.2.0"
+                      }
+                    ],
+                    "cf": "kugsig",
+                    "gw": "gold",
+                    "sense": "gold",
+                    "norm0": "kugsig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug-sig₁₇",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P370389.9",
+                  "n": "7",
+                  "label": "o 7"
+                },
+                {
+                  "node": "l",
+                  "frag": "kam₂-kam₂-ma-tu",
+                  "id": "P370389.l30867",
+                  "ref": "P370389.9.1",
+                  "inst": "kamkammatum[earring]",
+                  "sig": "@dcclt%sux:kam₂-kam₂-ma-tu=kamkammatum[earring//earring]N'N$kamkammatum/kam₂-kam₂-ma-tu#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kam₂-kam₂-ma-tu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "kam₂",
+                        "id": "P370389.9.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "kam₂",
+                        "id": "P370389.9.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P370389.9.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tu",
+                        "id": "P370389.9.1.3"
+                      }
+                    ],
+                    "cf": "kamkammatum",
+                    "gw": "earring",
+                    "sense": "earring",
+                    "norm0": "kamkammatum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kam₂-kam₂-ma-tu",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "<(kug-sig₁₇)>",
+                  "id": "P370389.l30868",
+                  "ref": "P370389.9.2",
+                  "inst": "kugsig[gold]",
+                  "sig": "@dcclt%sux:kug-sig₁₇=kugsig[gold//gold]N'N$kugsig/kug-sig₁₇#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P370389.9.2.0",
+                        "statusStart": "1",
+                        "o": "<(",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P370389.9.2.1",
+                        "o": ")>",
+                        "statusStart": "P370389.9.2.0"
+                      }
+                    ],
+                    "cf": "kugsig",
+                    "gw": "gold",
+                    "sense": "gold",
+                    "norm0": "kugsig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug-sig₁₇",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P370389.10",
+                  "n": "8",
+                  "label": "o 8"
+                },
+                {
+                  "node": "l",
+                  "frag": "an-za-ab-tu",
+                  "id": "P370389.l30869",
+                  "ref": "P370389.10.1",
+                  "inst": "anzabtum[ring]",
+                  "sig": "@dcclt%sux:an-za-ab-tu=anzabtum[ring//ring]N'N$anzabtum/an-za-ab-tu#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "an-za-ab-tu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "an",
+                        "id": "P370389.10.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "za",
+                        "id": "P370389.10.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ab",
+                        "id": "P370389.10.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tu",
+                        "id": "P370389.10.1.3"
+                      }
+                    ],
+                    "cf": "anzabtum",
+                    "gw": "ring",
+                    "sense": "ring",
+                    "norm0": "anzabtum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "an-za-ab-tu",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "<(kug-sig₁₇)>",
+                  "id": "P370389.l3086a",
+                  "ref": "P370389.10.2",
+                  "inst": "kugsig[gold]",
+                  "sig": "@dcclt%sux:kug-sig₁₇=kugsig[gold//gold]N'N$kugsig/kug-sig₁₇#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P370389.10.2.0",
+                        "statusStart": "1",
+                        "o": "<(",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P370389.10.2.1",
+                        "o": ")>",
+                        "statusStart": "P370389.10.2.0"
+                      }
+                    ],
+                    "cf": "kugsig",
+                    "gw": "gold",
+                    "sense": "gold",
+                    "norm0": "kugsig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug-sig₁₇",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P370389.11",
+                  "n": "9",
+                  "label": "o 9"
+                },
+                {
+                  "node": "l",
+                  "frag": "dala₂",
+                  "id": "P370389.l3086b",
+                  "ref": "P370389.11.1",
+                  "inst": "dala[pin]",
+                  "sig": "@dcclt%sux:dala₂=dala[thorn//thorn, pin, needle]N'N$dala/dala₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dala₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "dala₂",
+                        "id": "P370389.11.1.0"
+                      }
+                    ],
+                    "cf": "dala",
+                    "gw": "thorn",
+                    "sense": "thorn, pin, needle",
+                    "norm0": "dala",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "dala₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "<(kug-sig₁₇)>",
+                  "id": "P370389.l3086c",
+                  "ref": "P370389.11.2",
+                  "inst": "kugsig[gold]",
+                  "sig": "@dcclt%sux:kug-sig₁₇=kugsig[gold//gold]N'N$kugsig/kug-sig₁₇#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P370389.11.2.0",
+                        "statusStart": "1",
+                        "o": "<(",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P370389.11.2.1",
+                        "o": ")>",
+                        "statusStart": "P370389.11.2.0"
+                      }
+                    ],
+                    "cf": "kugsig",
+                    "gw": "gold",
+                    "sense": "gold",
+                    "norm0": "kugsig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug-sig₁₇",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P370389.12",
+                  "n": "10",
+                  "label": "o 10"
+                },
+                {
+                  "node": "l",
+                  "frag": "kun-ri",
+                  "id": "P370389.l3086d",
+                  "ref": "P370389.12.1",
+                  "inst": "kunrim[vessel]",
+                  "sig": "@dcclt%sux:kun-ri=kunrim[vessel//vessel]N'N$kunrim/kun-ri#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kun-ri",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "kun",
+                        "id": "P370389.12.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ri",
+                        "id": "P370389.12.1.1"
+                      }
+                    ],
+                    "cf": "kunrim",
+                    "gw": "vessel",
+                    "sense": "vessel",
+                    "norm0": "kunrim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kun-ri",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "<(kug-sig₁₇)>",
+                  "id": "P370389.l3086e",
+                  "ref": "P370389.12.2",
+                  "inst": "kugsig[gold]",
+                  "sig": "@dcclt%sux:kug-sig₁₇=kugsig[gold//gold]N'N$kugsig/kug-sig₁₇#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P370389.12.2.0",
+                        "statusStart": "1",
+                        "o": "<(",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P370389.12.2.1",
+                        "o": ")>",
+                        "statusStart": "P370389.12.2.0"
+                      }
+                    ],
+                    "cf": "kugsig",
+                    "gw": "gold",
+                    "sense": "gold",
+                    "norm0": "kugsig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug-sig₁₇",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P370389.13",
+                  "n": "11",
+                  "label": "o 11"
+                },
+                {
+                  "node": "l",
+                  "frag": "KU-AŠ",
+                  "id": "P370389.l3086f",
+                  "ref": "P370389.13.1",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "KU-AŠ",
+                    "gdl": [
+                      {
+                        "s": "KU",
+                        "id": "P370389.13.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "AŠ",
+                        "id": "P370389.13.1.1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:06:30",
+  "textid": "P228816",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P228816.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P228816.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P228816.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P228816.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P228816.U2",
+              "label": "o i 1 - o i 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228816.3",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋeš",
+                  "id": "P228816.l1e4d4",
+                  "ref": "P228816.3.1",
+                  "inst": "%sux:ŋeš=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš",
+                        "id": "P228816.3.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šinig-kur-ra",
+                  "id": "P228816.l1e4d5",
+                  "ref": "P228816.3.2",
+                  "inst": "%sux:šinig-kur-ra=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šinig-kur-ra",
+                    "gdl": [
+                      {
+                        "v": "šinig",
+                        "id": "P228816.3.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "kur",
+                        "id": "P228816.3.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P228816.3.2.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228816.4",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋeš",
+                  "id": "P228816.l1e4d6",
+                  "ref": "P228816.4.1",
+                  "inst": "%sux:ŋeš=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš",
+                        "id": "P228816.4.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šarₓ(NE)ša₄-bid₃",
+                  "id": "P228816.l1e4d7",
+                  "ref": "P228816.4.2",
+                  "inst": "%sux:šarₓ(NE)-ša₄-bid₃=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šarₓ(NE)-ša₄-bid₃",
+                    "gdl": [
+                      {
+                        "q": "šarₓ(NE)",
+                        "id": "P228816.4.2.0",
+                        "delim": "-",
+                        "qualified": [
+                          {
+                            "v": "šarₓ"
+                          },
+                          {
+                            "s": "NE"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ša₄",
+                        "id": "P228816.4.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bid₃",
+                        "id": "P228816.4.2.2"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

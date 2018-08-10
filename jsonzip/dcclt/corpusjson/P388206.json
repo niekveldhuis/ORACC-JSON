@@ -1,0 +1,164 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:13:12",
+  "textid": "P388206",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P388206.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P388206.x2113.1",
+          "label": "x2113"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P388206.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P388206.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P388206.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P388206.U2",
+              "label": "o i 1' - o i 2'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P388206.4",
+                  "n": "1'",
+                  "label": "o i 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "{⸢na₄}na⸣-[...]",
+                  "id": "P388206.l508d4",
+                  "ref": "P388206.4.1",
+                  "inst": "%sux:{na₄}na-x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}na-x",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P388206.4.1.0",
+                            "break": "damaged",
+                            "ho": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "na",
+                        "id": "P388206.4.1.1",
+                        "break": "damaged",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P388206.4.1.2",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P388206.4.1.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P388206.5",
+                  "n": "2'",
+                  "label": "o i 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}na-⸢ru₂⸣-[...]",
+                  "id": "P388206.l508d5",
+                  "ref": "P388206.5.1",
+                  "inst": "%sux:{na₄}na-ru₂-x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}na-ru₂-x",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P388206.5.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "na",
+                        "id": "P388206.5.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ru₂",
+                        "id": "P388206.5.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P388206.5.1.3",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P388206.5.1.3"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P388206.6",
+                  "strict": "1",
+                  "extent": "1",
+                  "scope": "line",
+                  "state": "ruling"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

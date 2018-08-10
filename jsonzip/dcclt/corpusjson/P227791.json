@@ -1,0 +1,1032 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:05:31",
+  "textid": "P227791",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P227791.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P227791.x1118.1",
+          "label": "x1118"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P227791.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P227791.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P227791.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P227791.U2",
+              "label": "o i 1' - o i 12'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.4",
+                  "n": "1'",
+                  "label": "o i 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢ninda⸣",
+                  "id": "P227791.l269d9",
+                  "ref": "P227791.4.1",
+                  "inst": "ninda[bread]",
+                  "sig": "@dcclt%sux:ninda=ninda[bread//bread]N'N$ninda/ninda#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.4.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "ninda",
+                    "gw": "bread",
+                    "sense": "bread",
+                    "norm0": "ninda",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P227791.l269da",
+                  "ref": "P227791.4.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P227791.4.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P227791.4.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.5",
+                  "n": "2'",
+                  "label": "o i 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ninda-i₃-⸢de₂⸣-[a]",
+                  "id": "P227791.l269db",
+                  "ref": "P227791.5.1",
+                  "inst": "nindaʾidea[bread]",
+                  "sig": "@dcclt%sux:ninda-i₃-de₂-a=nindaʾidea[bread//a pastry or a bread]N'N$nindaʾidea/ninda-i₃-de₂-a#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda-i₃-de₂-a",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.5.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i₃",
+                        "id": "P227791.5.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "de₂",
+                        "id": "P227791.5.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P227791.5.1.3",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P227791.5.1.3"
+                      }
+                    ],
+                    "cf": "nindaʾidea",
+                    "gw": "bread",
+                    "sense": "a pastry or a bread",
+                    "norm0": "nindaʾidea",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda-i₃-de₂-a",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "i₃-nun",
+                  "id": "P227791.l269dc",
+                  "ref": "P227791.5.2",
+                  "inst": "inun[ghee]",
+                  "sig": "@dcclt%sux:i₃-nun=inun[ghee//ghee, clarified butter]N'N$inun/i₃-nun#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "i₃-nun",
+                    "gdl": [
+                      {
+                        "v": "i₃",
+                        "id": "P227791.5.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nun",
+                        "id": "P227791.5.2.1"
+                      }
+                    ],
+                    "cf": "inun",
+                    "gw": "ghee",
+                    "sense": "ghee, clarified butter",
+                    "norm0": "inun",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "i₃-nun",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.6",
+                  "n": "3'",
+                  "label": "o i 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ninda-i₃-⸢de₂⸣-[a]",
+                  "id": "P227791.l269dd",
+                  "ref": "P227791.6.1",
+                  "inst": "nindaʾidea[bread]",
+                  "sig": "@dcclt%sux:ninda-i₃-de₂-a=nindaʾidea[bread//a pastry or a bread]N'N$nindaʾidea/ninda-i₃-de₂-a#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda-i₃-de₂-a",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.6.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i₃",
+                        "id": "P227791.6.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "de₂",
+                        "id": "P227791.6.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P227791.6.1.3",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P227791.6.1.3"
+                      }
+                    ],
+                    "cf": "nindaʾidea",
+                    "gw": "bread",
+                    "sense": "a pastry or a bread",
+                    "norm0": "nindaʾidea",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda-i₃-de₂-a",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "i₃",
+                  "id": "P227791.l269de",
+                  "ref": "P227791.6.2",
+                  "inst": "i[oil]",
+                  "sig": "@dcclt%sux:i₃=i[oil//oil]N'N$i/i₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "i₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "i₃",
+                        "id": "P227791.6.2.0"
+                      }
+                    ],
+                    "cf": "i",
+                    "gw": "oil",
+                    "sense": "oil",
+                    "norm0": "i",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "i₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šah₂",
+                  "id": "P227791.l269df",
+                  "ref": "P227791.6.3",
+                  "inst": "šah[pig]",
+                  "sig": "@dcclt%sux:šah₂=šah[pig//pig]N'N$šah/šah₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šah₂",
+                    "gdl": [
+                      {
+                        "v": "šah₂",
+                        "id": "P227791.6.3.0"
+                      }
+                    ],
+                    "cf": "šah",
+                    "gw": "pig",
+                    "sense": "pig",
+                    "norm0": "šah",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šah₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.7",
+                  "n": "4'",
+                  "label": "o i 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ninda-i₃-de₂-[a]",
+                  "id": "P227791.l269e0",
+                  "ref": "P227791.7.1",
+                  "inst": "nindaʾidea[bread]",
+                  "sig": "@dcclt%sux:ninda-i₃-de₂-a=nindaʾidea[bread//a pastry or a bread]N'N$nindaʾidea/ninda-i₃-de₂-a#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda-i₃-de₂-a",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.7.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i₃",
+                        "id": "P227791.7.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "de₂",
+                        "id": "P227791.7.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P227791.7.1.3",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P227791.7.1.3"
+                      }
+                    ],
+                    "cf": "nindaʾidea",
+                    "gw": "bread",
+                    "sense": "a pastry or a bread",
+                    "norm0": "nindaʾidea",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda-i₃-de₂-a",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢teš₂⸣",
+                  "id": "P227791.l269e1",
+                  "ref": "P227791.7.2",
+                  "inst": "teš[unity]",
+                  "sig": "@dcclt%sux:teš₂=teš[unity//unity]N'N$teš/teš₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "teš₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "teš₂",
+                        "id": "P227791.7.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "teš",
+                    "gw": "unity",
+                    "sense": "unity",
+                    "norm0": "teš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "teš₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "sig₁₀-ga-bi",
+                  "id": "P227791.l269e2",
+                  "ref": "P227791.7.3",
+                  "inst": "sig[put]",
+                  "sig": "@dcclt%sux:sig₁₀-ga-bi=sig[put//put]V/t'V/t$sig;a,bi/sig₁₀+-ga=g.a#~;a,bi",
+                  "f": {
+                    "lang": "sux",
+                    "form": "sig₁₀-ga-bi",
+                    "gdl": [
+                      {
+                        "v": "sig₁₀",
+                        "id": "P227791.7.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P227791.7.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bi",
+                        "id": "P227791.7.3.2"
+                      }
+                    ],
+                    "cf": "sig",
+                    "gw": "put",
+                    "sense": "put",
+                    "norm0": "sig;a,bi",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "sig₁₀",
+                    "cont": "-ga=g.a",
+                    "morph": "~;a,bi"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.8",
+                  "n": "5'",
+                  "label": "o i 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ninda",
+                  "id": "P227791.l269e3",
+                  "ref": "P227791.8.1",
+                  "inst": "ninda[bread]",
+                  "sig": "@dcclt%sux:ninda=ninda[bread//bread]N'N$ninda/ninda#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.8.1.0"
+                      }
+                    ],
+                    "cf": "ninda",
+                    "gw": "bread",
+                    "sense": "bread",
+                    "norm0": "ninda",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "i₃",
+                  "id": "P227791.l269e4",
+                  "ref": "P227791.8.2",
+                  "inst": "i[oil]",
+                  "sig": "@dcclt%sux:i₃=i[oil//oil]N'N$i/i₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "i₃",
+                    "gdl": [
+                      {
+                        "v": "i₃",
+                        "id": "P227791.8.2.0"
+                      }
+                    ],
+                    "cf": "i",
+                    "gw": "oil",
+                    "sense": "oil",
+                    "norm0": "i",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "i₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.9",
+                  "n": "6'",
+                  "label": "o i 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ninda",
+                  "id": "P227791.l269e5",
+                  "ref": "P227791.9.1",
+                  "inst": "ninda[bread]",
+                  "sig": "@dcclt%sux:ninda=ninda[bread//bread]N'N$ninda/ninda#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.9.1.0"
+                      }
+                    ],
+                    "cf": "ninda",
+                    "gw": "bread",
+                    "sense": "bread",
+                    "norm0": "ninda",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ga",
+                  "id": "P227791.l269e6",
+                  "ref": "P227791.9.2",
+                  "inst": "ga[milk]",
+                  "sig": "@dcclt%sux:ga=ga[milk//milk]N'N$ga/ga#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ga",
+                    "gdl": [
+                      {
+                        "v": "ga",
+                        "id": "P227791.9.2.0"
+                      }
+                    ],
+                    "cf": "ga",
+                    "gw": "milk",
+                    "sense": "milk",
+                    "norm0": "ga",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ga",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.10",
+                  "n": "7'",
+                  "label": "o i 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ninda",
+                  "id": "P227791.l269e7",
+                  "ref": "P227791.10.1",
+                  "inst": "ninda[bread]",
+                  "sig": "@dcclt%sux:ninda=ninda[bread//bread]N'N$ninda/ninda#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.10.1.0"
+                      }
+                    ],
+                    "cf": "ninda",
+                    "gw": "bread",
+                    "sense": "bread",
+                    "norm0": "ninda",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šu-i",
+                  "id": "P227791.l269e8",
+                  "ref": "P227791.10.2",
+                  "inst": "šuʾi[barber]",
+                  "sig": "@dcclt%sux:šu-i=šuʾi[barber//barber]N'N$šuʾi/šu-i#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu-i",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P227791.10.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i",
+                        "id": "P227791.10.2.1"
+                      }
+                    ],
+                    "cf": "šuʾi",
+                    "gw": "barber",
+                    "sense": "barber",
+                    "norm0": "šuʾi",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šu-i",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.11",
+                  "n": "8'",
+                  "label": "o i 8'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ninda",
+                  "id": "P227791.l269e9",
+                  "ref": "P227791.11.1",
+                  "inst": "ninda[bread]",
+                  "sig": "@dcclt%sux:ninda=ninda[bread//bread]N'N$ninda/ninda#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.11.1.0"
+                      }
+                    ],
+                    "cf": "ninda",
+                    "gw": "bread",
+                    "sense": "bread",
+                    "norm0": "ninda",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šu",
+                  "id": "P227791.l269ea",
+                  "ref": "P227791.11.2",
+                  "inst": "šu[hand]",
+                  "sig": "@dcclt%sux:šu=šu[hand//hand]N'N$šu/šu#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P227791.11.2.0"
+                      }
+                    ],
+                    "cf": "šu",
+                    "gw": "hand",
+                    "sense": "hand",
+                    "norm0": "šu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šu",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "il₂-la",
+                  "id": "P227791.l269eb",
+                  "ref": "P227791.11.3",
+                  "inst": "ila[elevation]",
+                  "sig": "@dcclt%sux:il₂-la=ila[elevation//elevation]N'N$ila/il₂-la#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "il₂-la",
+                    "gdl": [
+                      {
+                        "v": "il₂",
+                        "id": "P227791.11.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la",
+                        "id": "P227791.11.3.1"
+                      }
+                    ],
+                    "cf": "ila",
+                    "gw": "elevation",
+                    "sense": "elevation",
+                    "norm0": "ila",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "il₂-la",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.12",
+                  "n": "9'",
+                  "label": "o i 9'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ninda",
+                  "id": "P227791.l269ec",
+                  "ref": "P227791.12.1",
+                  "inst": "ninda[bread]",
+                  "sig": "@dcclt%sux:ninda=ninda[bread//bread]N'N$ninda/ninda#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.12.1.0"
+                      }
+                    ],
+                    "cf": "ninda",
+                    "gw": "bread",
+                    "sense": "bread",
+                    "norm0": "ninda",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "dilim₂-da",
+                  "id": "P227791.l269ed",
+                  "ref": "P227791.12.2",
+                  "inst": "dilim[spoon]",
+                  "sig": "@dcclt%sux:dilim₂-da=dilim[spoon//spoon]N'N$dilim,da/dilim₂#~,da",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dilim₂-da",
+                    "gdl": [
+                      {
+                        "v": "dilim₂",
+                        "id": "P227791.12.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P227791.12.2.1"
+                      }
+                    ],
+                    "cf": "dilim",
+                    "gw": "spoon",
+                    "sense": "spoon",
+                    "norm0": "dilim,da",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "dilim₂",
+                    "morph": "~,da"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.13",
+                  "n": "10'",
+                  "label": "o i 10'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ninda",
+                  "id": "P227791.l269ee",
+                  "ref": "P227791.13.1",
+                  "inst": "ninda[bread]",
+                  "sig": "@dcclt%sux:ninda=ninda[bread//bread]N'N$ninda/ninda#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.13.1.0"
+                      }
+                    ],
+                    "cf": "ninda",
+                    "gw": "bread",
+                    "sense": "bread",
+                    "norm0": "ninda",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ki-sig₁₀-ga",
+                  "id": "P227791.l269ef",
+                  "ref": "P227791.13.2",
+                  "inst": "kisiga[offerings]",
+                  "sig": "@dcclt%sux:ki-sig₁₀-ga=kisiga[offerings//funerary offerings]N'N$kisiga/ki-sig₁₀-ga#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki-sig₁₀-ga",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P227791.13.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₀",
+                        "id": "P227791.13.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P227791.13.2.2"
+                      }
+                    ],
+                    "cf": "kisiga",
+                    "gw": "offerings",
+                    "sense": "funerary offerings",
+                    "norm0": "kisiga",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ki-sig₁₀-ga",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.14",
+                  "n": "11'",
+                  "label": "o i 11'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[ninda]",
+                  "id": "P227791.l269f0",
+                  "ref": "P227791.14.1",
+                  "inst": "ninda[bread]",
+                  "sig": "@dcclt%sux:ninda=ninda[bread//bread]N'N$ninda/ninda#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.14.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P227791.14.1.0"
+                      }
+                    ],
+                    "cf": "ninda",
+                    "gw": "bread",
+                    "sense": "bread",
+                    "norm0": "ninda",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ki-an-na",
+                  "id": "P227791.l269f1",
+                  "ref": "P227791.14.2",
+                  "inst": "kiʾana[locus]",
+                  "sig": "@dcclt%sux:ki-an-na=kiʾana[locus//a cultic location]N'N$kiʾana/ki-an-na#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki-an-na",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P227791.14.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "an",
+                        "id": "P227791.14.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P227791.14.2.2"
+                      }
+                    ],
+                    "cf": "kiʾana",
+                    "gw": "locus",
+                    "sense": "a cultic location",
+                    "norm0": "kiʾana",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ki-an-na",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227791.15",
+                  "n": "12'",
+                  "label": "o i 12'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[ninda",
+                  "id": "P227791.l269f2",
+                  "ref": "P227791.15.1",
+                  "inst": "ninda[bread]",
+                  "sig": "@dcclt%sux:ninda=ninda[bread//bread]N'N$ninda/ninda#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ninda",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ninda",
+                        "id": "P227791.15.1.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing"
+                      }
+                    ],
+                    "cf": "ninda",
+                    "gw": "bread",
+                    "sense": "bread",
+                    "norm0": "ninda",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ninda",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ki",
+                  "id": "P227791.l269f3",
+                  "ref": "P227791.15.2",
+                  "inst": "ki[place]",
+                  "sig": "@dcclt%sux:ki=ki[place//place]N'N$ki/ki#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P227791.15.2.0",
+                        "break": "missing"
+                      }
+                    ],
+                    "cf": "ki",
+                    "gw": "place",
+                    "sense": "place",
+                    "norm0": "ki",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ki",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{d]}⸢utu⸣",
+                  "id": "P227791.l269f4",
+                  "ref": "P227791.15.3",
+                  "inst": "DN",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{d}utu",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P227791.15.3.0",
+                            "break": "missing",
+                            "o": "]",
+                            "breakEnd": "P227791.15.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "utu",
+                        "id": "P227791.15.3.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "pos": "DN"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:11:35",
+  "textid": "P347135",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P347135.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P347135.o.1",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P347135.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P347135.U2",
+              "label": "o 1 - t.e. 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P347135.2",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "diŋir-⸢mah⸣",
+                  "id": "P347135.l2c26c",
+                  "ref": "P347135.2.1",
+                  "inst": "Diŋirmah[1]DN",
+                  "sig": "@dcclt%sux:diŋir-mah=Diŋirmah[1//1]DN'DN$Diŋirmah/diŋir-mah#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "diŋir-mah",
+                    "gdl": [
+                      {
+                        "v": "diŋir",
+                        "id": "P347135.2.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mah",
+                        "id": "P347135.2.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "Diŋirmah",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm0": "Diŋirmah",
+                    "pos": "DN",
+                    "epos": "DN",
+                    "base": "diŋir-mah",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P347135.l2c26d",
+                  "ref": "P347135.2.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P347135.2.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P347135.2.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P347135.3",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{d}nin-[mah]",
+                  "id": "P347135.l2c26e",
+                  "ref": "P347135.3.1",
+                  "inst": "Ninmah[1]DN",
+                  "sig": "@dcclt%sux:{d}nin-mah=Ninmah[1//1]DN'DN$Ninmah/{d}nin-mah#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{d}nin-mah",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P347135.3.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "nin",
+                        "id": "P347135.3.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mah",
+                        "id": "P347135.3.1.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P347135.3.1.2"
+                      }
+                    ],
+                    "cf": "Ninmah",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm0": "Ninmah",
+                    "pos": "DN",
+                    "epos": "DN",
+                    "base": "{d}nin-mah",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P347135.l2c26f",
+                  "ref": "P347135.3.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P347135.3.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P347135.3.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P347135.4",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{d}nin-hur-⸢saŋ⸣-[ŋa₂]",
+                  "id": "P347135.l2c270",
+                  "ref": "P347135.4.1",
+                  "inst": "Ninhursaŋak[1]DN",
+                  "sig": "@dcclt%sux:{d}nin-hur-saŋ-ŋa₂=Ninhursaŋak[1//1]DN'DN$Ninhursaŋak,ŋu.ak/{d}nin-hur-saŋ#~,ŋu.ak",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{d}nin-hur-saŋ-ŋa₂",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P347135.4.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "nin",
+                        "id": "P347135.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "hur",
+                        "id": "P347135.4.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "saŋ",
+                        "id": "P347135.4.1.3",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ŋa₂",
+                        "id": "P347135.4.1.4",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P347135.4.1.4"
+                      }
+                    ],
+                    "cf": "Ninhursaŋak",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm0": "Ninhursaŋak,ŋu.ak",
+                    "pos": "DN",
+                    "epos": "DN",
+                    "base": "{d}nin-hur-saŋ",
+                    "morph": "~,ŋu.ak"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P347135.l2c271",
+                  "ref": "P347135.4.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P347135.4.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P347135.4.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P347135.5",
+                  "n": "4",
+                  "label": "o 4"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "{d}nin-⸢diŋir⸣-[re-e-ne]",
+                  "id": "P347135.l2c272",
+                  "ref": "P347135.5.1",
+                  "inst": "Nindiŋirenek[1]DN",
+                  "sig": "@dcclt%sux:{d}nin-diŋir-re-e-ne=Nindiŋirenek[1//1]DN'DN$Nindiŋirenek/{d}nin-diŋir-re-e-ne#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{d}nin-diŋir-re-e-ne",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P347135.5.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "nin",
+                        "id": "P347135.5.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "diŋir",
+                        "id": "P347135.5.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "re",
+                        "id": "P347135.5.1.3",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "e",
+                        "id": "P347135.5.1.4",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ne",
+                        "id": "P347135.5.1.5",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P347135.5.1.3"
+                      }
+                    ],
+                    "cf": "Nindiŋirenek",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm0": "Nindiŋirenek",
+                    "pos": "DN",
+                    "epos": "DN",
+                    "base": "{d}nin-diŋir-re-e-ne",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P347135.l2c273",
+                  "ref": "P347135.5.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P347135.5.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P347135.5.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P347135.6",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P347135.r.7",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P347135.8",
+                  "strict": "1",
+                  "extent": "n",
+                  "scope": "line",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "top",
+                  "type": "top",
+                  "ref": "P347135.t.e..9",
+                  "label": "t.e."
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P347135.10",
+                  "n": "1",
+                  "label": "t.e. 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{d}[...]",
+                  "id": "P347135.l2c274",
+                  "ref": "P347135.10.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{d}x",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P347135.10.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P347135.10.1.1",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P347135.10.1.1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P347135.11",
+                  "n": "2",
+                  "label": "t.e. 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{d}en-x-[...]",
+                  "id": "P347135.l2c275",
+                  "ref": "P347135.11.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{d}en-x-x",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P347135.11.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "en",
+                        "id": "P347135.11.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P347135.11.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P347135.11.1.3",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P347135.11.1.3"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:05:04",
+  "textid": "P225109",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P225109.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P225109.x619.1",
+          "label": "x619"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P225109.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P225109.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P225109.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P225109.U2",
+              "label": "o i 1 - o i 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225109.4",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}mar-gid₂-[da]",
+                  "id": "P225109.l1c1da",
+                  "ref": "P225109.4.1",
+                  "inst": "margida[cart, wagon]N",
+                  "sig": "@dcclt%sux:{ŋeš}mar-gid₂-da=margida[cart//cart, wagon]N'N$margida/{ŋeš}mar-gid₂-da#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}mar-gid₂-da",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P225109.4.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "mar",
+                        "id": "P225109.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gid₂",
+                        "id": "P225109.4.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P225109.4.1.3",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P225109.4.1.3"
+                      }
+                    ],
+                    "cf": "margida",
+                    "gw": "cart",
+                    "sense": "cart, wagon",
+                    "norm0": "margida",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}mar-gid₂-da",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225109.5",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}{u₂}sasₓ(|KI.KAL|)",
+                  "id": "P225109.l1c1db",
+                  "ref": "P225109.5.1",
+                  "inst": "KI.KAL[bottom]N",
+                  "sig": "@dcclt%sux:{ŋeš}{u₂}sasₓ(|KI.KAL|)=KI.KAL[bottom//bottom]N'N$KI.KAL/{u₂}sasₓ(|KI.KAL|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}{u₂}sasₓ(|KI.KAL|)",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P225109.5.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "u₂",
+                            "id": "P225109.5.1.1"
+                          }
+                        ]
+                      },
+                      {
+                        "q": "sasₓ(|KI.KAL|)",
+                        "id": "P225109.5.1.2",
+                        "qualified": [
+                          {
+                            "v": "sasₓ"
+                          },
+                          {
+                            "c": "|KI.KAL|",
+                            "seq": [
+                              {
+                                "s": "KI"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "KAL"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "KI.KAL",
+                    "gw": "bottom",
+                    "sense": "bottom",
+                    "norm0": "KI.KAL",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{u₂}sasₓ(|KI.KAL|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "mar-gid₂-⸢da⸣",
+                  "id": "P225109.l1c1dc",
+                  "ref": "P225109.5.2",
+                  "inst": "margida[cart, wagon]N",
+                  "sig": "@dcclt%sux:mar-gid₂-da=margida[cart//cart, wagon]N'N$margida/mar-gid₂-da#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "mar-gid₂-da",
+                    "gdl": [
+                      {
+                        "v": "mar",
+                        "id": "P225109.5.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gid₂",
+                        "id": "P225109.5.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P225109.5.2.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "margida",
+                    "gw": "cart",
+                    "sense": "cart, wagon",
+                    "norm0": "margida",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "mar-gid₂-da",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225109.6",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}dal",
+                  "id": "P225109.l1c1dd",
+                  "ref": "P225109.6.1",
+                  "inst": "ŋešdal[crossbar, beam]N",
+                  "sig": "@dcclt%sux:{ŋeš}dal=ŋešdal[crossbar//crossbar]N'N$ŋešdal/ŋeš-dal#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}dal",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P225109.6.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "dal",
+                        "id": "P225109.6.1.1"
+                      }
+                    ],
+                    "cf": "ŋešdal",
+                    "gw": "crossbar",
+                    "sense": "crossbar",
+                    "norm0": "ŋešdal",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ŋeš-dal",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "mar-gid₂-da",
+                  "id": "P225109.l1c1de",
+                  "ref": "P225109.6.2",
+                  "inst": "margida[cart, wagon]N",
+                  "sig": "@dcclt%sux:mar-gid₂-da=margida[cart//cart, wagon]N'N$margida/mar-gid₂-da#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "mar-gid₂-da",
+                    "gdl": [
+                      {
+                        "v": "mar",
+                        "id": "P225109.6.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gid₂",
+                        "id": "P225109.6.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P225109.6.2.2"
+                      }
+                    ],
+                    "cf": "margida",
+                    "gw": "cart",
+                    "sense": "cart, wagon",
+                    "norm0": "margida",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "mar-gid₂-da",
+                    "morph": "~"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

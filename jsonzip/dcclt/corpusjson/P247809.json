@@ -1,0 +1,158 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:08:49",
+  "textid": "P247809",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P247809.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P247809.o.1",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P247809.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P247809.U2",
+              "label": "o 1 - o 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247809.2",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "[dub]-⸢sar⸣-[...]",
+                  "id": "P247809.l10cc6",
+                  "ref": "P247809.2.1",
+                  "inst": "%sux:dub-sar-x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dub-sar-x",
+                    "gdl": [
+                      {
+                        "v": "dub",
+                        "id": "P247809.2.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P247809.2.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sar",
+                        "id": "P247809.2.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P247809.2.1.2",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P247809.2.1.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P247809.3",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢dub⸣-sar",
+                  "id": "P247809.l10cc7",
+                  "ref": "P247809.3.1",
+                  "inst": "%sux:dub-sar=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dub-sar",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "dub",
+                        "id": "P247809.3.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "sar",
+                        "id": "P247809.3.1.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "a-[ri-a]",
+                  "id": "P247809.l10cc8",
+                  "ref": "P247809.3.2",
+                  "inst": "%sux:a-ri-a=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "a-ri-a",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "P247809.3.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ri",
+                        "id": "P247809.3.2.1",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P247809.3.2.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P247809.3.2.1"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

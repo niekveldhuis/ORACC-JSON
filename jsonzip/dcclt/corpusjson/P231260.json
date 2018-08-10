@@ -1,0 +1,287 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:08:27",
+  "textid": "P231260",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P231260.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P231260.x971.1",
+          "label": "x971"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P231260.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P231260.3",
+          "strict": "0",
+          "state": "other"
+        },
+        {
+          "node": "d",
+          "subtype": "reverse",
+          "type": "reverse",
+          "ref": "P231260.r.4",
+          "label": "r"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1r",
+          "type": "column",
+          "ref": "P231260.r.i.5",
+          "n": "1",
+          "label": "r i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P231260.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P231260.U2",
+              "label": "r i 1 - r i 4",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231260.6",
+                  "n": "1",
+                  "label": "r i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "u₂",
+                  "id": "P231260.l2409d",
+                  "ref": "P231260.6.1",
+                  "inst": "u[grass]",
+                  "sig": "@dcclt%sux:u₂=u[grass//grass, herb]N'N$u/u₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "u₂",
+                    "gdl": [
+                      {
+                        "v": "u₂",
+                        "id": "P231260.6.1.0"
+                      }
+                    ],
+                    "cf": "u",
+                    "gw": "grass",
+                    "sense": "grass, herb",
+                    "norm0": "u",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "u₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231260.7",
+                  "n": "2",
+                  "label": "r i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[u₂]}⸢li⸣-gi₄",
+                  "id": "P231260.l2409e",
+                  "ref": "P231260.7.1",
+                  "inst": "ligi[plant]",
+                  "sig": "@dcclt%sux:{u₂}li-gi₄=ligi[plant//plant]N'N$ligi/{u₂}li-gi₄#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{u₂}li-gi₄",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "u₂",
+                            "id": "P231260.7.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P231260.7.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "li",
+                        "id": "P231260.7.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "gi₄",
+                        "id": "P231260.7.1.2"
+                      }
+                    ],
+                    "cf": "ligi",
+                    "gw": "plant",
+                    "sense": "plant",
+                    "norm0": "ligi",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{u₂}li-gi₄",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231260.8",
+                  "n": "3",
+                  "label": "r i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[u₂]}⸢li⸣-li-gi₄",
+                  "id": "P231260.l2409f",
+                  "ref": "P231260.8.1",
+                  "inst": "liligi[plant]",
+                  "sig": "@dcclt%sux:{u₂}li-li-gi₄=liligi[plant//a cucumber-like plant]N'N$liligi/{u₂}li-li-gi₄#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{u₂}li-li-gi₄",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "u₂",
+                            "id": "P231260.8.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P231260.8.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "li",
+                        "id": "P231260.8.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "li",
+                        "id": "P231260.8.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gi₄",
+                        "id": "P231260.8.1.3"
+                      }
+                    ],
+                    "cf": "liligi",
+                    "gw": "plant",
+                    "sense": "a cucumber-like plant",
+                    "norm0": "liligi",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{u₂}li-li-gi₄",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231260.9",
+                  "n": "4",
+                  "label": "r i 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[u₂}li]-li-gi₄",
+                  "id": "P231260.l240a0",
+                  "ref": "P231260.9.1",
+                  "inst": "liligi[plant]",
+                  "sig": "@dcclt%sux:{u₂}li-li-gi₄=liligi[plant//a cucumber-like plant]N'N$liligi/{u₂}li-li-gi₄#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{u₂}li-li-gi₄",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "u₂",
+                            "id": "P231260.9.1.0",
+                            "breakStart": "1",
+                            "o": "[",
+                            "break": "missing"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "li",
+                        "id": "P231260.9.1.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P231260.9.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "li",
+                        "id": "P231260.9.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gi₄",
+                        "id": "P231260.9.1.3"
+                      }
+                    ],
+                    "cf": "liligi",
+                    "gw": "plant",
+                    "sense": "a cucumber-like plant",
+                    "norm0": "liligi",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{u₂}li-li-gi₄",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P231260.10",
+                  "strict": "0",
+                  "extent": "rest",
+                  "scope": "tablet",
+                  "state": "other"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

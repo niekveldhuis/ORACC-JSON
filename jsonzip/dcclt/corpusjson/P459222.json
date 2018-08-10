@@ -1,0 +1,276 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:14:26",
+  "textid": "P459222",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P459222.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P459222.x605.1",
+          "label": "x605"
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P459222.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P459222.U2",
+              "label": "1 - 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P459222.2",
+                  "n": "1",
+                  "label": "1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}da-an-ga",
+                  "id": "P459222.l1bfd2",
+                  "ref": "P459222.2.1",
+                  "inst": "damga[~plow]N",
+                  "sig": "@dcclt%sux:{ŋeš}da-an-ga=damga[~plow//~plow]N'N$damga/{ŋeš}da-an-ga#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}da-an-ga",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P459222.2.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "da",
+                        "id": "P459222.2.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "an",
+                        "id": "P459222.2.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P459222.2.1.3"
+                      }
+                    ],
+                    "cf": "damga",
+                    "gw": "~plow",
+                    "sense": "~plow",
+                    "norm0": "damga",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}da-an-ga",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "apin",
+                  "id": "P459222.l1bfd3",
+                  "ref": "P459222.2.2",
+                  "inst": "apin[(seed) plow]N",
+                  "sig": "@dcclt%sux:apin=apin[plow//(seed) plow]N'N$apin/apin#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "apin",
+                    "gdl": [
+                      {
+                        "v": "apin",
+                        "id": "P459222.2.2.0"
+                      }
+                    ],
+                    "cf": "apin",
+                    "gw": "plow",
+                    "sense": "(seed) plow",
+                    "norm0": "apin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "apin",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P459222.3",
+                  "n": "2",
+                  "label": "2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}gana₂-ur₃(DAGAL)",
+                  "id": "P459222.l1bfd4",
+                  "ref": "P459222.3.1",
+                  "inst": "ŋušur[harrow]N",
+                  "sig": "@dcclt%sux:{ŋeš}gana₂-ur₃=ŋušur[harrow//harrow]N'N$ŋušur/{ŋeš}gana₂-ur₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}gana₂-ur₃",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P459222.3.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "gana₂",
+                        "id": "P459222.3.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "gg": "correction",
+                        "gdl_type": "correction",
+                        "group": [
+                          {
+                            "v": "ur₃",
+                            "id": "P459222.3.1.2",
+                            "gdl_remarked": "1"
+                          },
+                          {
+                            "s": "DAGAL"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "ŋušur",
+                    "gw": "harrow",
+                    "sense": "harrow",
+                    "norm0": "ŋušur",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}gana₂-ur₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P459222.4",
+                  "n": "3",
+                  "label": "3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}gana₂-ur₃(GAN₂)",
+                  "id": "P459222.l1bfd5",
+                  "ref": "P459222.4.1",
+                  "inst": "ŋušur[harrow]N",
+                  "sig": "@dcclt%sux:{ŋeš}gana₂-ur₃=ŋušur[harrow//harrow]N'N$ŋušur/{ŋeš}gana₂-ur₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}gana₂-ur₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P459222.4.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "gana₂",
+                        "id": "P459222.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "gg": "correction",
+                        "gdl_type": "correction",
+                        "group": [
+                          {
+                            "v": "ur₃",
+                            "id": "P459222.4.1.2",
+                            "gdl_remarked": "1"
+                          },
+                          {
+                            "s": "GAN₂"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "ŋušur",
+                    "gw": "harrow",
+                    "sense": "harrow",
+                    "norm0": "ŋušur",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}gana₂-ur₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "sar-ra",
+                  "id": "P459222.l1bfd6",
+                  "ref": "P459222.4.2",
+                  "inst": "sar[garden]",
+                  "sig": "@dcclt%sux:sar-ra=sar[garden//garden]N'N$sar,ak/sar+-ra=r.a#~,ak",
+                  "f": {
+                    "lang": "sux",
+                    "form": "sar-ra",
+                    "gdl": [
+                      {
+                        "v": "sar",
+                        "id": "P459222.4.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P459222.4.2.1"
+                      }
+                    ],
+                    "cf": "sar",
+                    "gw": "garden",
+                    "sense": "garden",
+                    "norm0": "sar,ak",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "sar",
+                    "cont": "-ra=r.a",
+                    "morph": "~,ak"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

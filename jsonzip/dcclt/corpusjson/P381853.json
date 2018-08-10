@@ -1,0 +1,142 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:12:57",
+  "textid": "P381853",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P381853.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P381853.x1696.1",
+          "label": "x1696"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P381853.o.2",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P381853.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P381853.U2",
+              "label": "o 1 - o 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P381853.3",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "zab-ga",
+                  "id": "P381853.l3feb9",
+                  "ref": "P381853.3.1",
+                  "inst": "%sux:zab-ga=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "zab-ga",
+                    "gdl": [
+                      {
+                        "v": "zab",
+                        "id": "P381853.3.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P381853.3.1.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P381853.4",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "zab-zab-ga",
+                  "id": "P381853.l3feba",
+                  "ref": "P381853.4.1",
+                  "inst": "%sux:zab-zab-ga=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "zab-zab-ga",
+                    "gdl": [
+                      {
+                        "v": "zab",
+                        "id": "P381853.4.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "zab",
+                        "id": "P381853.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P381853.4.1.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P381853.5",
+                  "strict": "1",
+                  "extent": "1",
+                  "scope": "line",
+                  "state": "ruling"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P381853.6",
+                  "strict": "0",
+                  "state": "other"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P381853.r.7",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P381853.8",
+                  "strict": "0",
+                  "state": "other"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5134 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:11:15",
+  "textid": "P333161",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P333161.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P333161.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P333161.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P333161.3",
+          "strict": "1",
+          "extent": "1",
+          "scope": "line",
+          "state": "traces"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P333161.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P333161.U2",
+              "label": "o i frg.1 2' - o ii frg.2 4''",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.4",
+                  "n": "2'",
+                  "label": "o i frg.1 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[MUNUS",
+                  "id": "P333161.l12a1f",
+                  "ref": "P333161.4.1",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "MUNUS",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "MUNUS",
+                        "id": "P333161.4.1.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂]",
+                  "id": "P333161.l12a20",
+                  "ref": "P333161.4.2",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.4.2.0",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.4.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢kurun₂⸣-na",
+                  "id": "P333161.l12a21",
+                  "ref": "P333161.4.3",
+                  "inst": "kurun[a beer]N",
+                  "sig": "@dcclt%sux:kurun₂-na=kurun[beer//a beer]N'N$kurun,ak/kurun₂#~,ak",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kurun₂-na",
+                    "gdl": [
+                      {
+                        "v": "kurun₂",
+                        "id": "P333161.4.3.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P333161.4.3.1"
+                      }
+                    ],
+                    "cf": "kurun",
+                    "gw": "beer",
+                    "sense": "a beer",
+                    "norm0": "kurun,ak",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kurun₂",
+                    "morph": "~,ak"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.5",
+                  "n": "3'",
+                  "label": "o i frg.1 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[lu₂]",
+                  "id": "P333161.l12a22",
+                  "ref": "P333161.5.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.5.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P333161.5.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢im₂⸣-ma",
+                  "id": "P333161.l12a23",
+                  "ref": "P333161.5.2",
+                  "inst": "im[to run]V/i",
+                  "sig": "@dcclt%sux:im₂-ma=im[run//to run]V/i'V/i$im;a/im₂+-ma=m.a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "im₂-ma",
+                    "gdl": [
+                      {
+                        "v": "im₂",
+                        "id": "P333161.5.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P333161.5.2.1"
+                      }
+                    ],
+                    "cf": "im",
+                    "gw": "run",
+                    "sense": "to run",
+                    "norm0": "im;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "im₂",
+                    "cont": "-ma=m.a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.6",
+                  "n": "4'",
+                  "label": "o i frg.1 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[lu₂]",
+                  "id": "P333161.l12a24",
+                  "ref": "P333161.6.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.6.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P333161.6.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢kaš₄⸣-e",
+                  "id": "P333161.l12a25",
+                  "ref": "P333161.6.2",
+                  "inst": "kaš[runner]N",
+                  "sig": "@dcclt%sux:kaš₄-e=kaš[runner//runner]N'N$kaš,e/kaš₄#~,e",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kaš₄-e",
+                    "gdl": [
+                      {
+                        "v": "kaš₄",
+                        "id": "P333161.6.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "e",
+                        "id": "P333161.6.2.1"
+                      }
+                    ],
+                    "cf": "kaš",
+                    "gw": "runner",
+                    "sense": "runner",
+                    "norm0": "kaš,e",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kaš₄",
+                    "morph": "~,e"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.7",
+                  "n": "5'",
+                  "label": "o i frg.1 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[lu₂",
+                  "id": "P333161.l12a26",
+                  "ref": "P333161.7.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.7.1.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "kaš₄]-e",
+                  "id": "P333161.l12a27",
+                  "ref": "P333161.7.2",
+                  "inst": "kaš[runner]N",
+                  "sig": "@dcclt%sux:kaš₄-e=kaš[runner//runner]N'N$kaš,e/kaš₄#~,e",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kaš₄-e",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "kaš₄",
+                        "id": "P333161.7.2.0",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.7.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "e",
+                        "id": "P333161.7.2.1"
+                      }
+                    ],
+                    "cf": "kaš",
+                    "gw": "runner",
+                    "sense": "runner",
+                    "norm0": "kaš,e",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kaš₄",
+                    "morph": "~,e"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "keš₂-da",
+                  "id": "P333161.l12a28",
+                  "ref": "P333161.7.3",
+                  "inst": "kešed[to bind]V/t",
+                  "sig": "@dcclt%sux:keš₂-da=kešed[bind//to bind]V/t'V/t$kešed;a/keš₂-d·a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "keš₂-da",
+                    "gdl": [
+                      {
+                        "v": "keš₂",
+                        "id": "P333161.7.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P333161.7.3.1"
+                      }
+                    ],
+                    "cf": "kešed",
+                    "gw": "bind",
+                    "sense": "to bind",
+                    "norm0": "kešed;a",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "keš₂-d·a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.8",
+                  "n": "6'",
+                  "label": "o i frg.1 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[lu₂",
+                  "id": "P333161.l12a29",
+                  "ref": "P333161.8.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.8.1.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "dub₃]-tuku",
+                  "id": "P333161.l12a2a",
+                  "ref": "P333161.8.2",
+                  "inst": "dubtuku[runner]N",
+                  "sig": "@dcclt%sux:dub₃-tuku=dubtuku[runner//runner]N'N$dubtuku/dub₃-tuku#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dub₃-tuku",
+                    "gdl": [
+                      {
+                        "v": "dub₃",
+                        "id": "P333161.8.2.0",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.8.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tuku",
+                        "id": "P333161.8.2.1"
+                      }
+                    ],
+                    "cf": "dubtuku",
+                    "gw": "runner",
+                    "sense": "runner",
+                    "norm0": "dubtuku",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "dub₃-tuku",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.9",
+                  "n": "7'",
+                  "label": "o i frg.1 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12a2b",
+                  "ref": "P333161.9.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.9.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[usu]-⸢tuku⸣",
+                  "id": "P333161.l12a2c",
+                  "ref": "P333161.9.2",
+                  "inst": "usutuku[strong]AJ",
+                  "sig": "@dcclt%sux:usu-tuku=usutuku[strong//strong]AJ'AJ$usutuku/usu-tuku#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "usu-tuku",
+                    "gdl": [
+                      {
+                        "v": "usu",
+                        "id": "P333161.9.2.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P333161.9.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tuku",
+                        "id": "P333161.9.2.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "usutuku",
+                    "gw": "strong",
+                    "sense": "strong",
+                    "norm0": "usutuku",
+                    "pos": "AJ",
+                    "epos": "AJ",
+                    "base": "usu-tuku",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.10",
+                  "n": "8'",
+                  "label": "o i frg.1 8'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂-⸢niŋ₂-tuku⸣",
+                  "id": "P333161.l12a2d",
+                  "ref": "P333161.10.1",
+                  "inst": "luniŋtuku[rich man]N",
+                  "sig": "@dcclt%sux:lu₂-niŋ₂-tuku=luniŋtuku[rich//rich man]N'N$luniŋtuku/lu₂-niŋ₂-tuku#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂-niŋ₂-tuku",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.10.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "niŋ₂",
+                        "id": "P333161.10.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tuku",
+                        "id": "P333161.10.1.2",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "luniŋtuku",
+                    "gw": "rich",
+                    "sense": "rich man",
+                    "norm0": "luniŋtuku",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂-niŋ₂-tuku",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.11",
+                  "n": "9'",
+                  "label": "o i frg.1 9'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂-niŋ₂-⸢nu-tuku⸣",
+                  "id": "P333161.l12a2e",
+                  "ref": "P333161.11.1",
+                  "inst": "luniŋnutuku[poor person]N",
+                  "sig": "@dcclt%sux:lu₂-niŋ₂-nu-tuku=luniŋnutuku[poor//poor person]N'N$luniŋnutuku/lu₂-niŋ₂-nu-tuku#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂-niŋ₂-nu-tuku",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.11.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "niŋ₂",
+                        "id": "P333161.11.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nu",
+                        "id": "P333161.11.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tuku",
+                        "id": "P333161.11.1.3",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "luniŋnutuku",
+                    "gw": "poor",
+                    "sense": "poor person",
+                    "norm0": "luniŋnutuku",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂-niŋ₂-nu-tuku",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.12",
+                  "n": "10'",
+                  "label": "o i frg.1 10'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a2f",
+                  "ref": "P333161.12.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.12.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "niŋ₂-tuku-⸢tuku⸣",
+                  "id": "P333161.l12a30",
+                  "ref": "P333161.12.2",
+                  "inst": "niŋtukutuku[very rich]AJ",
+                  "sig": "@dcclt%sux:niŋ₂-tuku-tuku=niŋtukutuku[rich//very rich]AJ'AJ$niŋtukutuku/niŋ₂-tuku-tuku#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "niŋ₂-tuku-tuku",
+                    "gdl": [
+                      {
+                        "v": "niŋ₂",
+                        "id": "P333161.12.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tuku",
+                        "id": "P333161.12.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tuku",
+                        "id": "P333161.12.2.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "niŋtukutuku",
+                    "gw": "rich",
+                    "sense": "very rich",
+                    "norm0": "niŋtukutuku",
+                    "pos": "AJ",
+                    "epos": "AJ",
+                    "base": "niŋ₂-tuku-tuku",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.13",
+                  "n": "11'",
+                  "label": "o i frg.1 11'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a31",
+                  "ref": "P333161.13.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.13.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "c",
+                  "type": "phrase",
+                  "tag": "phr",
+                  "id": "P333161.U4",
+                  "ref": "P333161.ls00000",
+                  "cdl": [
+                    {
+                      "node": "l",
+                      "frag": "dub₃",
+                      "id": "P333161.l12a32",
+                      "ref": "P333161.13.2",
+                      "inst": "dub[knee]N",
+                      "sig": "@dcclt%sux:dub₃=dub[knee//knee]N'N$dub/dub₃#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "dub₃",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "dub₃",
+                            "id": "P333161.13.2.0"
+                          }
+                        ],
+                        "cf": "dub",
+                        "gw": "knee",
+                        "sense": "knee",
+                        "norm0": "dub",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "dub₃",
+                        "morph": "~"
+                      }
+                    },
+                    {
+                      "node": "l",
+                      "frag": "gurum",
+                      "id": "P333161.l12a33",
+                      "ref": "P333161.13.3",
+                      "inst": "gurum[to bend, curve, wrap around]V/t",
+                      "sig": "@dcclt%sux:gurum=gurum[bend//to bend, curve, wrap around]V/t'V/t$gurum/gurum#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "gurum",
+                        "gdl": [
+                          {
+                            "v": "gurum",
+                            "id": "P333161.13.3.0"
+                          }
+                        ],
+                        "cf": "gurum",
+                        "gw": "bend",
+                        "sense": "to bend, curve, wrap around",
+                        "norm0": "gurum",
+                        "pos": "V/t",
+                        "epos": "V/t",
+                        "base": "gurum",
+                        "morph": "~"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.14",
+                  "n": "12'",
+                  "label": "o i frg.1 12'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a34",
+                  "ref": "P333161.14.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.14.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "dub₃",
+                  "id": "P333161.l12a35",
+                  "ref": "P333161.14.2",
+                  "inst": "dub[knee]N",
+                  "sig": "@dcclt%sux:dub₃=dub[knee//knee]N'N$dub/dub₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dub₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "dub₃",
+                        "id": "P333161.14.2.0"
+                      }
+                    ],
+                    "cf": "dub",
+                    "gw": "knee",
+                    "sense": "knee",
+                    "norm0": "dub",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "dub₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "lah₅-lah₆-e",
+                  "id": "P333161.l12a36",
+                  "ref": "P333161.14.3",
+                  "inst": "lah[bring]",
+                  "sig": "@dcclt%sux:lah₅-lah₆-e=lah[bring//bring]V/t'V/t$lah;e/lah₅-lah₆#~;e",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lah₅-lah₆-e",
+                    "gdl": [
+                      {
+                        "v": "lah₅",
+                        "id": "P333161.14.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "lah₆",
+                        "id": "P333161.14.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "e",
+                        "id": "P333161.14.3.2"
+                      }
+                    ],
+                    "cf": "lah",
+                    "gw": "bring",
+                    "sense": "bring",
+                    "norm0": "lah;e",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "lah₅-lah₆",
+                    "morph": "~;e"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.15",
+                  "n": "13'",
+                  "label": "o i frg.1 13'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a37",
+                  "ref": "P333161.15.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.15.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "dub₃",
+                  "id": "P333161.l12a38",
+                  "ref": "P333161.15.2",
+                  "inst": "dub[knee]",
+                  "sig": "@dcclt%sux:dub₃=dub[knee//knee]N'N$dub/dub₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dub₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "dub₃",
+                        "id": "P333161.15.2.0"
+                      }
+                    ],
+                    "cf": "dub",
+                    "gw": "knee",
+                    "sense": "knee",
+                    "norm0": "dub",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "dub₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ak",
+                  "id": "P333161.l12a39",
+                  "ref": "P333161.15.3",
+                  "inst": "ak[do]",
+                  "sig": "@dcclt%sux:ak=ak[do//do]V/t'V/t$ak/ak#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ak",
+                    "gdl": [
+                      {
+                        "v": "ak",
+                        "id": "P333161.15.3.0"
+                      }
+                    ],
+                    "cf": "ak",
+                    "gw": "do",
+                    "sense": "do",
+                    "norm0": "ak",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "ak",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.16",
+                  "n": "14'",
+                  "label": "o i frg.1 14'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a3a",
+                  "ref": "P333161.16.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.16.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋeš₃",
+                  "id": "P333161.l12a3b",
+                  "ref": "P333161.16.2",
+                  "inst": "ŋeš[penis]N",
+                  "sig": "@dcclt%sux:ŋeš₃=ŋeš[penis//penis]N'N$ŋeš/ŋeš₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš₃",
+                        "id": "P333161.16.2.0"
+                      }
+                    ],
+                    "cf": "ŋeš",
+                    "gw": "penis",
+                    "sense": "penis",
+                    "norm0": "ŋeš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ŋeš₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "bir₂-ra",
+                  "id": "P333161.l12a3c",
+                  "ref": "P333161.16.3",
+                  "inst": "birig[shrivel]",
+                  "sig": "@dcclt%sux:bir₂-ra=birig[sneer//shrivel]V/t'V/i$birig;*a,ra/bir₂#~;*a,ra",
+                  "f": {
+                    "lang": "sux",
+                    "form": "bir₂-ra",
+                    "gdl": [
+                      {
+                        "v": "bir₂",
+                        "id": "P333161.16.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P333161.16.3.1"
+                      }
+                    ],
+                    "cf": "birig",
+                    "gw": "sneer",
+                    "sense": "shrivel",
+                    "norm0": "birig;*a,ra",
+                    "pos": "V/t",
+                    "epos": "V/i",
+                    "base": "bir₂",
+                    "morph": "~;*a,ra"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.17",
+                  "n": "15'",
+                  "label": "o i frg.1 15'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a3d",
+                  "ref": "P333161.17.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.17.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋeš₃",
+                  "id": "P333161.l12a3e",
+                  "ref": "P333161.17.2",
+                  "inst": "ŋeš[penis]N",
+                  "sig": "@dcclt%sux:ŋeš₃=ŋeš[penis//penis]N'N$ŋeš/ŋeš₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš₃",
+                        "id": "P333161.17.2.0"
+                      }
+                    ],
+                    "cf": "ŋeš",
+                    "gw": "penis",
+                    "sense": "penis",
+                    "norm0": "ŋeš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ŋeš₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "bir₂",
+                  "id": "P333161.l12a3f",
+                  "ref": "P333161.17.3",
+                  "inst": "birig[shrivel]",
+                  "sig": "@dcclt%sux:bir₂=birig[sneer//shrivel]V/t'V/i$birig/bir₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "bir₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "bir₂",
+                        "id": "P333161.17.3.0"
+                      }
+                    ],
+                    "cf": "birig",
+                    "gw": "sneer",
+                    "sense": "shrivel",
+                    "norm0": "birig",
+                    "pos": "V/t",
+                    "epos": "V/i",
+                    "base": "bir₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "an-kud",
+                  "id": "P333161.l12a40",
+                  "ref": "P333161.17.4",
+                  "inst": "kud[cut]V/t",
+                  "sig": "@dcclt%sux:an-kud=kud[cut//cut]V/t'V/t$V.n:kud/kud#V.n:~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "an-kud",
+                    "gdl": [
+                      {
+                        "v": "an",
+                        "id": "P333161.17.4.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "kud",
+                        "id": "P333161.17.4.1"
+                      }
+                    ],
+                    "cf": "kud",
+                    "gw": "cut",
+                    "sense": "cut",
+                    "norm0": "V.n:kud",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "kud",
+                    "morph": "V.n:~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.18",
+                  "n": "16'",
+                  "label": "o i frg.1 16'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a41",
+                  "ref": "P333161.18.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.18.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "dub₃",
+                  "id": "P333161.l12a42",
+                  "ref": "P333161.18.2",
+                  "inst": "dub[knee]N",
+                  "sig": "@dcclt%sux:dub₃=dub[knee//knee]N'N$dub/dub₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dub₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "dub₃",
+                        "id": "P333161.18.2.0"
+                      }
+                    ],
+                    "cf": "dub",
+                    "gw": "knee",
+                    "sense": "knee",
+                    "norm0": "dub",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "dub₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "sa",
+                  "id": "P333161.l12a43",
+                  "ref": "P333161.18.3",
+                  "inst": "sa[sinew, tendon]N",
+                  "sig": "@dcclt%sux:sa=sa[sinew//sinew]N'N$sa/sa#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "sa",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "sa",
+                        "id": "P333161.18.3.0"
+                      }
+                    ],
+                    "cf": "sa",
+                    "gw": "sinew",
+                    "sense": "sinew",
+                    "norm0": "sa",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "sa",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢dar⸣-[ra]",
+                  "id": "P333161.l12a44",
+                  "ref": "P333161.18.4",
+                  "inst": "dar[to split, split up]V/t",
+                  "sig": "@dcclt%sux:dar-ra=dar[split//to split, split up]V/t'V/t$dar;a/dar+-ra=r.a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dar-ra",
+                    "gdl": [
+                      {
+                        "v": "dar",
+                        "id": "P333161.18.4.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P333161.18.4.1",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P333161.18.4.1"
+                      }
+                    ],
+                    "cf": "dar",
+                    "gw": "split",
+                    "sense": "to split, split up",
+                    "norm0": "dar;a",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "dar",
+                    "cont": "-ra=r.a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.19",
+                  "n": "17'",
+                  "label": "o i frg.1 17'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a45",
+                  "ref": "P333161.19.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.19.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ma-an-⸢zi⸣-[la₂]",
+                  "id": "P333161.l12a46",
+                  "ref": "P333161.19.2",
+                  "inst": "manzila[club foot]N",
+                  "sig": "@dcclt%sux:ma-an-zi-la₂=manzila[foot//club foot]N'N$manzila/ma-an-zi-la₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ma-an-zi-la₂",
+                    "gdl": [
+                      {
+                        "v": "ma",
+                        "id": "P333161.19.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "an",
+                        "id": "P333161.19.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "zi",
+                        "id": "P333161.19.2.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "la₂",
+                        "id": "P333161.19.2.3",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P333161.19.2.3"
+                      }
+                    ],
+                    "cf": "manzila",
+                    "gw": "foot",
+                    "sense": "club foot",
+                    "norm0": "manzila",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ma-an-zi-la₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.20",
+                  "n": "18'",
+                  "label": "o i frg.1 18'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a47",
+                  "ref": "P333161.20.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.20.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-[...]",
+                  "id": "P333161.l12a48",
+                  "ref": "P333161.20.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-x",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.20.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P333161.20.2.1",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.20.2.1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.21",
+                  "n": "19'",
+                  "label": "o i frg.1 19'"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a49",
+                  "ref": "P333161.21.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.21.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢al⸣-[...]",
+                  "id": "P333161.l12a4a",
+                  "ref": "P333161.21.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-x",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.21.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P333161.21.2.1",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.21.2.1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.22",
+                  "n": "20'",
+                  "label": "o i frg.1 20'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂",
+                  "id": "P333161.l12a4b",
+                  "ref": "P333161.22.1",
+                  "inst": "lu[person]",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.22.1.0",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al⸣-[...]",
+                  "id": "P333161.l12a4c",
+                  "ref": "P333161.22.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-x",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.22.2.0",
+                        "break": "damaged",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P333161.22.2.1",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.22.2.1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.23",
+                  "n": "1''",
+                  "label": "o i frg.2 1''"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂",
+                  "id": "P333161.l12a4d",
+                  "ref": "P333161.23.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.23.1.0",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-bar-a⸣",
+                  "id": "P333161.l12a4e",
+                  "ref": "P333161.23.2",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-bar-a",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.23.2.0",
+                        "break": "damaged",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bar",
+                        "id": "P333161.23.2.1",
+                        "break": "damaged",
+                        "queried": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P333161.23.2.2",
+                        "break": "damaged",
+                        "queried": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.24",
+                  "n": "2''",
+                  "label": "o i frg.2 2''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a4f",
+                  "ref": "P333161.24.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.24.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-me-a",
+                  "id": "P333161.l12a50",
+                  "ref": "P333161.24.2",
+                  "inst": "me[to be]V/i",
+                  "sig": "@dcclt%sux:al-me-a=me[be//to be]V/i'V/i$al:me;a/me#al:~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-me-a",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.24.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "me",
+                        "id": "P333161.24.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P333161.24.2.2"
+                      }
+                    ],
+                    "cf": "me",
+                    "gw": "be",
+                    "sense": "to be",
+                    "norm0": "al:me;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "me",
+                    "morph": "al:~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.25",
+                  "n": "3''",
+                  "label": "o i frg.2 3''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a51",
+                  "ref": "P333161.25.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.25.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "kiši₄",
+                  "id": "P333161.l12a52",
+                  "ref": "P333161.25.2",
+                  "inst": "kiši[half]N",
+                  "sig": "@dcclt%sux:kiši₄=kiši[half//half]N'N$kiši/kiši₄#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kiši₄",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "kiši₄",
+                        "id": "P333161.25.2.0"
+                      }
+                    ],
+                    "cf": "kiši",
+                    "gw": "half",
+                    "sense": "half",
+                    "norm0": "kiši",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kiši₄",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ak",
+                  "id": "P333161.l12a53",
+                  "ref": "P333161.25.3",
+                  "inst": "ak[to do]V/t",
+                  "sig": "@dcclt%sux:ak=ak[do//to do]V/t'V/t$ak/ak#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ak",
+                    "gdl": [
+                      {
+                        "v": "ak",
+                        "id": "P333161.25.3.0"
+                      }
+                    ],
+                    "cf": "ak",
+                    "gw": "do",
+                    "sense": "to do",
+                    "norm0": "ak",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "ak",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.26",
+                  "n": "4''",
+                  "label": "o i frg.2 4''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a54",
+                  "ref": "P333161.26.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.26.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-peš-peš",
+                  "id": "P333161.l12a55",
+                  "ref": "P333161.26.2",
+                  "inst": "peš[to swell, bloat]V/i",
+                  "sig": "@dcclt%sux:al-peš-peš=peš[thick//to swell, bloat]V/i'V/i$al:peš/peš-peš#al:~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-peš-peš",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.26.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "peš",
+                        "id": "P333161.26.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "peš",
+                        "id": "P333161.26.2.2"
+                      }
+                    ],
+                    "cf": "peš",
+                    "gw": "thick",
+                    "sense": "to swell, bloat",
+                    "norm0": "al:peš",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "peš-peš",
+                    "morph": "al:~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.27",
+                  "n": "5''",
+                  "label": "o i frg.2 5''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a56",
+                  "ref": "P333161.27.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.27.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-sig-sig-⸢ga⸣",
+                  "id": "P333161.l12a57",
+                  "ref": "P333161.27.2",
+                  "inst": "sig[weak//thin]V/i'V/i/sig-sig#al:~;a",
+                  "sig": "@dcclt%sux:al-sig-sig-ga=sig[weak//thin]V/i'V/i$al:sig;a/sig-sig#al:~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-sig-sig-ga",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.27.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig",
+                        "id": "P333161.27.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig",
+                        "id": "P333161.27.2.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P333161.27.2.3",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "sig",
+                    "gw": "weak",
+                    "sense": "thin",
+                    "norm0": "al:sig;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "sig-sig",
+                    "morph": "al:~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.28",
+                  "n": "6''",
+                  "label": "o i frg.2 6''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a58",
+                  "ref": "P333161.28.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.28.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-sig-ga",
+                  "id": "P333161.l12a59",
+                  "ref": "P333161.28.2",
+                  "inst": "sig[(to be) weak]V/i",
+                  "sig": "@dcclt%sux:al-sig-ga=sig[weak//(to be) weak]V/i'V/i$al:sig;a/sig+-ga=g.a#al:~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-sig-ga",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.28.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig",
+                        "id": "P333161.28.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P333161.28.2.2"
+                      }
+                    ],
+                    "cf": "sig",
+                    "gw": "weak",
+                    "sense": "(to be) weak",
+                    "norm0": "al:sig;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "sig",
+                    "cont": "-ga=g.a",
+                    "morph": "al:~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.29",
+                  "n": "7''",
+                  "label": "o i frg.2 7''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a5a",
+                  "ref": "P333161.29.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.29.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-hu-nu-a",
+                  "id": "P333161.l12a5b",
+                  "ref": "P333161.29.2",
+                  "inst": "hunu[(to be) weak (of animals)]V/i",
+                  "sig": "@dcclt%sux:al-hu-nu-a=hunu[weak//(to be) weak (of animals)]V/i'V/i$al:hunu;a/hu-nu#al:~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-hu-nu-a",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.29.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "hu",
+                        "id": "P333161.29.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nu",
+                        "id": "P333161.29.2.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P333161.29.2.3"
+                      }
+                    ],
+                    "cf": "hunu",
+                    "gw": "weak",
+                    "sense": "(to be) weak (of animals)",
+                    "norm0": "al:hunu;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "hu-nu",
+                    "morph": "al:~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.30",
+                  "n": "8''",
+                  "label": "o i frg.2 8''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a5c",
+                  "ref": "P333161.30.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.30.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-gur₄-ra",
+                  "id": "P333161.l12a5d",
+                  "ref": "P333161.30.2",
+                  "inst": "gur[(to be) thick]V/i",
+                  "sig": "@dcclt%sux:al-gur₄-ra=gur[thick//(to be) thick]V/i'V/i$al:gur;a/gur₄+-ra=r.a#al:~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-gur₄-ra",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.30.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gur₄",
+                        "id": "P333161.30.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P333161.30.2.2"
+                      }
+                    ],
+                    "cf": "gur",
+                    "gw": "thick",
+                    "sense": "(to be) thick",
+                    "norm0": "al:gur;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "gur₄",
+                    "cont": "-ra=r.a",
+                    "morph": "al:~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.31",
+                  "n": "9''",
+                  "label": "o i frg.2 9''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a5e",
+                  "ref": "P333161.31.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.31.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "du₃-da-ga",
+                  "id": "P333161.l12a5f",
+                  "ref": "P333161.31.2",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "du₃-da-ga",
+                    "gdl": [
+                      {
+                        "v": "du₃",
+                        "id": "P333161.31.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P333161.31.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P333161.31.2.2"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.32",
+                  "n": "10''",
+                  "label": "o i frg.2 10''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a60",
+                  "ref": "P333161.32.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.32.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢ud",
+                  "id": "P333161.l12a61",
+                  "ref": "P333161.32.2",
+                  "inst": "ud[sun]N",
+                  "sig": "@dcclt%sux:ud=ud[sun//sun]N'N$ud/ud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P333161.32.2.0",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ],
+                    "cf": "ud",
+                    "gw": "sun",
+                    "sense": "sun",
+                    "norm0": "ud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "tab-ba⸣",
+                  "id": "P333161.l12a62",
+                  "ref": "P333161.32.3",
+                  "inst": "tab[burn]V/t",
+                  "sig": "@dcclt%sux:tab-ba=tab[burn//to burn, fire]V/t'V/t$tab;a/tab+-ba=b.a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "tab-ba",
+                    "gdl": [
+                      {
+                        "v": "tab",
+                        "id": "P333161.32.3.0",
+                        "break": "damaged",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ba",
+                        "id": "P333161.32.3.1",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "tab",
+                    "gw": "burn",
+                    "sense": "to burn, fire",
+                    "norm0": "tab;a",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "tab",
+                    "cont": "-ba=b.a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.33",
+                  "n": "11''",
+                  "label": "o i frg.2 11''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a63",
+                  "ref": "P333161.33.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.33.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šub-šub-ba",
+                  "id": "P333161.l12a64",
+                  "ref": "P333161.33.2",
+                  "inst": "šub[to fall]V/t",
+                  "sig": "@dcclt%sux:šub-šub-ba=šub[fall//to fall]V/t'V/t$šub;a/šub-šub+-ba=b.a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šub-šub-ba",
+                    "gdl": [
+                      {
+                        "v": "šub",
+                        "id": "P333161.33.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "šub",
+                        "id": "P333161.33.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ba",
+                        "id": "P333161.33.2.2"
+                      }
+                    ],
+                    "cf": "šub",
+                    "gw": "fall",
+                    "sense": "to fall",
+                    "norm0": "šub;a",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "šub-šub",
+                    "cont": "-ba=b.a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.34",
+                  "n": "12''",
+                  "label": "o i frg.2 12''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a65",
+                  "ref": "P333161.34.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.34.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-bur₂-ra",
+                  "id": "P333161.l12a66",
+                  "ref": "P333161.34.2",
+                  "inst": "bur[release]",
+                  "sig": "@dcclt%sux:al-bur₂-ra=bur[spread//release]V/t'V/t$al:bur;a/bur₂+-ra=r.a#al:~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-bur₂-ra",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.34.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bur₂",
+                        "id": "P333161.34.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P333161.34.2.2"
+                      }
+                    ],
+                    "cf": "bur",
+                    "gw": "spread",
+                    "sense": "release",
+                    "norm0": "al:bur;a",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "bur₂",
+                    "cont": "-ra=r.a",
+                    "morph": "al:~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.35",
+                  "n": "13''",
+                  "label": "o i frg.2 13''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a67",
+                  "ref": "P333161.35.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.35.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-dun₅-na",
+                  "id": "P333161.l12a68",
+                  "ref": "P333161.35.2",
+                  "inst": "dun[humble]",
+                  "sig": "@dcclt%sux:al-dun₅-na=dun[humble//humble]V/i'V/i$al:dun;a/dun₅#al:~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-dun₅-na",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.35.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "dun₅",
+                        "id": "P333161.35.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P333161.35.2.2"
+                      }
+                    ],
+                    "cf": "dun",
+                    "gw": "humble",
+                    "sense": "humble",
+                    "norm0": "al:dun;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "dun₅",
+                    "morph": "al:~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.36",
+                  "n": "14''",
+                  "label": "o i frg.2 14''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a69",
+                  "ref": "P333161.36.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.36.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-sun₅-na",
+                  "id": "P333161.l12a6a",
+                  "ref": "P333161.36.2",
+                  "inst": "sun[(to be) haughty]V/i",
+                  "sig": "@dcclt%sux:al-sun₅-na=sun[haughty//(to be) haughty]V/i'V/i$al:sun;a/sun₅+-na=n.a#al:~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-sun₅-na",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P333161.36.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sun₅",
+                        "id": "P333161.36.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P333161.36.2.2"
+                      }
+                    ],
+                    "cf": "sun",
+                    "gw": "haughty",
+                    "sense": "(to be) haughty",
+                    "norm0": "al:sun;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "sun₅",
+                    "cont": "-na=n.a",
+                    "morph": "al:~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.37",
+                  "n": "15''",
+                  "label": "o i frg.2 15''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a6b",
+                  "ref": "P333161.37.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.37.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "kal-la",
+                  "id": "P333161.l12a6c",
+                  "ref": "P333161.37.2",
+                  "inst": "kal[(to be) rare, valuable]V/i",
+                  "sig": "@dcclt%sux:kal-la=kal[rare//(to be) rare, valuable]V/i'V/i$kal;a/kal+-la=l.a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kal-la",
+                    "gdl": [
+                      {
+                        "v": "kal",
+                        "id": "P333161.37.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la",
+                        "id": "P333161.37.2.1"
+                      }
+                    ],
+                    "cf": "kal",
+                    "gw": "rare",
+                    "sense": "(to be) rare, valuable",
+                    "norm0": "kal;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "kal",
+                    "cont": "-la=l.a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.38",
+                  "n": "16''",
+                  "label": "o i frg.2 16''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a6d",
+                  "ref": "P333161.38.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.38.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "niŋ₂-gal-gal",
+                  "id": "P333161.l12a6e",
+                  "ref": "P333161.38.2",
+                  "inst": "niŋgalgal[greatness]N",
+                  "sig": "@dcclt%sux:niŋ₂-gal-gal=niŋgalgal[greatness//greatness]N'N$niŋgalgal/niŋ₂-gal-gal#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "niŋ₂-gal-gal",
+                    "gdl": [
+                      {
+                        "v": "niŋ₂",
+                        "id": "P333161.38.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gal",
+                        "id": "P333161.38.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gal",
+                        "id": "P333161.38.2.2"
+                      }
+                    ],
+                    "cf": "niŋgalgal",
+                    "gw": "greatness",
+                    "sense": "greatness",
+                    "norm0": "niŋgalgal",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "niŋ₂-gal-gal",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.39",
+                  "n": "17''",
+                  "label": "o i frg.2 17''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a6f",
+                  "ref": "P333161.39.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.39.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "niŋ₂-hul",
+                  "id": "P333161.l12a70",
+                  "ref": "P333161.39.2",
+                  "inst": "niŋhulu[evil]N",
+                  "sig": "@dcclt%sux:niŋ₂-hul=niŋhulu[evil//evil]N'N$niŋhulu/niŋ₂-hul#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "niŋ₂-hul",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "niŋ₂",
+                        "id": "P333161.39.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "hul",
+                        "id": "P333161.39.2.1"
+                      }
+                    ],
+                    "cf": "niŋhulu",
+                    "gw": "evil",
+                    "sense": "evil",
+                    "norm0": "niŋhulu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "niŋ₂-hul",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "dim₂-ma",
+                  "id": "P333161.l12a71",
+                  "ref": "P333161.39.3",
+                  "inst": "dim[create]V/t",
+                  "sig": "@dcclt%sux:dim₂-ma=dim[create//create]V/t'V/t$dim;a/dim₂+-ma=m.a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dim₂-ma",
+                    "gdl": [
+                      {
+                        "v": "dim₂",
+                        "id": "P333161.39.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P333161.39.3.1"
+                      }
+                    ],
+                    "cf": "dim",
+                    "gw": "create",
+                    "sense": "create",
+                    "norm0": "dim;a",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "dim₂",
+                    "cont": "-ma=m.a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.40",
+                  "n": "18''",
+                  "label": "o i frg.2 18''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a72",
+                  "ref": "P333161.40.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.40.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "hul",
+                  "id": "P333161.l12a73",
+                  "ref": "P333161.40.2",
+                  "inst": "hulu[(to be) bad, evil]V/i",
+                  "sig": "@dcclt%sux:hul=hulu[bad//(to be) bad, evil]V/i'V/i$hulu/hul#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "hul",
+                    "gdl": [
+                      {
+                        "v": "hul",
+                        "id": "P333161.40.2.0"
+                      }
+                    ],
+                    "cf": "hulu",
+                    "gw": "bad",
+                    "sense": "(to be) bad, evil",
+                    "norm0": "hulu",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "hul",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.41",
+                  "n": "19''",
+                  "label": "o i frg.2 19''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a74",
+                  "ref": "P333161.41.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.41.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "hul",
+                  "id": "P333161.l12a75",
+                  "ref": "P333161.41.2",
+                  "inst": "hulu[(to be) bad, evil]V/i",
+                  "sig": "@dcclt%sux:hul=hulu[bad//(to be) bad, evil]V/i'V/i$hulu/hul#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "hul",
+                    "gdl": [
+                      {
+                        "v": "hul",
+                        "id": "P333161.41.2.0"
+                      }
+                    ],
+                    "cf": "hulu",
+                    "gw": "bad",
+                    "sense": "(to be) bad, evil",
+                    "norm0": "hulu",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "hul",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.42",
+                  "n": "20''",
+                  "label": "o i frg.2 20''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a76",
+                  "ref": "P333161.42.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.42.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "hul-hul",
+                  "id": "P333161.l12a77",
+                  "ref": "P333161.42.2",
+                  "inst": "hulu[(to be) bad, evil]V/i",
+                  "sig": "@dcclt%sux:hul-hul=hulu[bad//(to be) bad, evil]V/i'V/i$hulu/hul-hul#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "hul-hul",
+                    "gdl": [
+                      {
+                        "v": "hul",
+                        "id": "P333161.42.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "hul",
+                        "id": "P333161.42.2.1"
+                      }
+                    ],
+                    "cf": "hulu",
+                    "gw": "bad",
+                    "sense": "(to be) bad, evil",
+                    "norm0": "hulu",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "hul-hul",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.43",
+                  "n": "21''",
+                  "label": "o i frg.2 21''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a78",
+                  "ref": "P333161.43.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.43.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šag₄",
+                  "id": "P333161.l12a79",
+                  "ref": "P333161.43.2",
+                  "inst": "šag[heart]N",
+                  "sig": "@dcclt%sux:šag₄=šag[heart//heart]N'N$šag/šag₄#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šag₄",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šag₄",
+                        "id": "P333161.43.2.0"
+                      }
+                    ],
+                    "cf": "šag",
+                    "gw": "heart",
+                    "sense": "heart",
+                    "norm0": "šag",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šag₄",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gig",
+                  "id": "P333161.l12a7a",
+                  "ref": "P333161.43.3",
+                  "inst": "gig[(to be) sick]V/i",
+                  "sig": "@dcclt%sux:gig=gig[sick//(to be) sick]V/i'V/i$gig/gig#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gig",
+                    "gdl": [
+                      {
+                        "v": "gig",
+                        "id": "P333161.43.3.0"
+                      }
+                    ],
+                    "cf": "gig",
+                    "gw": "sick",
+                    "sense": "(to be) sick",
+                    "norm0": "gig",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "gig",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.44",
+                  "n": "22''",
+                  "label": "o i frg.2 22''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a7b",
+                  "ref": "P333161.44.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.44.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šag₄",
+                  "id": "P333161.l12a7c",
+                  "ref": "P333161.44.2",
+                  "inst": "šag[heart]N",
+                  "sig": "@dcclt%sux:šag₄=šag[heart//heart]N'N$šag/šag₄#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šag₄",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šag₄",
+                        "id": "P333161.44.2.0"
+                      }
+                    ],
+                    "cf": "šag",
+                    "gw": "heart",
+                    "sense": "heart",
+                    "norm0": "šag",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šag₄",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gig",
+                  "id": "P333161.l12a7d",
+                  "ref": "P333161.44.3",
+                  "inst": "gig[(to be) sick]V/i",
+                  "sig": "@dcclt%sux:gig=gig[sick//(to be) sick]V/i'V/i$gig/gig#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gig",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "gig",
+                        "id": "P333161.44.3.0"
+                      }
+                    ],
+                    "cf": "gig",
+                    "gw": "sick",
+                    "sense": "(to be) sick",
+                    "norm0": "gig",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "gig",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ab₂-sig₂-maš",
+                  "id": "P333161.l12a7e",
+                  "ref": "P333161.44.4",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ab₂-sig₂-maš",
+                    "gdl": [
+                      {
+                        "v": "ab₂",
+                        "id": "P333161.44.4.0",
+                        "queried": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₂",
+                        "id": "P333161.44.4.1",
+                        "queried": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "maš",
+                        "id": "P333161.44.4.2",
+                        "queried": "1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.45",
+                  "n": "23''",
+                  "label": "o i frg.2 23''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a7f",
+                  "ref": "P333161.45.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.45.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ti-ri₂-da",
+                  "id": "P333161.l12a80",
+                  "ref": "P333161.45.2",
+                  "inst": "tirida[runaway]N",
+                  "sig": "@dcclt%sux:ti-ri₂-da=tirida[runaway//runaway]N'N$tirida/ti-ri₂-da#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ti-ri₂-da",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ti",
+                        "id": "P333161.45.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ri₂",
+                        "id": "P333161.45.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P333161.45.2.2"
+                      }
+                    ],
+                    "cf": "tirida",
+                    "gw": "runaway",
+                    "sense": "runaway",
+                    "norm0": "tirida",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ti-ri₂-da",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "nu-tehi₂",
+                  "id": "P333161.l12a81",
+                  "ref": "P333161.45.3",
+                  "inst": "tehi[approach]",
+                  "sig": "@dcclt%sux:nu-tehi₂=tehi[approach//approach]V/t'V/t$nu:tehi/tehi₂#nu:~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nu-tehi₂",
+                    "gdl": [
+                      {
+                        "v": "nu",
+                        "id": "P333161.45.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tehi₂",
+                        "id": "P333161.45.3.1"
+                      }
+                    ],
+                    "cf": "tehi",
+                    "gw": "approach",
+                    "sense": "approach",
+                    "norm0": "nu:tehi",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "tehi₂",
+                    "morph": "nu:~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.46",
+                  "n": "24''",
+                  "label": "o i frg.2 24''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a82",
+                  "ref": "P333161.46.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.46.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "kug",
+                  "id": "P333161.l12a83",
+                  "ref": "P333161.46.2",
+                  "inst": "kug[metal, silver]N",
+                  "sig": "@dcclt%sux:kug=kug[metal//metal, silver]N'N$kug/kug#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P333161.46.2.0"
+                      }
+                    ],
+                    "cf": "kug",
+                    "gw": "metal",
+                    "sense": "metal, silver",
+                    "norm0": "kug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kug",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "kalag-ga",
+                  "id": "P333161.l12a84",
+                  "ref": "P333161.46.3",
+                  "inst": "kalag[~silver]",
+                  "sig": "@dcclt%sux:kalag-ga=kalag[~silver//a process involving silver]N'N$kalag/kalag-ga#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kalag-ga",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "kalag",
+                        "id": "P333161.46.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P333161.46.3.1"
+                      }
+                    ],
+                    "cf": "kalag",
+                    "gw": "~silver",
+                    "sense": "a process involving silver",
+                    "norm0": "kalag",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kalag-ga",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢šer₁₁⸣",
+                  "id": "P333161.l12a85",
+                  "ref": "P333161.46.4",
+                  "inst": "kišer[limit]N",
+                  "sig": "@dcclt%sux:šer₁₁=kišer[limit//limit]N'N$kišer/šer₁₁#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šer₁₁",
+                    "gdl": [
+                      {
+                        "v": "šer₁₁",
+                        "id": "P333161.46.4.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "kišer",
+                    "gw": "limit",
+                    "sense": "limit",
+                    "norm0": "kišer",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šer₁₁",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.47",
+                  "n": "25''",
+                  "label": "o i frg.2 25''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a86",
+                  "ref": "P333161.47.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.47.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "c",
+                  "type": "phrase",
+                  "tag": "phr",
+                  "id": "P333161.U5",
+                  "ref": "P333161.ls00001",
+                  "cdl": [
+                    {
+                      "node": "l",
+                      "frag": "šer₁₁",
+                      "id": "P333161.l12a87",
+                      "ref": "P333161.47.2",
+                      "inst": "kišer[limit]N",
+                      "sig": "@dcclt%sux:šer₁₁=kišer[limit//limit]N'N$kišer/šer₁₁#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "šer₁₁",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "šer₁₁",
+                            "id": "P333161.47.2.0"
+                          }
+                        ],
+                        "cf": "kišer",
+                        "gw": "limit",
+                        "sense": "limit",
+                        "norm0": "kišer",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "šer₁₁",
+                        "morph": "~"
+                      }
+                    },
+                    {
+                      "node": "l",
+                      "frag": "nu-⸢tuku⸣",
+                      "id": "P333161.l12a88",
+                      "ref": "P333161.47.3",
+                      "inst": "tuku[to acquire, get]V/t",
+                      "sig": "@dcclt%sux:nu-tuku=tuku[acquire//to acquire, get]V/t'V/t$nu:tuku/tuku#nu:~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "nu-tuku",
+                        "gdl": [
+                          {
+                            "v": "nu",
+                            "id": "P333161.47.3.0",
+                            "delim": "-"
+                          },
+                          {
+                            "v": "tuku",
+                            "id": "P333161.47.3.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ],
+                        "cf": "tuku",
+                        "gw": "acquire",
+                        "sense": "to acquire, get",
+                        "norm0": "nu:tuku",
+                        "pos": "V/t",
+                        "epos": "V/t",
+                        "base": "tuku",
+                        "morph": "nu:~"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.48",
+                  "n": "26''",
+                  "label": "o i frg.2 26''"
+                },
+                {
+                  "node": "l",
+                  "frag": "lu₂",
+                  "id": "P333161.l12a89",
+                  "ref": "P333161.48.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.48.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "c",
+                  "type": "phrase",
+                  "tag": "phr",
+                  "id": "P333161.U6",
+                  "ref": "P333161.ls00002",
+                  "cdl": [
+                    {
+                      "node": "l",
+                      "frag": "gu₃",
+                      "id": "P333161.l12a8a",
+                      "ref": "P333161.48.2",
+                      "inst": "gu[voice, cry, noise]N",
+                      "sig": "@dcclt%sux:gu₃=gu[voice//voice]N'N$gu/gu₃#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "gu₃",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "gu₃",
+                            "id": "P333161.48.2.0"
+                          }
+                        ],
+                        "cf": "gu",
+                        "gw": "voice",
+                        "sense": "voice",
+                        "norm0": "gu",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "gu₃",
+                        "morph": "~"
+                      }
+                    },
+                    {
+                      "node": "l",
+                      "frag": "ra-[ah]",
+                      "id": "P333161.l12a8b",
+                      "ref": "P333161.48.3",
+                      "inst": "rah[to beat, kill]V/t",
+                      "sig": "@dcclt%sux:ra-ah=rah[beat//to beat, kill]V/t'V/t$rah/ra-ah#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "ra-ah",
+                        "gdl": [
+                          {
+                            "v": "ra",
+                            "id": "P333161.48.3.0",
+                            "delim": "-"
+                          },
+                          {
+                            "v": "ah",
+                            "id": "P333161.48.3.1",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P333161.48.3.1"
+                          }
+                        ],
+                        "cf": "rah",
+                        "gw": "beat",
+                        "sense": "to beat, kill",
+                        "norm0": "rah",
+                        "pos": "V/t",
+                        "epos": "V/t",
+                        "base": "ra-ah",
+                        "morph": "~"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P333161.49",
+                  "strict": "0",
+                  "extent": "end",
+                  "scope": "column",
+                  "state": "other"
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 2o  frg.2",
+                  "type": "column",
+                  "ref": "P333161.o.ii.frg.2.50",
+                  "n": "2",
+                  "label": "o ii frg.2"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.51",
+                  "n": "1'",
+                  "label": "o ii frg.1 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂",
+                  "id": "P333161.l12a8c",
+                  "ref": "P333161.51.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.51.1.0",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "si⸣-[par₃]",
+                  "id": "P333161.l12a8d",
+                  "ref": "P333161.51.2",
+                  "inst": "sipar[an implement]N",
+                  "sig": "@dcclt%sux:si-par₃=sipar[implement//an implement]N'N$sipar/si-par₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "si-par₃",
+                    "gdl": [
+                      {
+                        "v": "si",
+                        "id": "P333161.51.2.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "par₃",
+                        "id": "P333161.51.2.1",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P333161.51.2.1"
+                      }
+                    ],
+                    "cf": "sipar",
+                    "gw": "implement",
+                    "sense": "an implement",
+                    "norm0": "sipar",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "si-par₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.52",
+                  "n": "2'",
+                  "label": "o ii frg.1 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12a8e",
+                  "ref": "P333161.52.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.52.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "si-[par₃",
+                  "id": "P333161.l12a8f",
+                  "ref": "P333161.52.2",
+                  "inst": "sipar[an implement]N",
+                  "sig": "@dcclt%sux:si-par₃=sipar[implement//an implement]N'N$sipar/si-par₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "si-par₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "si",
+                        "id": "P333161.52.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "par₃",
+                        "id": "P333161.52.2.1",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing"
+                      }
+                    ],
+                    "cf": "sipar",
+                    "gw": "implement",
+                    "sense": "an implement",
+                    "norm0": "sipar",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "si-par₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "...]",
+                  "id": "P333161.l12a90",
+                  "ref": "P333161.52.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P333161.52.3.0",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.52.2.1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.53",
+                  "n": "3'",
+                  "label": "o ii frg.1 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12a91",
+                  "ref": "P333161.53.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.53.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "še",
+                  "id": "P333161.l12a92",
+                  "ref": "P333161.53.2",
+                  "inst": "še[barley]N",
+                  "sig": "@dcclt%sux:še=še[barley//barley]N'N$še/še#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "še",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "še",
+                        "id": "P333161.53.2.0"
+                      }
+                    ],
+                    "cf": "še",
+                    "gw": "barley",
+                    "sense": "barley",
+                    "norm0": "še",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "še",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[x]",
+                  "id": "P333161.l12a93",
+                  "ref": "P333161.53.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P333161.53.3.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P333161.53.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.54",
+                  "n": "4'",
+                  "label": "o ii frg.1 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12a94",
+                  "ref": "P333161.54.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.54.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "še",
+                  "id": "P333161.l12a95",
+                  "ref": "P333161.54.2",
+                  "inst": "še[barley]N",
+                  "sig": "@dcclt%sux:še=še[barley//barley]N'N$še/še#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "še",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "še",
+                        "id": "P333161.54.2.0"
+                      }
+                    ],
+                    "cf": "še",
+                    "gw": "barley",
+                    "sense": "barley",
+                    "norm0": "še",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "še",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šu-⸢x⸣-[x]",
+                  "id": "P333161.l12a96",
+                  "ref": "P333161.54.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu-x-x",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P333161.54.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P333161.54.3.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P333161.54.3.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P333161.54.3.2"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.55",
+                  "n": "5'",
+                  "label": "o ii frg.1 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12a97",
+                  "ref": "P333161.55.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.55.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "še",
+                  "id": "P333161.l12a98",
+                  "ref": "P333161.55.2",
+                  "inst": "še[barley]N",
+                  "sig": "@dcclt%sux:še=še[barley//barley]N'N$še/še#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "še",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "še",
+                        "id": "P333161.55.2.0"
+                      }
+                    ],
+                    "cf": "še",
+                    "gw": "barley",
+                    "sense": "barley",
+                    "norm0": "še",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "še",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šu",
+                  "id": "P333161.l12a99",
+                  "ref": "P333161.55.3",
+                  "inst": "šu[hand]N",
+                  "sig": "@dcclt%sux:šu=šu[hand//hand]N'N$šu/šu#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P333161.55.3.0"
+                      }
+                    ],
+                    "cf": "šu",
+                    "gw": "hand",
+                    "sense": "hand",
+                    "norm0": "šu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šu",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "kum₂-ma",
+                  "id": "P333161.l12a9a",
+                  "ref": "P333161.55.4",
+                  "inst": "kum[(to be) hot]V/i",
+                  "sig": "@dcclt%sux:kum₂-ma=kum[hot//(to be) hot]V/i'V/i$kum;a/kum₂+-ma=m.a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kum₂-ma",
+                    "gdl": [
+                      {
+                        "v": "kum₂",
+                        "id": "P333161.55.4.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P333161.55.4.1",
+                        "queried": "1"
+                      }
+                    ],
+                    "cf": "kum",
+                    "gw": "hot",
+                    "sense": "(to be) hot",
+                    "norm0": "kum;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "kum₂",
+                    "cont": "-ma=m.a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.56",
+                  "n": "6'",
+                  "label": "o ii frg.1 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12a9b",
+                  "ref": "P333161.56.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.56.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "še",
+                  "id": "P333161.l12a9c",
+                  "ref": "P333161.56.2",
+                  "inst": "še[barley]N",
+                  "sig": "@dcclt%sux:še=še[barley//barley]N'N$še/še#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "še",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "še",
+                        "id": "P333161.56.2.0"
+                      }
+                    ],
+                    "cf": "še",
+                    "gw": "barley",
+                    "sense": "barley",
+                    "norm0": "še",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "še",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šu",
+                  "id": "P333161.l12a9d",
+                  "ref": "P333161.56.3",
+                  "inst": "šu[hand]N",
+                  "sig": "@dcclt%sux:šu=šu[hand//hand]N'N$šu/šu#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P333161.56.3.0"
+                      }
+                    ],
+                    "cf": "šu",
+                    "gw": "hand",
+                    "sense": "hand",
+                    "norm0": "šu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šu",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "hum-ma",
+                  "id": "P333161.l12a9e",
+                  "ref": "P333161.56.4",
+                  "inst": "hum[to snap off]V/t",
+                  "sig": "@dcclt%sux:hum-ma=hum[snap//to snap off]V/t'V/t$hum;a/hum+-ma=m.a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "hum-ma",
+                    "gdl": [
+                      {
+                        "v": "hum",
+                        "id": "P333161.56.4.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P333161.56.4.1"
+                      }
+                    ],
+                    "cf": "hum",
+                    "gw": "snap",
+                    "sense": "to snap off",
+                    "norm0": "hum;a",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "hum",
+                    "cont": "-ma=m.a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.57",
+                  "n": "7'",
+                  "label": "o ii frg.1 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12a9f",
+                  "ref": "P333161.57.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.57.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "še",
+                  "id": "P333161.l12aa0",
+                  "ref": "P333161.57.2",
+                  "inst": "še[barley]N",
+                  "sig": "@dcclt%sux:še=še[barley//barley]N'N$še/še#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "še",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "še",
+                        "id": "P333161.57.2.0"
+                      }
+                    ],
+                    "cf": "še",
+                    "gw": "barley",
+                    "sense": "barley",
+                    "norm0": "še",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "še",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "saŋ-ŋar",
+                  "id": "P333161.l12aa1",
+                  "ref": "P333161.57.3",
+                  "inst": "saŋŋar[upper millstone]N",
+                  "sig": "@dcclt%sux:saŋ-ŋar=saŋŋar[millstone//upper millstone]N'N$saŋŋar/saŋ-ŋar#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "saŋ-ŋar",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "saŋ",
+                        "id": "P333161.57.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋar",
+                        "id": "P333161.57.3.1"
+                      }
+                    ],
+                    "cf": "saŋŋar",
+                    "gw": "millstone",
+                    "sense": "upper millstone",
+                    "norm0": "saŋŋar",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "saŋ-ŋar",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[ak]",
+                  "id": "P333161.l12aa2",
+                  "ref": "P333161.57.4",
+                  "inst": "ak[to do]V/t",
+                  "sig": "@dcclt%sux:ak=ak[do//to do]V/t'V/t$ak/ak#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ak",
+                    "gdl": [
+                      {
+                        "v": "ak",
+                        "id": "P333161.57.4.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P333161.57.4.0"
+                      }
+                    ],
+                    "cf": "ak",
+                    "gw": "do",
+                    "sense": "to do",
+                    "norm0": "ak",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "ak",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.58",
+                  "n": "8'",
+                  "label": "o ii frg.1 8'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12aa3",
+                  "ref": "P333161.58.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.58.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "še",
+                  "id": "P333161.l12aa4",
+                  "ref": "P333161.58.2",
+                  "inst": "še[barley]N",
+                  "sig": "@dcclt%sux:še=še[barley//barley]N'N$še/še#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "še",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "še",
+                        "id": "P333161.58.2.0"
+                      }
+                    ],
+                    "cf": "še",
+                    "gw": "barley",
+                    "sense": "barley",
+                    "norm0": "še",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "še",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "zar",
+                  "id": "P333161.l12aa5",
+                  "ref": "P333161.58.3",
+                  "inst": "zar[sheaf (of barley), stack of sheaves]N",
+                  "sig": "@dcclt%sux:zar=zar[sheaf//sheaf (of barley), stack of sheaves]N'N$zar/zar#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "zar",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "zar",
+                        "id": "P333161.58.3.0"
+                      }
+                    ],
+                    "cf": "zar",
+                    "gw": "sheaf",
+                    "sense": "sheaf (of barley), stack of sheaves",
+                    "norm0": "zar",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "zar",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[tab-ba]",
+                  "id": "P333161.l12aa6",
+                  "ref": "P333161.58.4",
+                  "inst": "tab[to double]V/t",
+                  "sig": "@dcclt%sux:tab-ba=tab[double//to double]V/t'V/t$tab;a/tab+-ba=b.a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "tab-ba",
+                    "gdl": [
+                      {
+                        "v": "tab",
+                        "id": "P333161.58.4.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ba",
+                        "id": "P333161.58.4.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.58.4.0"
+                      }
+                    ],
+                    "cf": "tab",
+                    "gw": "double",
+                    "sense": "to double",
+                    "norm0": "tab;a",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "tab",
+                    "cont": "-ba=b.a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.59",
+                  "n": "9'",
+                  "label": "o ii frg.1 9'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12aa7",
+                  "ref": "P333161.59.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.59.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "še",
+                  "id": "P333161.l12aa8",
+                  "ref": "P333161.59.2",
+                  "inst": "še[barley]N",
+                  "sig": "@dcclt%sux:še=še[barley//barley]N'N$še/še#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "še",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "še",
+                        "id": "P333161.59.2.0"
+                      }
+                    ],
+                    "cf": "še",
+                    "gw": "barley",
+                    "sense": "barley",
+                    "norm0": "še",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "še",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "zar",
+                  "id": "P333161.l12aa9",
+                  "ref": "P333161.59.3",
+                  "inst": "zar[sheaf (of barley), stack of sheaves]N",
+                  "sig": "@dcclt%sux:zar=zar[sheaf//sheaf (of barley), stack of sheaves]N'N$zar/zar#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "zar",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "zar",
+                        "id": "P333161.59.3.0"
+                      }
+                    ],
+                    "cf": "zar",
+                    "gw": "sheaf",
+                    "sense": "sheaf (of barley), stack of sheaves",
+                    "norm0": "zar",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "zar",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[sal-la]",
+                  "id": "P333161.l12aaa",
+                  "ref": "P333161.59.4",
+                  "inst": "sal[(to be) thin, fine]V/i",
+                  "sig": "@dcclt%sux:sal-la=sal[thin//(to be) thin, fine]V/i'V/i$sal;a/sal+-la=l.a#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "sal-la",
+                    "gdl": [
+                      {
+                        "v": "sal",
+                        "id": "P333161.59.4.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la",
+                        "id": "P333161.59.4.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.59.4.0"
+                      }
+                    ],
+                    "cf": "sal",
+                    "gw": "thin",
+                    "sense": "(to be) thin, fine",
+                    "norm0": "sal;a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "sal",
+                    "cont": "-la=l.a",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.60",
+                  "n": "10'",
+                  "label": "o ii frg.1 10'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[lu₂]",
+                  "id": "P333161.l12aab",
+                  "ref": "P333161.60.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.60.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P333161.60.1.0"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢še",
+                  "id": "P333161.l12aac",
+                  "ref": "P333161.60.2",
+                  "inst": "še[barley]N",
+                  "sig": "@dcclt%sux:še=še[barley//barley]N'N$še/še#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "še",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "še",
+                        "id": "P333161.60.2.0",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ],
+                    "cf": "še",
+                    "gw": "barley",
+                    "sense": "barley",
+                    "norm0": "še",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "še",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "zar⸣-[...]",
+                  "id": "P333161.l12aad",
+                  "ref": "P333161.60.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "zar-x",
+                    "gdl": [
+                      {
+                        "v": "zar",
+                        "id": "P333161.60.3.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P333161.60.3.1",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.60.3.1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.61",
+                  "n": "1''",
+                  "label": "o ii frg.2 1''"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12aae",
+                  "ref": "P333161.61.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.61.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P333161.l12aaf",
+                  "ref": "P333161.61.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P333161.61.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.61.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.62",
+                  "n": "2''",
+                  "label": "o ii frg.2 2''"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12ab0",
+                  "ref": "P333161.62.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.62.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P333161.l12ab1",
+                  "ref": "P333161.62.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P333161.62.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.62.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.63",
+                  "n": "3''",
+                  "label": "o ii frg.2 3''"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12ab2",
+                  "ref": "P333161.63.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.63.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P333161.l12ab3",
+                  "ref": "P333161.63.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P333161.63.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.63.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P333161.64",
+                  "n": "4''",
+                  "label": "o ii frg.2 4''"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢lu₂⸣",
+                  "id": "P333161.l12ab4",
+                  "ref": "P333161.64.1",
+                  "inst": "lu[person]N",
+                  "sig": "@dcclt%sux:lu₂=lu[person//person]N'N$lu/lu₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "lu₂",
+                        "id": "P333161.64.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lu",
+                    "gw": "person",
+                    "sense": "person",
+                    "norm0": "lu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "lu₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P333161.l12ab5",
+                  "ref": "P333161.64.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P333161.64.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P333161.64.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P333161.65",
+                  "strict": "1",
+                  "extent": "10",
+                  "scope": "line",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkbase": [
+        {
+          "type": "linkset",
+          "xlink_title": "dub gurum[sit down//to sit down, to take a rest]V/t'V/t",
+          "id": "P333161.ls00000",
+          "xlink_type": "extended",
+          "xlink_role": "psu",
+          "sig": "{dub₃ gurum = dub[knee]N gurum[bend]V/t += dub gurum[sit down//to sit down, to take a rest]V/t'V/t}::@dcclt%sux:dub₃=dub[knee//knee]N'N$dub/dub₃#~++@dcclt%sux:gurum=gurum[bend//to bend, curve, wrap around]V/t'V/t$gurum/gurum#~",
+          "links": [
+            {
+              "type": "link",
+              "xlink_title": "dub",
+              "xlink_type": "locator",
+              "xlink_href": "#P333161.l12a32",
+              "xlink_role": "elt"
+            },
+            {
+              "type": "link",
+              "xlink_title": "gurum",
+              "xlink_type": "locator",
+              "xlink_href": "#P333161.l12a33",
+              "xlink_role": "elt"
+            }
+          ]
+        },
+        {
+          "type": "linkset",
+          "xlink_title": "kišer tuku[fence//to fence]V/t'V/t",
+          "id": "P333161.ls00001",
+          "xlink_type": "extended",
+          "xlink_role": "psu",
+          "sig": "{šer₁₁ nu-tuku = kišer[limit]N tuku[acquire]V/t += kišer tuku[fence//to fence]V/t'V/t}::@dcclt%sux:šer₁₁=kišer[limit//limit]N'N$kišer/šer₁₁#~++@dcclt%sux:nu-tuku=tuku[acquire//to acquire, get]V/t'V/t$nu:tuku/tuku#nu:~",
+          "links": [
+            {
+              "type": "link",
+              "xlink_title": "kišer",
+              "xlink_type": "locator",
+              "xlink_href": "#P333161.l12a87",
+              "xlink_role": "elt"
+            },
+            {
+              "type": "link",
+              "xlink_title": "tuku",
+              "xlink_type": "locator",
+              "xlink_href": "#P333161.l12a88",
+              "xlink_role": "elt"
+            }
+          ]
+        },
+        {
+          "type": "linkset",
+          "xlink_title": "gu rah[shout//to shout]V/t'V/t",
+          "id": "P333161.ls00002",
+          "xlink_type": "extended",
+          "xlink_role": "psu",
+          "sig": "{gu₃ ra-ah = gu[voice]N rah[beat]V/t += gu rah[shout//to shout]V/t'V/t}::@dcclt%sux:gu₃=gu[voice//voice, cry, noise]N'N$gu/gu₃#~++@dcclt%sux:ra-ah=rah[beat//to beat, kill]V/t'V/t$rah/ra-ah#~",
+          "links": [
+            {
+              "type": "link",
+              "xlink_title": "gu",
+              "xlink_type": "locator",
+              "xlink_href": "#P333161.l12a8a",
+              "xlink_role": "elt"
+            },
+            {
+              "type": "link",
+              "xlink_title": "rah",
+              "xlink_type": "locator",
+              "xlink_href": "#P333161.l12a8b",
+              "xlink_role": "elt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

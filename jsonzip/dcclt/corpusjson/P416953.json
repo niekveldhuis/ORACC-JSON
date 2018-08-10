@@ -1,0 +1,384 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:13:25",
+  "textid": "P416953",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P416953.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P416953.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P416953.2",
+          "strict": "0",
+          "extent": "0",
+          "scope": "tablet",
+          "state": "other"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P416953.3",
+          "strict": "1",
+          "extent": "4",
+          "scope": "line",
+          "state": "traces"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P416953.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P416953.U2",
+              "label": "o 5' - o 8'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P416953.4",
+                  "n": "5'",
+                  "label": "o 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "bulug",
+                  "id": "P416953.l1f168",
+                  "ref": "P416953.4.1",
+                  "inst": "bulug[needle]N",
+                  "sig": "@dcclt%sux:bulug=bulug[needle//needle]N'N$bulug/bulug#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "bulug",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "bulug",
+                        "id": "P416953.4.1.0"
+                      }
+                    ],
+                    "cf": "bulug",
+                    "gw": "needle",
+                    "sense": "needle",
+                    "norm0": "bulug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "bulug",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "nu-kiri₆{⸢zabar⸣}",
+                  "id": "P416953.l1f169",
+                  "ref": "P416953.4.2",
+                  "inst": "nukirik[gardener]N/nu-kiri₆#~",
+                  "sig": "@dcclt%sux:nu-kiri₆{zabar}=nukirik[gardener//gardener]N'N$nukirik/nu-kiri₆#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nu-kiri₆{zabar}",
+                    "gdl": [
+                      {
+                        "v": "nu",
+                        "id": "P416953.4.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "kiri₆",
+                        "id": "P416953.4.2.1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P416953.4.2.2",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "nukirik",
+                    "gw": "gardener",
+                    "sense": "gardener",
+                    "norm0": "nukirik",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "nu-kiri₆",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P416953.5",
+                  "n": "6'",
+                  "label": "o 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "bulug",
+                  "id": "P416953.l1f16a",
+                  "ref": "P416953.5.1",
+                  "inst": "bulug[needle]N",
+                  "sig": "@dcclt%sux:bulug=bulug[needle//needle]N'N$bulug/bulug#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "bulug",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "bulug",
+                        "id": "P416953.5.1.0"
+                      }
+                    ],
+                    "cf": "bulug",
+                    "gw": "needle",
+                    "sense": "needle",
+                    "norm0": "bulug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "bulug",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "me-x{⸢zabar⸣}",
+                  "id": "P416953.l1f16b",
+                  "ref": "P416953.5.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "me-x{zabar}",
+                    "gdl": [
+                      {
+                        "v": "me",
+                        "id": "P416953.5.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P416953.5.2.1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P416953.5.2.2",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P416953.6",
+                  "n": "7'",
+                  "label": "o 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "bulug",
+                  "id": "P416953.l1f16c",
+                  "ref": "P416953.6.1",
+                  "inst": "bulug[needle]N",
+                  "sig": "@dcclt%sux:bulug=bulug[needle//needle]N'N$bulug/bulug#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "bulug",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "bulug",
+                        "id": "P416953.6.1.0"
+                      }
+                    ],
+                    "cf": "bulug",
+                    "gw": "needle",
+                    "sense": "needle",
+                    "norm0": "bulug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "bulug",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "algameš{⸢zabar⸣}",
+                  "id": "P416953.l1f16d",
+                  "ref": "P416953.6.2",
+                  "inst": "algameš[stone]N/algameš#~",
+                  "sig": "@dcclt%sux:algameš{zabar}=algameš[stone//stone]N'N$algameš/algameš#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "algameš{zabar}",
+                    "gdl": [
+                      {
+                        "v": "algameš",
+                        "id": "P416953.6.2.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P416953.6.2.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "algameš",
+                    "gw": "stone",
+                    "sense": "stone",
+                    "norm0": "algameš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "algameš",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P416953.7",
+                  "n": "8'",
+                  "label": "o 8'"
+                },
+                {
+                  "node": "l",
+                  "frag": "bulug",
+                  "id": "P416953.l1f16e",
+                  "ref": "P416953.7.1",
+                  "inst": "bulug[needle]N",
+                  "sig": "@dcclt%sux:bulug=bulug[needle//needle]N'N$bulug/bulug#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "bulug",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "bulug",
+                        "id": "P416953.7.1.0"
+                      }
+                    ],
+                    "cf": "bulug",
+                    "gw": "needle",
+                    "sense": "needle",
+                    "norm0": "bulug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "bulug",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "kaskal{zabar}",
+                  "id": "P416953.l1f16f",
+                  "ref": "P416953.7.2",
+                  "inst": "kaskal[way, road]N",
+                  "sig": "@dcclt%sux:kaskal{zabar}=kaskal[way//way, road]N'N$kaskal/kaskal{zabar}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kaskal{zabar}",
+                    "gdl": [
+                      {
+                        "v": "kaskal",
+                        "id": "P416953.7.2.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P416953.7.2.1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "kaskal",
+                    "gw": "way",
+                    "sense": "way, road",
+                    "norm0": "kaskal",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kaskal{zabar}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P416953.8",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P416953.r.9",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P416953.10",
+                  "strict": "0",
+                  "state": "other"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:05:00",
+  "textid": "P225075",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P225075.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P225075.x952.1",
+          "label": "x952"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P225075.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P225075.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P225075.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P225075.U2",
+              "label": "o i 1 - o i 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225075.4",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{tug₂}šag₄-ga-[du₃]",
+                  "id": "P225075.l2390f",
+                  "ref": "P225075.4.1",
+                  "inst": "šagadu[belt]",
+                  "sig": "@dcclt%sux:{tug₂}šag₄-ga-du₃=šagadu[belt//belt]N'N$šagadu/{tug₂}šag₄-ga-du₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{tug₂}šag₄-ga-du₃",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "tug₂",
+                            "id": "P225075.4.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "šag₄",
+                        "id": "P225075.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P225075.4.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "du₃",
+                        "id": "P225075.4.1.3",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P225075.4.1.3"
+                      }
+                    ],
+                    "cf": "šagadu",
+                    "gw": "belt",
+                    "sense": "belt",
+                    "norm0": "šagadu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{tug₂}šag₄-ga-du₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225075.5",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{tug₂}šag₄-ga-du₃",
+                  "id": "P225075.l23910",
+                  "ref": "P225075.5.1",
+                  "inst": "šagadu[belt]",
+                  "sig": "@dcclt%sux:{tug₂}šag₄-ga-du₃=šagadu[belt//belt]N'N$šagadu/{tug₂}šag₄-ga-du₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{tug₂}šag₄-ga-du₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "tug₂",
+                            "id": "P225075.5.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "šag₄",
+                        "id": "P225075.5.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P225075.5.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "du₃",
+                        "id": "P225075.5.1.3"
+                      }
+                    ],
+                    "cf": "šagadu",
+                    "gw": "belt",
+                    "sense": "belt",
+                    "norm0": "šagadu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{tug₂}šag₄-ga-du₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P225075.l23911",
+                  "ref": "P225075.5.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P225075.5.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P225075.5.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225075.6",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{tug₂}šag₄-ga-du₃",
+                  "id": "P225075.l23912",
+                  "ref": "P225075.6.1",
+                  "inst": "šagadu[belt]",
+                  "sig": "@dcclt%sux:{tug₂}šag₄-ga-du₃=šagadu[belt//belt]N'N$šagadu/{tug₂}šag₄-ga-du₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{tug₂}šag₄-ga-du₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "tug₂",
+                            "id": "P225075.6.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "šag₄",
+                        "id": "P225075.6.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P225075.6.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "du₃",
+                        "id": "P225075.6.1.3"
+                      }
+                    ],
+                    "cf": "šagadu",
+                    "gw": "belt",
+                    "sense": "belt",
+                    "norm0": "šagadu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{tug₂}šag₄-ga-du₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P225075.l23913",
+                  "ref": "P225075.6.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P225075.6.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P225075.6.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:07:11",
+  "textid": "P229315",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P229315.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P229315.x693.1",
+          "label": "x693"
+        },
+        {
+          "node": "d",
+          "subtype": "reverse",
+          "type": "reverse",
+          "ref": "P229315.r.2",
+          "label": "r"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1r",
+          "type": "column",
+          "ref": "P229315.r.i.3",
+          "n": "1",
+          "label": "r i"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P229315.4",
+          "strict": "1",
+          "extent": "n",
+          "scope": "line",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P229315.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P229315.U2",
+              "label": "r i 1 - r ii 4",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229315.5",
+                  "n": "1",
+                  "label": "r i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "[tu]-di-⸢tum⸣{[zabar]}",
+                  "id": "P229315.l20090",
+                  "ref": "P229315.5.1",
+                  "inst": "%sux:tu-di-tum{zabar}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "tu-di-tum{zabar}",
+                    "gdl": [
+                      {
+                        "v": "tu",
+                        "id": "P229315.5.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P229315.5.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "di",
+                        "id": "P229315.5.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tum",
+                        "id": "P229315.5.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229315.5.1.3",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P229315.5.1.3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229315.6",
+                  "n": "2",
+                  "label": "r i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "kam-kam-ma-tum{⸢zabar⸣}",
+                  "id": "P229315.l20091",
+                  "ref": "P229315.6.1",
+                  "inst": "%sux:kam-kam-ma-tum{zabar}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kam-kam-ma-tum{zabar}",
+                    "gdl": [
+                      {
+                        "v": "kam",
+                        "id": "P229315.6.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "kam",
+                        "id": "P229315.6.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P229315.6.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tum",
+                        "id": "P229315.6.1.3"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229315.6.1.4",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229315.7",
+                  "n": "3",
+                  "label": "r i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "šu-gur{⸢zabar⸣}",
+                  "id": "P229315.l20092",
+                  "ref": "P229315.7.1",
+                  "inst": "%sux:šu-gur{zabar}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu-gur{zabar}",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P229315.7.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gur",
+                        "id": "P229315.7.1.1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229315.7.1.2",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229315.8",
+                  "n": "4",
+                  "label": "r i 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "eš-gur{⸢zabar⸣}",
+                  "id": "P229315.l20093",
+                  "ref": "P229315.8.1",
+                  "inst": "%sux:eš-gur{zabar}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "eš-gur{zabar}",
+                    "gdl": [
+                      {
+                        "v": "eš",
+                        "id": "P229315.8.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gur",
+                        "id": "P229315.8.1.1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229315.8.1.2",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229315.9",
+                  "n": "5",
+                  "label": "r i 5"
+                },
+                {
+                  "node": "l",
+                  "frag": "har{⸢zabar⸣}",
+                  "id": "P229315.l20094",
+                  "ref": "P229315.9.1",
+                  "inst": "%sux:har{zabar}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "har{zabar}",
+                    "gdl": [
+                      {
+                        "v": "har",
+                        "id": "P229315.9.1.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229315.9.1.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229315.10",
+                  "n": "6",
+                  "label": "r i 6"
+                },
+                {
+                  "node": "l",
+                  "frag": "har",
+                  "id": "P229315.l20095",
+                  "ref": "P229315.10.1",
+                  "inst": "%sux:har=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "har",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "har",
+                        "id": "P229315.10.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "šu{⸢zabar⸣}",
+                  "id": "P229315.l20096",
+                  "ref": "P229315.10.2",
+                  "inst": "%sux:šu{zabar}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu{zabar}",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P229315.10.2.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "zabar",
+                            "id": "P229315.10.2.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229315.11",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 2r",
+                  "type": "column",
+                  "ref": "P229315.r.ii.12",
+                  "n": "2",
+                  "label": "r ii"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229315.13",
+                  "strict": "1",
+                  "extent": "n",
+                  "scope": "line",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229315.14",
+                  "n": "1",
+                  "label": "r ii 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P229315.l20097",
+                  "ref": "P229315.14.1",
+                  "inst": "%sux:x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P229315.14.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229315.14.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢kug⸣-sig₁₇",
+                  "id": "P229315.l20098",
+                  "ref": "P229315.14.2",
+                  "inst": "%sux:kug-sig₁₇=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P229315.14.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P229315.14.2.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229315.15",
+                  "n": "2",
+                  "label": "r ii 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P229315.l20099",
+                  "ref": "P229315.15.1",
+                  "inst": "%sux:x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P229315.15.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229315.15.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "kug-sig₁₇",
+                  "id": "P229315.l2009a",
+                  "ref": "P229315.15.2",
+                  "inst": "%sux:kug-sig₁₇=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P229315.15.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P229315.15.2.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229315.16",
+                  "n": "3",
+                  "label": "r ii 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P229315.l2009b",
+                  "ref": "P229315.16.1",
+                  "inst": "%sux:x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P229315.16.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229315.16.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "kug-sig₁₇",
+                  "id": "P229315.l2009c",
+                  "ref": "P229315.16.2",
+                  "inst": "%sux:kug-sig₁₇=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P229315.16.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P229315.16.2.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229315.17",
+                  "n": "4",
+                  "label": "r ii 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P229315.l2009d",
+                  "ref": "P229315.17.1",
+                  "inst": "%sux:x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P229315.17.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229315.17.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢kug-sig₁₇⸣",
+                  "id": "P229315.l2009e",
+                  "ref": "P229315.17.2",
+                  "inst": "%sux:kug-sig₁₇=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kug-sig₁₇",
+                    "gdl": [
+                      {
+                        "v": "kug",
+                        "id": "P229315.17.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₇",
+                        "id": "P229315.17.2.1",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229315.18",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:10:11",
+  "textid": "P272619",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P272619.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P272619.x171.1",
+          "label": "x171"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P272619.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P272619.3",
+          "strict": "1",
+          "extent": "3",
+          "scope": "line",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P272619.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P272619.U2",
+              "label": "o 4 - o 5",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P272619.4",
+                  "n": "4",
+                  "label": "o 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢abrig⸣",
+                  "id": "P272619.l0962c",
+                  "ref": "P272619.4.1",
+                  "inst": "%sux:abrig=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "abrig",
+                    "gdl": [
+                      {
+                        "v": "abrig",
+                        "id": "P272619.4.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P272619.5",
+                  "n": "5",
+                  "label": "o 5"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P272619.l0962d",
+                  "ref": "P272619.5.1",
+                  "inst": "%sux:x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P272619.5.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P272619.5.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "|GA₂×DIM@g|",
+                  "id": "P272619.l0962e",
+                  "ref": "P272619.5.2",
+                  "inst": "%sux:|GA₂×DIM@g|=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "|GA₂×DIM@g|",
+                    "gdl": [
+                      {
+                        "c": "|GA₂×DIM@g|",
+                        "id": "P272619.5.2.0",
+                        "seq": [
+                          {
+                            "s": "GA₂"
+                          },
+                          {
+                            "o": "containing"
+                          },
+                          {
+                            "form": "DIM@g",
+                            "mods": [
+                              {
+                                "b": "DIM"
+                              },
+                              {
+                                "m": "g"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P272619.6",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:04:29",
+  "textid": "P006212",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P006212.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P006212.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P006212.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P006212.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P006212.U2",
+              "label": "o i 1 - r i 1",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P006212.3",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P006212.l045e5",
+                  "ref": "P006212.3.1",
+                  "inst": "%qpc:x=",
+                  "f": {
+                    "lang": "qpc",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P006212.3.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P006212.3.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P006212.l045e6",
+                  "ref": "P006212.3.2",
+                  "inst": "%qpc:x=",
+                  "f": {
+                    "lang": "qpc",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P006212.3.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P006212.3.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P006212.r.4",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 1r",
+                  "type": "column",
+                  "ref": "P006212.r.i.5",
+                  "n": "1",
+                  "label": "r i"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P006212.6",
+                  "n": "1",
+                  "label": "r i 1"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P006212.l045e7",
+                  "ref": "P006212.6.1",
+                  "inst": "%qpc:x=",
+                  "f": {
+                    "lang": "qpc",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P006212.6.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P006212.6.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "X",
+                  "id": "P006212.l045e8",
+                  "ref": "P006212.6.2",
+                  "inst": "%qpc:X=",
+                  "f": {
+                    "lang": "qpc",
+                    "form": "X",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "X",
+                        "id": "P006212.6.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "1(N01)",
+                  "id": "P006212.l045e9",
+                  "ref": "P006212.6.3",
+                  "inst": "%qpc:1(N01)=",
+                  "f": {
+                    "lang": "qpc",
+                    "form": "1(N01)",
+                    "gdl": [
+                      {
+                        "n": "n",
+                        "form": "1(N01)",
+                        "id": "P006212.6.3.0",
+                        "queried": "1",
+                        "seq": [
+                          {
+                            "r": "1"
+                          },
+                          {
+                            "s": "N01"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢NI~a⸣",
+                  "id": "P006212.l045ea",
+                  "ref": "P006212.6.4",
+                  "inst": "%qpc:NI=",
+                  "f": {
+                    "lang": "qpc",
+                    "form": "NI",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "form": "NI~a",
+                        "id": "P006212.6.4.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1",
+                        "mods": [
+                          {
+                            "b": "NI"
+                          },
+                          {
+                            "a": "a"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "SANGA~a",
+                  "id": "P006212.l045eb",
+                  "ref": "P006212.6.5",
+                  "inst": "%qpc:SANGA=",
+                  "f": {
+                    "lang": "qpc",
+                    "form": "SANGA",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "form": "SANGA~a",
+                        "id": "P006212.6.5.0",
+                        "mods": [
+                          {
+                            "b": "SANGA"
+                          },
+                          {
+                            "a": "a"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "GAR",
+                  "id": "P006212.l045ec",
+                  "ref": "P006212.6.6",
+                  "inst": "%qpc:GAR=",
+                  "f": {
+                    "lang": "qpc",
+                    "form": "GAR",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "GAR",
+                        "id": "P006212.6.6.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢AMA~a⸣",
+                  "id": "P006212.l045ed",
+                  "ref": "P006212.6.7",
+                  "inst": "%qpc:AMA=",
+                  "f": {
+                    "lang": "qpc",
+                    "form": "AMA",
+                    "gdl": [
+                      {
+                        "form": "AMA~a",
+                        "id": "P006212.6.7.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1",
+                        "mods": [
+                          {
+                            "b": "AMA"
+                          },
+                          {
+                            "a": "a"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

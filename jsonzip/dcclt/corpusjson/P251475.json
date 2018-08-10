@@ -1,0 +1,302 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:09:07",
+  "textid": "P251475",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P251475.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P251475.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P251475.2",
+          "strict": "0",
+          "state": "other"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P251475.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P251475.U2",
+              "label": "o 1 - o 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P251475.3",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "sumun₂",
+                  "id": "P251475.l27761",
+                  "ref": "P251475.3.1",
+                  "inst": "sumun[beer mash]N",
+                  "sig": "@dcclt%sux:sumun₂=sumun[vessel//beer mash]N'N$sumun/sumun₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "sumun₂",
+                    "gdl": [
+                      {
+                        "v": "sumun₂",
+                        "id": "P251475.3.1.0"
+                      }
+                    ],
+                    "cf": "sumun",
+                    "gw": "vessel",
+                    "sense": "beer mash",
+                    "norm0": "sumun",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "sumun₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P251475.4",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "sumun₂",
+                  "id": "P251475.l27762",
+                  "ref": "P251475.4.1",
+                  "inst": "sumun[beer mash]N",
+                  "sig": "@dcclt%sux:sumun₂=sumun[vessel//beer mash]N'N$sumun/sumun₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "sumun₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "sumun₂",
+                        "id": "P251475.4.1.0"
+                      }
+                    ],
+                    "cf": "sumun",
+                    "gw": "vessel",
+                    "sense": "beer mash",
+                    "norm0": "sumun",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "sumun₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "c",
+                  "type": "phrase",
+                  "tag": "phr",
+                  "id": "P251475.U4",
+                  "ref": "P251475.ls00000",
+                  "cdl": [
+                    {
+                      "node": "l",
+                      "frag": "a",
+                      "id": "P251475.l27763",
+                      "ref": "P251475.4.2",
+                      "inst": "a[water]N",
+                      "sig": "@dcclt%sux:a=a[water//water]N'N$a/a#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "a",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "a",
+                            "id": "P251475.4.2.0"
+                          }
+                        ],
+                        "cf": "a",
+                        "gw": "water",
+                        "sense": "water",
+                        "norm0": "a",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "a",
+                        "morph": "~"
+                      }
+                    },
+                    {
+                      "node": "l",
+                      "frag": "ŋar-ra",
+                      "id": "P251475.l27764",
+                      "ref": "P251475.4.3",
+                      "inst": "ŋar[place]V/t",
+                      "sig": "@dcclt%sux:ŋar-ra=ŋar[place//place]V/t'V/t$ŋar;a/ŋar+-ra=r.a#~;a",
+                      "f": {
+                        "lang": "sux",
+                        "form": "ŋar-ra",
+                        "gdl": [
+                          {
+                            "v": "ŋar",
+                            "id": "P251475.4.3.0",
+                            "delim": "-"
+                          },
+                          {
+                            "v": "ra",
+                            "id": "P251475.4.3.1"
+                          }
+                        ],
+                        "cf": "ŋar",
+                        "gw": "place",
+                        "sense": "place",
+                        "norm0": "ŋar;a",
+                        "pos": "V/t",
+                        "epos": "V/t",
+                        "base": "ŋar",
+                        "cont": "-ra=r.a",
+                        "morph": "~;a"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P251475.5",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "sumun₂",
+                  "id": "P251475.l27765",
+                  "ref": "P251475.5.1",
+                  "inst": "sumun[beer mash]N",
+                  "sig": "@dcclt%sux:sumun₂=sumun[vessel//beer mash]N'N$sumun/sumun₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "sumun₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "sumun₂",
+                        "id": "P251475.5.1.0"
+                      }
+                    ],
+                    "cf": "sumun",
+                    "gw": "vessel",
+                    "sense": "beer mash",
+                    "norm0": "sumun",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "sumun₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "al-šeŋ₆-ŋa₂",
+                  "id": "P251475.l27766",
+                  "ref": "P251475.5.2",
+                  "inst": "šeŋ[to cook]V/t",
+                  "sig": "@dcclt%sux:al-šeŋ₆-ŋa₂=šeŋ[cook//to cook]V/t'V/t$al:šeŋ;a/šeŋ₆+-ŋa₂=ŋ.a#al:~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "al-šeŋ₆-ŋa₂",
+                    "gdl": [
+                      {
+                        "v": "al",
+                        "id": "P251475.5.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "šeŋ₆",
+                        "id": "P251475.5.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋa₂",
+                        "id": "P251475.5.2.2"
+                      }
+                    ],
+                    "cf": "šeŋ",
+                    "gw": "cook",
+                    "sense": "to cook",
+                    "norm0": "al:šeŋ;a",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "šeŋ₆",
+                    "cont": "-ŋa₂=ŋ.a",
+                    "morph": "al:~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P251475.r.6",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P251475.7",
+                  "strict": "0",
+                  "state": "other"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkbase": [
+        {
+          "type": "linkset",
+          "xlink_title": "a ŋar[irrigate//to irrigate]V/t'V/t",
+          "id": "P251475.ls00000",
+          "xlink_type": "extended",
+          "xlink_role": "psu",
+          "sig": "{a ŋar-ra = a[water]N ŋar[place]V/t += a ŋar[irrigate//to irrigate]V/t'V/t}::@dcclt%sux:a=a[water//water]N'N$a/a#~++@dcclt%sux:ŋar-ra=ŋar[place//place]V/t'V/t$ŋar;a/ŋar+-ra=r.a#~;a",
+          "links": [
+            {
+              "type": "link",
+              "xlink_title": "a",
+              "xlink_type": "locator",
+              "xlink_href": "#P251475.l27763",
+              "xlink_role": "elt"
+            },
+            {
+              "type": "link",
+              "xlink_title": "ŋar",
+              "xlink_type": "locator",
+              "xlink_href": "#P251475.l27764",
+              "xlink_role": "elt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

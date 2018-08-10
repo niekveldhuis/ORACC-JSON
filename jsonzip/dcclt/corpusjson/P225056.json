@@ -1,0 +1,230 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:04:58",
+  "textid": "P225056",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P225056.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P225056.x950.1",
+          "label": "x950"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P225056.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P225056.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P225056.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P225056.U2",
+              "label": "o i 1 - o i 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225056.4",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{siki(tug₂)}⸢mug⸣-hul",
+                  "id": "P225056.l23908",
+                  "ref": "P225056.4.1",
+                  "inst": "%sux:{siki}mug-hul=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{siki}mug-hul",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "gg": "correction",
+                            "gdl_type": "correction",
+                            "group": [
+                              {
+                                "v": "siki",
+                                "id": "P225056.4.1.0",
+                                "gdl_remarked": "1"
+                              },
+                              {
+                                "s": "TUG₂"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "v": "mug",
+                        "id": "P225056.4.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "hul",
+                        "id": "P225056.4.1.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "anše",
+                  "id": "P225056.l23909",
+                  "ref": "P225056.4.2",
+                  "inst": "%sux:anše=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "anše",
+                    "gdl": [
+                      {
+                        "v": "anše",
+                        "id": "P225056.4.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225056.5",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{siki(tug₂)}en-te-na",
+                  "id": "P225056.l2390a",
+                  "ref": "P225056.5.1",
+                  "inst": "%sux:{siki}en-te-na=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{siki}en-te-na",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "gg": "correction",
+                            "gdl_type": "correction",
+                            "group": [
+                              {
+                                "v": "siki",
+                                "id": "P225056.5.1.0",
+                                "gdl_remarked": "1"
+                              },
+                              {
+                                "s": "TUG₂"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "v": "en",
+                        "id": "P225056.5.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "te",
+                        "id": "P225056.5.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P225056.5.1.3"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225056.6",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{siki(tug₂)}gu-la",
+                  "id": "P225056.l2390b",
+                  "ref": "P225056.6.1",
+                  "inst": "%sux:{siki}gu-la=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{siki}gu-la",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "gg": "correction",
+                            "gdl_type": "correction",
+                            "group": [
+                              {
+                                "v": "siki",
+                                "id": "P225056.6.1.0",
+                                "gdl_remarked": "1"
+                              },
+                              {
+                                "s": "TUG₂"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "v": "gu",
+                        "id": "P225056.6.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la",
+                        "id": "P225056.6.1.2"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

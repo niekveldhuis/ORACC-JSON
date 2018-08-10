@@ -1,0 +1,326 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:08:28",
+  "textid": "P231291",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P231291.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P231291.x763.1",
+          "label": "x763"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P231291.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P231291.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P231291.4",
+          "strict": "1",
+          "extent": "1",
+          "scope": "line",
+          "state": "traces"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P231291.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P231291.U2",
+              "label": "o i 2 - o i 6",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231291.5",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[kuš]}kud",
+                  "id": "P231291.l206d1",
+                  "ref": "P231291.5.1",
+                  "inst": "%sux:{kuš}kud=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{kuš}kud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "kuš",
+                            "id": "P231291.5.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P231291.5.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "kud",
+                        "id": "P231291.5.1.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "IGI",
+                  "id": "P231291.l206d2",
+                  "ref": "P231291.5.2",
+                  "inst": "%sux:IGI=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "IGI",
+                    "gdl": [
+                      {
+                        "s": "IGI",
+                        "id": "P231291.5.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231291.6",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{⸢kuš}ban₂⸣{mušen}",
+                  "id": "P231291.l206d3",
+                  "ref": "P231291.6.1",
+                  "inst": "%sux:{kuš}ban₂{mušen}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{kuš}ban₂{mušen}",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "kuš",
+                            "id": "P231291.6.1.0",
+                            "break": "damaged",
+                            "ho": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ban₂",
+                        "id": "P231291.6.1.1",
+                        "break": "damaged",
+                        "hc": "1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P231291.6.1.2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231291.7",
+                  "n": "4",
+                  "label": "o i 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "{kuš}ur-mah",
+                  "id": "P231291.l206d4",
+                  "ref": "P231291.7.1",
+                  "inst": "%sux:{kuš}ur-mah=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{kuš}ur-mah",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "kuš",
+                            "id": "P231291.7.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ur",
+                        "id": "P231291.7.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mah",
+                        "id": "P231291.7.1.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231291.8",
+                  "n": "5",
+                  "label": "o i 5"
+                },
+                {
+                  "node": "l",
+                  "frag": "{kuš}ur-⸢nig⸣",
+                  "id": "P231291.l206d5",
+                  "ref": "P231291.8.1",
+                  "inst": "%sux:{kuš}ur-nig=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{kuš}ur-nig",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "kuš",
+                            "id": "P231291.8.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ur",
+                        "id": "P231291.8.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nig",
+                        "id": "P231291.8.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231291.9",
+                  "n": "6",
+                  "label": "o i 6"
+                },
+                {
+                  "node": "l",
+                  "frag": "{kuš}⸢ur-bar-ra⸣",
+                  "id": "P231291.l206d6",
+                  "ref": "P231291.9.1",
+                  "inst": "%sux:{kuš}ur-bar-ra=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{kuš}ur-bar-ra",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "kuš",
+                            "id": "P231291.9.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ur",
+                        "id": "P231291.9.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bar",
+                        "id": "P231291.9.1.2",
+                        "break": "damaged",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P231291.9.1.3",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P231291.10",
+                  "strict": "1",
+                  "extent": "1",
+                  "scope": "line",
+                  "state": "traces"
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 2o",
+                  "type": "column",
+                  "ref": "P231291.o.ii.11",
+                  "n": "2",
+                  "label": "o ii"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P231291.12",
+                  "strict": "1",
+                  "extent": "5",
+                  "scope": "line",
+                  "state": "traces"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

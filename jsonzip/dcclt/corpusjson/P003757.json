@@ -1,0 +1,124 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:04:27",
+  "textid": "P003757",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P003757.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P003757.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P003757.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P003757.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P003757.U2",
+              "label": "o i 1 - o i 1",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P003757.3",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "default"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P003757.l0408d",
+                  "ref": "P003757.3.1",
+                  "inst": "%qpc:x=",
+                  "f": {
+                    "lang": "qpc",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P003757.3.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P003757.3.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "default"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "default"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P003757.l0408e",
+                  "ref": "P003757.3.2",
+                  "inst": "%qpc:x=",
+                  "f": {
+                    "lang": "qpc",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P003757.3.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P003757.3.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "default"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:05:08",
+  "textid": "P225142",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P225142.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P225142.x2280.1",
+          "label": "x2280"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P225142.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P225142.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P225142.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P225142.U2",
+              "label": "o i 1 - o i 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225142.4",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "uruda",
+                  "id": "P225142.l53972",
+                  "ref": "P225142.4.1",
+                  "inst": "%sux:uruda=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "uruda",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "uruda",
+                        "id": "P225142.4.1.0",
+                        "queried": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢e₂⸣",
+                  "id": "P225142.l53973",
+                  "ref": "P225142.4.2",
+                  "inst": "%sux:e₂=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "e₂",
+                    "gdl": [
+                      {
+                        "v": "e₂",
+                        "id": "P225142.4.2.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225142.5",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢uruda⸣",
+                  "id": "P225142.l53974",
+                  "ref": "P225142.5.1",
+                  "inst": "%sux:uruda=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "uruda",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "uruda",
+                        "id": "P225142.5.1.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "agrun-ta",
+                  "id": "P225142.l53975",
+                  "ref": "P225142.5.2",
+                  "inst": "%sux:agrun-ta=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "agrun-ta",
+                    "gdl": [
+                      {
+                        "v": "agrun",
+                        "id": "P225142.5.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ta",
+                        "id": "P225142.5.2.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P225142.6",
+                  "strict": "1",
+                  "extent": "2",
+                  "scope": "line",
+                  "state": "blank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

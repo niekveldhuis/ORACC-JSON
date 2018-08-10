@@ -1,0 +1,168 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:06:13",
+  "textid": "P228458",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P228458.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P228458.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P228458.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P228458.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P228458.U2",
+              "label": "o i 1 - o i 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228458.3",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P228458.l1e4c8",
+                  "ref": "P228458.3.1",
+                  "inst": "%sux:x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P228458.3.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P228458.3.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "nimbar-al-kud-da",
+                  "id": "P228458.l1e4c9",
+                  "ref": "P228458.3.2",
+                  "inst": "%sux:nimbar-al-kud-da=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nimbar-al-kud-da",
+                    "gdl": [
+                      {
+                        "v": "nimbar",
+                        "id": "P228458.3.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "al",
+                        "id": "P228458.3.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "kud",
+                        "id": "P228458.3.2.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P228458.3.2.3"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228458.4",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋeš",
+                  "id": "P228458.l1e4ca",
+                  "ref": "P228458.4.1",
+                  "inst": "%sux:ŋeš=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš",
+                        "id": "P228458.4.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "nimbar-al-šab",
+                  "id": "P228458.l1e4cb",
+                  "ref": "P228458.4.2",
+                  "inst": "%sux:nimbar-al-šab=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nimbar-al-šab",
+                    "gdl": [
+                      {
+                        "v": "nimbar",
+                        "id": "P228458.4.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "al",
+                        "id": "P228458.4.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "šab",
+                        "id": "P228458.4.2.2"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

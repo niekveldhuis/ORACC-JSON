@@ -1,0 +1,1898 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:07:43",
+  "textid": "P229880",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P229880.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P229880.x305.1",
+          "label": "x305"
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P229880.2",
+          "strict": "0",
+          "extent": "1",
+          "state": "ruling"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P229880.o.3",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P229880.4",
+          "strict": "0",
+          "state": "missing"
+        },
+        {
+          "node": "d",
+          "subtype": "reverse",
+          "type": "reverse",
+          "ref": "P229880.r.5",
+          "label": "r"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1r '",
+          "type": "column",
+          "ref": "P229880.r.i_.6",
+          "n": "1",
+          "label": "r i'"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P229880.7",
+          "strict": "0",
+          "extent": "beginning",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P229880.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P229880.U2",
+              "label": "r i' 1' - r ii' 12'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.8",
+                  "n": "1'",
+                  "label": "r i' 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]-⸢x⸣",
+                  "id": "P229880.l13e5d",
+                  "ref": "P229880.8.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x-x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P229880.8.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229880.8.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P229880.8.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.9",
+                  "n": "2'",
+                  "label": "r i' 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[egi]-⸢zi⸣",
+                  "id": "P229880.l13e5e",
+                  "ref": "P229880.9.1",
+                  "inst": "egizid[priestess]N",
+                  "sig": "@dcclt%sux:egi-zi=egizid[priestess//a priestess]N'N$egizid/egi-zid#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "egi-zi",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "egi",
+                        "id": "P229880.9.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "queried": "1",
+                        "break": "missing",
+                        "breakEnd": "P229880.9.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "zi",
+                        "id": "P229880.9.1.1",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "egizid",
+                    "gw": "priestess",
+                    "sense": "a priestess",
+                    "norm0": "egizid",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "egi-zid",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "an-[na]",
+                  "id": "P229880.l13e5f",
+                  "ref": "P229880.9.2",
+                  "inst": "An[1]DN",
+                  "sig": "@dcclt%sux:an-na=An[1//1]DN'DN$An/an-na#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "an-na",
+                    "gdl": [
+                      {
+                        "v": "an",
+                        "id": "P229880.9.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P229880.9.2.1",
+                        "breakStart": "1",
+                        "o": "]",
+                        "queried": "1",
+                        "break": "missing",
+                        "breakEnd": "P229880.9.2.1"
+                      }
+                    ],
+                    "cf": "An",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm0": "An",
+                    "pos": "DN",
+                    "epos": "DN",
+                    "base": "an-na",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.10",
+                  "n": "3'",
+                  "label": "r i' 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "nunuzziₓ(|EN.NU.NUNUZ.ZI.[AN.UD]|)",
+                  "id": "P229880.l13e60",
+                  "ref": "P229880.10.1",
+                  "inst": "nunuzzi[priestess]N",
+                  "sig": "@dcclt%sux:nunuzziₓ(|EN.NU.NUNUZ.ZI.AN.UD|)=nunuzzi[priestess//a priestess]N'N$nunuzzi/nunuzziₓ(|EN.NU.NUNUZ.ZI.AN.UD|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nunuzziₓ(|EN.NU.NUNUZ.ZI.AN.UD|)",
+                    "gdl": [
+                      {
+                        "q": "nunuzziₓ(|EN.NU.NUNUZ.ZI.AN.UD|)",
+                        "id": "P229880.10.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "nunuzziₓ"
+                          },
+                          {
+                            "c": "|EN.NU.NUNUZ.ZI.AN.UD|",
+                            "seq": [
+                              {
+                                "s": "EN"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "NU"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "NUNUZ"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "ZI"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "AN",
+                                "o": "["
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "UD",
+                                "o": "]"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "nunuzzi",
+                    "gw": "priestess",
+                    "sense": "a priestess",
+                    "norm0": "nunuzzi",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "nunuzziₓ(|EN.NU.NUNUZ.ZI.AN.UD|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.11",
+                  "n": "4'",
+                  "label": "r i' 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "zirru(|EN.NUNUZ.ZI.[AN.ŠEŠ.KI]|)",
+                  "id": "P229880.l13e61",
+                  "ref": "P229880.11.1",
+                  "inst": "zirru[a priestess]N",
+                  "sig": "@dcclt%sux:zirru(|EN.NUNUZ.ZI.AN.ŠEŠ.KI|)=zirru[priestess//a priestess]N'N$zirru/zirru(|EN.NUNUZ.ZI.AN.ŠEŠ.KI|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "zirru(|EN.NUNUZ.ZI.AN.ŠEŠ.KI|)",
+                    "gdl": [
+                      {
+                        "q": "zirru(|EN.NUNUZ.ZI.AN.ŠEŠ.KI|)",
+                        "id": "P229880.11.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "zirru"
+                          },
+                          {
+                            "c": "|EN.NUNUZ.ZI.AN.ŠEŠ.KI|",
+                            "seq": [
+                              {
+                                "s": "EN"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "NUNUZ"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "ZI",
+                                "queried": "1"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "AN",
+                                "o": "["
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "ŠEŠ"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "KI",
+                                "o": "]"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "zirru",
+                    "gw": "priestess",
+                    "sense": "a priestess",
+                    "norm0": "zirru",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "zirru(|EN.NUNUZ.ZI.AN.ŠEŠ.KI|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.12",
+                  "n": "5'",
+                  "label": "r i' 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ukurrim(|EN.ME.[AN.MUŠ₃]|)",
+                  "id": "P229880.l13e62",
+                  "ref": "P229880.12.1",
+                  "inst": "ukurrim[a priest of Inanna]N",
+                  "sig": "@dcclt%sux:ukurrim(|EN.ME.AN.MUŠ₃|)=ukurrim[priest//a priest of Inanna]N'N$ukurrim/ukurrim(|EN.ME.AN.MUŠ₃|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ukurrim(|EN.ME.AN.MUŠ₃|)",
+                    "gdl": [
+                      {
+                        "q": "ukurrim(|EN.ME.AN.MUŠ₃|)",
+                        "id": "P229880.12.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "ukurrim"
+                          },
+                          {
+                            "c": "|EN.ME.AN.MUŠ₃|",
+                            "seq": [
+                              {
+                                "s": "EN"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "ME"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "AN",
+                                "o": "["
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "MUŠ₃",
+                                "o": "]"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "ukurrim",
+                    "gw": "priest",
+                    "sense": "a priest of Inanna",
+                    "norm0": "ukurrim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ukurrim(|EN.ME.AN.MUŠ₃|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.13",
+                  "n": "6'",
+                  "label": "r i' 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "šennu(|EN.ME.AD.[KU₃]|)",
+                  "id": "P229880.l13e63",
+                  "ref": "P229880.13.1",
+                  "inst": "šennu[a priest]N",
+                  "sig": "@dcclt%sux:šennu(|EN.ME.AD.KU₃|)=šennu[priest//a priest]N'N$šennu/šennu(|EN.ME.AD.KU₃|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šennu(|EN.ME.AD.KU₃|)",
+                    "gdl": [
+                      {
+                        "q": "šennu(|EN.ME.AD.KU₃|)",
+                        "id": "P229880.13.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "šennu"
+                          },
+                          {
+                            "c": "|EN.ME.AD.KU₃|",
+                            "seq": [
+                              {
+                                "s": "EN"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "ME"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "AD",
+                                "queried": "1"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "KU₃",
+                                "o": "]"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "šennu",
+                    "gw": "priest",
+                    "sense": "a priest",
+                    "norm0": "šennu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šennu(|EN.ME.AD.KU₃|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.14",
+                  "n": "7'",
+                  "label": "r i' 7'"
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "[murub₂]",
+                  "id": "P229880.l13e64",
+                  "ref": "P229880.14.1",
+                  "inst": "murub[knob]N",
+                  "sig": "@dcclt%sux:murub₂=murub[middle//knob]N'N$murub/murub₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "murub₂",
+                    "gdl": [
+                      {
+                        "v": "murub₂",
+                        "id": "P229880.14.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "queried": "1",
+                        "break": "missing",
+                        "breakEnd": "P229880.14.1.0"
+                      }
+                    ],
+                    "cf": "murub",
+                    "gw": "middle",
+                    "sense": "knob",
+                    "norm0": "murub",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "murub₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.15",
+                  "n": "8'",
+                  "label": "r i' 8'"
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "[murub₂]",
+                  "id": "P229880.l13e65",
+                  "ref": "P229880.15.1",
+                  "inst": "murub[buttocks]N",
+                  "sig": "@dcclt%sux:murub₂=murub[middle//buttocks]N'N$murub/murub₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "murub₂",
+                    "gdl": [
+                      {
+                        "v": "murub₂",
+                        "id": "P229880.15.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "queried": "1",
+                        "break": "missing",
+                        "breakEnd": "P229880.15.1.0"
+                      }
+                    ],
+                    "cf": "murub",
+                    "gw": "middle",
+                    "sense": "buttocks",
+                    "norm0": "murub",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "murub₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.16",
+                  "n": "9'",
+                  "label": "r i' 9'"
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "[murub₂]",
+                  "id": "P229880.l13e66",
+                  "ref": "P229880.16.1",
+                  "inst": "murub[female genitals]N",
+                  "sig": "@dcclt%sux:murub₂=murub[middle//female genitals, vulva]N'N$murub/murub₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "murub₂",
+                    "gdl": [
+                      {
+                        "v": "murub₂",
+                        "id": "P229880.16.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "queried": "1",
+                        "break": "missing",
+                        "breakEnd": "P229880.16.1.0"
+                      }
+                    ],
+                    "cf": "murub",
+                    "gw": "middle",
+                    "sense": "female genitals, vulva",
+                    "norm0": "murub",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "murub₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.17",
+                  "n": "10'",
+                  "label": "r i' 10'"
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "[murub₂]",
+                  "id": "P229880.l13e67",
+                  "ref": "P229880.17.1",
+                  "inst": "murub[buttocks]N",
+                  "sig": "@dcclt%sux:murub₂=murub[middle//buttocks]N'N$murub/murub₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "murub₂",
+                    "gdl": [
+                      {
+                        "v": "murub₂",
+                        "id": "P229880.17.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "queried": "1",
+                        "break": "missing",
+                        "breakEnd": "P229880.17.1.0"
+                      }
+                    ],
+                    "cf": "murub",
+                    "gw": "middle",
+                    "sense": "buttocks",
+                    "norm0": "murub",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "murub₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.18",
+                  "n": "11'",
+                  "label": "r i' 11'"
+                },
+                {
+                  "node": "l",
+                  "frag": "engiz(|EN.ME.[GI₄]|)",
+                  "id": "P229880.l13e68",
+                  "ref": "P229880.18.1",
+                  "inst": "engiz[temple cook]N",
+                  "sig": "@dcclt%sux:engiz(|EN.ME.GI₄|)=engiz[cook//temple cook]N'N$engiz/engiz(|EN.ME.GI₄|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "engiz(|EN.ME.GI₄|)",
+                    "gdl": [
+                      {
+                        "q": "engiz(|EN.ME.GI₄|)",
+                        "id": "P229880.18.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "engiz"
+                          },
+                          {
+                            "c": "|EN.ME.GI₄|",
+                            "seq": [
+                              {
+                                "s": "EN"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "ME"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "GI₄",
+                                "o": "]",
+                                "queried": "1"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "engiz",
+                    "gw": "cook",
+                    "sense": "temple cook",
+                    "norm0": "engiz",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "engiz(|EN.ME.GI₄|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.19",
+                  "n": "12'",
+                  "label": "r i' 12'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ensi(|EN.ME.[LI]|)",
+                  "id": "P229880.l13e69",
+                  "ref": "P229880.19.1",
+                  "inst": "ensi[dream interpreter]N",
+                  "sig": "@dcclt%sux:ensi(|EN.ME.LI|)=ensi[interpreter//dream interpreter]N'N$ensi/ensi(|EN.ME.LI|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ensi(|EN.ME.LI|)",
+                    "gdl": [
+                      {
+                        "q": "ensi(|EN.ME.LI|)",
+                        "id": "P229880.19.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "ensi"
+                          },
+                          {
+                            "c": "|EN.ME.LI|",
+                            "seq": [
+                              {
+                                "s": "EN"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "ME"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "LI",
+                                "o": "]",
+                                "queried": "1"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "ensi",
+                    "gw": "interpreter",
+                    "sense": "dream interpreter",
+                    "norm0": "ensi",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ensi(|EN.ME.LI|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.20",
+                  "n": "13'",
+                  "label": "r i' 13'"
+                },
+                {
+                  "node": "l",
+                  "frag": "kišib-⸢ŋal₂⸣",
+                  "id": "P229880.l13e6a",
+                  "ref": "P229880.20.1",
+                  "inst": "kišibŋal[seal bearer]N",
+                  "sig": "@dcclt%sux:kišib-ŋal₂=kišibŋal[seal bearer//seal bearer]N'N$kišibŋal/kišib-ŋal₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kišib-ŋal₂",
+                    "gdl": [
+                      {
+                        "v": "kišib",
+                        "id": "P229880.20.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋal₂",
+                        "id": "P229880.20.1.1",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "kišibŋal",
+                    "gw": "seal bearer",
+                    "sense": "seal bearer",
+                    "norm0": "kišibŋal",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kišib-ŋal₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.21",
+                  "n": "14'",
+                  "label": "r i' 14'"
+                },
+                {
+                  "node": "l",
+                  "frag": "kišib-[la₂]",
+                  "id": "P229880.l13e6b",
+                  "ref": "P229880.21.1",
+                  "inst": "kišibla[seal bearer]N",
+                  "sig": "@dcclt%sux:kišib-la₂=kišibla[seal bearer//seal bearer]N'N$kišibla/kišib-la₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kišib-la₂",
+                    "gdl": [
+                      {
+                        "v": "kišib",
+                        "id": "P229880.21.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la₂",
+                        "id": "P229880.21.1.1",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P229880.21.1.1"
+                      }
+                    ],
+                    "cf": "kišibla",
+                    "gw": "seal bearer",
+                    "sense": "seal bearer",
+                    "norm0": "kišibla",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kišib-la₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.22",
+                  "n": "15'",
+                  "label": "r i' 15'"
+                },
+                {
+                  "node": "l",
+                  "frag": "enkumₓ(|EN.PAP.E.IGI@g.NUN.[ME.EZEN×KASKAL]|)",
+                  "id": "P229880.l13e6c",
+                  "ref": "P229880.22.1",
+                  "inst": "enkum[treasurer]N/enkumₓ(|EN.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)#~",
+                  "sig": "@dcclt%sux:enkumₓ(|EN.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)=enkum[treasurer//treasurer]N'N$enkum/enkumₓ(|EN.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "enkumₓ(|EN.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)",
+                    "gdl": [
+                      {
+                        "q": "enkumₓ(|EN.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)",
+                        "id": "P229880.22.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "enkumₓ"
+                          },
+                          {
+                            "c": "|EN.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|",
+                            "seq": [
+                              {
+                                "s": "EN"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "PAP"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "E"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "form": "IGI@g",
+                                "mods": [
+                                  {
+                                    "b": "IGI"
+                                  },
+                                  {
+                                    "m": "g"
+                                  }
+                                ]
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "NUN",
+                                "queried": "1"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "ME",
+                                "o": "["
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "EZEN"
+                              },
+                              {
+                                "o": "containing"
+                              },
+                              {
+                                "s": "KASKAL",
+                                "o": "]"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "enkum",
+                    "gw": "treasurer",
+                    "sense": "treasurer",
+                    "norm0": "enkum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "enkumₓ(|EN.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.23",
+                  "n": "16'",
+                  "label": "r i' 16'"
+                },
+                {
+                  "node": "l",
+                  "frag": "nenkumₓ(|[SAL].TUG₂.PAP.E.[IGI@g.NUN.ME.EZEN×KASKAL]|)",
+                  "id": "P229880.l13e6d",
+                  "ref": "P229880.23.1",
+                  "inst": "nenkum[official]N/nenkumₓ(|SAL.TUG₂.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)#~",
+                  "sig": "@dcclt%sux:nenkumₓ(|SAL.TUG₂.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)=nenkum[official//official]N'N$nenkum/nenkumₓ(|SAL.TUG₂.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nenkumₓ(|SAL.TUG₂.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)",
+                    "gdl": [
+                      {
+                        "q": "nenkumₓ(|SAL.TUG₂.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)",
+                        "id": "P229880.23.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "qualified": [
+                          {
+                            "v": "nenkumₓ"
+                          },
+                          {
+                            "c": "|SAL.TUG₂.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|",
+                            "seq": [
+                              {
+                                "s": "SAL",
+                                "o": "]"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "TUG₂"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "PAP"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "E"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "form": "IGI@g",
+                                "o": "[",
+                                "mods": [
+                                  {
+                                    "b": "IGI"
+                                  },
+                                  {
+                                    "m": "g"
+                                  }
+                                ]
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "NUN"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "ME"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "EZEN"
+                              },
+                              {
+                                "o": "containing"
+                              },
+                              {
+                                "s": "KASKAL",
+                                "o": "]"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "nenkum",
+                    "gw": "official",
+                    "sense": "official",
+                    "norm0": "nenkum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "nenkumₓ(|SAL.TUG₂.PAP.E.IGI@g.NUN.ME.EZEN×KASKAL|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229880.24",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 2r '",
+                  "type": "column",
+                  "ref": "P229880.r.ii_.25",
+                  "n": "2",
+                  "label": "r ii'"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229880.26",
+                  "strict": "1",
+                  "extent": "beginning",
+                  "scope": "column",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.27",
+                  "n": "1'",
+                  "label": "r ii' 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[pi-li]-⸢pi-li⸣",
+                  "id": "P229880.l13e6e",
+                  "ref": "P229880.27.1",
+                  "inst": "pilipili[a cultic performer]N",
+                  "sig": "@dcclt%sux:pi-li-pi-li=pilipili[performer//a cultic performer]N'N$pilipili/pi-li-pi-li#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "pi-li-pi-li",
+                    "gdl": [
+                      {
+                        "v": "pi",
+                        "id": "P229880.27.1.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "li",
+                        "id": "P229880.27.1.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229880.27.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "pi",
+                        "id": "P229880.27.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "li",
+                        "id": "P229880.27.1.3",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "pilipili",
+                    "gw": "performer",
+                    "sense": "a cultic performer",
+                    "norm0": "pilipili",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "pi-li-pi-li",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.28",
+                  "n": "2'",
+                  "label": "r ii' 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[kur-ŋar]-ra",
+                  "id": "P229880.l13e6f",
+                  "ref": "P229880.28.1",
+                  "inst": "kurŋara[a cultic performer]N",
+                  "sig": "@dcclt%sux:kur-ŋar-ra=kurŋara[performer//a cultic performer]N'N$kurŋara/kur-ŋar-ra#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "kur-ŋar-ra",
+                    "gdl": [
+                      {
+                        "v": "kur",
+                        "id": "P229880.28.1.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋar",
+                        "id": "P229880.28.1.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229880.28.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P229880.28.1.2"
+                      }
+                    ],
+                    "cf": "kurŋara",
+                    "gw": "performer",
+                    "sense": "a cultic performer",
+                    "norm0": "kurŋara",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "kur-ŋar-ra",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.29",
+                  "n": "3'",
+                  "label": "r ii' 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[saŋ]-us₂",
+                  "id": "P229880.l13e70",
+                  "ref": "P229880.29.1",
+                  "inst": "saŋus[(to be) constant, regular]V/i",
+                  "sig": "@dcclt%sux:saŋ-us₂=saŋus[constant//(to be) constant, regular]V/i'V/i$saŋus/saŋ-us₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "saŋ-us₂",
+                    "gdl": [
+                      {
+                        "v": "saŋ",
+                        "id": "P229880.29.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P229880.29.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "us₂",
+                        "id": "P229880.29.1.1"
+                      }
+                    ],
+                    "cf": "saŋus",
+                    "gw": "constant",
+                    "sense": "(to be) constant, regular",
+                    "norm0": "saŋus",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "saŋ-us₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.30",
+                  "n": "4'",
+                  "label": "r ii' 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[šu-gi]-na",
+                  "id": "P229880.l13e71",
+                  "ref": "P229880.30.1",
+                  "inst": "šuagina[regular offerings]N",
+                  "sig": "@dcclt%sux:šu-gi-na=šuagina[offerings//regular offerings]N'N$šuagina/šu-gi-na#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šu-gi-na",
+                    "gdl": [
+                      {
+                        "v": "šu",
+                        "id": "P229880.30.1.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gi",
+                        "id": "P229880.30.1.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229880.30.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P229880.30.1.2"
+                      }
+                    ],
+                    "cf": "šuagina",
+                    "gw": "offerings",
+                    "sense": "regular offerings",
+                    "norm0": "šuagina",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šu-gi-na",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.31",
+                  "n": "5'",
+                  "label": "r ii' 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[saŋ]-keš₂",
+                  "id": "P229880.l13e72",
+                  "ref": "P229880.31.1",
+                  "inst": "saŋkešed[a strap]N",
+                  "sig": "@dcclt%sux:saŋ-keš₂=saŋkešed[strap//a strap]N'N$saŋkešed/saŋ-keš₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "saŋ-keš₂",
+                    "gdl": [
+                      {
+                        "v": "saŋ",
+                        "id": "P229880.31.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P229880.31.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "keš₂",
+                        "id": "P229880.31.1.1"
+                      }
+                    ],
+                    "cf": "saŋkešed",
+                    "gw": "strap",
+                    "sense": "a strap",
+                    "norm0": "saŋkešed",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "saŋ-keš₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.32",
+                  "n": "6'",
+                  "label": "r ii' 6'"
+                },
+                {
+                  "node": "c",
+                  "type": "phrase",
+                  "tag": "phr",
+                  "id": "P229880.U4",
+                  "ref": "P229880.ls00000",
+                  "cdl": [
+                    {
+                      "node": "l",
+                      "frag": "[saŋ]",
+                      "id": "P229880.l13e73",
+                      "ref": "P229880.32.1",
+                      "inst": "saŋ[head]N",
+                      "sig": "@dcclt%sux:saŋ=saŋ[head//head]N'N$saŋ/saŋ#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "saŋ",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "saŋ",
+                            "id": "P229880.32.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P229880.32.1.0"
+                          }
+                        ],
+                        "cf": "saŋ",
+                        "gw": "head",
+                        "sense": "head",
+                        "norm0": "saŋ",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "saŋ",
+                        "morph": "~"
+                      }
+                    },
+                    {
+                      "node": "l",
+                      "frag": "keš₂",
+                      "id": "P229880.l13e74",
+                      "ref": "P229880.32.2",
+                      "inst": "kešed[to bind]V/t",
+                      "sig": "@dcclt%sux:keš₂=kešed[bind//to bind]V/t'V/t$kešed/keš₂#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "keš₂",
+                        "gdl": [
+                          {
+                            "v": "keš₂",
+                            "id": "P229880.32.2.0"
+                          }
+                        ],
+                        "cf": "kešed",
+                        "gw": "bind",
+                        "sense": "to bind",
+                        "norm0": "kešed",
+                        "pos": "V/t",
+                        "epos": "V/t",
+                        "base": "keš₂",
+                        "morph": "~"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.33",
+                  "n": "7'",
+                  "label": "r ii' 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[da]-ga",
+                  "id": "P229880.l13e75",
+                  "ref": "P229880.33.1",
+                  "inst": "daggan[(sleeping) chamber?]N",
+                  "sig": "@dcclt%sux:da-ga=daggan[chamber//(sleeping) chamber?]N'N$daggan/da-ga#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "da-ga",
+                    "gdl": [
+                      {
+                        "v": "da",
+                        "id": "P229880.33.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P229880.33.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P229880.33.1.1"
+                      }
+                    ],
+                    "cf": "daggan",
+                    "gw": "chamber",
+                    "sense": "(sleeping) chamber?",
+                    "norm0": "daggan",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "da-ga",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.34",
+                  "n": "8'",
+                  "label": "r ii' 8'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[da]-ga",
+                  "id": "P229880.l13e76",
+                  "ref": "P229880.34.1",
+                  "inst": "dagan[totality]N",
+                  "sig": "@dcclt%sux:da-ga=dagan[totality//totality]N'N$dagan/da-ga#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "da-ga",
+                    "gdl": [
+                      {
+                        "v": "da",
+                        "id": "P229880.34.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P229880.34.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P229880.34.1.1"
+                      }
+                    ],
+                    "cf": "dagan",
+                    "gw": "totality",
+                    "sense": "totality",
+                    "norm0": "dagan",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "da-ga",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.35",
+                  "n": "9'",
+                  "label": "r ii' 9'"
+                },
+                {
+                  "node": "c",
+                  "type": "phrase",
+                  "tag": "phr",
+                  "id": "P229880.U5",
+                  "ref": "P229880.ls00001",
+                  "cdl": [
+                    {
+                      "node": "l",
+                      "frag": "[zu₂]",
+                      "id": "P229880.l13e77",
+                      "ref": "P229880.35.1",
+                      "inst": "zu[tooth]N",
+                      "sig": "@dcclt%sux:zu₂=zu[tooth//tooth]N'N$zu/zu₂#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "zu₂",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "zu₂",
+                            "id": "P229880.35.1.0",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P229880.35.1.0"
+                          }
+                        ],
+                        "cf": "zu",
+                        "gw": "tooth",
+                        "sense": "tooth",
+                        "norm0": "zu",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "zu₂",
+                        "morph": "~"
+                      }
+                    },
+                    {
+                      "node": "l",
+                      "frag": "⸢keš₂⸣",
+                      "id": "P229880.l13e78",
+                      "ref": "P229880.35.2",
+                      "inst": "kešed[to bind]V/t",
+                      "sig": "@dcclt%sux:keš₂=kešed[bind//to bind]V/t'V/t$kešed/keš₂#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "keš₂",
+                        "gdl": [
+                          {
+                            "v": "keš₂",
+                            "id": "P229880.35.2.0",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ],
+                        "cf": "kešed",
+                        "gw": "bind",
+                        "sense": "to bind",
+                        "norm0": "kešed",
+                        "pos": "V/t",
+                        "epos": "V/t",
+                        "base": "keš₂",
+                        "morph": "~"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.36",
+                  "n": "10'",
+                  "label": "r ii' 10'"
+                },
+                {
+                  "node": "c",
+                  "type": "phrase",
+                  "tag": "phr",
+                  "id": "P229880.U6",
+                  "ref": "P229880.ls00002",
+                  "cdl": [
+                    {
+                      "node": "l",
+                      "frag": "[inim",
+                      "id": "P229880.l13e79",
+                      "ref": "P229880.36.1",
+                      "inst": "inim[word]",
+                      "sig": "@dcclt%sux:inim=inim[word//word]N'N$inim/inim#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "inim",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "inim",
+                            "id": "P229880.36.1.0",
+                            "breakStart": "1",
+                            "o": "[",
+                            "break": "missing"
+                          }
+                        ],
+                        "cf": "inim",
+                        "gw": "word",
+                        "sense": "word",
+                        "norm0": "inim",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "inim",
+                        "morph": "~"
+                      }
+                    },
+                    {
+                      "node": "l",
+                      "frag": "zu₂]",
+                      "id": "P229880.l13e7a",
+                      "ref": "P229880.36.2",
+                      "inst": "zu[tooth]",
+                      "sig": "@dcclt%sux:zu₂=zu[tooth//tooth]N'N$zu/zu₂#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "zu₂",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "zu₂",
+                            "id": "P229880.36.2.0",
+                            "break": "missing",
+                            "o": "]",
+                            "breakEnd": "P229880.36.1.0"
+                          }
+                        ],
+                        "cf": "zu",
+                        "gw": "tooth",
+                        "sense": "tooth",
+                        "norm0": "zu",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "zu₂",
+                        "morph": "~"
+                      }
+                    },
+                    {
+                      "node": "l",
+                      "frag": "⸢keš₂⸣",
+                      "id": "P229880.l13e7b",
+                      "ref": "P229880.36.3",
+                      "inst": "kešed[to bind]V/t",
+                      "sig": "@dcclt%sux:keš₂=kešed[bind//to bind]V/t'V/t$kešed/keš₂#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "keš₂",
+                        "gdl": [
+                          {
+                            "v": "keš₂",
+                            "id": "P229880.36.3.0",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ],
+                        "cf": "kešed",
+                        "gw": "bind",
+                        "sense": "to bind",
+                        "norm0": "kešed",
+                        "pos": "V/t",
+                        "epos": "V/t",
+                        "base": "keš₂",
+                        "morph": "~"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.37",
+                  "n": "11'",
+                  "label": "r ii' 11'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P229880.l13e7c",
+                  "ref": "P229880.37.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P229880.37.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229880.37.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢uzud⸣",
+                  "id": "P229880.l13e7d",
+                  "ref": "P229880.37.2",
+                  "inst": "uzud[(female) goat]N",
+                  "sig": "@dcclt%sux:uzud=uzud[goat//(female) goat]N'N$uzud/uzud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "uzud",
+                    "gdl": [
+                      {
+                        "v": "uzud",
+                        "id": "P229880.37.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "uzud",
+                    "gw": "goat",
+                    "sense": "(female) goat",
+                    "norm0": "uzud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "uzud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229880.38",
+                  "n": "12'",
+                  "label": "r ii' 12'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]-⸢x⸣",
+                  "id": "P229880.l13e7e",
+                  "ref": "P229880.38.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x-x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P229880.38.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229880.38.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P229880.38.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229880.39",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkbase": [
+        {
+          "type": "linkset",
+          "xlink_title": "saŋ kešed[take care//to take care, attend carefully (to something)]V/t'V/t",
+          "id": "P229880.ls00000",
+          "xlink_type": "extended",
+          "xlink_role": "psu",
+          "sig": "{saŋ keš₂ = saŋ[head]N kešed[bind]V/t += saŋ kešed[take care//to take care, attend carefully (to something)]V/t'V/t}::@dcclt%sux:saŋ=saŋ[head//head]N'N$saŋ/saŋ#~++@dcclt%sux:keš₂=kešed[bind//to bind]V/t'V/t$kešed/keš₂#~",
+          "links": [
+            {
+              "type": "link",
+              "xlink_title": "saŋ",
+              "xlink_type": "locator",
+              "xlink_href": "#P229880.l13e73",
+              "xlink_role": "elt"
+            },
+            {
+              "type": "link",
+              "xlink_title": "kešed",
+              "xlink_type": "locator",
+              "xlink_href": "#P229880.l13e74",
+              "xlink_role": "elt"
+            }
+          ]
+        },
+        {
+          "type": "linkset",
+          "xlink_title": "zu kešed[assemble//to assemble, gather]V/t'V/t",
+          "id": "P229880.ls00001",
+          "xlink_type": "extended",
+          "xlink_role": "psu",
+          "sig": "{zu₂ keš₂ = zu[tooth]N kešed[bind]V/t += zu kešed[assemble//to assemble, gather]V/t'V/t}::@dcclt%sux:zu₂=zu[tooth//tooth]N'N$zu/zu₂#~++@dcclt%sux:keš₂=kešed[bind//to bind]V/t'V/t$kešed/keš₂#~",
+          "links": [
+            {
+              "type": "link",
+              "xlink_title": "zu",
+              "xlink_type": "locator",
+              "xlink_href": "#P229880.l13e77",
+              "xlink_role": "elt"
+            },
+            {
+              "type": "link",
+              "xlink_title": "kešed",
+              "xlink_type": "locator",
+              "xlink_href": "#P229880.l13e78",
+              "xlink_role": "elt"
+            }
+          ]
+        },
+        {
+          "type": "linkset",
+          "xlink_title": "inim zu kešed[enter into contract//to enter into contract]V/i'V/i",
+          "id": "P229880.ls00002",
+          "xlink_type": "extended",
+          "xlink_role": "psu",
+          "sig": "{inim zu₂ keš₂ = inim[word]N zu[tooth]N kešed[bind]V/t += inim zu kešed[enter into contract//to enter into contract]V/i'V/i}::@dcclt%sux:inim=inim[word//word]N'N$inim/inim#~++@dcclt%sux:zu₂=zu[tooth//tooth]N'N$zu/zu₂#~++@dcclt%sux:keš₂=kešed[bind//to bind]V/t'V/t$kešed/keš₂#~",
+          "links": [
+            {
+              "type": "link",
+              "xlink_title": "inim",
+              "xlink_type": "locator",
+              "xlink_href": "#P229880.l13e79",
+              "xlink_role": "elt"
+            },
+            {
+              "type": "link",
+              "xlink_title": "zu",
+              "xlink_type": "locator",
+              "xlink_href": "#P229880.l13e7a",
+              "xlink_role": "elt"
+            },
+            {
+              "type": "link",
+              "xlink_title": "kešed",
+              "xlink_type": "locator",
+              "xlink_href": "#P229880.l13e7b",
+              "xlink_role": "elt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

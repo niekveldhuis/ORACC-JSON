@@ -1,0 +1,182 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:06:19",
+  "textid": "P228587",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P228587.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P228587.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P228587.U2",
+              "label": "1 - 4",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228587.1",
+                  "n": "1",
+                  "label": "1"
+                },
+                {
+                  "node": "l",
+                  "frag": "tug₂",
+                  "id": "P228587.l25381",
+                  "ref": "P228587.1.1",
+                  "inst": "tug[textile]",
+                  "sig": "@dcclt%sux:tug₂=tug[textile//textile]N'N$tug/tug₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "tug₂",
+                    "gdl": [
+                      {
+                        "v": "tug₂",
+                        "id": "P228587.1.1.0"
+                      }
+                    ],
+                    "cf": "tug",
+                    "gw": "textile",
+                    "sense": "textile",
+                    "norm0": "tug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "tug₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228587.2",
+                  "n": "2",
+                  "label": "2"
+                },
+                {
+                  "node": "l",
+                  "frag": "|A.DU|",
+                  "id": "P228587.l25382",
+                  "ref": "P228587.2.1",
+                  "inst": "tuše[drapes]",
+                  "sig": "@dcclt%sux:|A.DU|=tuše[unmng//drapes]N'N$tuše/tuše#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "|A.DU|",
+                    "gdl": [
+                      {
+                        "c": "|A.DU|",
+                        "id": "P228587.2.1.0",
+                        "seq": [
+                          {
+                            "s": "A"
+                          },
+                          {
+                            "o": "beside"
+                          },
+                          {
+                            "s": "DU"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "tuše",
+                    "gw": "unmng",
+                    "sense": "drapes",
+                    "norm0": "tuše",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "tuše",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228587.3",
+                  "n": "3",
+                  "label": "3"
+                },
+                {
+                  "node": "l",
+                  "frag": "tug₂",
+                  "id": "P228587.l25383",
+                  "ref": "P228587.3.1",
+                  "inst": "%sux:tug₂=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "tug₂",
+                    "gdl": [
+                      {
+                        "v": "tug₂",
+                        "id": "P228587.3.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228587.4",
+                  "n": "4",
+                  "label": "4"
+                },
+                {
+                  "node": "l",
+                  "frag": "|A.DU|",
+                  "id": "P228587.l25384",
+                  "ref": "P228587.4.1",
+                  "inst": "%sux:|A.DU|=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "|A.DU|",
+                    "gdl": [
+                      {
+                        "c": "|A.DU|",
+                        "id": "P228587.4.1.0",
+                        "seq": [
+                          {
+                            "s": "A"
+                          },
+                          {
+                            "o": "beside"
+                          },
+                          {
+                            "s": "DU",
+                            "break": "damaged"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

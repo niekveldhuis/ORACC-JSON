@@ -1,0 +1,203 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:04:35",
+  "textid": "P010394",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P010394.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P010394.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P010394.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P010394.3",
+          "strict": "1",
+          "extent": "n",
+          "scope": "line",
+          "state": "missing"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P010394.4",
+          "strict": "1",
+          "extent": "1",
+          "scope": "line",
+          "state": "traces"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P010394.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P010394.U2",
+              "label": "o i 2' - o ii 2'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P010394.5",
+                  "n": "2'",
+                  "label": "o i 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "uz₃",
+                  "id": "P010394.l0985d",
+                  "ref": "P010394.5.1",
+                  "inst": "%sux:uz₃=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "uz₃",
+                    "gdl": [
+                      {
+                        "v": "uz₃",
+                        "id": "P010394.5.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P010394.6",
+                  "strict": "1",
+                  "extent": "1",
+                  "scope": "line",
+                  "state": "traces"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P010394.7",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 2o",
+                  "type": "column",
+                  "ref": "P010394.o.ii.8",
+                  "n": "2",
+                  "label": "o ii"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P010394.9",
+                  "strict": "1",
+                  "extent": "n",
+                  "scope": "line",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P010394.10",
+                  "n": "1'",
+                  "label": "o ii 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "|GA₂×X|",
+                  "id": "P010394.l0985e",
+                  "ref": "P010394.10.1",
+                  "inst": "%sux:|GA₂×X|=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "|GA₂×X|",
+                    "gdl": [
+                      {
+                        "c": "|GA₂×X|",
+                        "id": "P010394.10.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "seq": [
+                          {
+                            "s": "GA₂"
+                          },
+                          {
+                            "o": "containing"
+                          },
+                          {
+                            "s": "X"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P010394.11",
+                  "n": "2'",
+                  "label": "o ii 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "gazi",
+                  "id": "P010394.l0985f",
+                  "ref": "P010394.11.1",
+                  "inst": "%sux:gazi=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gazi",
+                    "gdl": [
+                      {
+                        "v": "gazi",
+                        "id": "P010394.11.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P010394.12",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

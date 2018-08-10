@@ -1,0 +1,274 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:11:08",
+  "textid": "P332942",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P332942.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P332942.x959.1",
+          "label": "x959"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P332942.o.2",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P332942.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P332942.U2",
+              "label": "o 1 - o 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332942.3",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}šaŋan",
+                  "id": "P332942.l23b3d",
+                  "ref": "P332942.3.1",
+                  "inst": "šaŋan[flask]",
+                  "sig": "@dcclt%sux:{na₄}šaŋan=šaŋan[flask//a flask]N'N$šaŋan/{na₄}šaŋan#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}šaŋan",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P332942.3.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "šaŋan",
+                        "id": "P332942.3.1.1"
+                      }
+                    ],
+                    "cf": "šaŋan",
+                    "gw": "flask",
+                    "sense": "a flask",
+                    "norm0": "šaŋan",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}šaŋan",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "algamešₓ(|SAL.HUB₂|)",
+                  "id": "P332942.l23b3e",
+                  "ref": "P332942.3.2",
+                  "inst": "algameš[steatite]",
+                  "sig": "@dcclt%sux:algamešₓ(|SAL.HUB₂|)=algameš[stone//steatite]N'N$algameš/algamešₓ(|SAL.HUB₂|)#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "algamešₓ(|SAL.HUB₂|)",
+                    "gdl": [
+                      {
+                        "q": "algamešₓ(|SAL.HUB₂|)",
+                        "id": "P332942.3.2.0",
+                        "qualified": [
+                          {
+                            "v": "algamešₓ"
+                          },
+                          {
+                            "c": "|SAL.HUB₂|",
+                            "seq": [
+                              {
+                                "s": "SAL"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "HUB₂"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "algameš",
+                    "gw": "stone",
+                    "sense": "steatite",
+                    "norm0": "algameš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "algamešₓ(|SAL.HUB₂|)",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332942.4",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}ka-gi-na",
+                  "id": "P332942.l23b3f",
+                  "ref": "P332942.4.1",
+                  "inst": "kagina[haematite]",
+                  "sig": "@dcclt%sux:{na₄}ka-gi-na=kagina[stone//haematite]N'N$kagina/{na₄}ka-gi-na#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}ka-gi-na",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P332942.4.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ka",
+                        "id": "P332942.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gi",
+                        "id": "P332942.4.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P332942.4.1.3"
+                      }
+                    ],
+                    "cf": "kagina",
+                    "gw": "stone",
+                    "sense": "haematite",
+                    "norm0": "kagina",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}ka-gi-na",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332942.5",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}haš₂(|TUM×(U.U.U)|)tum",
+                  "id": "P332942.l23b40",
+                  "ref": "P332942.5.1",
+                  "inst": "haštum[stone]",
+                  "sig": "@dcclt%sux:{na₄}haš₂(|TUM×(U.U.U)|)-tum=haštum[stone//stone]N'N$haštum/{na₄}haš₂(|TUM×(U.U.U)|)-tum#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}haš₂(|TUM×(U.U.U)|)-tum",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P332942.5.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "q": "haš₂(|TUM×(U.U.U)|)",
+                        "id": "P332942.5.1.1",
+                        "delim": "-",
+                        "qualified": [
+                          {
+                            "v": "haš₂"
+                          },
+                          {
+                            "c": "|TUM×(U.U.U)|",
+                            "seq": [
+                              {
+                                "s": "TUM"
+                              },
+                              {
+                                "o": "containing"
+                              },
+                              {
+                                "seq": [
+                                  {
+                                    "s": "U"
+                                  },
+                                  {
+                                    "o": "beside"
+                                  },
+                                  {
+                                    "s": "U"
+                                  },
+                                  {
+                                    "o": "beside"
+                                  },
+                                  {
+                                    "s": "U"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "v": "tum",
+                        "id": "P332942.5.1.2"
+                      }
+                    ],
+                    "cf": "haštum",
+                    "gw": "stone",
+                    "sense": "stone",
+                    "norm0": "haštum",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}haš₂(|TUM×(U.U.U)|)-tum",
+                    "morph": "~"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

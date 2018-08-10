@@ -1,0 +1,188 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:09:08",
+  "textid": "P251480",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P251480.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P251480.o.1",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P251480.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P251480.U2",
+              "label": "o 1 - o 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P251480.2",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "niŋ₂-dab₅",
+                  "id": "P251480.l0a836",
+                  "ref": "P251480.2.1",
+                  "inst": "%sux:niŋ₂-dab₅=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "niŋ₂-dab₅",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "niŋ₂",
+                        "id": "P251480.2.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "dab₅",
+                        "id": "P251480.2.1.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "dug₃",
+                  "id": "P251480.l0a837",
+                  "ref": "P251480.2.2",
+                  "inst": "%sux:dug₃=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dug₃",
+                    "gdl": [
+                      {
+                        "v": "dug₃",
+                        "id": "P251480.2.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P251480.3",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "niŋ-erim₂(|RU.NE|)-e",
+                  "id": "P251480.l0a838",
+                  "ref": "P251480.3.1",
+                  "inst": "%sux:niŋ-erim₂-e=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "niŋ-erim₂-e",
+                    "gdl": [
+                      {
+                        "v": "niŋ",
+                        "id": "P251480.3.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "gg": "correction",
+                        "gdl_type": "correction",
+                        "delim": "-",
+                        "group": [
+                          {
+                            "v": "erim₂",
+                            "id": "P251480.3.1.1",
+                            "gdl_remarked": "1"
+                          },
+                          {
+                            "c": "|RU.NE|",
+                            "seq": [
+                              {
+                                "s": "RU"
+                              },
+                              {
+                                "o": "beside"
+                              },
+                              {
+                                "s": "NE"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "v": "e",
+                        "id": "P251480.3.1.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P251480.4",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "niŋ₂-si-sa₂-e",
+                  "id": "P251480.l0a839",
+                  "ref": "P251480.4.1",
+                  "inst": "%sux:niŋ₂-si-sa₂-e=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "niŋ₂-si-sa₂-e",
+                    "gdl": [
+                      {
+                        "v": "niŋ₂",
+                        "id": "P251480.4.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "si",
+                        "id": "P251480.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sa₂",
+                        "id": "P251480.4.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "e",
+                        "id": "P251480.4.1.3"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:07:47",
+  "textid": "P229921",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P229921.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P229921.x1103.1",
+          "label": "x1103"
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P229921.2",
+          "strict": "0",
+          "extent": "1",
+          "state": "ruling"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P229921.o.3",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P229921.4",
+          "strict": "0",
+          "extent": "beginning",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P229921.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P229921.U2",
+              "label": "o 1' - o 7'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229921.5",
+                  "n": "1'",
+                  "label": "o 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢eg₂⸣",
+                  "id": "P229921.l2643a",
+                  "ref": "P229921.5.1",
+                  "inst": "eg[levee]N",
+                  "sig": "@dcclt%sux:eg₂=eg[levee//levee]N'N$eg/eg₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "eg₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "eg₂",
+                        "id": "P229921.5.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "eg",
+                    "gw": "levee",
+                    "sense": "levee",
+                    "norm0": "eg",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "eg₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P229921.l2643b",
+                  "ref": "P229921.5.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P229921.5.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229921.5.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229921.6",
+                  "n": "2'",
+                  "label": "o 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "eg₂",
+                  "id": "P229921.l2643c",
+                  "ref": "P229921.6.1",
+                  "inst": "eg[levee]N",
+                  "sig": "@dcclt%sux:eg₂=eg[levee//levee]N'N$eg/eg₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "eg₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "eg₂",
+                        "id": "P229921.6.1.0"
+                      }
+                    ],
+                    "cf": "eg",
+                    "gw": "levee",
+                    "sense": "levee",
+                    "norm0": "eg",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "eg₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢si⸣-[sa₂]",
+                  "id": "P229921.l2643d",
+                  "ref": "P229921.6.2",
+                  "inst": "sisa[straight]AJ",
+                  "sig": "@dcclt%sux:si-sa₂=sisa[fair//straight]AJ'AJ$sisa/si-sa₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "si-sa₂",
+                    "gdl": [
+                      {
+                        "v": "si",
+                        "id": "P229921.6.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "sa₂",
+                        "id": "P229921.6.2.1",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P229921.6.2.1"
+                      }
+                    ],
+                    "cf": "sisa",
+                    "gw": "fair",
+                    "sense": "straight",
+                    "norm0": "sisa",
+                    "pos": "AJ",
+                    "epos": "AJ",
+                    "base": "si-sa₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229921.7",
+                  "n": "3'",
+                  "label": "o 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "eg₂",
+                  "id": "P229921.l2643e",
+                  "ref": "P229921.7.1",
+                  "inst": "eg[levee]N",
+                  "sig": "@dcclt%sux:eg₂=eg[levee//levee]N'N$eg/eg₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "eg₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "eg₂",
+                        "id": "P229921.7.1.0"
+                      }
+                    ],
+                    "cf": "eg",
+                    "gw": "levee",
+                    "sense": "levee",
+                    "norm0": "eg",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "eg₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢šibir⸣",
+                  "id": "P229921.l2643f",
+                  "ref": "P229921.7.2",
+                  "inst": "šibir[staff]N",
+                  "sig": "@dcclt%sux:šibir=šibir[staff//staff]N'N$šibir/šibir#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šibir",
+                    "gdl": [
+                      {
+                        "v": "šibir",
+                        "id": "P229921.7.2.0",
+                        "break": "damaged",
+                        "gdl_remarked": "1",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "šibir",
+                    "gw": "staff",
+                    "sense": "staff",
+                    "norm0": "šibir",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šibir",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229921.8",
+                  "n": "4'",
+                  "label": "o 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "eg₂",
+                  "id": "P229921.l26440",
+                  "ref": "P229921.8.1",
+                  "inst": "eg[levee]N",
+                  "sig": "@dcclt%sux:eg₂=eg[levee//levee]N'N$eg/eg₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "eg₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "eg₂",
+                        "id": "P229921.8.1.0"
+                      }
+                    ],
+                    "cf": "eg",
+                    "gw": "levee",
+                    "sense": "levee",
+                    "norm0": "eg",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "eg₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢dal⸣-ba-⸢an⸣",
+                  "id": "P229921.l26441",
+                  "ref": "P229921.8.2",
+                  "inst": "dalbana[intermediate space]N",
+                  "sig": "@dcclt%sux:dal-ba-an=dalbana[space//intermediate space]N'N$dalbana/dal-ba-an#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dal-ba-an",
+                    "gdl": [
+                      {
+                        "v": "dal",
+                        "id": "P229921.8.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ba",
+                        "id": "P229921.8.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "an",
+                        "id": "P229921.8.2.2",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "dalbana",
+                    "gw": "space",
+                    "sense": "intermediate space",
+                    "norm0": "dalbana",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "dal-ba-an",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229921.9",
+                  "n": "5'",
+                  "label": "o 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "eg₂",
+                  "id": "P229921.l26442",
+                  "ref": "P229921.9.1",
+                  "inst": "eg[levee]N",
+                  "sig": "@dcclt%sux:eg₂=eg[levee//levee]N'N$eg/eg₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "eg₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "eg₂",
+                        "id": "P229921.9.1.0"
+                      }
+                    ],
+                    "cf": "eg",
+                    "gw": "levee",
+                    "sense": "levee",
+                    "norm0": "eg",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "eg₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢us₂-a⸣-du",
+                  "id": "P229921.l26443",
+                  "ref": "P229921.9.2",
+                  "inst": "us₂.a.DU[border]N",
+                  "sig": "@dcclt%sux:us₂-a-du=us₂.a.DU[border//border]N'N$us₂.a.DU/us₂-a-DU#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "us₂-a-du",
+                    "gdl": [
+                      {
+                        "v": "us₂",
+                        "id": "P229921.9.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P229921.9.2.1",
+                        "break": "damaged",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "du",
+                        "id": "P229921.9.2.2"
+                      }
+                    ],
+                    "cf": "us₂.a.DU",
+                    "gw": "border",
+                    "sense": "border",
+                    "norm0": "us₂.a.DU",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "us₂-a-DU",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229921.10",
+                  "n": "6'",
+                  "label": "o 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢eg₂",
+                  "id": "P229921.l26444",
+                  "ref": "P229921.10.1",
+                  "inst": "eg[levee]N",
+                  "sig": "@dcclt%sux:eg₂=eg[levee//levee]N'N$eg/eg₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "eg₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "eg₂",
+                        "id": "P229921.10.1.0",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ],
+                    "cf": "eg",
+                    "gw": "levee",
+                    "sense": "levee",
+                    "norm0": "eg",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "eg₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ab-sin₂-na⸣",
+                  "id": "P229921.l26445",
+                  "ref": "P229921.10.2",
+                  "inst": "absin[furrow]N",
+                  "sig": "@dcclt%sux:ab-sin₂-na=absin[furrow//furrow]N'N$absin,ak/ab-sin₂+-na=n.a#~,ak",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ab-sin₂-na",
+                    "gdl": [
+                      {
+                        "v": "ab",
+                        "id": "P229921.10.2.0",
+                        "break": "damaged",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sin₂",
+                        "id": "P229921.10.2.1",
+                        "break": "damaged",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P229921.10.2.2",
+                        "break": "damaged",
+                        "queried": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "absin",
+                    "gw": "furrow",
+                    "sense": "furrow",
+                    "norm0": "absin,ak",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ab-sin₂",
+                    "cont": "-na=n.a",
+                    "morph": "~,ak"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229921.11",
+                  "n": "7'",
+                  "label": "o 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "pa₅",
+                  "id": "P229921.l26446",
+                  "ref": "P229921.11.1",
+                  "inst": "par[(small) canal, irrigation ditch]N",
+                  "sig": "@dcclt%sux:pa₅=par[canal//(small) canal, irrigation ditch]N'N$par/pa₅#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "pa₅",
+                    "gdl": [
+                      {
+                        "v": "pa₅",
+                        "id": "P229921.11.1.0"
+                      }
+                    ],
+                    "cf": "par",
+                    "gw": "canal",
+                    "sense": "(small) canal, irrigation ditch",
+                    "norm0": "par",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "pa₅",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229921.12",
+                  "strict": "1",
+                  "extent": "2",
+                  "scope": "line",
+                  "state": "ruling"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P229921.r.13",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229921.14",
+                  "strict": "0",
+                  "state": "other"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P229921.15",
+                  "strict": "0",
+                  "extent": "rest",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

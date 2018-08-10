@@ -1,0 +1,141 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:05:06",
+  "textid": "P225126",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P225126.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P225126.x620.1",
+          "label": "x620"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P225126.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P225126.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P225126.4",
+          "strict": "1",
+          "extent": "2",
+          "scope": "line",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P225126.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P225126.U2",
+              "label": "o i 3 - o i 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225126.5",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}ma₂",
+                  "id": "P225126.l1c1df",
+                  "ref": "P225126.5.1",
+                  "inst": "ma[ship, boat]N",
+                  "sig": "@dcclt%sux:{ŋeš}ma₂=ma[ship//ship, boat]N'N$ma/{ŋeš}ma₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}ma₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P225126.5.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ma₂",
+                        "id": "P225126.5.1.1"
+                      }
+                    ],
+                    "cf": "ma",
+                    "gw": "ship",
+                    "sense": "ship, boat",
+                    "norm0": "ma",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}ma₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{⸢ŋeš⸣}x",
+                  "id": "P225126.l1c1e0",
+                  "ref": "P225126.5.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}x",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P225126.5.2.0",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "x",
+                        "id": "P225126.5.2.1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

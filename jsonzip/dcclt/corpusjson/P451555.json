@@ -1,0 +1,185 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:14:24",
+  "textid": "P451555",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P451555.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P451555.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P451555.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P451555.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P451555.U2",
+              "label": "o i 1 - o i 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451555.3",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢ŠITA",
+                  "id": "P451555.l06796",
+                  "ref": "P451555.3.1",
+                  "inst": "%sux:ŠITA=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŠITA",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "ŠITA",
+                        "id": "P451555.3.1.0",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "GIŠ",
+                  "id": "P451555.l06797",
+                  "ref": "P451555.3.2",
+                  "inst": "%sux:GIŠ=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "GIŠ",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "GIŠ",
+                        "id": "P451555.3.2.0",
+                        "break": "damaged"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "NAM₂⸣",
+                  "id": "P451555.l06798",
+                  "ref": "P451555.3.3",
+                  "inst": "%sux:NAM₂=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "NAM₂",
+                    "gdl": [
+                      {
+                        "s": "NAM₂",
+                        "id": "P451555.3.3.0",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451555.4",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢nam₂-tuku⸣",
+                  "id": "P451555.l06799",
+                  "ref": "P451555.4.1",
+                  "inst": "%sux:nam₂-tuku=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nam₂-tuku",
+                    "gdl": [
+                      {
+                        "v": "nam₂",
+                        "id": "P451555.4.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tuku",
+                        "id": "P451555.4.1.1",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P451555.5",
+                  "strict": "1",
+                  "extent": "1",
+                  "scope": "line",
+                  "state": "traces"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P451555.6",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "column",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P451555.r.7",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P451555.8",
+                  "strict": "0",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

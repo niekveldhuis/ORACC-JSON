@@ -1,0 +1,343 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:14:31",
+  "textid": "P492343",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P492343.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P492343.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P492343.2",
+          "strict": "0",
+          "extent": "1",
+          "scope": "tablet",
+          "state": "other"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P492343.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P492343.U2",
+              "label": "o 1 - o 4",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P492343.3",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "c",
+                  "type": "phrase",
+                  "tag": "phr",
+                  "id": "P492343.U4",
+                  "ref": "P492343.ls00000",
+                  "cdl": [
+                    {
+                      "node": "l",
+                      "frag": "⸢u₃⸣",
+                      "id": "P492343.l0abbd",
+                      "ref": "P492343.3.1",
+                      "inst": "u[sleep]",
+                      "sig": "@dcclt%sux:u₃=u[sleep//sleep]N'N$u/u₃#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "u₃",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "u₃",
+                            "id": "P492343.3.1.0",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ],
+                        "cf": "u",
+                        "gw": "sleep",
+                        "sense": "sleep",
+                        "norm0": "u",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "u₃",
+                        "morph": "~"
+                      }
+                    },
+                    {
+                      "node": "l",
+                      "frag": "ku",
+                      "id": "P492343.l0abbe",
+                      "ref": "P492343.3.2",
+                      "inst": "ku[place]",
+                      "sig": "@dcclt%sux:ku=ku[place//to place, lay (down), lay (eggs)]V/t'V/t$ku/ku#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "ku",
+                        "gdl": [
+                          {
+                            "v": "ku",
+                            "id": "P492343.3.2.0"
+                          }
+                        ],
+                        "cf": "ku",
+                        "gw": "place",
+                        "sense": "to place, lay (down), lay (eggs)",
+                        "norm0": "ku",
+                        "pos": "V/t",
+                        "epos": "V/t",
+                        "base": "ku",
+                        "morph": "~"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P492343.4",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "c",
+                  "type": "phrase",
+                  "tag": "phr",
+                  "id": "P492343.U5",
+                  "ref": "P492343.ls00001",
+                  "cdl": [
+                    {
+                      "node": "l",
+                      "frag": "u₃",
+                      "id": "P492343.l0abbf",
+                      "ref": "P492343.4.1",
+                      "inst": "u[sleep]",
+                      "sig": "@dcclt%sux:u₃=u[sleep//sleep]N'N$u/u₃#~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "u₃",
+                        "delim": " ",
+                        "gdl": [
+                          {
+                            "v": "u₃",
+                            "id": "P492343.4.1.0"
+                          }
+                        ],
+                        "cf": "u",
+                        "gw": "sleep",
+                        "sense": "sleep",
+                        "norm0": "u",
+                        "pos": "N",
+                        "epos": "N",
+                        "base": "u₃",
+                        "morph": "~"
+                      }
+                    },
+                    {
+                      "node": "l",
+                      "frag": "nu-ku",
+                      "id": "P492343.l0abc0",
+                      "ref": "P492343.4.2",
+                      "inst": "ku[place]",
+                      "sig": "@dcclt%sux:nu-ku=ku[place//to place, lay (down), lay (eggs)]V/t'V/t$nu:ku/ku#nu:~",
+                      "f": {
+                        "lang": "sux",
+                        "form": "nu-ku",
+                        "gdl": [
+                          {
+                            "v": "nu",
+                            "id": "P492343.4.2.0",
+                            "delim": "-"
+                          },
+                          {
+                            "v": "ku",
+                            "id": "P492343.4.2.1"
+                          }
+                        ],
+                        "cf": "ku",
+                        "gw": "place",
+                        "sense": "to place, lay (down), lay (eggs)",
+                        "norm0": "nu:ku",
+                        "pos": "V/t",
+                        "epos": "V/t",
+                        "base": "ku",
+                        "morph": "nu:~"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P492343.5",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "u₃",
+                  "id": "P492343.l0abc1",
+                  "ref": "P492343.5.1",
+                  "inst": "%sux:u₃=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "u₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u₃",
+                        "id": "P492343.5.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ku",
+                  "id": "P492343.l0abc2",
+                  "ref": "P492343.5.2",
+                  "inst": "%sux:ku=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ku",
+                    "gdl": [
+                      {
+                        "v": "ku",
+                        "id": "P492343.5.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P492343.6",
+                  "n": "4",
+                  "label": "o 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "u₃",
+                  "id": "P492343.l0abc3",
+                  "ref": "P492343.6.1",
+                  "inst": "%sux:u₃=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "u₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u₃",
+                        "id": "P492343.6.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "nu-ku",
+                  "id": "P492343.l0abc4",
+                  "ref": "P492343.6.2",
+                  "inst": "%sux:nu-ku=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nu-ku",
+                    "gdl": [
+                      {
+                        "v": "nu",
+                        "id": "P492343.6.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ku",
+                        "id": "P492343.6.2.1"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkbase": [
+        {
+          "type": "linkset",
+          "xlink_title": "u ku[sleep//to sleep]V/i'V/i",
+          "id": "P492343.ls00000",
+          "xlink_type": "extended",
+          "xlink_role": "psu",
+          "sig": "{u₃ ku = u[sleep]N ku[place]V/t += u ku[sleep//to sleep]V/i'V/i}::@dcclt%sux:u₃=u[sleep//sleep]N'N$u/u₃#~++@dcclt%sux:ku=ku[place//to place, lay (down), lay (eggs)]V/t'V/t$ku/ku#~",
+          "links": [
+            {
+              "type": "link",
+              "xlink_title": "u",
+              "xlink_type": "locator",
+              "xlink_href": "#P492343.l0abbd",
+              "xlink_role": "elt"
+            },
+            {
+              "type": "link",
+              "xlink_title": "ku",
+              "xlink_type": "locator",
+              "xlink_href": "#P492343.l0abbe",
+              "xlink_role": "elt"
+            }
+          ]
+        },
+        {
+          "type": "linkset",
+          "xlink_title": "u ku[sleep//to sleep]V/i'V/i",
+          "id": "P492343.ls00001",
+          "xlink_type": "extended",
+          "xlink_role": "psu",
+          "sig": "{u₃ nu-ku = u[sleep]N ku[place]V/t += u ku[sleep//to sleep]V/i'V/i}::@dcclt%sux:u₃=u[sleep//sleep]N'N$u/u₃#~++@dcclt%sux:nu-ku=ku[place//to place, lay (down), lay (eggs)]V/t'V/t$nu:ku/ku#nu:~",
+          "links": [
+            {
+              "type": "link",
+              "xlink_title": "u",
+              "xlink_type": "locator",
+              "xlink_href": "#P492343.l0abbf",
+              "xlink_role": "elt"
+            },
+            {
+              "type": "link",
+              "xlink_title": "ku",
+              "xlink_type": "locator",
+              "xlink_href": "#P492343.l0abc0",
+              "xlink_role": "elt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:13:05",
+  "textid": "P382665",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P382665.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P382665.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P382665.U2",
+              "label": "1 - 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P382665.1",
+                  "n": "1",
+                  "label": "1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}še-nu",
+                  "id": "P382665.l1abb1",
+                  "ref": "P382665.1.1",
+                  "inst": "šenu[a tree]N",
+                  "sig": "@dcclt%sux:{ŋeš}še-nu=šenu[tree//a tree]N'N$šenu/{ŋeš}še-nu#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}še-nu",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P382665.1.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "še",
+                        "id": "P382665.1.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nu",
+                        "id": "P382665.1.1.2"
+                      }
+                    ],
+                    "cf": "šenu",
+                    "gw": "tree",
+                    "sense": "a tree",
+                    "norm0": "šenu",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}še-nu",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P382665.2",
+                  "n": "2",
+                  "label": "2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}še-dug₃",
+                  "id": "P382665.l1abb2",
+                  "ref": "P382665.2.1",
+                  "inst": "šedug[a tree]N",
+                  "sig": "@dcclt%sux:{ŋeš}še-dug₃=šedug[tree//a tree]N'N$šedug/{ŋeš}še-dug₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}še-dug₃",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P382665.2.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "še",
+                        "id": "P382665.2.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "dug₃",
+                        "id": "P382665.2.1.2"
+                      }
+                    ],
+                    "cf": "šedug",
+                    "gw": "tree",
+                    "sense": "a tree",
+                    "norm0": "šedug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}še-dug₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P382665.3",
+                  "n": "3",
+                  "label": "3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{ŋeš}<<A>>-šinig",
+                  "id": "P382665.l1abb3",
+                  "ref": "P382665.3.1",
+                  "inst": "šinig[tamarisk]N",
+                  "sig": "@dcclt%sux:{ŋeš}šinig=šinig[tamarisk//tamarisk]N'N$šinig/{ŋeš}šinig#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{ŋeš}šinig",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "ŋeš",
+                            "id": "P382665.3.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "s": "A",
+                        "id": "P382665.3.1.1",
+                        "statusStart": "P382665.3.1.1",
+                        "o": ">>",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "šinig",
+                        "id": "P382665.3.1.2",
+                        "gdl_remarked": "1"
+                      }
+                    ],
+                    "cf": "šinig",
+                    "gw": "tamarisk",
+                    "sense": "tamarisk",
+                    "norm0": "šinig",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{ŋeš}šinig",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P382665.r.4",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P382665.5",
+                  "strict": "0",
+                  "extent": "0",
+                  "scope": "obverse",
+                  "state": "other"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

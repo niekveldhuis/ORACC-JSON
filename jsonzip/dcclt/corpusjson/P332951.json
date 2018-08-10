@@ -1,0 +1,544 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:11:10",
+  "textid": "P332951",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P332951.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P332951.x209.1",
+          "label": "x209"
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P332951.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P332951.U2",
+              "label": "1 - 6",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332951.2",
+                  "n": "1",
+                  "label": "1"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢maš₂⸣-bi-še₃",
+                  "id": "P332951.l0b06c",
+                  "ref": "P332951.2.1",
+                  "inst": "maš[interest]",
+                  "sig": "@dcclt%sux:maš₂-bi-še₃=maš[interest//interest]N'N$maš,bi.eše/maš₂#~,bi.eše",
+                  "f": {
+                    "lang": "sux",
+                    "form": "maš₂-bi-še₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "maš₂",
+                        "id": "P332951.2.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "bi",
+                        "id": "P332951.2.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "še₃",
+                        "id": "P332951.2.1.2"
+                      }
+                    ],
+                    "cf": "maš",
+                    "gw": "interest",
+                    "sense": "interest",
+                    "norm0": "maš,bi.eše",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "maš₂",
+                    "morph": "~,bi.eše"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[in-ŋar]",
+                  "id": "P332951.l0b06d",
+                  "ref": "P332951.2.2",
+                  "inst": "ŋar[place\\t]",
+                  "sig": "@dcclt%sux:in-ŋar=ŋar[place//place]V/t'V/t$V.n:ŋar/ŋar#V.n:~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "in-ŋar",
+                    "gdl": [
+                      {
+                        "v": "in",
+                        "id": "P332951.2.2.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋar",
+                        "id": "P332951.2.2.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P332951.2.2.0"
+                      }
+                    ],
+                    "cf": "ŋar",
+                    "gw": "place",
+                    "sense": "place",
+                    "norm0": "V.n:ŋar",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "ŋar",
+                    "morph": "V.n:~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332951.3",
+                  "n": "2",
+                  "label": "2"
+                },
+                {
+                  "node": "l",
+                  "frag": "maš₂",
+                  "id": "P332951.l0b06e",
+                  "ref": "P332951.3.1",
+                  "inst": "maš[interest]",
+                  "sig": "@dcclt%sux:maš₂=maš[interest//interest]N'N$maš/maš₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "maš₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "maš₂",
+                        "id": "P332951.3.1.0"
+                      }
+                    ],
+                    "cf": "maš",
+                    "gw": "interest",
+                    "sense": "interest",
+                    "norm0": "maš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "maš₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{d}utu",
+                  "id": "P332951.l0b06f",
+                  "ref": "P332951.3.2",
+                  "inst": "Utu[]DN",
+                  "sig": "@dcclt%sux:{d}utu=Utu[1//1]DN'DN$Utu/{d}utu#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{d}utu",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P332951.3.2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "utu",
+                        "id": "P332951.3.2.1"
+                      }
+                    ],
+                    "cf": "Utu",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm0": "Utu",
+                    "pos": "DN",
+                    "epos": "DN",
+                    "base": "{d}utu",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332951.4",
+                  "n": "3",
+                  "label": "3"
+                },
+                {
+                  "node": "l",
+                  "frag": "maš₂",
+                  "id": "P332951.l0b070",
+                  "ref": "P332951.4.1",
+                  "inst": "maš[interest]",
+                  "sig": "@dcclt%sux:maš₂=maš[interest//interest]N'N$maš/maš₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "maš₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "maš₂",
+                        "id": "P332951.4.1.0"
+                      }
+                    ],
+                    "cf": "maš",
+                    "gw": "interest",
+                    "sense": "interest",
+                    "norm0": "maš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "maš₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{d}utu",
+                  "id": "P332951.l0b071",
+                  "ref": "P332951.4.2",
+                  "inst": "Utu[]DN",
+                  "sig": "@dcclt%sux:{d}utu=Utu[1//1]DN'DN$Utu/{d}utu#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{d}utu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P332951.4.2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "utu",
+                        "id": "P332951.4.2.1"
+                      }
+                    ],
+                    "cf": "Utu",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm0": "Utu",
+                    "pos": "DN",
+                    "epos": "DN",
+                    "base": "{d}utu",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gin₆-na",
+                  "id": "P332951.l0b072",
+                  "ref": "P332951.4.3",
+                  "inst": "gin[establish]",
+                  "sig": "@dcclt%sux:gin₆-na=gin[firm//confirm, establish (in legal contexts), verify]V/i'V/t$gin;a/gin₆#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gin₆-na",
+                    "gdl": [
+                      {
+                        "v": "gin₆",
+                        "id": "P332951.4.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P332951.4.3.1"
+                      }
+                    ],
+                    "cf": "gin",
+                    "gw": "firm",
+                    "sense": "confirm, establish (in legal contexts), verify",
+                    "norm0": "gin;a",
+                    "pos": "V/i",
+                    "epos": "V/t",
+                    "base": "gin₆",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332951.5",
+                  "n": "4",
+                  "label": "4"
+                },
+                {
+                  "node": "l",
+                  "frag": "maš₂",
+                  "id": "P332951.l0b073",
+                  "ref": "P332951.5.1",
+                  "inst": "maš[interest]",
+                  "sig": "@dcclt%sux:maš₂=maš[interest//interest]N'N$maš/maš₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "maš₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "maš₂",
+                        "id": "P332951.5.1.0"
+                      }
+                    ],
+                    "cf": "maš",
+                    "gw": "interest",
+                    "sense": "interest",
+                    "norm0": "maš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "maš₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gin₆-na",
+                  "id": "P332951.l0b074",
+                  "ref": "P332951.5.2",
+                  "inst": "gin[establish]",
+                  "sig": "@dcclt%sux:gin₆-na=gin[firm//confirm, establish (in legal contexts), verify]V/i'V/t$gin;a/gin₆#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gin₆-na",
+                    "gdl": [
+                      {
+                        "v": "gin₆",
+                        "id": "P332951.5.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P332951.5.2.1"
+                      }
+                    ],
+                    "cf": "gin",
+                    "gw": "firm",
+                    "sense": "confirm, establish (in legal contexts), verify",
+                    "norm0": "gin;a",
+                    "pos": "V/i",
+                    "epos": "V/t",
+                    "base": "gin₆",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332951.6",
+                  "n": "5",
+                  "label": "5"
+                },
+                {
+                  "node": "l",
+                  "frag": "maš₂",
+                  "id": "P332951.l0b075",
+                  "ref": "P332951.6.1",
+                  "inst": "maš[interest]",
+                  "sig": "@dcclt%sux:maš₂=maš[interest//interest]N'N$maš/maš₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "maš₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "maš₂",
+                        "id": "P332951.6.1.0"
+                      }
+                    ],
+                    "cf": "maš",
+                    "gw": "interest",
+                    "sense": "interest",
+                    "norm0": "maš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "maš₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gin₆-na",
+                  "id": "P332951.l0b076",
+                  "ref": "P332951.6.2",
+                  "inst": "gin[establish]",
+                  "sig": "@dcclt%sux:gin₆-na=gin[firm//confirm, establish (in legal contexts), verify]V/i'V/t$gin;a/gin₆#~;a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gin₆-na",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "gin₆",
+                        "id": "P332951.6.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P332951.6.2.1"
+                      }
+                    ],
+                    "cf": "gin",
+                    "gw": "firm",
+                    "sense": "confirm, establish (in legal contexts), verify",
+                    "norm0": "gin;a",
+                    "pos": "V/i",
+                    "epos": "V/t",
+                    "base": "gin₆",
+                    "morph": "~;a"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "tah-he-dam",
+                  "id": "P332951.l0b077",
+                  "ref": "P332951.6.3",
+                  "inst": "tah[add]",
+                  "sig": "@dcclt%sux:tah-he-dam=tah[add//add]V/t'V/t$tah;e.de.am/tah+-he=h.e#~;e.de.am",
+                  "f": {
+                    "lang": "sux",
+                    "form": "tah-he-dam",
+                    "gdl": [
+                      {
+                        "v": "tah",
+                        "id": "P332951.6.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "he",
+                        "id": "P332951.6.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "dam",
+                        "id": "P332951.6.3.2"
+                      }
+                    ],
+                    "cf": "tah",
+                    "gw": "add",
+                    "sense": "add",
+                    "norm0": "tah;e.de.am",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "tah",
+                    "cont": "-he=h.e",
+                    "morph": "~;e.de.am"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332951.7",
+                  "n": "6",
+                  "label": "6"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢maš₂⸣",
+                  "id": "P332951.l0b078",
+                  "ref": "P332951.7.1",
+                  "inst": "maš[interest]",
+                  "sig": "@dcclt%sux:maš₂=maš[interest//interest]N'N$maš/maš₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "maš₂",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "maš₂",
+                        "id": "P332951.7.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "maš",
+                    "gw": "interest",
+                    "sense": "interest",
+                    "norm0": "maš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "maš₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋa₂-ŋa₂-dam",
+                  "id": "P332951.l0b079",
+                  "ref": "P332951.7.2",
+                  "inst": "ŋar[place\\t]",
+                  "sig": "@dcclt%sux:ŋa₂-ŋa₂-dam=ŋar[place//place]V/t'V/t$ŋar;de.am/ŋa₂-ŋa₂#~;de.am",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋa₂-ŋa₂-dam",
+                    "gdl": [
+                      {
+                        "v": "ŋa₂",
+                        "id": "P332951.7.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋa₂",
+                        "id": "P332951.7.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "dam",
+                        "id": "P332951.7.2.2"
+                      }
+                    ],
+                    "cf": "ŋar",
+                    "gw": "place",
+                    "sense": "place",
+                    "norm0": "ŋar;de.am",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "ŋa₂-ŋa₂",
+                    "morph": "~;de.am"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1551 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:14:19",
+  "textid": "P451231",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P451231.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P451231.x2021.1",
+          "label": "x2021"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P451231.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o '",
+          "type": "column",
+          "ref": "P451231.o.i_.3",
+          "n": "1",
+          "label": "o i'"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P451231.4",
+          "strict": "1",
+          "extent": "beginning",
+          "scope": "line",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P451231.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P451231.U2",
+              "label": "o i' 1' - o ii' 7'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451231.5",
+                  "n": "1'",
+                  "label": "o i' 1'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e925",
+                  "ref": "P451231.5.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.5.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.5.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P451231.5.2",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P451231.l4e926",
+                  "ref": "P451231.5.3",
+                  "inst": "mahīru[market]N",
+                  "sig": "@dcclt%akk:ma-hi-ru=mahīru[price//market]N'N$mahīru",
+                  "f": {
+                    "lang": "akk",
+                    "form": "ma-hi-ru",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ma",
+                        "id": "P451231.5.3.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "hi",
+                        "id": "P451231.5.3.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ru",
+                        "id": "P451231.5.3.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.5.2.0"
+                      }
+                    ],
+                    "cf": "mahīru",
+                    "gw": "price",
+                    "sense": "market",
+                    "norm": "mahīru",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢ṭa-a-bi⸣",
+                  "id": "P451231.l4e927",
+                  "ref": "P451231.5.4",
+                  "inst": "ṭābi[good]AJ",
+                  "sig": "@dcclt%akk:ṭa-a-bi=ṭābu[good//good]AJ'AJ$ṭābi",
+                  "f": {
+                    "lang": "akk",
+                    "form": "ṭa-a-bi",
+                    "gdl": [
+                      {
+                        "v": "ṭa",
+                        "id": "P451231.5.4.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P451231.5.4.1",
+                        "break": "damaged",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bi",
+                        "id": "P451231.5.4.2",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "ṭābu",
+                    "gw": "good",
+                    "sense": "good",
+                    "norm": "ṭābi",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451231.6",
+                  "n": "2'",
+                  "label": "o i' 2'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e928",
+                  "ref": "P451231.6.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.6.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.6.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P451231.6.2",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P451231.l4e929",
+                  "ref": "P451231.6.3",
+                  "inst": "mahīru[market]N",
+                  "sig": "@dcclt%akk:ma-hi-ru=mahīru[price//market]N'N$mahīru",
+                  "f": {
+                    "lang": "akk",
+                    "form": "ma-hi-ru",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ma",
+                        "id": "P451231.6.3.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "hi",
+                        "id": "P451231.6.3.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ru",
+                        "id": "P451231.6.3.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.6.2.0"
+                      }
+                    ],
+                    "cf": "mahīru",
+                    "gw": "price",
+                    "sense": "market",
+                    "norm": "mahīru",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢la⸣",
+                  "id": "P451231.l4e92a",
+                  "ref": "P451231.6.4",
+                  "inst": "lā[not]MOD",
+                  "sig": "@dcclt%akk:la=lā[not//not]MOD'MOD$lā",
+                  "f": {
+                    "lang": "akk",
+                    "form": "la",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "la",
+                        "id": "P451231.6.4.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "lā",
+                    "gw": "not",
+                    "sense": "not",
+                    "norm": "lā",
+                    "pos": "MOD",
+                    "epos": "MOD"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P451231.6.5",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P451231.l4e92b",
+                  "ref": "P451231.6.6",
+                  "inst": "ṭābi[good]AJ",
+                  "sig": "@dcclt%akk:ṭa-a-bi=ṭābu[good//good]AJ'AJ$ṭābi",
+                  "f": {
+                    "lang": "akk",
+                    "form": "ṭa-a-bi",
+                    "gdl": [
+                      {
+                        "v": "ṭa",
+                        "id": "P451231.6.6.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P451231.6.6.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bi",
+                        "id": "P451231.6.6.2"
+                      }
+                    ],
+                    "cf": "ṭābu",
+                    "gw": "good",
+                    "sense": "good",
+                    "norm": "ṭābi",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451231.7",
+                  "n": "3'",
+                  "label": "o i' 3'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e92c",
+                  "ref": "P451231.7.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.7.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.7.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P451231.7.2",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P451231.l4e92d",
+                  "ref": "P451231.7.3",
+                  "inst": "mahīru[market]N",
+                  "sig": "@dcclt%akk:ma-hi-ru=mahīru[price//market]N'N$mahīru",
+                  "f": {
+                    "lang": "akk",
+                    "form": "ma-hi-ru",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ma",
+                        "id": "P451231.7.3.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "hi",
+                        "id": "P451231.7.3.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ru",
+                        "id": "P451231.7.3.2",
+                        "break": "missing"
+                      }
+                    ],
+                    "cf": "mahīru",
+                    "gw": "price",
+                    "sense": "market",
+                    "norm": "mahīru",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "nu]-⸢u₂⸣-nu",
+                  "id": "P451231.l4e92e",
+                  "ref": "P451231.7.4",
+                  "inst": "nūnu[fish]N",
+                  "sig": "@dcclt%akk:nu-u₂-nu=nūnu[fish//fish]N'N$nūnu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "nu-u₂-nu",
+                    "gdl": [
+                      {
+                        "v": "nu",
+                        "id": "P451231.7.4.0",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.7.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u₂",
+                        "id": "P451231.7.4.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "nu",
+                        "id": "P451231.7.4.2"
+                      }
+                    ],
+                    "cf": "nūnu",
+                    "gw": "fish",
+                    "sense": "fish",
+                    "norm": "nūnu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451231.8",
+                  "n": "4'",
+                  "label": "o i' 4'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e92f",
+                  "ref": "P451231.8.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.8.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.8.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P451231.8.2",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P451231.l4e930",
+                  "ref": "P451231.8.3",
+                  "inst": "mahīru[market]N",
+                  "sig": "@dcclt%akk:ma-hi-ru=mahīru[price//market]N'N$mahīru",
+                  "f": {
+                    "lang": "akk",
+                    "form": "ma-hi-ru",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ma",
+                        "id": "P451231.8.3.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "hi",
+                        "id": "P451231.8.3.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ru",
+                        "id": "P451231.8.3.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.8.2.0"
+                      }
+                    ],
+                    "cf": "mahīru",
+                    "gw": "price",
+                    "sense": "market",
+                    "norm": "mahīru",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢iṣ⸣-ṣur",
+                  "id": "P451231.l4e931",
+                  "ref": "P451231.8.4",
+                  "inst": "iṣṣūr[bird]N",
+                  "sig": "@dcclt%akk:iṣ-ṣur=iṣṣūru[bird//bird]N'N$iṣṣūr",
+                  "f": {
+                    "lang": "akk",
+                    "form": "iṣ-ṣur",
+                    "gdl": [
+                      {
+                        "v": "iṣ",
+                        "id": "P451231.8.4.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ṣur",
+                        "id": "P451231.8.4.1"
+                      }
+                    ],
+                    "cf": "iṣṣūru",
+                    "gw": "bird",
+                    "sense": "bird",
+                    "norm": "iṣṣūr",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P451231.9",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "line",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 2o '",
+                  "type": "column",
+                  "ref": "P451231.o.ii_.10",
+                  "n": "2",
+                  "label": "o ii'"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P451231.11",
+                  "strict": "1",
+                  "extent": "beginning",
+                  "scope": "line",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451231.12",
+                  "n": "1'",
+                  "label": "o ii' 1'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢šakanka⸣",
+                  "id": "P451231.l4e932",
+                  "ref": "P451231.12.1",
+                  "inst": "šakanka[market-price]N",
+                  "sig": "@dcclt%sux:šakanka=šakanka[market//market-price]N'N$šakanka/šakanka#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šakanka",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šakanka",
+                        "id": "P451231.12.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "šakanka",
+                    "gw": "market",
+                    "sense": "market-price",
+                    "norm0": "šakanka",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šakanka",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e933",
+                  "ref": "P451231.12.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.12.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.12.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e934",
+                  "ref": "P451231.12.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.12.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.12.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451231.13",
+                  "n": "2'",
+                  "label": "o ii' 2'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢šakanka⸣",
+                  "id": "P451231.l4e935",
+                  "ref": "P451231.13.1",
+                  "inst": "šakanka[market-price]N",
+                  "sig": "@dcclt%sux:šakanka=šakanka[market//market-price]N'N$šakanka/šakanka#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šakanka",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šakanka",
+                        "id": "P451231.13.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "šakanka",
+                    "gw": "market",
+                    "sense": "market-price",
+                    "norm0": "šakanka",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šakanka",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e936",
+                  "ref": "P451231.13.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.13.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.13.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e937",
+                  "ref": "P451231.13.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.13.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.13.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451231.14",
+                  "n": "3'",
+                  "label": "o ii' 3'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢šakanka⸣",
+                  "id": "P451231.l4e938",
+                  "ref": "P451231.14.1",
+                  "inst": "šakanka[market-price]N",
+                  "sig": "@dcclt%sux:šakanka=šakanka[market//market-price]N'N$šakanka/šakanka#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šakanka",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šakanka",
+                        "id": "P451231.14.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "šakanka",
+                    "gw": "market",
+                    "sense": "market-price",
+                    "norm0": "šakanka",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šakanka",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e939",
+                  "ref": "P451231.14.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.14.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.14.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e93a",
+                  "ref": "P451231.14.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.14.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.14.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451231.15",
+                  "n": "4'",
+                  "label": "o ii' 4'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢šakanka⸣",
+                  "id": "P451231.l4e93b",
+                  "ref": "P451231.15.1",
+                  "inst": "šakanka[market-price]N",
+                  "sig": "@dcclt%sux:šakanka=šakanka[market//market-price]N'N$šakanka/šakanka#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šakanka",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šakanka",
+                        "id": "P451231.15.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "šakanka",
+                    "gw": "market",
+                    "sense": "market-price",
+                    "norm0": "šakanka",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šakanka",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e93c",
+                  "ref": "P451231.15.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.15.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.15.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e93d",
+                  "ref": "P451231.15.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.15.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.15.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451231.16",
+                  "n": "5'",
+                  "label": "o ii' 5'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢šakanka⸣",
+                  "id": "P451231.l4e93e",
+                  "ref": "P451231.16.1",
+                  "inst": "šakanka[market-price]N",
+                  "sig": "@dcclt%sux:šakanka=šakanka[market//market-price]N'N$šakanka/šakanka#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šakanka",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šakanka",
+                        "id": "P451231.16.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "šakanka",
+                    "gw": "market",
+                    "sense": "market-price",
+                    "norm0": "šakanka",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šakanka",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e93f",
+                  "ref": "P451231.16.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.16.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.16.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e940",
+                  "ref": "P451231.16.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.16.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.16.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451231.17",
+                  "n": "6'",
+                  "label": "o ii' 6'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "šakanka",
+                  "id": "P451231.l4e941",
+                  "ref": "P451231.17.1",
+                  "inst": "šakanka[market-price]N",
+                  "sig": "@dcclt%sux:šakanka=šakanka[market//market-price]N'N$šakanka/šakanka#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šakanka",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šakanka",
+                        "id": "P451231.17.1.0"
+                      }
+                    ],
+                    "cf": "šakanka",
+                    "gw": "market",
+                    "sense": "market-price",
+                    "norm0": "šakanka",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šakanka",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e942",
+                  "ref": "P451231.17.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.17.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.17.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e943",
+                  "ref": "P451231.17.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.17.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.17.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451231.18",
+                  "n": "7'",
+                  "label": "o ii' 7'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢šakanka⸣",
+                  "id": "P451231.l4e944",
+                  "ref": "P451231.18.1",
+                  "inst": "šakanka[market-price]N",
+                  "sig": "@dcclt%sux:šakanka=šakanka[market//market-price]N'N$šakanka/šakanka#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šakanka",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "šakanka",
+                        "id": "P451231.18.1.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "šakanka",
+                    "gw": "market",
+                    "sense": "market-price",
+                    "norm0": "šakanka",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šakanka",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e945",
+                  "ref": "P451231.18.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.18.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.18.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451231.l4e946",
+                  "ref": "P451231.18.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451231.18.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451231.18.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P451231.19",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "line",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P451231.r.20",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P451231.21",
+                  "strict": "1",
+                  "extent": "n",
+                  "scope": "line",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

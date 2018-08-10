@@ -1,0 +1,176 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:12:21",
+  "textid": "P369714",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P369714.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P369714.o.1",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P369714.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P369714.U2",
+              "label": "o 1 - o 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P369714.2",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "nim{mušen}",
+                  "id": "P369714.l1aa27",
+                  "ref": "P369714.2.1",
+                  "inst": "nim[fly]",
+                  "sig": "@dcclt%sux:nim{mušen}=nim[fly//fly, insect]N'N$nim/nim{mušen}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nim{mušen}",
+                    "gdl": [
+                      {
+                        "v": "nim",
+                        "id": "P369714.2.1.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P369714.2.1.1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "nim",
+                    "gw": "fly",
+                    "sense": "fly, insect",
+                    "norm0": "nim",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "nim{mušen}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P369714.3",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "šeš{mušen}",
+                  "id": "P369714.l1aa28",
+                  "ref": "P369714.3.1",
+                  "inst": "šeš[bird]",
+                  "sig": "@dcclt%sux:šeš{mušen}=šeš[bird//a bird]N'N$šeš/šeš{mušen}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šeš{mušen}",
+                    "gdl": [
+                      {
+                        "v": "šeš",
+                        "id": "P369714.3.1.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P369714.3.1.1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "šeš",
+                    "gw": "bird",
+                    "sense": "a bird",
+                    "norm0": "šeš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šeš{mušen}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P369714.4",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "šah₂{mušen}",
+                  "id": "P369714.l1aa29",
+                  "ref": "P369714.4.1",
+                  "inst": "šah[bird]N",
+                  "sig": "@dcclt%sux:šah₂{mušen}=šah[bird//bird]N'N$šah/šah₂{mušen}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "šah₂{mušen}",
+                    "gdl": [
+                      {
+                        "v": "šah₂",
+                        "id": "P369714.4.1.0"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P369714.4.1.1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "šah",
+                    "gw": "bird",
+                    "sense": "bird",
+                    "norm0": "šah",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "šah₂{mušen}",
+                    "morph": "~"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

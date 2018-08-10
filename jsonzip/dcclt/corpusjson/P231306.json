@@ -1,0 +1,199 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:08:29",
+  "textid": "P231306",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P231306.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P231306.x1020.1",
+          "label": "x1020"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P231306.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P231306.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P231306.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P231306.U2",
+              "label": "o i 1 - o i 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231306.4",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢buru₅⸣{mušen}",
+                  "id": "P231306.l24cbf",
+                  "ref": "P231306.4.1",
+                  "inst": "%sux:buru₅{mušen}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "buru₅{mušen}",
+                    "gdl": [
+                      {
+                        "v": "buru₅",
+                        "id": "P231306.4.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P231306.4.1.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231306.5",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢buru₅⸣-hur{mušen}",
+                  "id": "P231306.l24cc0",
+                  "ref": "P231306.5.1",
+                  "inst": "%sux:buru₅-hur{mušen}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "buru₅-hur{mušen}",
+                    "gdl": [
+                      {
+                        "v": "buru₅",
+                        "id": "P231306.5.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "hur",
+                        "id": "P231306.5.1.1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P231306.5.1.2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P231306.6",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "[buru₅]-nita{[mušen]}",
+                  "id": "P231306.l24cc1",
+                  "ref": "P231306.6.1",
+                  "inst": "%sux:buru₅-nita{mušen}=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "buru₅-nita{mušen}",
+                    "gdl": [
+                      {
+                        "v": "buru₅",
+                        "id": "P231306.6.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P231306.6.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nita",
+                        "id": "P231306.6.1.1"
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "post",
+                        "seq": [
+                          {
+                            "v": "mušen",
+                            "id": "P231306.6.1.2",
+                            "breakStart": "1",
+                            "o": "]",
+                            "break": "missing",
+                            "breakEnd": "P231306.6.1.2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P231306.r.7",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P231306.8",
+                  "strict": "1",
+                  "extent": "n",
+                  "scope": "line",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

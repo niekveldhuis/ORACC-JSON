@@ -1,0 +1,161 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:06:58",
+  "textid": "P229193",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P229193.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P229193.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P229193.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P229193.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P229193.U2",
+              "label": "o i 1 - o i 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229193.3",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋeš",
+                  "id": "P229193.l1e4bc",
+                  "ref": "P229193.3.1",
+                  "inst": "%sux:ŋeš=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš",
+                        "id": "P229193.3.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "dili-bu-[...]",
+                  "id": "P229193.l1e4bd",
+                  "ref": "P229193.3.2",
+                  "inst": "%sux:dili-bu-x=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "dili-bu-x",
+                    "gdl": [
+                      {
+                        "v": "dili",
+                        "id": "P229193.3.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bu",
+                        "id": "P229193.3.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "P229193.3.2.2",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P229193.3.2.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P229193.4",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋeš",
+                  "id": "P229193.l1e4be",
+                  "ref": "P229193.4.1",
+                  "inst": "%sux:ŋeš=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš",
+                        "id": "P229193.4.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "an-⸢ta⸣",
+                  "id": "P229193.l1e4bf",
+                  "ref": "P229193.4.2",
+                  "inst": "%sux:an-ta=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "an-ta",
+                    "gdl": [
+                      {
+                        "v": "an",
+                        "id": "P229193.4.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ta",
+                        "id": "P229193.4.2.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

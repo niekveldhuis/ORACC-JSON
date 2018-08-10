@@ -1,0 +1,822 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:05:31",
+  "textid": "P227795",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P227795.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P227795.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P227795.2",
+          "strict": "0",
+          "state": "other"
+        },
+        {
+          "node": "d",
+          "subtype": "reverse",
+          "type": "reverse",
+          "ref": "P227795.r.3",
+          "label": "r"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1r",
+          "type": "column",
+          "ref": "P227795.r.i.4",
+          "n": "1",
+          "label": "r i"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P227795.5",
+          "strict": "1",
+          "extent": "1",
+          "scope": "column",
+          "state": "traces"
+        },
+        {
+          "node": "d",
+          "subtype": "column 2r",
+          "type": "column",
+          "ref": "P227795.r.ii.6",
+          "n": "2",
+          "label": "r ii"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P227795.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P227795.U2",
+              "label": "r ii 1' - r iii 12'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.7",
+                  "n": "1'",
+                  "label": "r ii 1'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.7.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢si⸣",
+                  "id": "P227795.l18df1",
+                  "ref": "P227795.7.2",
+                  "inst": "%sux:si=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "si",
+                    "gdl": [
+                      {
+                        "v": "si",
+                        "id": "P227795.7.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.8",
+                  "n": "2'",
+                  "label": "r ii 2'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.8.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "su-sa-si",
+                  "id": "P227795.l18df2",
+                  "ref": "P227795.8.2",
+                  "inst": "%sux:su-sa-si=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "su-sa-si",
+                    "gdl": [
+                      {
+                        "v": "su",
+                        "id": "P227795.8.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sa",
+                        "id": "P227795.8.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "si",
+                        "id": "P227795.8.2.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.9",
+                  "n": "3'",
+                  "label": "r ii 3'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.9.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "hu",
+                  "id": "P227795.l18df3",
+                  "ref": "P227795.9.2",
+                  "inst": "%sux:hu=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "hu",
+                    "gdl": [
+                      {
+                        "v": "hu",
+                        "id": "P227795.9.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.10",
+                  "n": "4'",
+                  "label": "r ii 4'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.10.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "ha",
+                  "id": "P227795.l18df4",
+                  "ref": "P227795.10.2",
+                  "inst": "%sux:ha=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ha",
+                    "gdl": [
+                      {
+                        "v": "ha",
+                        "id": "P227795.10.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.11",
+                  "n": "5'",
+                  "label": "r ii 5'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.11.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "hi",
+                  "id": "P227795.l18df5",
+                  "ref": "P227795.11.2",
+                  "inst": "%sux:hi=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "hi",
+                    "gdl": [
+                      {
+                        "v": "hi",
+                        "id": "P227795.11.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.12",
+                  "n": "6'",
+                  "label": "r ii 6'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.12.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "hu-ha-hi",
+                  "id": "P227795.l18df6",
+                  "ref": "P227795.12.2",
+                  "inst": "%sux:hu-ha-hi=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "hu-ha-hi",
+                    "gdl": [
+                      {
+                        "v": "hu",
+                        "id": "P227795.12.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ha",
+                        "id": "P227795.12.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "hi",
+                        "id": "P227795.12.2.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.13",
+                  "n": "7'",
+                  "label": "r ii 7'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.13.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "du",
+                  "id": "P227795.l18df7",
+                  "ref": "P227795.13.2",
+                  "inst": "%sux:du=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "du",
+                    "gdl": [
+                      {
+                        "v": "du",
+                        "id": "P227795.13.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.14",
+                  "n": "8'",
+                  "label": "r ii 8'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.14.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "da",
+                  "id": "P227795.l18df8",
+                  "ref": "P227795.14.2",
+                  "inst": "%sux:da=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "da",
+                    "gdl": [
+                      {
+                        "v": "da",
+                        "id": "P227795.14.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.15",
+                  "n": "9'",
+                  "label": "r ii 9'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.15.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "di",
+                  "id": "P227795.l18df9",
+                  "ref": "P227795.15.2",
+                  "inst": "%sux:di=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "di",
+                    "gdl": [
+                      {
+                        "v": "di",
+                        "id": "P227795.15.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 3r",
+                  "type": "column",
+                  "ref": "P227795.r.iii.16",
+                  "n": "3",
+                  "label": "r iii"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.17",
+                  "n": "1'",
+                  "label": "r iii 1'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.17.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢ka⸣",
+                  "id": "P227795.l18dfa",
+                  "ref": "P227795.17.2",
+                  "inst": "%sux:ka=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ka",
+                    "gdl": [
+                      {
+                        "v": "ka",
+                        "id": "P227795.17.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.18",
+                  "n": "2'",
+                  "label": "r iii 2'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.18.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "ki",
+                  "id": "P227795.l18dfb",
+                  "ref": "P227795.18.2",
+                  "inst": "%sux:ki=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P227795.18.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.19",
+                  "n": "3'",
+                  "label": "r iii 3'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.19.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "ku-ka-ki",
+                  "id": "P227795.l18dfc",
+                  "ref": "P227795.19.2",
+                  "inst": "%sux:ku-ka-ki=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ku-ka-ki",
+                    "gdl": [
+                      {
+                        "v": "ku",
+                        "id": "P227795.19.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ka",
+                        "id": "P227795.19.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ki",
+                        "id": "P227795.19.2.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.20",
+                  "n": "4'",
+                  "label": "r iii 4'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.20.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "lu",
+                  "id": "P227795.l18dfd",
+                  "ref": "P227795.20.2",
+                  "inst": "%sux:lu=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu",
+                    "gdl": [
+                      {
+                        "v": "lu",
+                        "id": "P227795.20.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.21",
+                  "n": "5'",
+                  "label": "r iii 5'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.21.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "la",
+                  "id": "P227795.l18dfe",
+                  "ref": "P227795.21.2",
+                  "inst": "%sux:la=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "la",
+                    "gdl": [
+                      {
+                        "v": "la",
+                        "id": "P227795.21.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.22",
+                  "n": "6'",
+                  "label": "r iii 6'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.22.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "li",
+                  "id": "P227795.l18dff",
+                  "ref": "P227795.22.2",
+                  "inst": "%sux:li=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "li",
+                    "gdl": [
+                      {
+                        "v": "li",
+                        "id": "P227795.22.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.23",
+                  "n": "7'",
+                  "label": "r iii 7'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.23.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "lu-la-li",
+                  "id": "P227795.l18e00",
+                  "ref": "P227795.23.2",
+                  "inst": "%sux:lu-la-li=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "lu-la-li",
+                    "gdl": [
+                      {
+                        "v": "lu",
+                        "id": "P227795.23.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la",
+                        "id": "P227795.23.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "li",
+                        "id": "P227795.23.2.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.24",
+                  "n": "8'",
+                  "label": "r iii 8'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.24.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "u₂",
+                  "id": "P227795.l18e01",
+                  "ref": "P227795.24.2",
+                  "inst": "%sux:u₂=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "u₂",
+                    "gdl": [
+                      {
+                        "v": "u₂",
+                        "id": "P227795.24.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.25",
+                  "n": "9'",
+                  "label": "r iii 9'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.25.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "a",
+                  "id": "P227795.l18e02",
+                  "ref": "P227795.25.2",
+                  "inst": "%sux:a=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "a",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "P227795.25.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.26",
+                  "n": "10'",
+                  "label": "r iii 10'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.26.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "i",
+                  "id": "P227795.l18e03",
+                  "ref": "P227795.26.2",
+                  "inst": "%sux:i=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "i",
+                    "gdl": [
+                      {
+                        "v": "i",
+                        "id": "P227795.26.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.27",
+                  "n": "11'",
+                  "label": "r iii 11'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.27.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "u₂-a-i",
+                  "id": "P227795.l18e04",
+                  "ref": "P227795.27.2",
+                  "inst": "%sux:u₂-a-i=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "u₂-a-i",
+                    "gdl": [
+                      {
+                        "v": "u₂",
+                        "id": "P227795.27.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P227795.27.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i",
+                        "id": "P227795.27.2.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P227795.28",
+                  "n": "12'",
+                  "label": "r iii 12'"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P227795.28.1",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "mu",
+                  "id": "P227795.l18e05",
+                  "ref": "P227795.28.2",
+                  "inst": "%sux:mu=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "mu",
+                    "gdl": [
+                      {
+                        "v": "mu",
+                        "id": "P227795.28.2.0"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

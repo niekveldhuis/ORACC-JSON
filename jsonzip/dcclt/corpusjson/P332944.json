@@ -1,0 +1,778 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:11:08",
+  "textid": "P332944",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P332944.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P332944.x958.1",
+          "label": "x958"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P332944.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P332944.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P332944.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P332944.U2",
+              "label": "o i 1' - o i 9'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332944.4",
+                  "n": "1'",
+                  "label": "o i 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P332944.l23b25",
+                  "ref": "P332944.4.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P332944.4.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P332944.4.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "x",
+                  "id": "P332944.l23b26",
+                  "ref": "P332944.4.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P332944.4.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-⸢gin₃⸣",
+                  "id": "P332944.l23b27",
+                  "ref": "P332944.4.3",
+                  "inst": "zagin[lapis]",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P332944.4.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P332944.4.3.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332944.5",
+                  "n": "2'",
+                  "label": "o i 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "{[na₄}niŋ₂]-⸢tag⸣-ga",
+                  "id": "P332944.l23b28",
+                  "ref": "P332944.5.1",
+                  "inst": "niŋtag[cut]",
+                  "sig": "@dcclt%sux:{na₄}niŋ₂-tag-ga=niŋtag[cut//cut]N'N$niŋtag/{na₄}niŋ₂-tag-ga#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}niŋ₂-tag-ga",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P332944.5.1.0",
+                            "breakStart": "1",
+                            "o": "[",
+                            "break": "missing"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "niŋ₂",
+                        "id": "P332944.5.1.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P332944.5.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tag",
+                        "id": "P332944.5.1.2",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P332944.5.1.3"
+                      }
+                    ],
+                    "cf": "niŋtag",
+                    "gw": "cut",
+                    "sense": "cut",
+                    "norm0": "niŋtag",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}niŋ₂-tag-ga",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P332944.l23b29",
+                  "ref": "P332944.5.2",
+                  "inst": "zagin[lapis]",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P332944.5.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P332944.5.2.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332944.6",
+                  "n": "3'",
+                  "label": "o i 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P332944.l23b2a",
+                  "ref": "P332944.6.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P332944.6.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P332944.6.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "x",
+                  "id": "P332944.l23b2b",
+                  "ref": "P332944.6.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P332944.6.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P332944.l23b2c",
+                  "ref": "P332944.6.3",
+                  "inst": "zagin[lapis]",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P332944.6.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P332944.6.3.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332944.7",
+                  "n": "4'",
+                  "label": "o i 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P332944.l23b2d",
+                  "ref": "P332944.7.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P332944.7.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P332944.7.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "x",
+                  "id": "P332944.l23b2e",
+                  "ref": "P332944.7.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P332944.7.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P332944.l23b2f",
+                  "ref": "P332944.7.3",
+                  "inst": "zagin[lapis]",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P332944.7.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P332944.7.3.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332944.8",
+                  "n": "5'",
+                  "label": "o i 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P332944.l23b30",
+                  "ref": "P332944.8.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P332944.8.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P332944.8.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "x",
+                  "id": "P332944.l23b31",
+                  "ref": "P332944.8.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P332944.8.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P332944.l23b32",
+                  "ref": "P332944.8.3",
+                  "inst": "zagin[lapis]",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P332944.8.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P332944.8.3.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332944.9",
+                  "n": "6'",
+                  "label": "o i 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P332944.l23b33",
+                  "ref": "P332944.9.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P332944.9.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P332944.9.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "x",
+                  "id": "P332944.l23b34",
+                  "ref": "P332944.9.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P332944.9.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P332944.l23b35",
+                  "ref": "P332944.9.3",
+                  "inst": "zagin[lapis]",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P332944.9.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P332944.9.3.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332944.10",
+                  "n": "7'",
+                  "label": "o i 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P332944.l23b36",
+                  "ref": "P332944.10.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P332944.10.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P332944.10.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P332944.l23b37",
+                  "ref": "P332944.10.2",
+                  "inst": "zagin[lapis]",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P332944.10.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P332944.10.2.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332944.11",
+                  "n": "8'",
+                  "label": "o i 8'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]-PI",
+                  "id": "P332944.l23b38",
+                  "ref": "P332944.11.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x-PI",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P332944.11.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P332944.11.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "PI",
+                        "id": "P332944.11.1.1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P332944.l23b39",
+                  "ref": "P332944.11.2",
+                  "inst": "zagin[lapis]",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P332944.11.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P332944.11.2.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P332944.12",
+                  "n": "9'",
+                  "label": "o i 9'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P332944.l23b3a",
+                  "ref": "P332944.12.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P332944.12.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P332944.12.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "x",
+                  "id": "P332944.l23b3b",
+                  "ref": "P332944.12.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P332944.12.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P332944.l23b3c",
+                  "ref": "P332944.12.3",
+                  "inst": "zagin[lapis]",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P332944.12.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P332944.12.3.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "subtype": "column 2o",
+                  "type": "column",
+                  "ref": "P332944.o.ii.13",
+                  "n": "2",
+                  "label": "o ii"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P332944.14",
+                  "strict": "1",
+                  "extent": "10",
+                  "scope": "line",
+                  "state": "traces"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

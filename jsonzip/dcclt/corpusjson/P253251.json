@@ -1,0 +1,1237 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:09:16",
+  "textid": "P253251",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P253251.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P253251.x969.1",
+          "label": "x969"
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P253251.2",
+          "strict": "0",
+          "extent": "1",
+          "state": "ruling"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P253251.o.3",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P253251.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P253251.U2",
+              "label": "o 1 - r 1",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.4",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}za-gin₃",
+                  "id": "P253251.l23dc6",
+                  "ref": "P253251.4.1",
+                  "inst": "zagin[lapis lazuli]N",
+                  "sig": "@dcclt%sux:{na₄}za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/{na₄}za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}za-gin₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.4.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "za",
+                        "id": "P253251.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P253251.4.1.2"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-⸢la₂⸣-la₂",
+                  "id": "P253251.l23dc7",
+                  "ref": "P253251.4.2",
+                  "inst": "zala[smashed]N",
+                  "sig": "@dcclt%sux:za-la₂-la₂=zala[smashed//smashed]N'N$zala/za-la₂-la₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-la₂-la₂",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P253251.4.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la₂",
+                        "id": "P253251.4.2.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "la₂",
+                        "id": "P253251.4.2.2"
+                      }
+                    ],
+                    "cf": "zala",
+                    "gw": "smashed",
+                    "sense": "smashed",
+                    "norm0": "zala",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-la₂-la₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.5",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}<<za>>-ad",
+                  "id": "P253251.l23dc8",
+                  "ref": "P253251.5.1",
+                  "inst": "ad[bead]N",
+                  "sig": "@dcclt%sux:{na₄}ad=ad[bead//bead]N'N$ad/{na₄}ad#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}ad",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.5.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "za",
+                        "id": "P253251.5.1.1",
+                        "statusStart": "P253251.5.1.1",
+                        "o": ">>",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ad",
+                        "id": "P253251.5.1.2"
+                      }
+                    ],
+                    "cf": "ad",
+                    "gw": "bead",
+                    "sense": "bead",
+                    "norm0": "ad",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}ad",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P253251.l23dc9",
+                  "ref": "P253251.5.2",
+                  "inst": "zagin[lapis lazuli]N",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P253251.5.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P253251.5.2.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.6",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}ad",
+                  "id": "P253251.l23dca",
+                  "ref": "P253251.6.1",
+                  "inst": "ad[bead]N",
+                  "sig": "@dcclt%sux:{na₄}ad=ad[bead//bead]N'N$ad/{na₄}ad#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}ad",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.6.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ad",
+                        "id": "P253251.6.1.1"
+                      }
+                    ],
+                    "cf": "ad",
+                    "gw": "bead",
+                    "sense": "bead",
+                    "norm0": "ad",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}ad",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[x]",
+                  "id": "P253251.l23dcb",
+                  "ref": "P253251.6.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P253251.6.2.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "queried": "1",
+                        "break": "missing",
+                        "breakEnd": "P253251.6.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P253251.l23dcc",
+                  "ref": "P253251.6.3",
+                  "inst": "zagin[lapis lazuli]N",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P253251.6.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P253251.6.3.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.7",
+                  "n": "4",
+                  "label": "o 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}<<x>>-gu₂-bar",
+                  "id": "P253251.l23dcd",
+                  "ref": "P253251.7.1",
+                  "inst": "gubar[nape of the neck]N",
+                  "sig": "@dcclt%sux:{na₄}gu₂-bar=gubar[nape//nape of the neck]N'N$gubar/{na₄}gu₂-bar#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}gu₂-bar",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.7.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "x",
+                        "id": "P253251.7.1.1",
+                        "statusStart": "P253251.7.1.1",
+                        "o": ">>",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gu₂",
+                        "id": "P253251.7.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bar",
+                        "id": "P253251.7.1.3"
+                      }
+                    ],
+                    "cf": "gubar",
+                    "gw": "nape",
+                    "sense": "nape of the neck",
+                    "norm0": "gubar",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}gu₂-bar",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P253251.l23dce",
+                  "ref": "P253251.7.2",
+                  "inst": "zagin[lapis lazuli]N",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P253251.7.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P253251.7.2.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.8",
+                  "n": "5",
+                  "label": "o 5"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}⸢zag",
+                  "id": "P253251.l23dcf",
+                  "ref": "P253251.8.1",
+                  "inst": "zag[side]N",
+                  "sig": "@dcclt%sux:{na₄}zag=zag[side//side]N'N$zag/{na₄}zag#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}zag",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.8.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "zag",
+                        "id": "P253251.8.1.1",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ],
+                    "cf": "zag",
+                    "gw": "side",
+                    "sense": "side",
+                    "norm0": "zag",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}zag",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gu₂⸣-bar",
+                  "id": "P253251.l23dd0",
+                  "ref": "P253251.8.2",
+                  "inst": "gubar[nape of the neck]N",
+                  "sig": "@dcclt%sux:gu₂-bar=gubar[nape//nape of the neck]N'N$gubar/gu₂-bar#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gu₂-bar",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "gu₂",
+                        "id": "P253251.8.2.0",
+                        "break": "damaged",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "bar",
+                        "id": "P253251.8.2.1"
+                      }
+                    ],
+                    "cf": "gubar",
+                    "gw": "nape",
+                    "sense": "nape of the neck",
+                    "norm0": "gubar",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "gu₂-bar",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P253251.l23dd1",
+                  "ref": "P253251.8.3",
+                  "inst": "zagin[lapis lazuli]N",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P253251.8.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P253251.8.3.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.9",
+                  "n": "6",
+                  "label": "o 6"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}⸢x⸣",
+                  "id": "P253251.l23dd2",
+                  "ref": "P253251.9.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.9.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "x",
+                        "id": "P253251.9.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P253251.l23dd3",
+                  "ref": "P253251.9.2",
+                  "inst": "zagin[lapis lazuli]N",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P253251.9.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P253251.9.2.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.10",
+                  "n": "7",
+                  "label": "o 7"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}⸢bibra⸣",
+                  "id": "P253251.l23dd4",
+                  "ref": "P253251.10.1",
+                  "inst": "bibra[vessel]N",
+                  "sig": "@dcclt%sux:{na₄}bibra=bibra[vessel//vessel]N'N$bibra/{na₄}bibra#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}bibra",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.10.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "bibra",
+                        "id": "P253251.10.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "bibra",
+                    "gw": "vessel",
+                    "sense": "vessel",
+                    "norm0": "bibra",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}bibra",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P253251.l23dd5",
+                  "ref": "P253251.10.2",
+                  "inst": "zagin[lapis lazuli]N",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P253251.10.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P253251.10.2.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.11",
+                  "n": "8",
+                  "label": "o 8"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}⸢bulug⸣",
+                  "id": "P253251.l23dd6",
+                  "ref": "P253251.11.1",
+                  "inst": "bulug[needle]N/{na₄}bulug#~",
+                  "sig": "@dcclt%sux:{na₄}bulug=bulug[needle//needle]N'N$bulug/{na₄}bulug#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}bulug",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.11.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "bulug",
+                        "id": "P253251.11.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "bulug",
+                    "gw": "needle",
+                    "sense": "needle",
+                    "norm0": "bulug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}bulug",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P253251.l23dd7",
+                  "ref": "P253251.11.2",
+                  "inst": "zagin[lapis lazuli]N",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P253251.11.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P253251.11.2.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.12",
+                  "n": "9",
+                  "label": "o 9"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}{⸢d}lamma",
+                  "id": "P253251.l23dd8",
+                  "ref": "P253251.12.1",
+                  "inst": "lammar[(female) tutelary deity]N",
+                  "sig": "@dcclt%sux:{na₄}{d}lamma=lammar[deity//(female) tutelary deity]N'N$lammar/{na₄}{d}lamma#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}{d}lamma",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.12.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "d",
+                            "id": "P253251.12.1.1",
+                            "break": "damaged",
+                            "queried": "1",
+                            "ho": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "lamma",
+                        "id": "P253251.12.1.2",
+                        "break": "damaged",
+                        "queried": "1"
+                      }
+                    ],
+                    "cf": "lammar",
+                    "gw": "deity",
+                    "sense": "(female) tutelary deity",
+                    "norm0": "lammar",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}{d}lamma",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za⸣-gin₃",
+                  "id": "P253251.l23dd9",
+                  "ref": "P253251.12.2",
+                  "inst": "zagin[lapis lazuli]N",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P253251.12.2.0",
+                        "break": "damaged",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P253251.12.2.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.13",
+                  "n": "10",
+                  "label": "o 10"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}⸢x-x-x⸣",
+                  "id": "P253251.l23dda",
+                  "ref": "P253251.13.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}x-x-x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.13.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "x",
+                        "id": "P253251.13.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P253251.13.1.2",
+                        "break": "damaged",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "P253251.13.1.3",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "za-gin₃",
+                  "id": "P253251.l23ddb",
+                  "ref": "P253251.13.2",
+                  "inst": "zagin[lapis lazuli]N",
+                  "sig": "@dcclt%sux:za-gin₃=zagin[lapis//lapis lazuli]N'N$zagin/za-gin₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "za-gin₃",
+                    "gdl": [
+                      {
+                        "v": "za",
+                        "id": "P253251.13.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gin₃",
+                        "id": "P253251.13.2.1"
+                      }
+                    ],
+                    "cf": "zagin",
+                    "gw": "lapis",
+                    "sense": "lapis lazuli",
+                    "norm0": "zagin",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "za-gin₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.14",
+                  "n": "11",
+                  "label": "o 11"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}⸢gug⸣",
+                  "id": "P253251.l23ddc",
+                  "ref": "P253251.14.1",
+                  "inst": "gug[carnelian]N",
+                  "sig": "@dcclt%sux:{na₄}gug=gug[carnelian//carnelian]N'N$gug/{na₄}gug#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}gug",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.14.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "gug",
+                        "id": "P253251.14.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "gug",
+                    "gw": "carnelian",
+                    "sense": "carnelian",
+                    "norm0": "gug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}gug",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.15",
+                  "n": "12",
+                  "label": "o 12"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}gug",
+                  "id": "P253251.l23ddd",
+                  "ref": "P253251.15.1",
+                  "inst": "gug[carnelian]N",
+                  "sig": "@dcclt%sux:{na₄}gug=gug[carnelian//carnelian]N'N$gug/{na₄}gug#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}gug",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.15.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "gug",
+                        "id": "P253251.15.1.1"
+                      }
+                    ],
+                    "cf": "gug",
+                    "gw": "carnelian",
+                    "sense": "carnelian",
+                    "norm0": "gug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}gug",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢gazi⸣",
+                  "id": "P253251.l23dde",
+                  "ref": "P253251.15.2",
+                  "inst": "gazi[condiment, mustard seed or licorice]N",
+                  "sig": "@dcclt%sux:gazi=gazi[condiment//condiment]N'N$gazi/gazi#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gazi",
+                    "gdl": [
+                      {
+                        "v": "gazi",
+                        "id": "P253251.15.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "gazi",
+                    "gw": "condiment",
+                    "sense": "condiment",
+                    "norm0": "gazi",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "gazi",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.16",
+                  "n": "13",
+                  "label": "o 13"
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}gug",
+                  "id": "P253251.l23ddf",
+                  "ref": "P253251.16.1",
+                  "inst": "gug[carnelian]N",
+                  "sig": "@dcclt%sux:{na₄}gug=gug[carnelian//carnelian]N'N$gug/{na₄}gug#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{na₄}gug",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P253251.16.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "gug",
+                        "id": "P253251.16.1.1"
+                      }
+                    ],
+                    "cf": "gug",
+                    "gw": "carnelian",
+                    "sense": "carnelian",
+                    "norm0": "gug",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{na₄}gug",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢me⸣-luh-ha",
+                  "id": "P253251.l23de0",
+                  "ref": "P253251.16.2",
+                  "inst": "Meluhha[1]GN",
+                  "sig": "@dcclt%sux:me-luh-ha=Meluhha[1//1]GN'GN$Meluhha/me-luh-ha#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "me-luh-ha",
+                    "gdl": [
+                      {
+                        "v": "me",
+                        "id": "P253251.16.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "luh",
+                        "id": "P253251.16.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ha",
+                        "id": "P253251.16.2.2"
+                      }
+                    ],
+                    "cf": "Meluhha",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm0": "Meluhha",
+                    "pos": "GN",
+                    "epos": "GN",
+                    "base": "me-luh-ha",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P253251.17",
+                  "strict": "1",
+                  "extent": "2",
+                  "scope": "line",
+                  "state": "ruling"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P253251.r.18",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P253251.19",
+                  "strict": "0",
+                  "extent": "beginning",
+                  "state": "other"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253251.20",
+                  "n": "1",
+                  "label": "r 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢umbisaŋ⸣",
+                  "id": "P253251.l23de1",
+                  "ref": "P253251.20.1",
+                  "inst": "umbisaŋ[scribe]N",
+                  "sig": "@dcclt%sux:umbisaŋ=umbisaŋ[scribe//scribe]N'N$umbisaŋ/umbisaŋ#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "umbisaŋ",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "umbisaŋ",
+                        "id": "P253251.20.1.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "umbisaŋ",
+                    "gw": "scribe",
+                    "sense": "scribe",
+                    "norm0": "umbisaŋ",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "umbisaŋ",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "nu-ur₂-AD",
+                  "id": "P253251.l23de2",
+                  "ref": "P253251.20.2",
+                  "inst": "Nur-abi[1]PN$",
+                  "sig": "@dcclt%akk-x-oldbab:nu-ur₂-AD=Nur-abi[1//1]PN'PN$Nur-abi",
+                  "f": {
+                    "lang": "akk-x-oldbab",
+                    "form": "nu-ur₂-AD",
+                    "gdl": [
+                      {
+                        "v": "nu",
+                        "id": "P253251.20.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ur₂",
+                        "id": "P253251.20.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "AD",
+                        "id": "P253251.20.2.2",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "Nur-abi",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm": "Nur-abi",
+                    "pos": "PN",
+                    "epos": "PN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P253251.21",
+                  "strict": "0",
+                  "extent": "rest",
+                  "state": "other"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

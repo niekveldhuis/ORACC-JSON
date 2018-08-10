@@ -1,0 +1,421 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:07:58",
+  "textid": "P230143",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P230143.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P230143.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P230143.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P230143.3",
+          "strict": "1",
+          "extent": "beginning",
+          "scope": "column",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P230143.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P230143.U2",
+              "label": "o i 1-2' - o i 5-6'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P230143.4",
+                  "n": "1-2'",
+                  "label": "o i 1-2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[ki",
+                  "id": "P230143.l10630",
+                  "ref": "P230143.4.1",
+                  "inst": "ki[ground, earth, land]N",
+                  "sig": "@dcclt%sux:ki=ki[place//ground, earth, land]N'N$ki/ki#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P230143.4.1.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing"
+                      }
+                    ],
+                    "cf": "ki",
+                    "gw": "place",
+                    "sense": "ground, earth, land",
+                    "norm0": "ki",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ki",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "uludin-bi-še₃]",
+                  "id": "P230143.l10631",
+                  "ref": "P230143.4.2",
+                  "inst": "uludin[form]N",
+                  "sig": "@dcclt%sux:uludin-bi-še₃=uludin[form//form]N'N$uludin,bi.eše/uludin#~,bi.eše",
+                  "f": {
+                    "lang": "sux",
+                    "form": "uludin-bi-še₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "uludin",
+                        "id": "P230143.4.2.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bi",
+                        "id": "P230143.4.2.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "še₃",
+                        "id": "P230143.4.2.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P230143.4.1.0"
+                      }
+                    ],
+                    "cf": "uludin",
+                    "gw": "form",
+                    "sense": "form",
+                    "norm0": "uludin,bi.eše",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "uludin",
+                    "morph": "~,bi.eše"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "in-na-an-[la₂]",
+                  "id": "P230143.l10632",
+                  "ref": "P230143.4.3",
+                  "inst": "la[hang]",
+                  "sig": "@dcclt%sux:in-na-an-la₂=la[hang//hang]V/t'V/t$V.na.n:la/la₂#V.na.n:~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "in-na-an-la₂",
+                    "gdl": [
+                      {
+                        "v": "in",
+                        "id": "P230143.4.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "na",
+                        "id": "P230143.4.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "an",
+                        "id": "P230143.4.3.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la₂",
+                        "id": "P230143.4.3.3",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P230143.4.3.3"
+                      }
+                    ],
+                    "cf": "la",
+                    "gw": "hang",
+                    "sense": "hang",
+                    "norm0": "V.na.n:la",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "la₂",
+                    "morph": "V.na.n:~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P230143.5",
+                  "n": "3-4'",
+                  "label": "o i 3-4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ki",
+                  "id": "P230143.l10633",
+                  "ref": "P230143.5.1",
+                  "inst": "ki[ground, earth, land]N",
+                  "sig": "@dcclt%sux:ki=ki[place//ground, earth, land]N'N$ki/ki#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P230143.5.1.0"
+                      }
+                    ],
+                    "cf": "ki",
+                    "gw": "place",
+                    "sense": "ground, earth, land",
+                    "norm0": "ki",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ki",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "uludin-[bi-še₃]",
+                  "id": "P230143.l10634",
+                  "ref": "P230143.5.2",
+                  "inst": "uludin[form]N",
+                  "sig": "@dcclt%sux:uludin-bi-še₃=uludin[form//form]N'N$uludin,bi.eše/uludin#~,bi.eše",
+                  "f": {
+                    "lang": "sux",
+                    "form": "uludin-bi-še₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "uludin",
+                        "id": "P230143.5.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bi",
+                        "id": "P230143.5.2.1",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "še₃",
+                        "id": "P230143.5.2.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P230143.5.2.1"
+                      }
+                    ],
+                    "cf": "uludin",
+                    "gw": "form",
+                    "sense": "form",
+                    "norm0": "uludin,bi.eše",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "uludin",
+                    "morph": "~,bi.eše"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "i₃-aŋ₂-[e]",
+                  "id": "P230143.l10635",
+                  "ref": "P230143.5.3",
+                  "inst": "aŋ[measure]V/t",
+                  "sig": "@dcclt%sux:i₃-aŋ₂-e=aŋ[measure//measure]V/t'V/t$V:aŋ;e/aŋ₂#V:~;e",
+                  "f": {
+                    "lang": "sux",
+                    "form": "i₃-aŋ₂-e",
+                    "gdl": [
+                      {
+                        "v": "i₃",
+                        "id": "P230143.5.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "aŋ₂",
+                        "id": "P230143.5.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "e",
+                        "id": "P230143.5.3.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P230143.5.3.2"
+                      }
+                    ],
+                    "cf": "aŋ",
+                    "gw": "measure",
+                    "sense": "measure",
+                    "norm0": "V:aŋ;e",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "aŋ₂",
+                    "morph": "V:~;e"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P230143.6",
+                  "n": "5-6'",
+                  "label": "o i 5-6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "ki",
+                  "id": "P230143.l10636",
+                  "ref": "P230143.6.1",
+                  "inst": "ki[ground, earth, land]N",
+                  "sig": "@dcclt%sux:ki=ki[place//ground, earth, land]N'N$ki/ki#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P230143.6.1.0"
+                      }
+                    ],
+                    "cf": "ki",
+                    "gw": "place",
+                    "sense": "ground, earth, land",
+                    "norm0": "ki",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ki",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "uludin-[bi-še₃",
+                  "id": "P230143.l10637",
+                  "ref": "P230143.6.2",
+                  "inst": "uludin[form]N",
+                  "sig": "@dcclt%sux:uludin-bi-še₃=uludin[form//form]N'N$uludin,bi.eše/uludin#~,bi.eše",
+                  "f": {
+                    "lang": "sux",
+                    "form": "uludin-bi-še₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "uludin",
+                        "id": "P230143.6.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "bi",
+                        "id": "P230143.6.2.1",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "še₃",
+                        "id": "P230143.6.2.2",
+                        "break": "missing"
+                      }
+                    ],
+                    "cf": "uludin",
+                    "gw": "form",
+                    "sense": "form",
+                    "norm0": "uludin,bi.eše",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "uludin",
+                    "morph": "~,bi.eše"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "i₃-la₂-e]",
+                  "id": "P230143.l10638",
+                  "ref": "P230143.6.3",
+                  "inst": "la[hang]V/t",
+                  "sig": "@dcclt%sux:i₃-la₂-e=la[hang//hang]V/t'V/t$V:la;e/la₂#V:~;e",
+                  "f": {
+                    "lang": "sux",
+                    "form": "i₃-la₂-e",
+                    "gdl": [
+                      {
+                        "v": "i₃",
+                        "id": "P230143.6.3.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "la₂",
+                        "id": "P230143.6.3.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "e",
+                        "id": "P230143.6.3.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P230143.6.2.1"
+                      }
+                    ],
+                    "cf": "la",
+                    "gw": "hang",
+                    "sense": "hang",
+                    "norm0": "V:la;e",
+                    "pos": "V/t",
+                    "epos": "V/t",
+                    "base": "la₂",
+                    "morph": "V:~;e"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

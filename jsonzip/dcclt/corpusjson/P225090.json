@@ -1,0 +1,170 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:05:02",
+  "textid": "P225090",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P225090.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P225090.x2244.1",
+          "label": "x2244"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P225090.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P225090.o.i.3",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P225090.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P225090.U2",
+              "label": "o i 1 - o i 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225090.4",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "ur",
+                  "id": "P225090.l53897",
+                  "ref": "P225090.4.1",
+                  "inst": "%sux:ur=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ur",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ur",
+                        "id": "P225090.4.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "nigin₃",
+                  "id": "P225090.l53898",
+                  "ref": "P225090.4.2",
+                  "inst": "%sux:nigin₃=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "nigin₃",
+                    "gdl": [
+                      {
+                        "v": "nigin₃",
+                        "id": "P225090.4.2.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225090.5",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "ur-nigin₃-ŋar-⸢ra⸣",
+                  "id": "P225090.l53899",
+                  "ref": "P225090.5.1",
+                  "inst": "%sux:ur-nigin₃-ŋar-ra=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ur-nigin₃-ŋar-ra",
+                    "gdl": [
+                      {
+                        "v": "ur",
+                        "id": "P225090.5.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nigin₃",
+                        "id": "P225090.5.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋar",
+                        "id": "P225090.5.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ra",
+                        "id": "P225090.5.1.3",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P225090.6",
+                  "n": "3",
+                  "label": "o i 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "ur-ŋu₁₀",
+                  "id": "P225090.l5389a",
+                  "ref": "P225090.6.1",
+                  "inst": "%sux:ur-ŋu₁₀=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ur-ŋu₁₀",
+                    "gdl": [
+                      {
+                        "v": "ur",
+                        "id": "P225090.6.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋu₁₀",
+                        "id": "P225090.6.1.1"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

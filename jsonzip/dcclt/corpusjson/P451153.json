@@ -1,0 +1,1396 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:14:16",
+  "textid": "P451153",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P451153.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P451153.x1978.1",
+          "label": "x1978"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P451153.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P451153.3",
+          "strict": "1",
+          "extent": "beginning",
+          "scope": "line",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P451153.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P451153.U2",
+              "label": "o 1' - o 8'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451153.4",
+                  "n": "1'",
+                  "label": "o 1'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "[ud]-⸢nu₂⸣-a",
+                  "id": "P451153.l4e225",
+                  "ref": "P451153.4.1",
+                  "inst": "udnua[the astronomical New Moon or Dark Moon]N",
+                  "sig": "@dcclt%sux:ud-nu₂-a=udnua[moon//the astronomical New Moon or Dark Moon]N'N$udnua/ud-nu₂-a#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud-nu₂-a",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P451153.4.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P451153.4.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nu₂",
+                        "id": "P451153.4.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P451153.4.1.2"
+                      }
+                    ],
+                    "cf": "udnua",
+                    "gw": "moon",
+                    "sense": "the astronomical New Moon or Dark Moon",
+                    "norm0": "udnua",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud-nu₂-a",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P451153.l4e226",
+                  "ref": "P451153.4.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P451153.4.2.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451153.4.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451153.5",
+                  "n": "2'",
+                  "label": "o 2'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢ud",
+                  "id": "P451153.l4e227",
+                  "ref": "P451153.5.1",
+                  "inst": "ud[day]N",
+                  "sig": "@dcclt%sux:ud=ud[sun//day]N'N$ud/ud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P451153.5.1.0",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ],
+                    "cf": "ud",
+                    "gw": "sun",
+                    "sense": "day",
+                    "norm0": "ud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "hul⸣-ŋal₂",
+                  "id": "P451153.l4e228",
+                  "ref": "P451153.5.2",
+                  "inst": "huluŋal[evil]AJ",
+                  "sig": "@dcclt%sux:hul-ŋal₂=huluŋal[evil//evil]AJ'AJ$huluŋal/hul-ŋal₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "hul-ŋal₂",
+                    "gdl": [
+                      {
+                        "v": "hul",
+                        "id": "P451153.5.2.0",
+                        "break": "damaged",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ŋal₂",
+                        "id": "P451153.5.2.1"
+                      }
+                    ],
+                    "cf": "huluŋal",
+                    "gw": "evil",
+                    "sense": "evil",
+                    "norm0": "huluŋal",
+                    "pos": "AJ",
+                    "epos": "AJ",
+                    "base": "hul-ŋal₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P451153.5.3",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P451153.l4e229",
+                  "ref": "P451153.5.4",
+                  "inst": "+uhulgallu[unfavourable day]N$uhulgallum",
+                  "sig": "@dcclt%akk-949:*=uhulgallu[unfavourable day//unfavourable day]N'N$uhulgallum",
+                  "f": {
+                    "lang": "akk-949",
+                    "form": "*",
+                    "cf": "uhulgallu",
+                    "gw": "unfavourable day",
+                    "sense": "unfavourable day",
+                    "norm": "uhulgallum",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451153.6",
+                  "n": "3'",
+                  "label": "o 3'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢ud⸣",
+                  "id": "P451153.l4e22a",
+                  "ref": "P451153.6.1",
+                  "inst": "ud[day]N",
+                  "sig": "@dcclt%sux:ud=ud[sun//day]N'N$ud/ud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P451153.6.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "ud",
+                    "gw": "sun",
+                    "sense": "day",
+                    "norm0": "ud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "hul-ŋal₂",
+                  "id": "P451153.l4e22b",
+                  "ref": "P451153.6.2",
+                  "inst": "huluŋal[evil]AJ",
+                  "sig": "@dcclt%sux:hul-ŋal₂=huluŋal[evil//evil]AJ'AJ$huluŋal/hul-ŋal₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "hul-ŋal₂",
+                    "gdl": [
+                      {
+                        "v": "hul",
+                        "id": "P451153.6.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ŋal₂",
+                        "id": "P451153.6.2.1"
+                      }
+                    ],
+                    "cf": "huluŋal",
+                    "gw": "evil",
+                    "sense": "evil",
+                    "norm0": "huluŋal",
+                    "pos": "AJ",
+                    "epos": "AJ",
+                    "base": "hul-ŋal₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "l",
+                  "frag": "u₄-⸢mu⸣",
+                  "id": "P451153.l4e22c",
+                  "ref": "P451153.6.3",
+                  "inst": "ūmu[day]N",
+                  "sig": "@dcclt%akk:u₄-mu=ūmu[day//day]N'N$ūmu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "u₄-mu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u₄",
+                        "id": "P451153.6.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P451153.6.3.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "ūmu",
+                    "gw": "day",
+                    "sense": "day",
+                    "norm": "ūmu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[lem-nu]",
+                  "id": "P451153.l4e22d",
+                  "ref": "P451153.6.4",
+                  "inst": "lemnu[evil]AJ",
+                  "sig": "@dcclt%akk:lem-nu=lemnu[bad//evil]AJ'AJ$lemnu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "lem-nu",
+                    "gdl": [
+                      {
+                        "v": "lem",
+                        "id": "P451153.6.4.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nu",
+                        "id": "P451153.6.4.1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451153.6.4.0"
+                      }
+                    ],
+                    "cf": "lemnu",
+                    "gw": "bad",
+                    "sense": "evil",
+                    "norm": "lemnu",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451153.7",
+                  "n": "4'",
+                  "label": "o 4'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "ud",
+                  "id": "P451153.l4e22e",
+                  "ref": "P451153.7.1",
+                  "inst": "ud[day]N",
+                  "sig": "@dcclt%sux:ud=ud[sun//day]N'N$ud/ud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P451153.7.1.0"
+                      }
+                    ],
+                    "cf": "ud",
+                    "gw": "sun",
+                    "sense": "day",
+                    "norm0": "ud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ki-sig₁₀-ga",
+                  "id": "P451153.l4e22f",
+                  "ref": "P451153.7.2",
+                  "inst": "kisiga[funerary offerings]N",
+                  "sig": "@dcclt%sux:ki-sig₁₀-ga=kisiga[offerings//funerary offerings]N'N$kisiga/ki-sig₁₀-ga#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ki-sig₁₀-ga",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P451153.7.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sig₁₀",
+                        "id": "P451153.7.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ga",
+                        "id": "P451153.7.2.2"
+                      }
+                    ],
+                    "cf": "kisiga",
+                    "gw": "offerings",
+                    "sense": "funerary offerings",
+                    "norm0": "kisiga",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ki-sig₁₀-ga",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P451153.7.3",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P451153.l4e230",
+                  "ref": "P451153.7.4",
+                  "inst": "ūmu[day]N",
+                  "sig": "@dcclt%akk:u₄-mu=ūmu[day//day]N'N$ūmu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "u₄-mu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u₄",
+                        "id": "P451153.7.4.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P451153.7.4.1"
+                      }
+                    ],
+                    "cf": "ūmu",
+                    "gw": "day",
+                    "sense": "day",
+                    "norm": "ūmu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ki-[is-pi]",
+                  "id": "P451153.l4e231",
+                  "ref": "P451153.7.5",
+                  "inst": "kispi[funerary offering]N",
+                  "sig": "@dcclt%akk:ki-is-pi=kispu[funerary offering//funerary offering]N'N$kispi",
+                  "f": {
+                    "lang": "akk",
+                    "form": "ki-is-pi",
+                    "gdl": [
+                      {
+                        "v": "ki",
+                        "id": "P451153.7.5.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "is",
+                        "id": "P451153.7.5.1",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "pi",
+                        "id": "P451153.7.5.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451153.7.5.1"
+                      }
+                    ],
+                    "cf": "kispu",
+                    "gw": "funerary offering",
+                    "sense": "funerary offering",
+                    "norm": "kispi",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451153.8",
+                  "n": "5'",
+                  "label": "o 5'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "ud",
+                  "id": "P451153.l4e232",
+                  "ref": "P451153.8.1",
+                  "inst": "ud[day]N",
+                  "sig": "@dcclt%sux:ud=ud[sun//day]N'N$ud/ud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P451153.8.1.0"
+                      }
+                    ],
+                    "cf": "ud",
+                    "gw": "sun",
+                    "sense": "day",
+                    "norm0": "ud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "tu₅-a",
+                  "id": "P451153.l4e233",
+                  "ref": "P451153.8.2",
+                  "inst": "atua[lustration rite]N",
+                  "sig": "@dcclt%sux:tu₅-a=atua[lustration//lustration rite]N'N$atua/tu₅-a#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "tu₅-a",
+                    "gdl": [
+                      {
+                        "v": "tu₅",
+                        "id": "P451153.8.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "P451153.8.2.1"
+                      }
+                    ],
+                    "cf": "atua",
+                    "gw": "lustration",
+                    "sense": "lustration rite",
+                    "norm0": "atua",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "tu₅-a",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P451153.8.3",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P451153.l4e234",
+                  "ref": "P451153.8.4",
+                  "inst": "ūmu[day]N",
+                  "sig": "@dcclt%akk:u₄-mu=ūmu[day//day]N'N$ūmu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "u₄-mu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u₄",
+                        "id": "P451153.8.4.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P451153.8.4.1"
+                      }
+                    ],
+                    "cf": "ūmu",
+                    "gw": "day",
+                    "sense": "day",
+                    "norm": "ūmu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "rim-[ki]",
+                  "id": "P451153.l4e235",
+                  "ref": "P451153.8.5",
+                  "inst": "rimki[bath]N",
+                  "sig": "@dcclt%akk:rim-ki=rimku[bath//bath]N'N$rimki",
+                  "f": {
+                    "lang": "akk",
+                    "form": "rim-ki",
+                    "gdl": [
+                      {
+                        "v": "rim",
+                        "id": "P451153.8.5.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ki",
+                        "id": "P451153.8.5.1",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P451153.8.5.1"
+                      }
+                    ],
+                    "cf": "rimku",
+                    "gw": "bath",
+                    "sense": "bath",
+                    "norm": "rimki",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451153.9",
+                  "n": "6'",
+                  "label": "o 6'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢ud⸣",
+                  "id": "P451153.l4e236",
+                  "ref": "P451153.9.1",
+                  "inst": "ud[day]N",
+                  "sig": "@dcclt%sux:ud=ud[sun//day]N'N$ud/ud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P451153.9.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "ud",
+                    "gw": "sun",
+                    "sense": "day",
+                    "norm0": "ud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": "<<te>>",
+                  "type": "excised",
+                  "ref": "P451153.9.2",
+                  "lang": "sux",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "sikil-da",
+                  "id": "P451153.l4e237",
+                  "ref": "P451153.9.3",
+                  "inst": "sikil[pure//(to be) pure]V/i'V/i/sikil#~;ed.a",
+                  "sig": "@dcclt%sux:sikil-da=sikil[pure//(to be) pure]V/i'V/i$sikil;ed.a/sikil#~;ed.a",
+                  "f": {
+                    "lang": "sux",
+                    "form": "sikil-da",
+                    "gdl": [
+                      {
+                        "v": "sikil",
+                        "id": "P451153.9.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P451153.9.3.1"
+                      }
+                    ],
+                    "cf": "sikil",
+                    "gw": "pure",
+                    "sense": "(to be) pure",
+                    "norm0": "sikil;ed.a",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "sikil",
+                    "morph": "~;ed.a"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P451153.9.4",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P451153.l4e238",
+                  "ref": "P451153.9.5",
+                  "inst": "ūmu[day]N",
+                  "sig": "@dcclt%akk:u₄-mu=ūmu[day//day]N'N$ūmu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "u₄-mu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u₄",
+                        "id": "P451153.9.5.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P451153.9.5.1"
+                      }
+                    ],
+                    "cf": "ūmu",
+                    "gw": "day",
+                    "sense": "day",
+                    "norm": "ūmu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "te-⸢lil⸣-[ti]",
+                  "id": "P451153.l4e239",
+                  "ref": "P451153.9.6",
+                  "inst": "tēlilti[purification]N",
+                  "sig": "@dcclt%akk:te-lil-ti=tēliltu[purification//purification]N'N$tēlilti",
+                  "f": {
+                    "lang": "akk",
+                    "form": "te-lil-ti",
+                    "gdl": [
+                      {
+                        "v": "te",
+                        "id": "P451153.9.6.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "lil",
+                        "id": "P451153.9.6.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ti",
+                        "id": "P451153.9.6.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P451153.9.6.2"
+                      }
+                    ],
+                    "cf": "tēliltu",
+                    "gw": "purification",
+                    "sense": "purification",
+                    "norm": "tēlilti",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451153.10",
+                  "n": "7'",
+                  "label": "o 7'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "[ud]",
+                  "id": "P451153.l4e23a",
+                  "ref": "P451153.10.1",
+                  "inst": "ud[day]N",
+                  "sig": "@dcclt%sux:ud=ud[sun//day]N'N$ud/ud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P451153.10.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P451153.10.1.0"
+                      }
+                    ],
+                    "cf": "ud",
+                    "gw": "sun",
+                    "sense": "day",
+                    "norm0": "ud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ezem",
+                  "id": "P451153.l4e23b",
+                  "ref": "P451153.10.2",
+                  "inst": "ezem[festival]N",
+                  "sig": "@dcclt%sux:ezem=ezem[festival//festival]N'N$ezem/ezem#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ezem",
+                    "gdl": [
+                      {
+                        "v": "ezem",
+                        "id": "P451153.10.2.0"
+                      }
+                    ],
+                    "cf": "ezem",
+                    "gw": "festival",
+                    "sense": "festival",
+                    "norm0": "ezem",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ezem",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P451153.10.3",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P451153.l4e23c",
+                  "ref": "P451153.10.4",
+                  "inst": "ūmu[day]N",
+                  "sig": "@dcclt%akk:u₄-mu=ūmu[day//day]N'N$ūmu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "u₄-mu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u₄",
+                        "id": "P451153.10.4.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P451153.10.4.1"
+                      }
+                    ],
+                    "cf": "ūmu",
+                    "gw": "day",
+                    "sense": "day",
+                    "norm": "ūmu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "i-sin-[nu]",
+                  "id": "P451153.l4e23d",
+                  "ref": "P451153.10.5",
+                  "inst": "isinnu[festival]N",
+                  "sig": "@dcclt%akk:i-sin-nu=isinnu[festival//festival]N'N$isinnu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "i-sin-nu",
+                    "gdl": [
+                      {
+                        "v": "i",
+                        "id": "P451153.10.5.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sin",
+                        "id": "P451153.10.5.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nu",
+                        "id": "P451153.10.5.2",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P451153.10.5.2"
+                      }
+                    ],
+                    "cf": "isinnu",
+                    "gw": "festival",
+                    "sense": "festival",
+                    "norm": "isinnu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P451153.11",
+                  "n": "8'",
+                  "label": "o 8'"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "l",
+                  "frag": "[ud",
+                  "id": "P451153.l4e23e",
+                  "ref": "P451153.11.1",
+                  "inst": "ud[day]N",
+                  "sig": "@dcclt%sux:ud=ud[sun//day]N'N$ud/ud#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ud",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ud",
+                        "id": "P451153.11.1.0",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing"
+                      }
+                    ],
+                    "cf": "ud",
+                    "gw": "sun",
+                    "sense": "day",
+                    "norm0": "ud",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "ud",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "eš₃]-⸢eš₃⸣",
+                  "id": "P451153.l4e23f",
+                  "ref": "P451153.11.2",
+                  "inst": "ešeš[festival]N",
+                  "sig": "@dcclt%sux:eš₃-eš₃=ešeš[festival//festival]N'N$ešeš/eš₃-eš₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "eš₃-eš₃",
+                    "gdl": [
+                      {
+                        "v": "eš₃",
+                        "id": "P451153.11.2.0",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451153.11.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "eš₃",
+                        "id": "P451153.11.2.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "ešeš",
+                    "gw": "festival",
+                    "sense": "festival",
+                    "norm0": "ešeš",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "eš₃-eš₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "wp"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-start"
+                },
+                {
+                  "node": "d",
+                  "type": "field-start",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "surro",
+                  "ref": "P451153.11.3",
+                  "lang": "akk"
+                },
+                {
+                  "node": "l",
+                  "id": "P451153.l4e240",
+                  "ref": "P451153.11.4",
+                  "inst": "ūmu[day]N",
+                  "sig": "@dcclt%akk:u₄-mu=ūmu[day//day]N'N$ūmu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "u₄-mu",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u₄",
+                        "id": "P451153.11.4.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P451153.11.4.1"
+                      }
+                    ],
+                    "cf": "ūmu",
+                    "gw": "day",
+                    "sense": "day",
+                    "norm": "ūmu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢eš-še⸣-[e-šu₂]",
+                  "id": "P451153.l4e241",
+                  "ref": "P451153.11.5",
+                  "inst": "+eššēšu[(a feast day)]N$",
+                  "sig": "@dcclt%akk:eš-še-e-šu₂=eššēšu[(a feast day)//(a feast day)]N'N$eššēšu",
+                  "f": {
+                    "lang": "akk",
+                    "form": "eš-še-e-šu₂",
+                    "gdl": [
+                      {
+                        "v": "eš",
+                        "id": "P451153.11.5.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "še",
+                        "id": "P451153.11.5.1",
+                        "break": "damaged",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "e",
+                        "id": "P451153.11.5.2",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "šu₂",
+                        "id": "P451153.11.5.3",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P451153.11.5.2"
+                      }
+                    ],
+                    "cf": "eššēšu",
+                    "gw": "(a feast day)",
+                    "sense": "(a feast day)",
+                    "norm": "eššēšu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "field-end",
+                  "subtype": "eq"
+                },
+                {
+                  "node": "d",
+                  "type": "cell-end"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P451153.12",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "line",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P451153.r.13",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P451153.14",
+                  "strict": "1",
+                  "extent": "n",
+                  "scope": "line",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

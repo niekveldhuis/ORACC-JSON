@@ -1,0 +1,155 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:06:27",
+  "textid": "P228753",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P228753.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P228753.o.1",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "subtype": "column 1o",
+          "type": "column",
+          "ref": "P228753.o.i.2",
+          "n": "1",
+          "label": "o i"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P228753.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P228753.U2",
+              "label": "o i 1 - o i 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228753.3",
+                  "n": "1",
+                  "label": "o i 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋeš",
+                  "id": "P228753.l1e4c0",
+                  "ref": "P228753.3.1",
+                  "inst": "%sux:ŋeš=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš",
+                        "id": "P228753.3.1.0"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ŋi₆-par₄",
+                  "id": "P228753.l1e4c1",
+                  "ref": "P228753.3.2",
+                  "inst": "%sux:ŋi₆-par₄=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋi₆-par₄",
+                    "gdl": [
+                      {
+                        "v": "ŋi₆",
+                        "id": "P228753.3.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "par₄",
+                        "id": "P228753.3.2.1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P228753.4",
+                  "n": "2",
+                  "label": "o i 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢ŋeš⸣",
+                  "id": "P228753.l1e4c2",
+                  "ref": "P228753.4.1",
+                  "inst": "%sux:ŋeš=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ŋeš",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ŋeš",
+                        "id": "P228753.4.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ma-⸢nu⸣",
+                  "id": "P228753.l1e4c3",
+                  "ref": "P228753.4.2",
+                  "inst": "%sux:ma-nu=",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ma-nu",
+                    "gdl": [
+                      {
+                        "v": "ma",
+                        "id": "P228753.4.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "nu",
+                        "id": "P228753.4.2.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

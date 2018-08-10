@@ -1,0 +1,558 @@
+{
+  "type": "cdl",
+  "project": "dcclt",
+  "source": "http://oracc.org/dcclt",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T22:09:20",
+  "textid": "P253906",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P253906.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P253906.x649.1",
+          "label": "x649"
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P253906.2",
+          "strict": "0",
+          "extent": "1",
+          "state": "ruling"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P253906.o.3",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P253906.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P253906.U2",
+              "label": "o 1 - l.e. 1",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253906.4",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "{⸢dug⸣}šag₄-gub",
+                  "id": "P253906.l1f43f",
+                  "ref": "P253906.4.1",
+                  "inst": "šaggub[a container]N",
+                  "sig": "@dcclt%sux:{dug}šag₄-gub=šaggub[container//a container]N'N$šaggub/{dug}šag₄-gub#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{dug}šag₄-gub",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "dug",
+                            "id": "P253906.4.1.0",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "šag₄",
+                        "id": "P253906.4.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "gub",
+                        "id": "P253906.4.1.2"
+                      }
+                    ],
+                    "cf": "šaggub",
+                    "gw": "container",
+                    "sense": "a container",
+                    "norm0": "šaggub",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{dug}šag₄-gub",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253906.5",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "{dug}⸢lam⸣-di",
+                  "id": "P253906.l1f440",
+                  "ref": "P253906.5.1",
+                  "inst": "lamdre[brewing vat]N",
+                  "sig": "@dcclt%sux:{dug}lam-di=lamdre[vat//brewing vat]N'N$lamdre/{dug}lam-di#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{dug}lam-di",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "dug",
+                            "id": "P253906.5.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "lam",
+                        "id": "P253906.5.1.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "di",
+                        "id": "P253906.5.1.2"
+                      }
+                    ],
+                    "cf": "lamdre",
+                    "gw": "vat",
+                    "sense": "brewing vat",
+                    "norm0": "lamdre",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{dug}lam-di",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253906.6",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "{⸢dug⸣}niŋ₂-⸢sila₃",
+                  "id": "P253906.l1f441",
+                  "ref": "P253906.6.1",
+                  "inst": "sila[unit]N/{dug}niŋ₂-sila₃#~",
+                  "sig": "@dcclt%sux:{dug}niŋ₂-sila₃=sila[unit//unit]N'N$sila/{dug}niŋ₂-sila₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{dug}niŋ₂-sila₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "dug",
+                            "id": "P253906.6.1.0",
+                            "break": "damaged",
+                            "ho": "1",
+                            "hc": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "niŋ₂",
+                        "id": "P253906.6.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sila₃",
+                        "id": "P253906.6.1.2",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ],
+                    "cf": "sila",
+                    "gw": "unit",
+                    "sense": "unit",
+                    "norm0": "sila",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{dug}niŋ₂-sila₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "GAR⸣",
+                  "id": "P253906.l1f442",
+                  "ref": "P253906.6.2",
+                  "inst": "X",
+                  "f": {
+                    "lang": "sux",
+                    "form": "GAR",
+                    "gdl": [
+                      {
+                        "s": "GAR",
+                        "id": "P253906.6.2.0",
+                        "break": "damaged",
+                        "queried": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "pos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253906.7",
+                  "n": "4",
+                  "label": "o 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "{dug}ti-lim-da",
+                  "id": "P253906.l1f443",
+                  "ref": "P253906.7.1",
+                  "inst": "tilimda[vessel]N",
+                  "sig": "@dcclt%sux:{dug}ti-lim-da=tilimda[vessel//vessel]N'N$tilimda/{dug}ti-lim-da#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{dug}ti-lim-da",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "dug",
+                            "id": "P253906.7.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ti",
+                        "id": "P253906.7.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "lim",
+                        "id": "P253906.7.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P253906.7.1.3"
+                      }
+                    ],
+                    "cf": "tilimda",
+                    "gw": "vessel",
+                    "sense": "vessel",
+                    "norm0": "tilimda",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{dug}ti-lim-da",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253906.8",
+                  "n": "5",
+                  "label": "o 5"
+                },
+                {
+                  "node": "l",
+                  "frag": "{⸢dug}sila₃⸣",
+                  "id": "P253906.l1f444",
+                  "ref": "P253906.8.1",
+                  "inst": "sila[a unit of capacity]N",
+                  "sig": "@dcclt%sux:{dug}sila₃=sila[unit//a unit of capacity]N'N$sila/{dug}sila₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{dug}sila₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "dug",
+                            "id": "P253906.8.1.0",
+                            "break": "damaged",
+                            "ho": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "sila₃",
+                        "id": "P253906.8.1.1",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "sila",
+                    "gw": "unit",
+                    "sense": "a unit of capacity",
+                    "norm0": "sila",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{dug}sila₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "gal",
+                  "id": "P253906.l1f445",
+                  "ref": "P253906.8.2",
+                  "inst": "gal[(to be) big, great]V/i",
+                  "sig": "@dcclt%sux:gal=gal[big//(to be) big, great]V/i'V/i$gal/gal#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "gal",
+                    "gdl": [
+                      {
+                        "v": "gal",
+                        "id": "P253906.8.2.0"
+                      }
+                    ],
+                    "cf": "gal",
+                    "gw": "big",
+                    "sense": "(to be) big, great",
+                    "norm0": "gal",
+                    "pos": "V/i",
+                    "epos": "V/i",
+                    "base": "gal",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253906.9",
+                  "n": "6",
+                  "label": "o 6"
+                },
+                {
+                  "node": "l",
+                  "frag": "{dug}sila₃",
+                  "id": "P253906.l1f446",
+                  "ref": "P253906.9.1",
+                  "inst": "sila[a unit of capacity]N",
+                  "sig": "@dcclt%sux:{dug}sila₃=sila[unit//a unit of capacity]N'N$sila/{dug}sila₃#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{dug}sila₃",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "dug",
+                            "id": "P253906.9.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "sila₃",
+                        "id": "P253906.9.1.1"
+                      }
+                    ],
+                    "cf": "sila",
+                    "gw": "unit",
+                    "sense": "a unit of capacity",
+                    "norm0": "sila",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{dug}sila₃",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ban₃-⸢da⸣",
+                  "id": "P253906.l1f447",
+                  "ref": "P253906.9.2",
+                  "inst": "banda[small]V/t",
+                  "sig": "@dcclt%sux:ban₃-da=banda[junior//small]V/i'V/t$banda/banda₃{da}#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "ban₃-da",
+                    "gdl": [
+                      {
+                        "v": "ban₃",
+                        "id": "P253906.9.2.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "da",
+                        "id": "P253906.9.2.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "banda",
+                    "gw": "junior",
+                    "sense": "small",
+                    "norm0": "banda",
+                    "pos": "V/i",
+                    "epos": "V/t",
+                    "base": "banda₃{da}",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253906.10",
+                  "n": "7",
+                  "label": "o 7"
+                },
+                {
+                  "node": "l",
+                  "frag": "{⸢dug}ti⸣-sa₂",
+                  "id": "P253906.l1f448",
+                  "ref": "P253906.10.1",
+                  "inst": "tisa[unmng//a pot]N'N",
+                  "sig": "@dcclt%sux:{dug}ti-sa₂=tisa[unmng//a pot]N'N$tisa/{dug}ti-sa₂#~",
+                  "f": {
+                    "lang": "sux",
+                    "form": "{dug}ti-sa₂",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "dug",
+                            "id": "P253906.10.1.0",
+                            "break": "damaged",
+                            "ho": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "ti",
+                        "id": "P253906.10.1.1",
+                        "break": "damaged",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "sa₂",
+                        "id": "P253906.10.1.2"
+                      }
+                    ],
+                    "cf": "tisa",
+                    "gw": "unmng",
+                    "sense": "a pot",
+                    "norm0": "tisa",
+                    "pos": "N",
+                    "epos": "N",
+                    "base": "{dug}ti-sa₂",
+                    "morph": "~"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P253906.11",
+                  "strict": "0",
+                  "extent": "rest",
+                  "state": "other"
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P253906.r.12",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P253906.13",
+                  "strict": "0",
+                  "state": "missing"
+                },
+                {
+                  "node": "d",
+                  "subtype": "left",
+                  "type": "left",
+                  "ref": "P253906.l.e..14",
+                  "label": "l.e."
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P253906.15",
+                  "n": "1",
+                  "label": "l.e. 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢x⸣",
+                  "id": "P253906.l1f449",
+                  "ref": "P253906.15.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "sux",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P253906.15.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonw",
+                  "ref": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
